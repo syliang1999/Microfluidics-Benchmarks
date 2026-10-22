@@ -1,0 +1,67 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 12.314891329966486,
+    "global_layout_runtime_seconds": 0.0,
+    "global_layout_hint_count": 0,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 0.33346869610249996,
+    "total_runtime_seconds": 19.573164097964764,
+    "component_count": 12,
+    "net_count": 11,
+    "path_count": 11,
+    "total_channel_manhattan_length": 625219.2,
+    "physical_width": 68051.2,
+    "physical_height": 66040.0,
+    "physical_area": 4494101248.0,
+    "padded_width": 78051.2,
+    "padded_height": 76040.0,
+    "padded_area": 5935013248.0,
+    "placement_objective": 11.376950131233595,
+    "placement_wire_lower_bound": 611099.2000000001,
+    "placement_half_perimeter": 134791.2,
+    "selected_placement_gap": 1000.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "failed",
+            "elapsed_seconds": 8.091710871085525,
+            "placement_time_limit_seconds": 215.9967920546606,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 1: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 2: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 3: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 4: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 5: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 6: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 7: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 8: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 9: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 10: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 11: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 12: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 13: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 14: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 15: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 16: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'})"
+        },
+        {
+            "placement_gap": 1000.0,
+            "status": "routed",
+            "elapsed_seconds": 11.431265602819622,
+            "placement_time_limit_seconds": 268.77883055233394,
+            "total_channel_manhattan_length": 625219.2,
+            "physical_area": 4494101248.0
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 268.77883055233394,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 83201.0,
+        "tight_big_m": 83201.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

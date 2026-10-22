@@ -1,0 +1,2486 @@
+{
+    "name": "Tree_Test_01",
+    "components": [
+        {
+            "name": "p0",
+            "id": "p0",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    40300.0,
+                    26700.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "b0_1",
+            "id": "b0_1",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    22800.0,
+                    5300.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "b0_2",
+            "id": "b0_2",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    5300.0,
+                    26700.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "b0_3",
+            "id": "b0_3",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    10300.0,
+                    26700.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "b0_4",
+            "id": "b0_4",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    15300.0,
+                    26700.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "b0_5",
+            "id": "b0_5",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    20300.0,
+                    26700.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "b0_6",
+            "id": "b0_6",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    25300.0,
+                    26700.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "b0_7",
+            "id": "b0_7",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    30300.0,
+                    26700.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "b0_8",
+            "id": "b0_8",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    35300.0,
+                    26700.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "ct0",
+            "id": "ct0",
+            "entity": "TREE",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "in": 1,
+                "out": 8,
+                "componentSpacing": 2000.0,
+                "flowChannelWidth": 600.0,
+                "rotation": 0,
+                "leafSpace": 4000.0,
+                "stageSpace": 4000.0,
+                "mirrorByX": 1,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    22800.0,
+                    16000.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 17800.0,
+                    "y": 0.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 35300.0,
+                    "y": 12600.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 30300.0,
+                    "y": 12600.0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 25300.0,
+                    "y": 12600.0,
+                    "label": "4",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 20300.0,
+                    "y": 12600.0,
+                    "label": "5",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 15300.0,
+                    "y": 12600.0,
+                    "label": "6",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 10300.0,
+                    "y": 12600.0,
+                    "label": "7",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 5300.0,
+                    "y": 12600.0,
+                    "label": "8",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 300.0,
+                    "y": 12600.0,
+                    "label": "9",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 35600,
+            "y-span": 12600
+        },
+        {
+            "name": "b1_1",
+            "id": "b1_1",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    42905.0,
+                    5300.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "lct_1",
+            "id": "lct_1",
+            "entity": "LONG CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "numberOfChambers": 10,
+                "chamberLength": 100,
+                "chamberWidth": 100,
+                "chamberSpacing": 30,
+                "componentSpacing": 2000.0,
+                "feedingChannelWidth": 410.0,
+                "rotation": 270,
+                "mirrorByX": 0,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    42905.0,
+                    10040.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 305,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 680,
+                    "y": 305,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 680,
+            "y-span": 610
+        },
+        {
+            "name": "b1_2",
+            "id": "b1_2",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    42905.0,
+                    12480.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "lct_2",
+            "id": "lct_2",
+            "entity": "LONG CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "numberOfChambers": 10,
+                "chamberLength": 100,
+                "chamberWidth": 100,
+                "chamberSpacing": 30,
+                "componentSpacing": 2000.0,
+                "feedingChannelWidth": 410.0,
+                "rotation": 270,
+                "mirrorByX": 0,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    42905.0,
+                    17220.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 305,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 680,
+                    "y": 305,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 680,
+            "y-span": 610
+        },
+        {
+            "name": "b1_3",
+            "id": "b1_3",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    42905.0,
+                    19660.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "lct_3",
+            "id": "lct_3",
+            "entity": "LONG CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "numberOfChambers": 10,
+                "chamberLength": 100,
+                "chamberWidth": 100,
+                "chamberSpacing": 30,
+                "componentSpacing": 2000.0,
+                "feedingChannelWidth": 410.0,
+                "rotation": 270,
+                "mirrorByX": 0,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    42905.0,
+                    24400.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 305,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 680,
+                    "y": 305,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 680,
+            "y-span": 610
+        },
+        {
+            "name": "b1_4",
+            "id": "b1_4",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    45515.0,
+                    5300.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "lct_4",
+            "id": "lct_4",
+            "entity": "LONG CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "numberOfChambers": 10,
+                "chamberLength": 100,
+                "chamberWidth": 100,
+                "chamberSpacing": 30,
+                "componentSpacing": 2000.0,
+                "feedingChannelWidth": 410.0,
+                "rotation": 270,
+                "mirrorByX": 0,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    45515.0,
+                    10040.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 305,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 680,
+                    "y": 305,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 680,
+            "y-span": 610
+        },
+        {
+            "name": "b1_5",
+            "id": "b1_5",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    45515.0,
+                    12480.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "lct_5",
+            "id": "lct_5",
+            "entity": "LONG CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "numberOfChambers": 10,
+                "chamberLength": 100,
+                "chamberWidth": 100,
+                "chamberSpacing": 30,
+                "componentSpacing": 2000.0,
+                "feedingChannelWidth": 410.0,
+                "rotation": 270,
+                "mirrorByX": 0,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    45515.0,
+                    17220.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 305,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 680,
+                    "y": 305,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 680,
+            "y-span": 610
+        },
+        {
+            "name": "b1_6",
+            "id": "b1_6",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    45515.0,
+                    19660.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "lct_6",
+            "id": "lct_6",
+            "entity": "LONG CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "numberOfChambers": 10,
+                "chamberLength": 100,
+                "chamberWidth": 100,
+                "chamberSpacing": 30,
+                "componentSpacing": 2000.0,
+                "feedingChannelWidth": 410.0,
+                "rotation": 270,
+                "mirrorByX": 0,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    45515.0,
+                    24400.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 305,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 680,
+                    "y": 305,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 680,
+            "y-span": 610
+        },
+        {
+            "name": "b1_7",
+            "id": "b1_7",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    48125.0,
+                    5300.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "lct_7",
+            "id": "lct_7",
+            "entity": "LONG CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "numberOfChambers": 10,
+                "chamberLength": 100,
+                "chamberWidth": 100,
+                "chamberSpacing": 30,
+                "componentSpacing": 2000.0,
+                "feedingChannelWidth": 410.0,
+                "rotation": 270,
+                "mirrorByX": 0,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    48125.0,
+                    10040.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 305,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 680,
+                    "y": 305,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 680,
+            "y-span": 610
+        },
+        {
+            "name": "b1_8",
+            "id": "b1_8",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 100,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    48125.0,
+                    12480.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 100.0,
+                    "y": 100.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 200,
+            "y-span": 200
+        },
+        {
+            "name": "lct_8",
+            "id": "lct_8",
+            "entity": "LONG CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "numberOfChambers": 10,
+                "chamberLength": 100,
+                "chamberWidth": 100,
+                "chamberSpacing": 30,
+                "componentSpacing": 2000.0,
+                "feedingChannelWidth": 410.0,
+                "rotation": 270,
+                "mirrorByX": 0,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    48125.0,
+                    17220.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 305,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 680,
+                    "y": 305,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 680,
+            "y-span": 610
+        }
+    ],
+    "connections": [
+        {
+            "sinks": [
+                {
+                    "component": "ct0",
+                    "port": "9"
+                }
+            ],
+            "name": "c0",
+            "id": "c0",
+            "source": {
+                "component": "p0",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    40300.0,
+                    26700.0
+                ],
+                "end": [
+                    40300.0,
+                    22300.0
+                ],
+                "wayPoints": [
+                    [
+                        40300.0,
+                        26700.0
+                    ],
+                    [
+                        40300.0,
+                        24600.0
+                    ],
+                    [
+                        40300.0,
+                        22300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            40300.0,
+                            26700.0
+                        ],
+                        [
+                            40300.0,
+                            24600.0
+                        ]
+                    ],
+                    [
+                        [
+                            40300.0,
+                            24600.0
+                        ],
+                        [
+                            40300.0,
+                            22300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "p0",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "ct0",
+                        "port": "9"
+                    },
+                    "wayPoints": [
+                        [
+                            40300.0,
+                            26700.0
+                        ],
+                        [
+                            40300.0,
+                            24600.0
+                        ],
+                        [
+                            40300.0,
+                            22300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "b0_1",
+                    "port": "1"
+                }
+            ],
+            "name": "c1",
+            "id": "c1",
+            "source": {
+                "component": "ct0",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    22800.0,
+                    9700.0
+                ],
+                "end": [
+                    22800.0,
+                    5300.0
+                ],
+                "wayPoints": [
+                    [
+                        22800.0,
+                        9700.0
+                    ],
+                    [
+                        22800.0,
+                        7400.0
+                    ],
+                    [
+                        22800.0,
+                        5300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            22800.0,
+                            9700.0
+                        ],
+                        [
+                            22800.0,
+                            7400.0
+                        ]
+                    ],
+                    [
+                        [
+                            22800.0,
+                            7400.0
+                        ],
+                        [
+                            22800.0,
+                            5300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "ct0",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "b0_1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            22800.0,
+                            9700.0
+                        ],
+                        [
+                            22800.0,
+                            7400.0
+                        ],
+                        [
+                            22800.0,
+                            5300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "ct0",
+                    "port": "2"
+                }
+            ],
+            "name": "c2",
+            "id": "c2",
+            "source": {
+                "component": "b0_2",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    5300.0,
+                    26700.0
+                ],
+                "end": [
+                    5300.0,
+                    22300.0
+                ],
+                "wayPoints": [
+                    [
+                        5300.0,
+                        26700.0
+                    ],
+                    [
+                        5300.0,
+                        24600.0
+                    ],
+                    [
+                        5300.0,
+                        22300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            5300.0,
+                            26700.0
+                        ],
+                        [
+                            5300.0,
+                            24600.0
+                        ]
+                    ],
+                    [
+                        [
+                            5300.0,
+                            24600.0
+                        ],
+                        [
+                            5300.0,
+                            22300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "b0_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "ct0",
+                        "port": "2"
+                    },
+                    "wayPoints": [
+                        [
+                            5300.0,
+                            26700.0
+                        ],
+                        [
+                            5300.0,
+                            24600.0
+                        ],
+                        [
+                            5300.0,
+                            22300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "ct0",
+                    "port": "3"
+                }
+            ],
+            "name": "c3",
+            "id": "c3",
+            "source": {
+                "component": "b0_3",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    10300.0,
+                    26700.0
+                ],
+                "end": [
+                    10300.0,
+                    22300.0
+                ],
+                "wayPoints": [
+                    [
+                        10300.0,
+                        26700.0
+                    ],
+                    [
+                        10300.0,
+                        24600.0
+                    ],
+                    [
+                        10300.0,
+                        22300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            10300.0,
+                            26700.0
+                        ],
+                        [
+                            10300.0,
+                            24600.0
+                        ]
+                    ],
+                    [
+                        [
+                            10300.0,
+                            24600.0
+                        ],
+                        [
+                            10300.0,
+                            22300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "b0_3",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "ct0",
+                        "port": "3"
+                    },
+                    "wayPoints": [
+                        [
+                            10300.0,
+                            26700.0
+                        ],
+                        [
+                            10300.0,
+                            24600.0
+                        ],
+                        [
+                            10300.0,
+                            22300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "ct0",
+                    "port": "4"
+                }
+            ],
+            "name": "c4",
+            "id": "c4",
+            "source": {
+                "component": "b0_4",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    15300.0,
+                    26700.0
+                ],
+                "end": [
+                    15300.0,
+                    22300.0
+                ],
+                "wayPoints": [
+                    [
+                        15300.0,
+                        26700.0
+                    ],
+                    [
+                        15300.0,
+                        24600.0
+                    ],
+                    [
+                        15300.0,
+                        22300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            15300.0,
+                            26700.0
+                        ],
+                        [
+                            15300.0,
+                            24600.0
+                        ]
+                    ],
+                    [
+                        [
+                            15300.0,
+                            24600.0
+                        ],
+                        [
+                            15300.0,
+                            22300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "b0_4",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "ct0",
+                        "port": "4"
+                    },
+                    "wayPoints": [
+                        [
+                            15300.0,
+                            26700.0
+                        ],
+                        [
+                            15300.0,
+                            24600.0
+                        ],
+                        [
+                            15300.0,
+                            22300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "ct0",
+                    "port": "5"
+                }
+            ],
+            "name": "c5",
+            "id": "c5",
+            "source": {
+                "component": "b0_5",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    20300.0,
+                    26700.0
+                ],
+                "end": [
+                    20300.0,
+                    22300.0
+                ],
+                "wayPoints": [
+                    [
+                        20300.0,
+                        26700.0
+                    ],
+                    [
+                        20300.0,
+                        24600.0
+                    ],
+                    [
+                        20300.0,
+                        22300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            20300.0,
+                            26700.0
+                        ],
+                        [
+                            20300.0,
+                            24600.0
+                        ]
+                    ],
+                    [
+                        [
+                            20300.0,
+                            24600.0
+                        ],
+                        [
+                            20300.0,
+                            22300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "b0_5",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "ct0",
+                        "port": "5"
+                    },
+                    "wayPoints": [
+                        [
+                            20300.0,
+                            26700.0
+                        ],
+                        [
+                            20300.0,
+                            24600.0
+                        ],
+                        [
+                            20300.0,
+                            22300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "ct0",
+                    "port": "6"
+                }
+            ],
+            "name": "c6",
+            "id": "c6",
+            "source": {
+                "component": "b0_6",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    25300.0,
+                    26700.0
+                ],
+                "end": [
+                    25300.0,
+                    22300.0
+                ],
+                "wayPoints": [
+                    [
+                        25300.0,
+                        26700.0
+                    ],
+                    [
+                        25300.0,
+                        24600.0
+                    ],
+                    [
+                        25300.0,
+                        22300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            25300.0,
+                            26700.0
+                        ],
+                        [
+                            25300.0,
+                            24600.0
+                        ]
+                    ],
+                    [
+                        [
+                            25300.0,
+                            24600.0
+                        ],
+                        [
+                            25300.0,
+                            22300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "b0_6",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "ct0",
+                        "port": "6"
+                    },
+                    "wayPoints": [
+                        [
+                            25300.0,
+                            26700.0
+                        ],
+                        [
+                            25300.0,
+                            24600.0
+                        ],
+                        [
+                            25300.0,
+                            22300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "ct0",
+                    "port": "7"
+                }
+            ],
+            "name": "c7",
+            "id": "c7",
+            "source": {
+                "component": "b0_7",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    30300.0,
+                    26700.0
+                ],
+                "end": [
+                    30300.0,
+                    22300.0
+                ],
+                "wayPoints": [
+                    [
+                        30300.0,
+                        26700.0
+                    ],
+                    [
+                        30300.0,
+                        24600.0
+                    ],
+                    [
+                        30300.0,
+                        22300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            30300.0,
+                            26700.0
+                        ],
+                        [
+                            30300.0,
+                            24600.0
+                        ]
+                    ],
+                    [
+                        [
+                            30300.0,
+                            24600.0
+                        ],
+                        [
+                            30300.0,
+                            22300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "b0_7",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "ct0",
+                        "port": "7"
+                    },
+                    "wayPoints": [
+                        [
+                            30300.0,
+                            26700.0
+                        ],
+                        [
+                            30300.0,
+                            24600.0
+                        ],
+                        [
+                            30300.0,
+                            22300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "ct0",
+                    "port": "8"
+                }
+            ],
+            "name": "c8",
+            "id": "c8",
+            "source": {
+                "component": "b0_8",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    35300.0,
+                    26700.0
+                ],
+                "end": [
+                    35300.0,
+                    22300.0
+                ],
+                "wayPoints": [
+                    [
+                        35300.0,
+                        26700.0
+                    ],
+                    [
+                        35300.0,
+                        24600.0
+                    ],
+                    [
+                        35300.0,
+                        22300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            35300.0,
+                            26700.0
+                        ],
+                        [
+                            35300.0,
+                            24600.0
+                        ]
+                    ],
+                    [
+                        [
+                            35300.0,
+                            24600.0
+                        ],
+                        [
+                            35300.0,
+                            22300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "b0_8",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "ct0",
+                        "port": "8"
+                    },
+                    "wayPoints": [
+                        [
+                            35300.0,
+                            26700.0
+                        ],
+                        [
+                            35300.0,
+                            24600.0
+                        ],
+                        [
+                            35300.0,
+                            22300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "b1_1",
+                    "port": "1"
+                }
+            ],
+            "name": "c11",
+            "id": "c11",
+            "source": {
+                "component": "lct_1",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    42905.0,
+                    9700.0
+                ],
+                "end": [
+                    42905.0,
+                    5300.0
+                ],
+                "wayPoints": [
+                    [
+                        42905.0,
+                        9700.0
+                    ],
+                    [
+                        42905.0,
+                        7400.0
+                    ],
+                    [
+                        42905.0,
+                        5300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            42905.0,
+                            9700.0
+                        ],
+                        [
+                            42905.0,
+                            7400.0
+                        ]
+                    ],
+                    [
+                        [
+                            42905.0,
+                            7400.0
+                        ],
+                        [
+                            42905.0,
+                            5300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "lct_1",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "b1_1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            42905.0,
+                            9700.0
+                        ],
+                        [
+                            42905.0,
+                            7400.0
+                        ],
+                        [
+                            42905.0,
+                            5300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "b1_2",
+                    "port": "1"
+                }
+            ],
+            "name": "c12",
+            "id": "c12",
+            "source": {
+                "component": "lct_2",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    42905.0,
+                    16880.0
+                ],
+                "end": [
+                    42905.0,
+                    12480.0
+                ],
+                "wayPoints": [
+                    [
+                        42905.0,
+                        16880.0
+                    ],
+                    [
+                        42905.0,
+                        14580.0
+                    ],
+                    [
+                        42905.0,
+                        12480.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            42905.0,
+                            16880.0
+                        ],
+                        [
+                            42905.0,
+                            14580.0
+                        ]
+                    ],
+                    [
+                        [
+                            42905.0,
+                            14580.0
+                        ],
+                        [
+                            42905.0,
+                            12480.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "lct_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "b1_2",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            42905.0,
+                            16880.0
+                        ],
+                        [
+                            42905.0,
+                            14580.0
+                        ],
+                        [
+                            42905.0,
+                            12480.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "b1_3",
+                    "port": "1"
+                }
+            ],
+            "name": "c13",
+            "id": "c13",
+            "source": {
+                "component": "lct_3",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    42905.0,
+                    24060.0
+                ],
+                "end": [
+                    42905.0,
+                    19660.0
+                ],
+                "wayPoints": [
+                    [
+                        42905.0,
+                        24060.0
+                    ],
+                    [
+                        42905.0,
+                        21760.0
+                    ],
+                    [
+                        42905.0,
+                        19660.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            42905.0,
+                            24060.0
+                        ],
+                        [
+                            42905.0,
+                            21760.0
+                        ]
+                    ],
+                    [
+                        [
+                            42905.0,
+                            21760.0
+                        ],
+                        [
+                            42905.0,
+                            19660.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "lct_3",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "b1_3",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            42905.0,
+                            24060.0
+                        ],
+                        [
+                            42905.0,
+                            21760.0
+                        ],
+                        [
+                            42905.0,
+                            19660.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "b1_4",
+                    "port": "1"
+                }
+            ],
+            "name": "c14",
+            "id": "c14",
+            "source": {
+                "component": "lct_4",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    45515.0,
+                    9700.0
+                ],
+                "end": [
+                    45515.0,
+                    5300.0
+                ],
+                "wayPoints": [
+                    [
+                        45515.0,
+                        9700.0
+                    ],
+                    [
+                        45515.0,
+                        7400.0
+                    ],
+                    [
+                        45515.0,
+                        5300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            45515.0,
+                            9700.0
+                        ],
+                        [
+                            45515.0,
+                            7400.0
+                        ]
+                    ],
+                    [
+                        [
+                            45515.0,
+                            7400.0
+                        ],
+                        [
+                            45515.0,
+                            5300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "lct_4",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "b1_4",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            45515.0,
+                            9700.0
+                        ],
+                        [
+                            45515.0,
+                            7400.0
+                        ],
+                        [
+                            45515.0,
+                            5300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "b1_5",
+                    "port": "1"
+                }
+            ],
+            "name": "c15",
+            "id": "c15",
+            "source": {
+                "component": "lct_5",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    45515.0,
+                    16880.0
+                ],
+                "end": [
+                    45515.0,
+                    12480.0
+                ],
+                "wayPoints": [
+                    [
+                        45515.0,
+                        16880.0
+                    ],
+                    [
+                        45515.0,
+                        14580.0
+                    ],
+                    [
+                        45515.0,
+                        12480.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            45515.0,
+                            16880.0
+                        ],
+                        [
+                            45515.0,
+                            14580.0
+                        ]
+                    ],
+                    [
+                        [
+                            45515.0,
+                            14580.0
+                        ],
+                        [
+                            45515.0,
+                            12480.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "lct_5",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "b1_5",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            45515.0,
+                            16880.0
+                        ],
+                        [
+                            45515.0,
+                            14580.0
+                        ],
+                        [
+                            45515.0,
+                            12480.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "b1_6",
+                    "port": "1"
+                }
+            ],
+            "name": "c16",
+            "id": "c16",
+            "source": {
+                "component": "lct_6",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    45515.0,
+                    24060.0
+                ],
+                "end": [
+                    45515.0,
+                    19660.0
+                ],
+                "wayPoints": [
+                    [
+                        45515.0,
+                        24060.0
+                    ],
+                    [
+                        45515.0,
+                        21760.0
+                    ],
+                    [
+                        45515.0,
+                        19660.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            45515.0,
+                            24060.0
+                        ],
+                        [
+                            45515.0,
+                            21760.0
+                        ]
+                    ],
+                    [
+                        [
+                            45515.0,
+                            21760.0
+                        ],
+                        [
+                            45515.0,
+                            19660.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "lct_6",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "b1_6",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            45515.0,
+                            24060.0
+                        ],
+                        [
+                            45515.0,
+                            21760.0
+                        ],
+                        [
+                            45515.0,
+                            19660.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "b1_7",
+                    "port": "1"
+                }
+            ],
+            "name": "c17",
+            "id": "c17",
+            "source": {
+                "component": "lct_7",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    48125.0,
+                    9700.0
+                ],
+                "end": [
+                    48125.0,
+                    5300.0
+                ],
+                "wayPoints": [
+                    [
+                        48125.0,
+                        9700.0
+                    ],
+                    [
+                        48125.0,
+                        7400.0
+                    ],
+                    [
+                        48125.0,
+                        5300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            48125.0,
+                            9700.0
+                        ],
+                        [
+                            48125.0,
+                            7400.0
+                        ]
+                    ],
+                    [
+                        [
+                            48125.0,
+                            7400.0
+                        ],
+                        [
+                            48125.0,
+                            5300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "lct_7",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "b1_7",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            48125.0,
+                            9700.0
+                        ],
+                        [
+                            48125.0,
+                            7400.0
+                        ],
+                        [
+                            48125.0,
+                            5300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "b1_8",
+                    "port": "1"
+                }
+            ],
+            "name": "c18",
+            "id": "c18",
+            "source": {
+                "component": "lct_8",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "start": [
+                    48125.0,
+                    16880.0
+                ],
+                "end": [
+                    48125.0,
+                    12480.0
+                ],
+                "wayPoints": [
+                    [
+                        48125.0,
+                        16880.0
+                    ],
+                    [
+                        48125.0,
+                        14580.0
+                    ],
+                    [
+                        48125.0,
+                        12480.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            48125.0,
+                            16880.0
+                        ],
+                        [
+                            48125.0,
+                            14580.0
+                        ]
+                    ],
+                    [
+                        [
+                            48125.0,
+                            14580.0
+                        ],
+                        [
+                            48125.0,
+                            12480.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "lct_8",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "b1_8",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            48125.0,
+                            16880.0
+                        ],
+                        [
+                            48125.0,
+                            14580.0
+                        ],
+                        [
+                            48125.0,
+                            12480.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        }
+    ],
+    "params": {
+        "x-span": 53430.0,
+        "y-span": 32000.0,
+        "length": 53430.0
+    },
+    "layers": [
+        {
+            "name": "FLOW_0",
+            "id": "0",
+            "type": "FLOW",
+            "params": {},
+            "group": "0"
+        }
+    ],
+    "features": [],
+    "version": "1.2",
+    "valves": [],
+    "isPnR": false,
+    "layoutConstraints": [],
+    "IsPlacedAndRouted": true
+}

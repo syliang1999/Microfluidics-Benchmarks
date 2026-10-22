@@ -1,0 +1,20 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Expressions/Expression_15/Expression_15_fromMINT.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__Expressions__Expression_15__Expression_15_fromMINT/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__Expressions__Expression_15__Expression_15_fromMINT/metrics.json",
+  "solver_status": "feasible",
+  "placement_optimal": false,
+  "ilp_runtime_seconds": 1148.5397755857557,
+  "total_channel_manhattan_length": 318049.999998,
+  "physical_area": 5875019999.9238,
+  "padded_area": 7508019999.9138,
+  "drc_passed": true,
+  "violation_count": 0,
+  "violations": [],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 1149.322066
+}

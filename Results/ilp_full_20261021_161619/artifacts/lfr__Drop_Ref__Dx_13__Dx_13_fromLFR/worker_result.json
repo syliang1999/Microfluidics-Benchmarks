@@ -1,0 +1,63 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Drop_Ref/Dx_13/Dx_13_fromLFR.json",
+  "success": false,
+  "error": "RuntimeError: DRC violations: channel_spacing: channels of connections 'channel_5' and 'channel_11' violate the 1000 edge-to-edge clearance; channel_spacing: channels of connections 'channel_14' and 'channel_15' violate the 1000 edge-to-edge clearance",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/lfr__Drop_Ref__Dx_13__Dx_13_fromLFR/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/lfr__Drop_Ref__Dx_13__Dx_13_fromLFR/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 37.53778618667275,
+  "total_channel_manhattan_length": 659774.8814790001,
+  "physical_area": 6913719999.751001,
+  "padded_area": 8676719999.721003,
+  "drc_passed": false,
+  "violation_count": 2,
+  "violations": [
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_5' and 'channel_11' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_5",
+      "details": {
+        "other": "channel_11",
+        "rect_a": [
+          69155.135133,
+          38915.384615,
+          69755.135133,
+          53450.769231
+        ],
+        "rect_b": [
+          70755.135132,
+          38349.230768,
+          77733.37837699999,
+          38949.230768
+        ]
+      }
+    },
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_14' and 'channel_15' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_14",
+      "details": {
+        "other": "channel_15",
+        "rect_a": [
+          50584.324322,
+          70535.384613,
+          51184.324322,
+          72435.38461400001
+        ],
+        "rect_b": [
+          50584.324322,
+          68935.38461400001,
+          54527.567568,
+          69535.38461400001
+        ]
+      }
+    }
+  ],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 38.449859
+}

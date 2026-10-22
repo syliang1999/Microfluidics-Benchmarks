@@ -1,0 +1,46 @@
+[
+  {
+    "placement_gap": 5000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.3691757768392563,
+    "placement_time_limit_seconds": 359.99881095066667,
+    "reason": "All 11 deterministic routing orders failed; conflict refinement: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 1: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 2: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 3: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 4: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 5: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 6: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 7: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 8: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 9: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 10: No legal route for connection 'c1' sink 0 ({'component': 'p1', 'port': '1'} -> {'component': 'ct1', 'port': '1'}) | order 11: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'})"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.6129123624414206,
+    "placement_time_limit_seconds": 539.8860898140817,
+    "reason": "No module named 'readjson'"
+  },
+  {
+    "placement_gap": 12000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.3754685716703534,
+    "placement_time_limit_seconds": 1079.4015481716021,
+    "reason": "No module named 'readjson'"
+  },
+  {
+    "placement_gap": 5000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 0.32082942966371775,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "reason": "All 10 deterministic routing orders failed; conflict refinement: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 1: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 2: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 3: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 4: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 5: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 6: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 7: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 8: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 9: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'}) | order 10: No legal route for connection 'c3' sink 0 ({'component': 'p3', 'port': '1'} -> {'component': 'ct1', 'port': '3'})"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "routed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 0.18697327561676502,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "total_channel_manhattan_length": 110450.0,
+    "physical_area": 1619250000.0
+  }
+]

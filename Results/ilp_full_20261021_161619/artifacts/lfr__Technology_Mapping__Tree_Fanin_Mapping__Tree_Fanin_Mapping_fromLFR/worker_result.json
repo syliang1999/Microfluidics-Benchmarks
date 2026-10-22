@@ -1,0 +1,126 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Technology_Mapping/Tree_Fanin_Mapping/Tree_Fanin_Mapping_fromLFR.json",
+  "success": false,
+  "error": "RuntimeError: DRC violations: channel_spacing: channels of connections 'channel_1' and 'channel_4' violate the 1000 edge-to-edge clearance; channel_spacing: channels of connections 'channel_1' and 'channel_6' violate the 1000 edge-to-edge clearance; channel_spacing: channels of connections 'channel_4' and 'channel_6' violate the 1000 edge-to-edge clearance; channel_spacing: channels of connections 'channel_6' and 'channel_8' violate the 1000 edge-to-edge clearance; channel_spacing: channels of connections 'channel_6' and 'channel_9' violate the 1000 edge-to-edge clearance",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/lfr__Technology_Mapping__Tree_Fanin_Mapping__Tree_Fanin_Mapping_fromLFR/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/lfr__Technology_Mapping__Tree_Fanin_Mapping__Tree_Fanin_Mapping_fromLFR/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 11.971083263866603,
+  "total_channel_manhattan_length": 1048822.3529120001,
+  "physical_area": 12361087058.23114,
+  "padded_area": 14685392940.53114,
+  "drc_passed": false,
+  "violation_count": 5,
+  "violations": [
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_1' and 'channel_4' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_1",
+      "details": {
+        "other": "channel_4",
+        "rect_a": [
+          100830.58823200001,
+          41300.0,
+          104230.588234,
+          41900.0
+        ],
+        "rect_b": [
+          99230.58823300002,
+          15000.0,
+          99830.58823300002,
+          114500.0
+        ]
+      }
+    },
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_1' and 'channel_6' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_1",
+      "details": {
+        "other": "channel_6",
+        "rect_a": [
+          103630.588234,
+          41300.0,
+          104230.588234,
+          115800.0
+        ],
+        "rect_b": [
+          91630.588234,
+          116799.99999899999,
+          111830.58823300002,
+          117399.99999899999
+        ]
+      }
+    },
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_4' and 'channel_6' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_4",
+      "details": {
+        "other": "channel_6",
+        "rect_a": [
+          97630.588234,
+          113900.0,
+          98230.588234,
+          115800.0
+        ],
+        "rect_b": [
+          91630.588234,
+          116799.99999899999,
+          111830.58823300002,
+          117399.99999899999
+        ]
+      }
+    },
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_6' and 'channel_8' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_6",
+      "details": {
+        "other": "channel_8",
+        "rect_a": [
+          91630.588234,
+          116799.99999899999,
+          111830.58823300002,
+          117399.99999899999
+        ],
+        "rect_b": [
+          105230.58823300002,
+          115200.0,
+          110230.588234,
+          115800.0
+        ]
+      }
+    },
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_6' and 'channel_9' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_6",
+      "details": {
+        "other": "channel_9",
+        "rect_a": [
+          91630.588234,
+          115200.0,
+          92230.588234,
+          117399.99999899999
+        ],
+        "rect_b": [
+          88530.58823300002,
+          116500.0,
+          90630.588235,
+          117100.0
+        ]
+      }
+    }
+  ],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 12.784326
+}

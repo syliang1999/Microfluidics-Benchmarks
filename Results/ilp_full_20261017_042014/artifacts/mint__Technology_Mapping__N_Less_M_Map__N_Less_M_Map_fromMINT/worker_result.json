@@ -1,0 +1,20 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Technology_Mapping/N_Less_M_Map/N_Less_M_Map_fromMINT.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__Technology_Mapping__N_Less_M_Map__N_Less_M_Map_fromMINT/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__Technology_Mapping__N_Less_M_Map__N_Less_M_Map_fromMINT/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 1.307971096597612,
+  "total_channel_manhattan_length": 551699.9999820001,
+  "physical_area": 2856224571.3364553,
+  "padded_area": 4097681714.1764555,
+  "drc_passed": true,
+  "violation_count": 0,
+  "violations": [],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 2.123378
+}

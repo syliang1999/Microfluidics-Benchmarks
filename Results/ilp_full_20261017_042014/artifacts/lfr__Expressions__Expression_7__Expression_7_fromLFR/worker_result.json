@@ -1,0 +1,20 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Expressions/Expression_7/Expression_7_fromLFR.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/lfr__Expressions__Expression_7__Expression_7_fromLFR/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/lfr__Expressions__Expression_7__Expression_7_fromLFR/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 13.32295342721045,
+  "total_channel_manhattan_length": 333229.47367900005,
+  "physical_area": 2683417263.0895963,
+  "padded_area": 3819459368.3395963,
+  "drc_passed": true,
+  "violation_count": 0,
+  "violations": [],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 14.078977
+}

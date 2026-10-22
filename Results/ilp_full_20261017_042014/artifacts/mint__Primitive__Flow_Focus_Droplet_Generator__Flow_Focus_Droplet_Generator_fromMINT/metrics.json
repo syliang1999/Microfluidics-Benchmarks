@@ -1,0 +1,60 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 0.013279780745506287,
+    "global_layout_runtime_seconds": 0.0,
+    "global_layout_hint_count": 0,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 0.0012006433680653572,
+    "total_runtime_seconds": 0.01777732651680708,
+    "component_count": 2,
+    "net_count": 1,
+    "path_count": 1,
+    "total_channel_manhattan_length": 81180.0,
+    "physical_width": 77280.0,
+    "physical_height": 5300.0,
+    "physical_area": 409584000.0,
+    "padded_width": 87280.0,
+    "padded_height": 15300.0,
+    "padded_area": 1335384000.0,
+    "placement_objective": 1.9908136482939633,
+    "placement_wire_lower_bound": 80180.0,
+    "placement_half_perimeter": 82080.0,
+    "selected_placement_gap": 0.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "routed",
+            "elapsed_seconds": 0.015623209998011589,
+            "placement_time_limit_seconds": 215.9997785579413,
+            "total_channel_manhattan_length": 81180.0,
+            "physical_area": 409584000.0
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 215.9997785579413,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 85701.0,
+        "tight_big_m": 85701.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

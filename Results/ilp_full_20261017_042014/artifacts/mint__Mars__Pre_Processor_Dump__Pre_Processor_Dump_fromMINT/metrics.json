@@ -1,0 +1,60 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 0.09283511340618134,
+    "global_layout_runtime_seconds": 0.0,
+    "global_layout_hint_count": 0,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 0.019452200271189213,
+    "total_runtime_seconds": 0.154952147975564,
+    "component_count": 5,
+    "net_count": 4,
+    "path_count": 4,
+    "total_channel_manhattan_length": 188872.0,
+    "physical_width": 40100.0,
+    "physical_height": 59388.0,
+    "physical_area": 2381458800.0,
+    "padded_width": 50100.0,
+    "padded_height": 69388.0,
+    "padded_area": 3476338800.0,
+    "placement_objective": 7.768923884514429,
+    "placement_wire_lower_bound": 184872.0,
+    "placement_half_perimeter": 99488.0,
+    "selected_placement_gap": 0.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "routed",
+            "elapsed_seconds": 0.1500578848645091,
+            "placement_time_limit_seconds": 215.99945574905723,
+            "total_channel_manhattan_length": 188872.0,
+            "physical_area": 2381458800.0
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 215.99945574905723,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 82801.0,
+        "tight_big_m": 82801.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

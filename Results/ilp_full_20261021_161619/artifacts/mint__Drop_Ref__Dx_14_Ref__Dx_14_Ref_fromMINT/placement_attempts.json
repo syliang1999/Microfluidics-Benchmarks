@@ -1,0 +1,17 @@
+[
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "elapsed_seconds": 79.18771467823535,
+    "placement_time_limit_seconds": 215.99422268450257,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 9 relaxed inter-net conflict(s): channel_1[0] x channel_2[0], channel_1[0] x channel_3[0], channel_2[0] x channel_3[0], channel_mixed_1[0] x channel_mixed_2[0], channel_mixed_1[0] x channel_oil1[0], channel_oil3[0] x channel_incubate2[0] | order 1: No legal route for connection 'channel_1' sink 0 ({'component': 'port_in1', 'port': '1'} -> {'component': 'mixer_in', 'port': '1'}) | order 2: No legal route for connection 'channel_oil1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator1', 'port': '1'}) | order 3: No legal route for connection 'channel_oil1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator1', 'port': '1'}) | order 4: No legal route for connection 'channel_oil2' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator1', 'port': '3'}) | order 5: No legal route for connection 'channel_mixed_1' sink 0 ({'component': 'mixer_in', 'port': '2'} -> {'component': 'nozzle_droplet_generator1', 'port': '4'}) | order 6: No legal route for connection 'channel_oil1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator1', 'port': '1'}) | order 7: No legal route for connection 'channel_oil2' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator1', 'port': '3'}) | order 8: No legal route for connection 'channel_oil3' sink 0 ({'component': 'port_oil3', 'port': '1'} -> {'component': 'nozzle_droplet_generator2', 'port': '1'}) | order 9: No legal route for connection 'channel_mixed_2' sink 0 ({'component': 'mixer_in', 'port': '2'} -> {'component': 'nozzle_droplet_generator2', 'port': '4'}) | order 10: No legal route for connection 'channel_oil2' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator1', 'port': '3'}) | order 11: No legal route for connection 'channel_oil1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator1', 'port': '1'}) | order 12: No legal route for connection 'channel_oil4' sink 0 ({'component': 'port_oil4', 'port': '1'} -> {'component': 'nozzle_droplet_generator2', 'port': '3'}) | order 13: No legal route for connection 'channel_incubate2' sink 0 ({'component': 'nozzle_droplet_generator2', 'port': '2'} -> {'component': 'mixer_incubate2', 'port': '1'}) | order 14: No legal route for connection 'channel_incubate2' sink 0 ({'component': 'nozzle_droplet_generator2', 'port': '2'} -> {'component': 'mixer_incubate2', 'port': '1'}) | order 15: No legal route for connection 'channel_2' sink 0 ({'component': 'port_in2', 'port': '1'} -> {'component': 'mixer_in', 'port': '1'}) | order 16: No legal route for connection 'channel_oil4' sink 0 ({'component': 'port_oil4', 'port': '1'} -> {'component': 'nozzle_droplet_generator2', 'port': '3'})"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "routed",
+    "elapsed_seconds": 87.3855971461162,
+    "placement_time_limit_seconds": 258.1125243318267,
+    "total_channel_manhattan_length": 433850.99999599997,
+    "physical_area": 9801000000.0
+  }
+]

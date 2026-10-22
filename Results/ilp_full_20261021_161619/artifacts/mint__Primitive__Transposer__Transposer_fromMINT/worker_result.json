@@ -1,0 +1,20 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Primitive/Transposer/Transposer_fromMINT.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__Primitive__Transposer__Transposer_fromMINT/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__Primitive__Transposer__Transposer_fromMINT/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 0.30867872573435307,
+  "total_channel_manhattan_length": 243746.66666299998,
+  "physical_area": 4746751999.963794,
+  "padded_area": 6232818666.623794,
+  "drc_passed": true,
+  "violation_count": 0,
+  "violations": [],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 1.09935
+}

@@ -1,0 +1,27 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Drop_Ref/Dropx_Test_1/Dropx_Test_1_fromLFR.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161309/artifacts/lfr__Drop_Ref__Dropx_Test_1__Dropx_Test_1_fromLFR --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Reversed 2 connection(s) with opposite-port direction conflicts: channel_1, channel_2.
+Finish loading test case: Dropx_Test_1_fromLFR
+1/9, Finish initial placement, time spent: 1.33514404296875e-05 s
+[0, 1800, 600, 'nozzle_droplet_generator_1', 0] [[400, 0], [1800, 300], [400, 600], [0, 300]]
+[1, 2000, 2000, 'port_1', 0] [[1000.0, 1000.0]]
+[2, 2000, 2000, 'port_2', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 7.295608520507812e-05 s
+3/9, Finish symmetricalization, time spent: 1.0728836059570312e-05 s
+4/9, Finish routing, time spent: 0.00010609626770019531 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0], [0]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.00045680999755859375 s
+6/9, Finish shortening wirelength, time spent: 4.2438507080078125e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00012755393981933594 s
+9/9, Finish compaction and connecting ports, time spent: 0.027180194854736328 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.028010129928588867 s
+Reordering Timeusage: 0.00045680999755859375 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.027806997299194336 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161309/artifacts/lfr__Drop_Ref__Dropx_Test_1__Dropx_Test_1_fromLFR/result.json

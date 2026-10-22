@@ -1,0 +1,34 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Base/Super_MUX_8/Super_MUX_8_fromMINT.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Base__Super_MUX_8__Super_MUX_8_fromMINT --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Reversed 1 connection(s) with opposite-port direction conflicts: c_out.
+Finish loading test case: Super_MUX_8_fromMINT
+1/9, Finish initial placement, time spent: 2.1219253540039062e-05 s
+[0, 31000, 25800, 'mux_8', 0] [[15500.0, 0.0], [29500.0, 25800.0], [25500.0, 25800.0], [21500.0, 25800.0], [17500.0, 25800.0], [13500.0, 25800.0], [9500.0, 25800.0], [5500.0, 25800.0], [1500.0, 25800.0], [0.0, 8600.0], [31000.0, 10600.0], [0.0, 15200.0], [31000.0, 17200.0], [0.0, 21800.0], [31000.0, 23800.0]]
+[1, 2000, 2000, 'port_out', 0] [[1000.0, 1000.0]]
+[2, 2000, 2000, 'port_in_1', 0] [[1000.0, 1000.0]]
+[3, 2000, 2000, 'port_in_2', 0] [[1000.0, 1000.0]]
+[4, 2000, 2000, 'port_in_3', 0] [[1000.0, 1000.0]]
+[5, 2000, 2000, 'port_in_4', 0] [[1000.0, 1000.0]]
+[6, 2000, 2000, 'port_in_5', 0] [[1000.0, 1000.0]]
+[7, 2000, 2000, 'port_in_6', 0] [[1000.0, 1000.0]]
+[8, 2000, 2000, 'port_in_7', 0] [[1000.0, 1000.0]]
+[9, 2000, 2000, 'port_in_8', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 0.00019788742065429688 s
+3/9, Finish symmetricalization, time spent: 1.3828277587890625e-05 s
+4/9, Finish routing, time spent: 0.00026345252990722656 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0], [0, 1, 2, 3, 4, 5, 6, 7]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0013494491577148438 s
+6/9, Finish shortening wirelength, time spent: 7.271766662597656e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.0002765655517578125 s
+9/9, Finish compaction and connecting ports, time spent: 0.05620884895324707 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.058403968811035156 s
+Reordering Timeusage: 0.0013494491577148438 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.0579075813293457 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Base__Super_MUX_8__Super_MUX_8_fromMINT/result.json

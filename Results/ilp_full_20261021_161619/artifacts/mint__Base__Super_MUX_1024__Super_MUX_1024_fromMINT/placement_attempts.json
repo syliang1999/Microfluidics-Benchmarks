@@ -1,0 +1,267 @@
+[
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "elapsed_seconds": 68.77965634875,
+    "placement_time_limit_seconds": 215.83692477464675,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "failed",
+    "elapsed_seconds": 67.09096796438098,
+    "placement_time_limit_seconds": 259.32560330755075,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 2000.0,
+    "status": "failed",
+    "elapsed_seconds": 67.16545802075416,
+    "placement_time_limit_seconds": 332.1443398552015,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 4000.0,
+    "status": "failed",
+    "elapsed_seconds": 64.37973825540394,
+    "placement_time_limit_seconds": 477.75911257015537,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "elapsed_seconds": 64.97786198649555,
+    "placement_time_limit_seconds": 916.271724784188,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 67.07046371884644,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 66.21986399963498,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 2000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 66.82422846835107,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 4000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 64.64200117439032,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 65.15250012930483,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 67.75000063888729,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 1.0,
+    "wire_multiplier": 1.5,
+    "compactness_multiplier": 0.5,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 66.88493263814598,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 1.0,
+    "wire_multiplier": 1.5,
+    "compactness_multiplier": 0.5,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 2000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 65.45030939113349,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 1.0,
+    "wire_multiplier": 1.5,
+    "compactness_multiplier": 0.5,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 4000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 64.90951706655324,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 1.0,
+    "wire_multiplier": 1.5,
+    "compactness_multiplier": 0.5,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 65.36476312763989,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 1.0,
+    "wire_multiplier": 1.5,
+    "compactness_multiplier": 0.5,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 65.77797779534012,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 8.0,
+    "wire_multiplier": 2.0,
+    "compactness_multiplier": 0.25,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 67.35439176764339,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 8.0,
+    "wire_multiplier": 2.0,
+    "compactness_multiplier": 0.25,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 2000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 65.89051582012326,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 8.0,
+    "wire_multiplier": 2.0,
+    "compactness_multiplier": 0.25,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 4000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 64.347846490331,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 8.0,
+    "wire_multiplier": 2.0,
+    "compactness_multiplier": 0.25,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 65.1592262769118,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 8.0,
+    "wire_multiplier": 2.0,
+    "compactness_multiplier": 0.25,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 67.56533371191472,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 16.0,
+    "wire_multiplier": 0.5,
+    "compactness_multiplier": 2.0,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 66.4169554663822,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 16.0,
+    "wire_multiplier": 0.5,
+    "compactness_multiplier": 2.0,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 2000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 66.49930894561112,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 16.0,
+    "wire_multiplier": 0.5,
+    "compactness_multiplier": 2.0,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 4000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 64.90534918010235,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 16.0,
+    "wire_multiplier": 0.5,
+    "compactness_multiplier": 2.0,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 65.28367523383349,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 16.0,
+    "wire_multiplier": 0.5,
+    "compactness_multiplier": 2.0,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 67.08986384235322,
+    "placement_time_limit_seconds": 42.60590666593052,
+    "position_hint_weight": 0.0,
+    "mirrored_embedding": false,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  }
+]

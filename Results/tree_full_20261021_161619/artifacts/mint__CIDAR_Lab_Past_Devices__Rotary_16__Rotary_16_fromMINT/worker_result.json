@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/CIDAR_Lab_Past_Devices/Rotary_16/Rotary_16_fromMINT.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=63, E=109, components=1, cycle_rank=47; cycle-closing connection(s): channel_35, channel_36, channel_38, channel_40, channel_41, channel_42, channel_43, channel_45, channel_46, channel_47, channel_56, channel_58, channel_59, channel_60, channel_61, channel_78, channel_79, channel_80, channel_81, channel_82, channel_83, channel_84, channel_85, channel_86, channel_87, channel_88, channel_89, channel_90, channel_91, channel_92, channel_93, channel_94, channel_95, channel_96, channel_97, channel_98, channel_99, channel_100, channel_101, channel_102, channel_103, channel_104, channel_105, channel_106, channel_107, channel_108, channel_109",
+  "worker_seconds": 0.009368
+}

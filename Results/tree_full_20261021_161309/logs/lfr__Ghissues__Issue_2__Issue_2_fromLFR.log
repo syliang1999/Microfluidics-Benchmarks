@@ -1,0 +1,25 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Ghissues/Issue_2/Issue_2_fromLFR.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161309/artifacts/lfr__Ghissues__Issue_2__Issue_2_fromLFR --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: Issue_2_fromLFR
+1/9, Finish initial placement, time spent: 1.3828277587890625e-05 s
+[0, 2000, 2000, 'port_1', 0] [[1000.0, 1000.0]]
+[1, 2000, 2000, 'port_2', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 5.53131103515625e-05 s
+3/9, Finish symmetricalization, time spent: 9.775161743164062e-06 s
+4/9, Finish routing, time spent: 7.62939453125e-05 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0003414154052734375 s
+6/9, Finish shortening wirelength, time spent: 3.600120544433594e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00011038780212402344 s
+9/9, Finish compaction and connecting ports, time spent: 0.021616220474243164 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.022259235382080078 s
+Reordering Timeusage: 0.0003414154052734375 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.02210402488708496 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161309/artifacts/lfr__Ghissues__Issue_2__Issue_2_fromLFR/result.json

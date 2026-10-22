@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/CIDAR_Lab_Past_Devices/Root_Chip/Root_Chip_fromMINT.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=22, E=23, components=1, cycle_rank=2; cycle-closing connection(s): channel_22, channel_23",
+  "worker_seconds": 0.007713
+}

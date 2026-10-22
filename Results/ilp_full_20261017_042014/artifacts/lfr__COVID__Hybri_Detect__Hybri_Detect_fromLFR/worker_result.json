@@ -1,0 +1,20 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/COVID/Hybri_Detect/Hybri_Detect_fromLFR.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/lfr__COVID__Hybri_Detect__Hybri_Detect_fromLFR/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/lfr__COVID__Hybri_Detect__Hybri_Detect_fromLFR/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 6.297042780555785,
+  "total_channel_manhattan_length": 417227.142851,
+  "physical_area": 5943599999.847601,
+  "padded_area": 7585599999.827601,
+  "drc_passed": true,
+  "violation_count": 0,
+  "violations": [],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 7.133672
+}

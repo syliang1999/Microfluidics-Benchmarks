@@ -1,0 +1,183 @@
+[
+  {
+    "placement_gap": 5000.0,
+    "status": "failed",
+    "elapsed_seconds": 354.04641055036336,
+    "placement_time_limit_seconds": 353.9907200330868,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "elapsed_seconds": 424.8311620876193,
+    "placement_time_limit_seconds": 424.77028400218114,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 12000.0,
+    "status": "failed",
+    "elapsed_seconds": 594.6982857184485,
+    "placement_time_limit_seconds": 594.6381704695523,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 5000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 45.05761921405792,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "mirrored_embedding": false,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 45.08275719732046,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "mirrored_embedding": false,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 12000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 45.08005109149963,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "mirrored_embedding": false,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 5000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 45.06797713600099,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 2.0,
+    "mirrored_embedding": false,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 45.05650602374226,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 2.0,
+    "mirrored_embedding": false,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 12000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 45.05711195524782,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 2.0,
+    "mirrored_embedding": false,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 5000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 44.129806348122656,
+    "placement_time_limit_seconds": 44.071811858424915,
+    "position_hint_weight": 8.0,
+    "mirrored_embedding": false,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 28.75513986684382,
+    "placement_time_limit_seconds": 28.62438599760644,
+    "position_hint_weight": 8.0,
+    "mirrored_embedding": false,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 12000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 18.614497194066644,
+    "placement_time_limit_seconds": 18.55810645027086,
+    "position_hint_weight": 8.0,
+    "mirrored_embedding": false,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 5000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 12.09667871054262,
+    "placement_time_limit_seconds": 12.03871034909971,
+    "position_hint_weight": 16.0,
+    "mirrored_embedding": false,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 7.862268373370171,
+    "placement_time_limit_seconds": 7.802736895252019,
+    "position_hint_weight": 16.0,
+    "mirrored_embedding": false,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 12000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 5.110150400549173,
+    "placement_time_limit_seconds": 5.048938507214189,
+    "position_hint_weight": 16.0,
+    "mirrored_embedding": false,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 5000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 3.362590500153601,
+    "placement_time_limit_seconds": 3.255674869613722,
+    "position_hint_weight": 0.0,
+    "mirrored_embedding": true,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 2.201541356742382,
+    "placement_time_limit_seconds": 2.0767284200992435,
+    "position_hint_weight": 0.0,
+    "mirrored_embedding": true,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 12000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 1.4241690216585994,
+    "placement_time_limit_seconds": 1.30419701365754,
+    "position_hint_weight": 0.0,
+    "mirrored_embedding": true,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 5000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 1.0561442207545042,
+    "placement_time_limit_seconds": 1.0,
+    "position_hint_weight": 2.0,
+    "mirrored_embedding": true,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  }
+]

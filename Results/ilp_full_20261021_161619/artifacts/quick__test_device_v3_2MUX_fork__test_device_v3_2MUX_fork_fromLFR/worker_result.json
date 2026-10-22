@@ -1,0 +1,46 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/Quick_Examples/test_device_v3_2MUX_fork/test_device_v3_2MUX_fork_fromLFR.json",
+  "success": false,
+  "error": "RuntimeError: DRC violations: channel_component_clearance: channel of connection 'channel_10' crosses the effective envelope of unrelated component 'port_1'",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/quick__test_device_v3_2MUX_fork__test_device_v3_2MUX_fork_fromLFR/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/quick__test_device_v3_2MUX_fork__test_device_v3_2MUX_fork_fromLFR/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 69.82970494125038,
+  "total_channel_manhattan_length": 254911.42855900005,
+  "physical_area": 5944409999.845801,
+  "padded_area": 7586409999.825801,
+  "drc_passed": false,
+  "violation_count": 1,
+  "violations": [
+    {
+      "kind": "channel_component_clearance",
+      "rule": "unrelated_envelope",
+      "message": "channel of connection 'channel_10' crosses the effective envelope of unrelated component 'port_1'",
+      "connection": "channel_10",
+      "component": "port_1",
+      "details": {
+        "segment": [
+          [
+            39922.857143,
+            6899.999999
+          ],
+          [
+            40922.857143,
+            6899.999999
+          ]
+        ],
+        "envelope": [
+          40922.857143,
+          5899.999999,
+          42922.857143,
+          7899.999999
+        ]
+      }
+    }
+  ],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 70.623052
+}

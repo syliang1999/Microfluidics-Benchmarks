@@ -1,0 +1,60 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 0.23709219321608543,
+    "global_layout_runtime_seconds": 0.0,
+    "global_layout_hint_count": 0,
+    "global_layout_error": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+    "routing_runtime_seconds": 2.026466565206647,
+    "total_runtime_seconds": 3.191127562895417,
+    "component_count": 10,
+    "net_count": 9,
+    "path_count": 9,
+    "total_channel_manhattan_length": 374855.999992,
+    "physical_width": 77099.999999,
+    "physical_height": 68879.99999899999,
+    "physical_area": 5310647999.85402,
+    "padded_width": 87099.999999,
+    "padded_height": 78879.99999899999,
+    "padded_area": 6870447999.83402,
+    "placement_objective": 11.677979002617803,
+    "placement_wire_lower_bound": 350056.0,
+    "placement_half_perimeter": 145780.0,
+    "selected_placement_gap": 0.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "routed",
+            "elapsed_seconds": 3.1703501027077436,
+            "placement_time_limit_seconds": 215.99756675831972,
+            "total_channel_manhattan_length": 374855.999992,
+            "physical_area": 5310647999.85402
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 215.99756675831972,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 82801.0,
+        "tight_big_m": 82801.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

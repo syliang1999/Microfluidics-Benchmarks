@@ -1,0 +1,20 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Mars/Ligation/Ligation_fromLFR.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/lfr__Mars__Ligation__Ligation_fromLFR/result_control.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/lfr__Mars__Ligation__Ligation_fromLFR/metrics.json",
+  "solver_status": "feasible",
+  "placement_optimal": false,
+  "ilp_runtime_seconds": 1330.5542075764388,
+  "total_channel_manhattan_length": 281400.0,
+  "physical_area": 4236720000.0,
+  "padded_area": 5654720000.0,
+  "drc_passed": true,
+  "violation_count": 0,
+  "violations": [],
+  "control_required": true,
+  "control_passed": true,
+  "worker_seconds": 1465.631429
+}

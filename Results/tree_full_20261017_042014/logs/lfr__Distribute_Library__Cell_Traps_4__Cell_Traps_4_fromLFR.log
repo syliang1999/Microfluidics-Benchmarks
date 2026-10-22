@@ -1,0 +1,25 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Distribute_Library/Cell_Traps_4/Cell_Traps_4_fromLFR.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/lfr__Distribute_Library__Cell_Traps_4__Cell_Traps_4_fromLFR --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: Cell_Traps_4_fromLFR
+1/9, Finish initial placement, time spent: 1.2159347534179688e-05 s
+[0, 2000, 2000, 'port_1', 0] [[1000.0, 1000.0]]
+[1, 2000, 2000, 'port_2', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 6.580352783203125e-05 s
+3/9, Finish symmetricalization, time spent: 1.1682510375976562e-05 s
+4/9, Finish routing, time spent: 7.009506225585938e-05 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0003418922424316406 s
+6/9, Finish shortening wirelength, time spent: 3.695487976074219e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00010633468627929688 s
+9/9, Finish compaction and connecting ports, time spent: 0.021924257278442383 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.02256917953491211 s
+Reordering Timeusage: 0.0003418922424316406 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.022409439086914062 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/lfr__Distribute_Library__Cell_Traps_4__Cell_Traps_4_fromLFR/result.json

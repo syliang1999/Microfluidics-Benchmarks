@@ -1,0 +1,32 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Drop_Ref/Dx_3/Dx_3_fromLFR.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161309/artifacts/lfr__Drop_Ref__Dx_3__Dx_3_fromLFR --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Reversed 4 connection(s) with opposite-port direction conflicts: channel_1, channel_2, channel_3, channel_4.
+Finish loading test case: Dx_3_fromLFR
+1/9, Finish initial placement, time spent: 2.47955322265625e-05 s
+[0, 1800, 600, 'nozzle_droplet_generator_1', 0] [[400, 0], [1800, 300], [400, 600], [0, 300]]
+[1, 6000, 8000, 'droplet_splitter_1', 0] [[0, 4000], [5500, 0], [5000, 8000]]
+[2, 3200, 4600, 'mixer_1', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[3, 2000, 2000, 'port_1', 0] [[1000.0, 1000.0]]
+[4, 2000, 2000, 'port_2', 0] [[1000.0, 1000.0]]
+[5, 3200, 4600, 'mixer_2', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[6, 2000, 2000, 'port_3', 0] [[1000.0, 1000.0]]
+[7, 2000, 2000, 'port_4', 0] [[1000.0, 1000.0]]
+[8, 2000, 2000, 'port_5', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 0.0001785755157470703 s
+3/9, Finish symmetricalization, time spent: 1.6927719116210938e-05 s
+4/9, Finish routing, time spent: 0.0002682209014892578 s
+****************************************************
+Fail to find valid order; keeping the initial row order
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.002088785171508789 s
+6/9, Finish shortening wirelength, time spent: 8.916854858398438e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00029206275939941406 s
+9/9, Finish compaction and connecting ports, time spent: 0.07391691207885742 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.07687544822692871 s
+Reordering Timeusage: 0.002088785171508789 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.07638692855834961 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161309/artifacts/lfr__Drop_Ref__Dx_3__Dx_3_fromLFR/result.json

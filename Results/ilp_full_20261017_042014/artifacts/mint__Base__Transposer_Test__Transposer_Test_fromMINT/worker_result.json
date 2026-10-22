@@ -1,0 +1,27 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Base/Transposer_Test/Transposer_Test_fromMINT.json",
+  "success": false,
+  "error": "RuntimeError: DRC violations: control_route: layer-1 connection 'cc3' has a sentinel or missing route",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__Base__Transposer_Test__Transposer_Test_fromMINT/result_control.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__Base__Transposer_Test__Transposer_Test_fromMINT/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 3.7855886332690716,
+  "total_channel_manhattan_length": 332262.197795,
+  "physical_area": 3715174542.72978,
+  "padded_area": 5042703114.13978,
+  "drc_passed": false,
+  "violation_count": 1,
+  "violations": [
+    {
+      "kind": "control_route",
+      "rule": "layer1_real_route",
+      "message": "layer-1 connection 'cc3' has a sentinel or missing route",
+      "connection": "cc3"
+    }
+  ],
+  "control_required": true,
+  "control_passed": false,
+  "worker_seconds": 352.495316
+}

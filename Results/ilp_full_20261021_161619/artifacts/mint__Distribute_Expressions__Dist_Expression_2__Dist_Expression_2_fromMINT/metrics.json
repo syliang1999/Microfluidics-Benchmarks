@@ -1,0 +1,60 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 0.020915497094392776,
+    "global_layout_runtime_seconds": 0.0,
+    "global_layout_hint_count": 0,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 0.0027372362092137337,
+    "total_runtime_seconds": 0.29512702766805887,
+    "component_count": 3,
+    "net_count": 2,
+    "path_count": 2,
+    "total_channel_manhattan_length": 81200.0,
+    "physical_width": 7800.0,
+    "physical_height": 76200.0,
+    "physical_area": 594360000.0,
+    "padded_width": 17800.0,
+    "padded_height": 86200.0,
+    "padded_area": 1534360000.0,
+    "placement_objective": 6.279265091863515,
+    "placement_wire_lower_bound": 81200.0,
+    "placement_half_perimeter": 84000.0,
+    "selected_placement_gap": 5000.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 5000.0,
+            "status": "routed",
+            "elapsed_seconds": 0.292968493886292,
+            "placement_time_limit_seconds": 359.9996128005907,
+            "total_channel_manhattan_length": 81200.0,
+            "physical_area": 594360000.0
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 359.9996128005907,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 83301.0,
+        "tight_big_m": 83301.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

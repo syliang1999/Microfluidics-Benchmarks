@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/CIDAR_Lab_Past_Devices/Dna_Synthesizer/Dna_Synthesizer_fromLFR.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=65, E=74, components=1, cycle_rank=10; cycle-closing connection(s): channel_60, channel_64, channel_67, channel_68, channel_69, channel_70, channel_71, channel_72, channel_73, channel_74",
+  "worker_seconds": 0.012087
+}

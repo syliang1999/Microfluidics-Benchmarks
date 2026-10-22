@@ -1,0 +1,37 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Drop_Ref/Dx_5/Dx_5_fromLFR.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/lfr__Drop_Ref__Dx_5__Dx_5_fromLFR --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Reversed 4 connection(s) with opposite-port direction conflicts: channel_1, channel_3, channel_5, channel_6.
+Finish loading test case: Dx_5_fromLFR
+1/9, Finish initial placement, time spent: 2.5272369384765625e-05 s
+[0, 3200, 4600, 'mixer_1', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[1, 6000, 8000, 'droplet_splitter_1', 0] [[0, 4000], [5500, 0], [5000, 8000]]
+[2, 3200, 4600, 'mixer_2', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[3, 2000, 2000, 'port_1', 0] [[1000.0, 1000.0]]
+[4, 18450, 11426, 'droplet_sorter_1', 0] [[0, 4845], [18450, 600], [18450, 9091]]
+[5, 2000, 2000, 'port_2', 0] [[1000.0, 1000.0]]
+[6, 2000, 2000, 'port_3', 0] [[1000.0, 1000.0]]
+[7, 3200, 4600, 'mixer_3', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[8, 18450, 11426, 'droplet_sorter_2', 0] [[0, 4845], [18450, 600], [18450, 9091]]
+[9, 2000, 2000, 'port_4', 0] [[1000.0, 1000.0]]
+[10, 2000, 2000, 'port_5', 0] [[1000.0, 1000.0]]
+[11, 1800, 600, 'nozzle_droplet_generator_1', 0] [[400, 0], [1800, 300], [400, 600], [0, 300]]
+[12, 2000, 2000, 'port_6', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 0.0002586841583251953 s
+3/9, Finish symmetricalization, time spent: 2.002716064453125e-05 s
+4/9, Finish routing, time spent: 0.00037384033203125 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0, 1], [0], [0], [0, 1], [0, 1], [0, 1, 2, 3]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0017580986022949219 s
+6/9, Finish shortening wirelength, time spent: 0.00018024444580078125 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00040841102600097656 s
+9/9, Finish compaction and connecting ports, time spent: 0.06373047828674316 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.06675505638122559 s
+Reordering Timeusage: 0.0017580986022949219 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.06607723236083984 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/lfr__Drop_Ref__Dx_5__Dx_5_fromLFR/result.json

@@ -1,0 +1,7 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Distribute_Expressions/And_Annotation_Test/And_Annotation_Test_fromMINT.json",
+  "success": false,
+  "error": "TimeoutError: case-level placement/routing search ended without a legal design; attempts saved to /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__Distribute_Expressions__And_Annotation_Test__And_Annotation_Test_fromMINT/placement_attempts.json; last error: Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+  "worker_seconds": 1798.44737
+}

@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Expressions/Expression_12/Expression_12_fromMINT.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=26, E=49, components=1, cycle_rank=24; cycle-closing connection(s): channel_11, channel_13, channel_15, channel_17, channel_19, channel_21, channel_23, channel_25, channel_27, channel_29, channel_31, channel_33, channel_35, channel_37, channel_39, channel_41, channel_42, channel_43, channel_44, channel_45, channel_46, channel_47, channel_48, channel_49",
+  "worker_seconds": 0.009057
+}

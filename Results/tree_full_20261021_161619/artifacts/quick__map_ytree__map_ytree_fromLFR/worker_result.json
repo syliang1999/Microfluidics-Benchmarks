@@ -1,0 +1,9 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/Quick_Examples/map_ytree/map_ytree_fromLFR.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/quick__map_ytree__map_ytree_fromLFR/result.json",
+  "is_placed_and_routed": true,
+  "worker_seconds": 0.73408
+}

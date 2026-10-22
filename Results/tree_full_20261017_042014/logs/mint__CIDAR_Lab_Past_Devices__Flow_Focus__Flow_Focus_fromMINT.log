@@ -1,0 +1,27 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/CIDAR_Lab_Past_Devices/Flow_Focus/Flow_Focus_fromMINT.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/mint__CIDAR_Lab_Past_Devices__Flow_Focus__Flow_Focus_fromMINT --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: Flow_Focus_fromMINT
+1/9, Finish initial placement, time spent: 1.2874603271484375e-05 s
+[0, 200, 200, 'p', 0] [[100.0, 100.0]]
+[1, 1267, 1171, 'ff', 0] [[1266, 585]]
+[2, 20, 20, 'n1', 0] [[10.0, 0.0], [20.0, 10.0], [10.0, 20.0], [0.0, 10.0]]
+[3, 20, 20, 'n2', 0] [[10.0, 0.0], [20.0, 10.0], [10.0, 20.0], [0.0, 10.0]]
+2/9, Finish initial placement with rotation, time spent: 6.985664367675781e-05 s
+3/9, Finish symmetricalization, time spent: 9.775161743164062e-06 s
+4/9, Finish routing, time spent: 0.00011515617370605469 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[1, 0], [0, 1]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0004963874816894531 s
+6/9, Finish shortening wirelength, time spent: 4.673004150390625e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00012993812561035156 s
+9/9, Finish compaction and connecting ports, time spent: 0.030399799346923828 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.031280517578125 s
+Reordering Timeusage: 0.0004963874816894531 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.03107285499572754 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/mint__CIDAR_Lab_Past_Devices__Flow_Focus__Flow_Focus_fromMINT/result.json

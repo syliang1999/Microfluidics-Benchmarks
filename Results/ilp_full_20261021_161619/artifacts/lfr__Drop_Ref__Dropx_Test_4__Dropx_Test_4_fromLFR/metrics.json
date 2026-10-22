@@ -1,0 +1,81 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 0.4810834964737296,
+    "global_layout_runtime_seconds": 0.14747770503163338,
+    "global_layout_hint_count": 5,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 3.9190944815054536,
+    "total_runtime_seconds": 17.191854800097644,
+    "component_count": 8,
+    "net_count": 8,
+    "path_count": 8,
+    "total_channel_manhattan_length": 320446.666656,
+    "physical_width": 55853.333332,
+    "physical_height": 69580.0,
+    "physical_area": 3886274933.24056,
+    "padded_width": 65853.33333200001,
+    "padded_height": 79580.0,
+    "padded_area": 5240608266.560561,
+    "placement_objective": 9.752755905500875,
+    "placement_wire_lower_bound": 288846.66666600003,
+    "placement_half_perimeter": 125533.33333300002,
+    "selected_placement_gap": 4000.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "failed",
+            "elapsed_seconds": 4.118823789060116,
+            "placement_time_limit_seconds": 215.98034088078884,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 6 relaxed inter-net conflict(s): channel_1[0] x channel_3[0], channel_2[0] x channel_8[0], channel_3[0] x channel_5[0], channel_4[0] x channel_5[0], channel_4[0] x channel_6[0], channel_6[0] x channel_8[0] | order 1: No legal route for connection 'channel_3' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'reaction_chamber_1', 'port': '1'}) | order 2: No legal route for connection 'channel_3' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'reaction_chamber_1', 'port': '1'}) | order 3: No legal route for connection 'channel_7' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'mixer_4', 'port': '1'}) | order 4: No legal route for connection 'channel_8' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 5: No legal route for connection 'channel_8' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 6: No legal route for connection 'channel_2' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 7: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'mixer_2', 'port': '1'}) | order 8: No legal route for connection 'channel_3' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'reaction_chamber_1', 'port': '1'}) | order 9: No legal route for connection 'channel_7' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'mixer_4', 'port': '1'}) | order 10: No legal route for connection 'channel_2' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 11: No legal route for connection 'channel_7' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'mixer_4', 'port': '1'}) | order 12: No legal route for connection 'channel_8' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 13: No legal route for connection 'channel_8' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 14: No legal route for connection 'channel_2' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 15: No legal route for connection 'channel_7' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'mixer_4', 'port': '1'}) | order 16: No legal route for connection 'channel_3' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'reaction_chamber_1', 'port': '1'})"
+        },
+        {
+            "placement_gap": 1000.0,
+            "status": "failed",
+            "elapsed_seconds": 4.136794267222285,
+            "placement_time_limit_seconds": 269.35624460550025,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 6 relaxed inter-net conflict(s): channel_1[0] x channel_3[0], channel_2[0] x channel_8[0], channel_3[0] x channel_5[0], channel_4[0] x channel_5[0], channel_4[0] x channel_6[0], channel_6[0] x channel_8[0] | order 1: No legal route for connection 'channel_3' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'reaction_chamber_1', 'port': '1'}) | order 2: No legal route for connection 'channel_3' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'reaction_chamber_1', 'port': '1'}) | order 3: No legal route for connection 'channel_7' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'mixer_4', 'port': '1'}) | order 4: No legal route for connection 'channel_8' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 5: No legal route for connection 'channel_8' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 6: No legal route for connection 'channel_2' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 7: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'mixer_2', 'port': '1'}) | order 8: No legal route for connection 'channel_3' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'reaction_chamber_1', 'port': '1'}) | order 9: No legal route for connection 'channel_7' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'mixer_4', 'port': '1'}) | order 10: No legal route for connection 'channel_2' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 11: No legal route for connection 'channel_7' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'mixer_4', 'port': '1'}) | order 12: No legal route for connection 'channel_8' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 13: No legal route for connection 'channel_8' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 14: No legal route for connection 'channel_2' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 15: No legal route for connection 'channel_7' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'mixer_4', 'port': '1'}) | order 16: No legal route for connection 'channel_3' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'reaction_chamber_1', 'port': '1'})"
+        },
+        {
+            "placement_gap": 2000.0,
+            "status": "failed",
+            "elapsed_seconds": 4.034777035005391,
+            "placement_time_limit_seconds": 358.31244187597184,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 8 relaxed inter-net conflict(s): channel_1[0] x channel_3[0], channel_2[0] x channel_7[0], channel_2[0] x channel_8[0], channel_3[0] x channel_5[0], channel_4[0] x channel_5[0], channel_4[0] x channel_6[0] | order 1: No legal route for connection 'channel_3' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'reaction_chamber_1', 'port': '1'}) | order 2: No legal route for connection 'channel_3' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'reaction_chamber_1', 'port': '1'}) | order 3: No legal route for connection 'channel_7' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'mixer_4', 'port': '1'}) | order 4: No legal route for connection 'channel_8' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 5: No legal route for connection 'channel_8' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 6: No legal route for connection 'channel_2' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 7: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'mixer_2', 'port': '1'}) | order 8: No legal route for connection 'channel_3' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'reaction_chamber_1', 'port': '1'}) | order 9: No legal route for connection 'channel_7' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'mixer_4', 'port': '1'}) | order 10: No legal route for connection 'channel_2' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 11: No legal route for connection 'channel_7' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'mixer_4', 'port': '1'}) | order 12: No legal route for connection 'channel_8' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 13: No legal route for connection 'channel_8' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 14: No legal route for connection 'channel_2' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_2', 'port': '1'}) | order 15: No legal route for connection 'channel_7' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'mixer_4', 'port': '1'}) | order 16: No legal route for connection 'channel_3' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'reaction_chamber_1', 'port': '1'})"
+        },
+        {
+            "placement_gap": 4000.0,
+            "status": "routed",
+            "elapsed_seconds": 4.709586646407843,
+            "placement_time_limit_seconds": 536.2555226284079,
+            "total_channel_manhattan_length": 320446.666656,
+            "physical_area": 3886274933.24056
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 536.2555226284079,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 87201.0,
+        "tight_big_m": 87201.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

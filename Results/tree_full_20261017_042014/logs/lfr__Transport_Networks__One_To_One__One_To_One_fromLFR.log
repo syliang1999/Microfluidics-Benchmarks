@@ -1,0 +1,25 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Transport_Networks/One_To_One/One_To_One_fromLFR.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/lfr__Transport_Networks__One_To_One__One_To_One_fromLFR --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: One_To_One_fromLFR
+1/9, Finish initial placement, time spent: 3.266334533691406e-05 s
+[0, 2000, 2000, 'port_1', 0] [[1000.0, 1000.0]]
+[1, 2000, 2000, 'port_2', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 7.963180541992188e-05 s
+3/9, Finish symmetricalization, time spent: 9.298324584960938e-06 s
+4/9, Finish routing, time spent: 7.295608520507812e-05 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.00043845176696777344 s
+6/9, Finish shortening wirelength, time spent: 3.3855438232421875e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00011467933654785156 s
+9/9, Finish compaction and connecting ports, time spent: 0.021860599517822266 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.022642135620117188 s
+Reordering Timeusage: 0.00043845176696777344 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.022447586059570312 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/lfr__Transport_Networks__One_To_One__One_To_One_fromLFR/result.json

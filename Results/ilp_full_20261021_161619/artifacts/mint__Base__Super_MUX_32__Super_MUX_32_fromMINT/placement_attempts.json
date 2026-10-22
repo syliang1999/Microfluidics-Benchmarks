@@ -1,0 +1,317 @@
+[
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "elapsed_seconds": 234.93332262616605,
+    "placement_time_limit_seconds": 215.99578341655433,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 58 relaxed inter-net conflict(s): cin2[0] x cin3[0], cin4[0] x cin5[0], cin4[0] x cin6[0], cin4[0] x cin7[0], cin5[0] x cin6[0], cin5[0] x cin7[0] | order 1: No legal route for connection 'cin31' sink 0 ({'component': 'port_in_31', 'port': '1'} -> {'component': 'mux_32', 'port': '32'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin31' sink 0 ({'component': 'port_in_31', 'port': '1'} -> {'component': 'mux_32', 'port': '32'}) | order 4: No legal route for connection 'cin12' sink 0 ({'component': 'port_in_12', 'port': '1'} -> {'component': 'mux_32', 'port': '13'}) | order 5: No legal route for connection 'cin22' sink 0 ({'component': 'port_in_22', 'port': '1'} -> {'component': 'mux_32', 'port': '23'}) | order 6: No legal route for connection 'cin27' sink 0 ({'component': 'port_in_27', 'port': '1'} -> {'component': 'mux_32', 'port': '28'}) | order 7: No legal route for connection 'cin30' sink 0 ({'component': 'port_in_30', 'port': '1'} -> {'component': 'mux_32', 'port': '31'}) | order 8: No legal route for connection 'cin25' sink 0 ({'component': 'port_in_25', 'port': '1'} -> {'component': 'mux_32', 'port': '26'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 11: No legal route for connection 'cin25' sink 0 ({'component': 'port_in_25', 'port': '1'} -> {'component': 'mux_32', 'port': '26'}) | order 12: No legal route for connection 'cin25' sink 0 ({'component': 'port_in_25', 'port': '1'} -> {'component': 'mux_32', 'port': '26'}) | order 13: No legal route for connection 'cin8' sink 0 ({'component': 'port_in_8', 'port': '1'} -> {'component': 'mux_32', 'port': '9'}) | order 14: No legal route for connection 'cin9' sink 0 ({'component': 'port_in_9', 'port': '1'} -> {'component': 'mux_32', 'port': '10'}) | order 15: No legal route for connection 'cin12' sink 0 ({'component': 'port_in_12', 'port': '1'} -> {'component': 'mux_32', 'port': '13'}) | order 16: No legal route for connection 'cin24' sink 0 ({'component': 'port_in_24', 'port': '1'} -> {'component': 'mux_32', 'port': '25'})"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "failed",
+    "elapsed_seconds": 300.417890060693,
+    "placement_time_limit_seconds": 234.75029797889292,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 67 relaxed inter-net conflict(s): c_out[0] x cin18[0], cin3[0] x cin4[0], cin4[0] x cin9[0], cin4[0] x cin10[0], cin4[0] x cin11[0], cin4[0] x cin12[0] | order 1: No legal route for connection 'cin31' sink 0 ({'component': 'port_in_31', 'port': '1'} -> {'component': 'mux_32', 'port': '32'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin31' sink 0 ({'component': 'port_in_31', 'port': '1'} -> {'component': 'mux_32', 'port': '32'}) | order 4: No legal route for connection 'cin24' sink 0 ({'component': 'port_in_24', 'port': '1'} -> {'component': 'mux_32', 'port': '25'}) | order 5: No legal route for connection 'cin22' sink 0 ({'component': 'port_in_22', 'port': '1'} -> {'component': 'mux_32', 'port': '23'}) | order 6: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 7: No legal route for connection 'cin30' sink 0 ({'component': 'port_in_30', 'port': '1'} -> {'component': 'mux_32', 'port': '31'}) | order 8: No legal route for connection 'cin9' sink 0 ({'component': 'port_in_9', 'port': '1'} -> {'component': 'mux_32', 'port': '10'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 11: No legal route for connection 'cin28' sink 0 ({'component': 'port_in_28', 'port': '1'} -> {'component': 'mux_32', 'port': '29'}) | order 12: No legal route for connection 'cin25' sink 0 ({'component': 'port_in_25', 'port': '1'} -> {'component': 'mux_32', 'port': '26'}) | order 13: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 14: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 15: No legal route for connection 'cin24' sink 0 ({'component': 'port_in_24', 'port': '1'} -> {'component': 'mux_32', 'port': '25'}) | order 16: No legal route for connection 'cin24' sink 0 ({'component': 'port_in_24', 'port': '1'} -> {'component': 'mux_32', 'port': '25'})"
+  },
+  {
+    "placement_gap": 2000.0,
+    "status": "failed",
+    "elapsed_seconds": 254.687523284927,
+    "placement_time_limit_seconds": 252.90844860281797,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 53 relaxed inter-net conflict(s): c_out[0] x cin18[0], cin5[0] x cin6[0], cin5[0] x cin7[0], cin5[0] x cin8[0], cin6[0] x cin7[0], cin6[0] x cin8[0] | order 1: No legal route for connection 'cin31' sink 0 ({'component': 'port_in_31', 'port': '1'} -> {'component': 'mux_32', 'port': '32'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin31' sink 0 ({'component': 'port_in_31', 'port': '1'} -> {'component': 'mux_32', 'port': '32'}) | order 4: No legal route for connection 'cin6' sink 0 ({'component': 'port_in_6', 'port': '1'} -> {'component': 'mux_32', 'port': '7'}) | order 5: No legal route for connection 'cin22' sink 0 ({'component': 'port_in_22', 'port': '1'} -> {'component': 'mux_32', 'port': '23'}) | order 6: No legal route for connection 'cin7' sink 0 ({'component': 'port_in_7', 'port': '1'} -> {'component': 'mux_32', 'port': '8'}) | order 7: No legal route for connection 'cin30' sink 0 ({'component': 'port_in_30', 'port': '1'} -> {'component': 'mux_32', 'port': '31'}) | order 8: No legal route for connection 'cin9' sink 0 ({'component': 'port_in_9', 'port': '1'} -> {'component': 'mux_32', 'port': '10'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 11: No legal route for connection 'cin28' sink 0 ({'component': 'port_in_28', 'port': '1'} -> {'component': 'mux_32', 'port': '29'}) | order 12: No legal route for connection 'cin25' sink 0 ({'component': 'port_in_25', 'port': '1'} -> {'component': 'mux_32', 'port': '26'}) | order 13: No legal route for connection 'cin8' sink 0 ({'component': 'port_in_8', 'port': '1'} -> {'component': 'mux_32', 'port': '9'}) | order 14: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 15: No legal route for connection 'cin26' sink 0 ({'component': 'port_in_26', 'port': '1'} -> {'component': 'mux_32', 'port': '27'}) | order 16: No legal route for connection 'cin24' sink 0 ({'component': 'port_in_24', 'port': '1'} -> {'component': 'mux_32', 'port': '25'})"
+  },
+  {
+    "placement_gap": 4000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.7309756418690085,
+    "placement_time_limit_seconds": 302.9475770920515,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.2690314492210746,
+    "placement_time_limit_seconds": 605.4388367973268,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 68.82525462284684,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 3 relaxed inter-net conflict(s): cin14[0] x cin15[0], cin14[0] x cin16[0], cin15[0] x cin16[0] | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin17' sink 0 ({'component': 'port_in_17', 'port': '1'} -> {'component': 'mux_32', 'port': '18'}) | order 4: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 5: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 6: No legal route for connection 'cin16' sink 0 ({'component': 'port_in_16', 'port': '1'} -> {'component': 'mux_32', 'port': '17'}) | order 7: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 8: No legal route for connection 'cin5' sink 0 ({'component': 'port_in_5', 'port': '1'} -> {'component': 'mux_32', 'port': '6'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin12' sink 0 ({'component': 'port_in_12', 'port': '1'} -> {'component': 'mux_32', 'port': '13'}) | order 11: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 12: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 13: No legal route for connection 'cin8' sink 0 ({'component': 'port_in_8', 'port': '1'} -> {'component': 'mux_32', 'port': '9'}) | order 14: No legal route for connection 'cin7' sink 0 ({'component': 'port_in_7', 'port': '1'} -> {'component': 'mux_32', 'port': '8'}) | order 15: No legal route for connection 'cin4' sink 0 ({'component': 'port_in_4', 'port': '1'} -> {'component': 'mux_32', 'port': '5'}) | order 16: No legal route for connection 'cin12' sink 0 ({'component': 'port_in_12', 'port': '1'} -> {'component': 'mux_32', 'port': '13'})"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 102.10685060825199,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 6 relaxed inter-net conflict(s): cin3[0] x cin4[0], cin5[0] x cin6[0], cin7[0] x cin8[0], cin9[0] x cin10[0], cin13[0] x cin14[0], cin14[0] x cin16[0] | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 4: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 5: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 6: No legal route for connection 'cin7' sink 0 ({'component': 'port_in_7', 'port': '1'} -> {'component': 'mux_32', 'port': '8'}) | order 7: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 8: No legal route for connection 'cin9' sink 0 ({'component': 'port_in_9', 'port': '1'} -> {'component': 'mux_32', 'port': '10'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 11: No legal route for connection 'cin16' sink 0 ({'component': 'port_in_16', 'port': '1'} -> {'component': 'mux_32', 'port': '17'}) | order 12: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 13: No legal route for connection 'cin8' sink 0 ({'component': 'port_in_8', 'port': '1'} -> {'component': 'mux_32', 'port': '9'}) | order 14: No legal route for connection 'cin11' sink 0 ({'component': 'port_in_11', 'port': '1'} -> {'component': 'mux_32', 'port': '12'}) | order 15: No legal route for connection 'cin12' sink 0 ({'component': 'port_in_12', 'port': '1'} -> {'component': 'mux_32', 'port': '13'}) | order 16: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'})"
+  },
+  {
+    "placement_gap": 2000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 57.109668145887554,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 5 relaxed inter-net conflict(s): cin3[0] x cin4[0], cin5[0] x cin6[0], cin14[0] x cin15[0], cin14[0] x cin16[0], cin15[0] x cin16[0] | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 4: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 5: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 6: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 7: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 8: No legal route for connection 'cin9' sink 0 ({'component': 'port_in_9', 'port': '1'} -> {'component': 'mux_32', 'port': '10'}) | order 9: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 10: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 11: No legal route for connection 'cin16' sink 0 ({'component': 'port_in_16', 'port': '1'} -> {'component': 'mux_32', 'port': '17'}) | order 12: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 13: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 14: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 15: No legal route for connection 'cin4' sink 0 ({'component': 'port_in_4', 'port': '1'} -> {'component': 'mux_32', 'port': '5'}) | order 16: No legal route for connection 'cin7' sink 0 ({'component': 'port_in_7', 'port': '1'} -> {'component': 'mux_32', 'port': '8'})"
+  },
+  {
+    "placement_gap": 4000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 0.2993727410212159,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 0.1322217732667923,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 69.51135697681457,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 1.0,
+    "wire_multiplier": 1.5,
+    "compactness_multiplier": 0.5,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 6 relaxed inter-net conflict(s): cin3[0] x cin4[0], cin7[0] x cin8[0], cin9[0] x cin10[0], cin14[0] x cin15[0], cin14[0] x cin16[0], cin15[0] x cin16[0] | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin17' sink 0 ({'component': 'port_in_17', 'port': '1'} -> {'component': 'mux_32', 'port': '18'}) | order 4: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 5: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 6: No legal route for connection 'cin5' sink 0 ({'component': 'port_in_5', 'port': '1'} -> {'component': 'mux_32', 'port': '6'}) | order 7: No legal route for connection 'cin7' sink 0 ({'component': 'port_in_7', 'port': '1'} -> {'component': 'mux_32', 'port': '8'}) | order 8: No legal route for connection 'cin5' sink 0 ({'component': 'port_in_5', 'port': '1'} -> {'component': 'mux_32', 'port': '6'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 11: No legal route for connection 'cin16' sink 0 ({'component': 'port_in_16', 'port': '1'} -> {'component': 'mux_32', 'port': '17'}) | order 12: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 13: No legal route for connection 'cin8' sink 0 ({'component': 'port_in_8', 'port': '1'} -> {'component': 'mux_32', 'port': '9'}) | order 14: No legal route for connection 'cin6' sink 0 ({'component': 'port_in_6', 'port': '1'} -> {'component': 'mux_32', 'port': '7'}) | order 15: No legal route for connection 'cin12' sink 0 ({'component': 'port_in_12', 'port': '1'} -> {'component': 'mux_32', 'port': '13'}) | order 16: No legal route for connection 'cin11' sink 0 ({'component': 'port_in_11', 'port': '1'} -> {'component': 'mux_32', 'port': '12'})"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 101.58056958671659,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 1.0,
+    "wire_multiplier": 1.5,
+    "compactness_multiplier": 0.5,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 6 relaxed inter-net conflict(s): cin3[0] x cin4[0], cin5[0] x cin6[0], cin7[0] x cin8[0], cin9[0] x cin10[0], cin13[0] x cin14[0], cin14[0] x cin16[0] | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 4: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 5: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 6: No legal route for connection 'cin7' sink 0 ({'component': 'port_in_7', 'port': '1'} -> {'component': 'mux_32', 'port': '8'}) | order 7: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 8: No legal route for connection 'cin9' sink 0 ({'component': 'port_in_9', 'port': '1'} -> {'component': 'mux_32', 'port': '10'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 11: No legal route for connection 'cin16' sink 0 ({'component': 'port_in_16', 'port': '1'} -> {'component': 'mux_32', 'port': '17'}) | order 12: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 13: No legal route for connection 'cin8' sink 0 ({'component': 'port_in_8', 'port': '1'} -> {'component': 'mux_32', 'port': '9'}) | order 14: No legal route for connection 'cin11' sink 0 ({'component': 'port_in_11', 'port': '1'} -> {'component': 'mux_32', 'port': '12'}) | order 15: No legal route for connection 'cin12' sink 0 ({'component': 'port_in_12', 'port': '1'} -> {'component': 'mux_32', 'port': '13'}) | order 16: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'})"
+  },
+  {
+    "placement_gap": 2000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 58.17851038463414,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 1.0,
+    "wire_multiplier": 1.5,
+    "compactness_multiplier": 0.5,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 5 relaxed inter-net conflict(s): cin3[0] x cin4[0], cin5[0] x cin6[0], cin14[0] x cin15[0], cin14[0] x cin16[0], cin15[0] x cin16[0] | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 4: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 5: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 6: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 7: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 8: No legal route for connection 'cin9' sink 0 ({'component': 'port_in_9', 'port': '1'} -> {'component': 'mux_32', 'port': '10'}) | order 9: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 10: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 11: No legal route for connection 'cin16' sink 0 ({'component': 'port_in_16', 'port': '1'} -> {'component': 'mux_32', 'port': '17'}) | order 12: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 13: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 14: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 15: No legal route for connection 'cin4' sink 0 ({'component': 'port_in_4', 'port': '1'} -> {'component': 'mux_32', 'port': '5'}) | order 16: No legal route for connection 'cin7' sink 0 ({'component': 'port_in_7', 'port': '1'} -> {'component': 'mux_32', 'port': '8'})"
+  },
+  {
+    "placement_gap": 4000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 0.3643607450649142,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 1.0,
+    "wire_multiplier": 1.5,
+    "compactness_multiplier": 0.5,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 0.13376031629741192,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 1.0,
+    "wire_multiplier": 1.5,
+    "compactness_multiplier": 0.5,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 79.79033468104899,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 8.0,
+    "wire_multiplier": 2.0,
+    "compactness_multiplier": 0.25,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 6 relaxed inter-net conflict(s): cin2[0] x cin4[0], cin3[0] x cin4[0], cin5[0] x cin6[0], cin10[0] x cin11[0], cin27[0] x cin28[0], cin30[0] x cin31[0] | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin31' sink 0 ({'component': 'port_in_31', 'port': '1'} -> {'component': 'mux_32', 'port': '32'}) | order 4: No legal route for connection 'cin27' sink 0 ({'component': 'port_in_27', 'port': '1'} -> {'component': 'mux_32', 'port': '28'}) | order 5: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 6: No legal route for connection 'cin16' sink 0 ({'component': 'port_in_16', 'port': '1'} -> {'component': 'mux_32', 'port': '17'}) | order 7: No legal route for connection 'cin29' sink 0 ({'component': 'port_in_29', 'port': '1'} -> {'component': 'mux_32', 'port': '30'}) | order 8: No legal route for connection 'cin9' sink 0 ({'component': 'port_in_9', 'port': '1'} -> {'component': 'mux_32', 'port': '10'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 11: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 12: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 13: No legal route for connection 'cin8' sink 0 ({'component': 'port_in_8', 'port': '1'} -> {'component': 'mux_32', 'port': '9'}) | order 14: No legal route for connection 'cin31' sink 0 ({'component': 'port_in_31', 'port': '1'} -> {'component': 'mux_32', 'port': '32'}) | order 15: No legal route for connection 'cin4' sink 0 ({'component': 'port_in_4', 'port': '1'} -> {'component': 'mux_32', 'port': '5'}) | order 16: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'})"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 79.95530277863145,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 8.0,
+    "wire_multiplier": 2.0,
+    "compactness_multiplier": 0.25,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 6 relaxed inter-net conflict(s): cin2[0] x cin4[0], cin3[0] x cin4[0], cin5[0] x cin6[0], cin10[0] x cin11[0], cin27[0] x cin28[0], cin30[0] x cin31[0] | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin31' sink 0 ({'component': 'port_in_31', 'port': '1'} -> {'component': 'mux_32', 'port': '32'}) | order 4: No legal route for connection 'cin27' sink 0 ({'component': 'port_in_27', 'port': '1'} -> {'component': 'mux_32', 'port': '28'}) | order 5: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 6: No legal route for connection 'cin16' sink 0 ({'component': 'port_in_16', 'port': '1'} -> {'component': 'mux_32', 'port': '17'}) | order 7: No legal route for connection 'cin29' sink 0 ({'component': 'port_in_29', 'port': '1'} -> {'component': 'mux_32', 'port': '30'}) | order 8: No legal route for connection 'cin9' sink 0 ({'component': 'port_in_9', 'port': '1'} -> {'component': 'mux_32', 'port': '10'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 11: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 12: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 13: No legal route for connection 'cin8' sink 0 ({'component': 'port_in_8', 'port': '1'} -> {'component': 'mux_32', 'port': '9'}) | order 14: No legal route for connection 'cin31' sink 0 ({'component': 'port_in_31', 'port': '1'} -> {'component': 'mux_32', 'port': '32'}) | order 15: No legal route for connection 'cin4' sink 0 ({'component': 'port_in_4', 'port': '1'} -> {'component': 'mux_32', 'port': '5'}) | order 16: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'})"
+  },
+  {
+    "placement_gap": 2000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 23.08354009874165,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 8.0,
+    "wire_multiplier": 2.0,
+    "compactness_multiplier": 0.25,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin17' sink 0 ({'component': 'port_in_17', 'port': '1'} -> {'component': 'mux_32', 'port': '18'}) | order 4: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 5: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 6: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 7: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 8: No legal route for connection 'cin9' sink 0 ({'component': 'port_in_9', 'port': '1'} -> {'component': 'mux_32', 'port': '10'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin12' sink 0 ({'component': 'port_in_12', 'port': '1'} -> {'component': 'mux_32', 'port': '13'}) | order 11: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 12: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 13: No legal route for connection 'cin8' sink 0 ({'component': 'port_in_8', 'port': '1'} -> {'component': 'mux_32', 'port': '9'}) | order 14: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 15: No legal route for connection 'cin4' sink 0 ({'component': 'port_in_4', 'port': '1'} -> {'component': 'mux_32', 'port': '5'}) | order 16: No legal route for connection 'cin11' sink 0 ({'component': 'port_in_11', 'port': '1'} -> {'component': 'mux_32', 'port': '12'})"
+  },
+  {
+    "placement_gap": 4000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 0.3974850941449404,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 8.0,
+    "wire_multiplier": 2.0,
+    "compactness_multiplier": 0.25,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 0.12723415438085794,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 8.0,
+    "wire_multiplier": 2.0,
+    "compactness_multiplier": 0.25,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 20.392461041919887,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 16.0,
+    "wire_multiplier": 0.5,
+    "compactness_multiplier": 2.0,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: No legal route for connection 'c_out' sink 0 ({'component': 'port_out', 'port': '1'} -> {'component': 'mux_32', 'port': '1'}) | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'c_out' sink 0 ({'component': 'port_out', 'port': '1'} -> {'component': 'mux_32', 'port': '1'}) | order 3: No legal route for connection 'cin31' sink 0 ({'component': 'port_in_31', 'port': '1'} -> {'component': 'mux_32', 'port': '32'}) | order 4: No legal route for connection 'cin17' sink 0 ({'component': 'port_in_17', 'port': '1'} -> {'component': 'mux_32', 'port': '18'}) | order 5: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 6: No legal route for connection 'cin16' sink 0 ({'component': 'port_in_16', 'port': '1'} -> {'component': 'mux_32', 'port': '17'}) | order 7: No legal route for connection 'c_out' sink 0 ({'component': 'port_out', 'port': '1'} -> {'component': 'mux_32', 'port': '1'}) | order 8: No legal route for connection 'cin9' sink 0 ({'component': 'port_in_9', 'port': '1'} -> {'component': 'mux_32', 'port': '10'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 11: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 12: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 13: No legal route for connection 'cin8' sink 0 ({'component': 'port_in_8', 'port': '1'} -> {'component': 'mux_32', 'port': '9'}) | order 14: No legal route for connection 'cin31' sink 0 ({'component': 'port_in_31', 'port': '1'} -> {'component': 'mux_32', 'port': '32'}) | order 15: No legal route for connection 'cin4' sink 0 ({'component': 'port_in_4', 'port': '1'} -> {'component': 'mux_32', 'port': '5'}) | order 16: No legal route for connection 'cin22' sink 0 ({'component': 'port_in_22', 'port': '1'} -> {'component': 'mux_32', 'port': '23'})"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 20.575712733902037,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 16.0,
+    "wire_multiplier": 0.5,
+    "compactness_multiplier": 2.0,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: No legal route for connection 'c_out' sink 0 ({'component': 'port_out', 'port': '1'} -> {'component': 'mux_32', 'port': '1'}) | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'c_out' sink 0 ({'component': 'port_out', 'port': '1'} -> {'component': 'mux_32', 'port': '1'}) | order 3: No legal route for connection 'cin31' sink 0 ({'component': 'port_in_31', 'port': '1'} -> {'component': 'mux_32', 'port': '32'}) | order 4: No legal route for connection 'cin17' sink 0 ({'component': 'port_in_17', 'port': '1'} -> {'component': 'mux_32', 'port': '18'}) | order 5: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 6: No legal route for connection 'cin16' sink 0 ({'component': 'port_in_16', 'port': '1'} -> {'component': 'mux_32', 'port': '17'}) | order 7: No legal route for connection 'c_out' sink 0 ({'component': 'port_out', 'port': '1'} -> {'component': 'mux_32', 'port': '1'}) | order 8: No legal route for connection 'cin9' sink 0 ({'component': 'port_in_9', 'port': '1'} -> {'component': 'mux_32', 'port': '10'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 11: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 12: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 13: No legal route for connection 'cin8' sink 0 ({'component': 'port_in_8', 'port': '1'} -> {'component': 'mux_32', 'port': '9'}) | order 14: No legal route for connection 'cin31' sink 0 ({'component': 'port_in_31', 'port': '1'} -> {'component': 'mux_32', 'port': '32'}) | order 15: No legal route for connection 'cin4' sink 0 ({'component': 'port_in_4', 'port': '1'} -> {'component': 'mux_32', 'port': '5'}) | order 16: No legal route for connection 'cin22' sink 0 ({'component': 'port_in_22', 'port': '1'} -> {'component': 'mux_32', 'port': '23'})"
+  },
+  {
+    "placement_gap": 2000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 30.322446011938155,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 16.0,
+    "wire_multiplier": 0.5,
+    "compactness_multiplier": 2.0,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: No legal route for connection 'c_out' sink 0 ({'component': 'port_out', 'port': '1'} -> {'component': 'mux_32', 'port': '1'}) | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'c_out' sink 0 ({'component': 'port_out', 'port': '1'} -> {'component': 'mux_32', 'port': '1'}) | order 3: No legal route for connection 'cin17' sink 0 ({'component': 'port_in_17', 'port': '1'} -> {'component': 'mux_32', 'port': '18'}) | order 4: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 5: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 6: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 7: No legal route for connection 'c_out' sink 0 ({'component': 'port_out', 'port': '1'} -> {'component': 'mux_32', 'port': '1'}) | order 8: No legal route for connection 'cin5' sink 0 ({'component': 'port_in_5', 'port': '1'} -> {'component': 'mux_32', 'port': '6'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin12' sink 0 ({'component': 'port_in_12', 'port': '1'} -> {'component': 'mux_32', 'port': '13'}) | order 11: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 12: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 13: No legal route for connection 'cin8' sink 0 ({'component': 'port_in_8', 'port': '1'} -> {'component': 'mux_32', 'port': '9'}) | order 14: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 15: No legal route for connection 'cin11' sink 0 ({'component': 'port_in_11', 'port': '1'} -> {'component': 'mux_32', 'port': '12'}) | order 16: No legal route for connection 'c_out' sink 0 ({'component': 'port_out', 'port': '1'} -> {'component': 'mux_32', 'port': '1'})"
+  },
+  {
+    "placement_gap": 4000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 0.38752308394759893,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 16.0,
+    "wire_multiplier": 0.5,
+    "compactness_multiplier": 2.0,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 0.12113314773887396,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 16.0,
+    "wire_multiplier": 0.5,
+    "compactness_multiplier": 2.0,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 68.90313308592886,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "mirrored_embedding": false,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 3 relaxed inter-net conflict(s): cin14[0] x cin15[0], cin14[0] x cin16[0], cin15[0] x cin16[0] | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin17' sink 0 ({'component': 'port_in_17', 'port': '1'} -> {'component': 'mux_32', 'port': '18'}) | order 4: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 5: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 6: No legal route for connection 'cin16' sink 0 ({'component': 'port_in_16', 'port': '1'} -> {'component': 'mux_32', 'port': '17'}) | order 7: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 8: No legal route for connection 'cin5' sink 0 ({'component': 'port_in_5', 'port': '1'} -> {'component': 'mux_32', 'port': '6'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin12' sink 0 ({'component': 'port_in_12', 'port': '1'} -> {'component': 'mux_32', 'port': '13'}) | order 11: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 12: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 13: No legal route for connection 'cin8' sink 0 ({'component': 'port_in_8', 'port': '1'} -> {'component': 'mux_32', 'port': '9'}) | order 14: No legal route for connection 'cin7' sink 0 ({'component': 'port_in_7', 'port': '1'} -> {'component': 'mux_32', 'port': '8'}) | order 15: No legal route for connection 'cin4' sink 0 ({'component': 'port_in_4', 'port': '1'} -> {'component': 'mux_32', 'port': '5'}) | order 16: No legal route for connection 'cin12' sink 0 ({'component': 'port_in_12', 'port': '1'} -> {'component': 'mux_32', 'port': '13'})"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 101.71109650097787,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "mirrored_embedding": false,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 6 relaxed inter-net conflict(s): cin3[0] x cin4[0], cin5[0] x cin6[0], cin7[0] x cin8[0], cin9[0] x cin10[0], cin13[0] x cin14[0], cin14[0] x cin16[0] | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 4: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 5: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 6: No legal route for connection 'cin7' sink 0 ({'component': 'port_in_7', 'port': '1'} -> {'component': 'mux_32', 'port': '8'}) | order 7: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 8: No legal route for connection 'cin9' sink 0 ({'component': 'port_in_9', 'port': '1'} -> {'component': 'mux_32', 'port': '10'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 11: No legal route for connection 'cin16' sink 0 ({'component': 'port_in_16', 'port': '1'} -> {'component': 'mux_32', 'port': '17'}) | order 12: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 13: No legal route for connection 'cin8' sink 0 ({'component': 'port_in_8', 'port': '1'} -> {'component': 'mux_32', 'port': '9'}) | order 14: No legal route for connection 'cin11' sink 0 ({'component': 'port_in_11', 'port': '1'} -> {'component': 'mux_32', 'port': '12'}) | order 15: No legal route for connection 'cin12' sink 0 ({'component': 'port_in_12', 'port': '1'} -> {'component': 'mux_32', 'port': '13'}) | order 16: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'})"
+  },
+  {
+    "placement_gap": 2000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 56.93765832204372,
+    "placement_time_limit_seconds": 43.43766641942784,
+    "position_hint_weight": 0.0,
+    "mirrored_embedding": false,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 5 relaxed inter-net conflict(s): cin3[0] x cin4[0], cin5[0] x cin6[0], cin14[0] x cin15[0], cin14[0] x cin16[0], cin15[0] x cin16[0] | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 4: No legal route for connection 'cin15' sink 0 ({'component': 'port_in_15', 'port': '1'} -> {'component': 'mux_32', 'port': '16'}) | order 5: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 6: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 7: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 8: No legal route for connection 'cin9' sink 0 ({'component': 'port_in_9', 'port': '1'} -> {'component': 'mux_32', 'port': '10'}) | order 9: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 10: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 11: No legal route for connection 'cin16' sink 0 ({'component': 'port_in_16', 'port': '1'} -> {'component': 'mux_32', 'port': '17'}) | order 12: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 13: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 14: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 15: No legal route for connection 'cin4' sink 0 ({'component': 'port_in_4', 'port': '1'} -> {'component': 'mux_32', 'port': '5'}) | order 16: No legal route for connection 'cin7' sink 0 ({'component': 'port_in_7', 'port': '1'} -> {'component': 'mux_32', 'port': '8'})"
+  },
+  {
+    "placement_gap": 4000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 0.2992405369877815,
+    "placement_time_limit_seconds": 23.499045364791527,
+    "position_hint_weight": 0.0,
+    "mirrored_embedding": false,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 0.13150415010750294,
+    "placement_time_limit_seconds": 23.38372013759799,
+    "position_hint_weight": 0.0,
+    "mirrored_embedding": false,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "phase": "deadline_fallback",
+    "elapsed_seconds": 39.35793111473322,
+    "placement_time_limit_seconds": 23.326974012050776,
+    "position_hint_weight": 2.0,
+    "mirrored_embedding": false,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 1: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 2: No legal route for connection 'cin2' sink 0 ({'component': 'port_in_2', 'port': '1'} -> {'component': 'mux_32', 'port': '3'}) | order 3: No legal route for connection 'cin30' sink 0 ({'component': 'port_in_30', 'port': '1'} -> {'component': 'mux_32', 'port': '31'}) | order 4: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 5: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 6: No legal route for connection 'cin7' sink 0 ({'component': 'port_in_7', 'port': '1'} -> {'component': 'mux_32', 'port': '8'}) | order 7: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 8: No legal route for connection 'cin5' sink 0 ({'component': 'port_in_5', 'port': '1'} -> {'component': 'mux_32', 'port': '6'}) | order 9: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 10: No legal route for connection 'cin6' sink 0 ({'component': 'port_in_6', 'port': '1'} -> {'component': 'mux_32', 'port': '7'}) | order 11: No legal route for connection 'cin14' sink 0 ({'component': 'port_in_14', 'port': '1'} -> {'component': 'mux_32', 'port': '15'}) | order 12: No legal route for connection 'cin5' sink 0 ({'component': 'port_in_5', 'port': '1'} -> {'component': 'mux_32', 'port': '6'}) | order 13: No legal route for connection 'cin10' sink 0 ({'component': 'port_in_10', 'port': '1'} -> {'component': 'mux_32', 'port': '11'}) | order 14: No legal route for connection 'cin32' sink 0 ({'component': 'port_in_32', 'port': '1'} -> {'component': 'mux_32', 'port': '33'}) | order 15: No legal route for connection 'cin13' sink 0 ({'component': 'port_in_13', 'port': '1'} -> {'component': 'mux_32', 'port': '14'}) | order 16: No legal route for connection 'cin7' sink 0 ({'component': 'port_in_7', 'port': '1'} -> {'component': 'mux_32', 'port': '8'})"
+  }
+]

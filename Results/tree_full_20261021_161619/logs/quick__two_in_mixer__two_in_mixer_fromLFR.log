@@ -1,0 +1,27 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/Quick_Examples/two_in_mixer/two_in_mixer_fromLFR.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/quick__two_in_mixer__two_in_mixer_fromLFR --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: two_in_mixer_fromLFR
+1/9, Finish initial placement, time spent: 1.5020370483398438e-05 s
+[0, 3200, 4600, 'mixer_1', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[1, 2000, 2000, 'port_1', 0] [[1000.0, 1000.0]]
+[2, 2000, 2000, 'port_2', 0] [[1000.0, 1000.0]]
+[3, 2000, 2000, 'port_3', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 0.00010800361633300781 s
+3/9, Finish symmetricalization, time spent: 1.1205673217773438e-05 s
+4/9, Finish routing, time spent: 0.00013065338134765625 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0], [0, 1]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0005590915679931641 s
+6/9, Finish shortening wirelength, time spent: 4.649162292480469e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00014472007751464844 s
+9/9, Finish compaction and connecting ports, time spent: 0.02942514419555664 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.030440330505371094 s
+Reordering Timeusage: 0.0005590915679931641 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.030175447463989258 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/quick__two_in_mixer__two_in_mixer_fromLFR/result.json

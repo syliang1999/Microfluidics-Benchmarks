@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Base/Nonplanar/Nonplanar_fromMINT.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=4, E=6, components=1, cycle_rank=3; cycle-closing connection(s): c4, c5, c6",
+  "worker_seconds": 0.004795
+}

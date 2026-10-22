@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Base/Port_Multi_Connection/Port_Multi_Connection_fromMINT.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=4, E=4, components=1, cycle_rank=1; cycle-closing connection(s): c4",
+  "worker_seconds": 0.005034
+}

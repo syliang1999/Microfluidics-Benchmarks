@@ -1,0 +1,30 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Base/Tree_Test_02/Tree_Test_02_fromMINT.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/mint__Base__Tree_Test_02__Tree_Test_02_fromMINT --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Reversed 4 connection(s) with opposite-port direction conflicts: c1, c3, c4, c5.
+Finish loading test case: Tree_Test_02_fromMINT
+1/9, Finish initial placement, time spent: 1.621246337890625e-05 s
+[0, 400, 400, 'pin', 0] [[200.0, 200.0]]
+[1, 400, 400, 'pout_1', 0] [[200.0, 200.0]]
+[2, 400, 400, 'pout_2', 0] [[200.0, 200.0]]
+[3, 8100, 4100, 'tr', 0] [[4050.0, 0.0], [8050.0, 4100.0], [50.0, 4100.0]]
+[4, 680, 610, 'ct0', 0] [[0, 305], [680, 305]]
+[5, 680, 610, 'ct1', 0] [[0, 305], [680, 305]]
+2/9, Finish initial placement with rotation, time spent: 9.703636169433594e-05 s
+3/9, Finish symmetricalization, time spent: 1.0967254638671875e-05 s
+4/9, Finish routing, time spent: 0.00016498565673828125 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [2, 0, 1], [0, 1]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0008180141448974609 s
+6/9, Finish shortening wirelength, time spent: 6.151199340820312e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.0002067089080810547 s
+9/9, Finish compaction and connecting ports, time spent: 0.03770327568054199 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.039078712463378906 s
+Reordering Timeusage: 0.0008180141448974609 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.03878951072692871 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/mint__Base__Tree_Test_02__Tree_Test_02_fromMINT/result.json

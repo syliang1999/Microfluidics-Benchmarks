@@ -1,0 +1,30 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Primitive/MUX/MUX_fromMINT.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Primitive__MUX__MUX_fromMINT --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Reversed 5 connection(s) with opposite-port direction conflicts: ci1, co1, co2, co3, co4.
+Finish loading test case: MUX_fromMINT
+1/9, Finish initial placement, time spent: 1.5974044799804688e-05 s
+[0, 2000, 2000, 'p_in', 0] [[1000.0, 1000.0]]
+[1, 2000, 2000, 'p_out1', 0] [[1000.0, 1000.0]]
+[2, 2000, 2000, 'p_out2', 0] [[1000.0, 1000.0]]
+[3, 2000, 2000, 'p_out3', 0] [[1000.0, 1000.0]]
+[4, 2000, 2000, 'p_out4', 0] [[1000.0, 1000.0]]
+[5, 15000, 13200, 'm', 0] [[7500.0, 0.0], [13500.0, 13200.0], [9500.0, 13200.0], [5500.0, 13200.0], [1500.0, 13200.0], [0.0, 6000.0], [15000.0, 7200.0], [0.0, 10600.0], [15000.0, 11800.0]]
+2/9, Finish initial placement with rotation, time spent: 0.00013947486877441406 s
+3/9, Finish symmetricalization, time spent: 1.4066696166992188e-05 s
+4/9, Finish routing, time spent: 0.0001862049102783203 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0], [0, 1, 2, 3]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0010139942169189453 s
+6/9, Finish shortening wirelength, time spent: 6.556510925292969e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00021648406982421875 s
+9/9, Finish compaction and connecting ports, time spent: 0.03830146789550781 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.03995323181152344 s
+Reordering Timeusage: 0.0010139942169189453 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.039597511291503906 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Primitive__MUX__MUX_fromMINT/result.json

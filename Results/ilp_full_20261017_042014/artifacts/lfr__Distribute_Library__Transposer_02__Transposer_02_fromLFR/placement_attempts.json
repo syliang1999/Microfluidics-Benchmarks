@@ -1,0 +1,57 @@
+[
+  {
+    "placement_gap": 5000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.13325773365795612,
+    "placement_time_limit_seconds": 359.9992692206055,
+    "reason": "All 10 deterministic routing orders failed; conflict refinement: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'}) | order 1: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'}) | order 2: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'}) | order 3: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'}) | order 4: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'}) | order 5: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'}) | order 6: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'}) | order 7: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'}) | order 8: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'}) | order 9: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'}) | order 10: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'})"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.41361727099865675,
+    "placement_time_limit_seconds": 539.9582351541146,
+    "reason": "No module named 'readjson'"
+  },
+  {
+    "placement_gap": 12000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.1985014956444502,
+    "placement_time_limit_seconds": 1079.6668331136927,
+    "reason": "All 10 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 5 relaxed inter-net conflict(s): channel_1[0] x channel_2[0], channel_1[0] x channel_3[0], channel_1[0] x channel_4[0], channel_2[0] x channel_4[0], channel_3[0] x channel_4[0] | order 1: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'}) | order 2: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'}) | order 3: No legal route for connection 'channel_1' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'port_2', 'port': '1'}) | order 4: No legal route for connection 'channel_1' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'port_2', 'port': '1'}) | order 5: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'}) | order 6: No legal route for connection 'channel_1' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'port_2', 'port': '1'}) | order 7: No legal route for connection 'channel_1' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'port_2', 'port': '1'}) | order 8: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'}) | order 9: No legal route for connection 'channel_1' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'port_2', 'port': '1'}) | order 10: No legal route for connection 'channel_4' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'port_3', 'port': '1'})"
+  },
+  {
+    "placement_gap": 5000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 0.20548405684530735,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "reason": "No module named 'readjson'"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 0.12255867011845112,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "reason": "No module named 'readjson'"
+  },
+  {
+    "placement_gap": 12000.0,
+    "status": "routed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 0.1631850879639387,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "total_channel_manhattan_length": 191800.0,
+    "physical_area": 1805940000.0
+  }
+]

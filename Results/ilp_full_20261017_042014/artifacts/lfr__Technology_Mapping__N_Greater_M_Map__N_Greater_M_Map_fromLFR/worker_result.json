@@ -1,0 +1,20 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Technology_Mapping/N_Greater_M_Map/N_Greater_M_Map_fromLFR.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/lfr__Technology_Mapping__N_Greater_M_Map__N_Greater_M_Map_fromLFR/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/lfr__Technology_Mapping__N_Greater_M_Map__N_Greater_M_Map_fromLFR/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 1.3774912049993873,
+  "total_channel_manhattan_length": 414899.999992,
+  "physical_area": 2965703999.9238,
+  "padded_area": 4216903999.9138,
+  "drc_passed": true,
+  "violation_count": 0,
+  "violations": [],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 2.186704
+}

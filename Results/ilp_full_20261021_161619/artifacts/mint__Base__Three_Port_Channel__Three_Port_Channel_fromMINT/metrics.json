@@ -1,0 +1,67 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 0.02052261307835579,
+    "global_layout_runtime_seconds": 0.0,
+    "global_layout_hint_count": 0,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 0.0030557168647646904,
+    "total_runtime_seconds": 0.04639599658548832,
+    "component_count": 3,
+    "net_count": 2,
+    "path_count": 2,
+    "total_channel_manhattan_length": 182680.0,
+    "physical_width": 68780.0,
+    "physical_height": 76200.0,
+    "physical_area": 5241036000.0,
+    "padded_width": 78780.0,
+    "padded_height": 86200.0,
+    "padded_area": 6790836000.0,
+    "placement_objective": 4.538188976377953,
+    "placement_wire_lower_bound": 182680.0,
+    "placement_half_perimeter": 144980.0,
+    "selected_placement_gap": 1000.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "failed",
+            "elapsed_seconds": 0.003525441512465477,
+            "placement_time_limit_seconds": 215.99977526608853,
+            "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+        },
+        {
+            "placement_gap": 1000.0,
+            "status": "routed",
+            "elapsed_seconds": 0.038980442099273205,
+            "placement_time_limit_seconds": 269.99892846629956,
+            "total_channel_manhattan_length": 182680.0,
+            "physical_area": 5241036000.0
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 269.99892846629956,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 77401.0,
+        "tight_big_m": 77401.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

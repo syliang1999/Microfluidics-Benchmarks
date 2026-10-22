@@ -1,0 +1,42 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Literature_Benchmarks/Device_2_Artificial_Cells/Device_2_Artificial_Cells_fromMINT.json",
+  "success": false,
+  "error": "RuntimeError: DRC violations: channel_spacing: channels of connections 'channel_3' and 'channel_6' violate the 1000 edge-to-edge clearance",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__Literature_Benchmarks__Device_2_Artificial_Cells__Device_2_Artificial_Cells_fromMINT/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__Literature_Benchmarks__Device_2_Artificial_Cells__Device_2_Artificial_Cells_fromMINT/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 14.508817221038043,
+  "total_channel_manhattan_length": 1108897.300332,
+  "physical_area": 17858017396.716694,
+  "padded_area": 20672047992.86669,
+  "drc_passed": false,
+  "violation_count": 1,
+  "violations": [
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_3' and 'channel_6' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_3",
+      "details": {
+        "other": "channel_6",
+        "rect_a": [
+          68214.285715,
+          33299.999999,
+          68814.285715,
+          117103.05961599998
+        ],
+        "rect_b": [
+          69814.285714,
+          39899.999999,
+          72814.28571499999,
+          40499.999999
+        ]
+      }
+    }
+  ],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 15.391136
+}

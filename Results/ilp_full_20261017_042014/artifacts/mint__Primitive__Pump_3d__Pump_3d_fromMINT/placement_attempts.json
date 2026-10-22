@@ -1,0 +1,49 @@
+[
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "elapsed_seconds": 0.05323279649019241,
+    "placement_time_limit_seconds": 215.99930935397742,
+    "reason": "All 2 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 1 relaxed inter-net conflict(s): c1[0] x c2[0] | order 1: No legal route for connection 'c1' sink 0 ({'component': 'p1', 'port': '1'} -> {'component': 'pump', 'port': '1'}) | order 2: No legal route for connection 'c2' sink 0 ({'component': 'p2', 'port': '1'} -> {'component': 'pump', 'port': '2'})"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.046282882802188396,
+    "placement_time_limit_seconds": 269.990440211026,
+    "reason": "All 2 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 1 relaxed inter-net conflict(s): c1[0] x c2[0] | order 1: No legal route for connection 'c1' sink 0 ({'component': 'p1', 'port': '1'} -> {'component': 'pump', 'port': '1'}) | order 2: No legal route for connection 'c2' sink 0 ({'component': 'p2', 'port': '1'} -> {'component': 'pump', 'port': '2'})"
+  },
+  {
+    "placement_gap": 2000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.047959838062524796,
+    "placement_time_limit_seconds": 359.97704926542934,
+    "reason": "All 2 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 1 relaxed inter-net conflict(s): c1[0] x c2[0] | order 1: No legal route for connection 'c1' sink 0 ({'component': 'p1', 'port': '1'} -> {'component': 'pump', 'port': '1'}) | order 2: No legal route for connection 'c2' sink 0 ({'component': 'p2', 'port': '1'} -> {'component': 'pump', 'port': '2'})"
+  },
+  {
+    "placement_gap": 4000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.04908194858580828,
+    "placement_time_limit_seconds": 539.9496063516475,
+    "reason": "All 2 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 1 relaxed inter-net conflict(s): c1[0] x c2[0] | order 1: No legal route for connection 'c1' sink 0 ({'component': 'p1', 'port': '1'} -> {'component': 'pump', 'port': '1'}) | order 2: No legal route for connection 'c2' sink 0 ({'component': 'p2', 'port': '1'} -> {'component': 'pump', 'port': '2'})"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.04411877691745758,
+    "placement_time_limit_seconds": 1079.866900538653,
+    "reason": "All 2 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 1 relaxed inter-net conflict(s): c1[0] x c2[0] | order 1: No legal route for connection 'c1' sink 0 ({'component': 'p1', 'port': '1'} -> {'component': 'pump', 'port': '1'}) | order 2: No legal route for connection 'c2' sink 0 ({'component': 'p2', 'port': '1'} -> {'component': 'pump', 'port': '2'})"
+  },
+  {
+    "placement_gap": 0.0,
+    "status": "routed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 0.02580234780907631,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "total_channel_manhattan_length": 68800.0,
+    "physical_area": 243840000.0
+  }
+]

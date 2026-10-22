@@ -1,0 +1,84 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Technology_Mapping/Tree_Fanin_Mapping/Tree_Fanin_Mapping_fromLFR.json",
+  "success": false,
+  "error": "RuntimeError: DRC violations: channel_spacing: channels of connections 'channel_1' and 'channel_4' violate the 1000 edge-to-edge clearance; channel_spacing: channels of connections 'channel_3' and 'channel_5' violate the 1000 edge-to-edge clearance; channel_spacing: channels of connections 'channel_5' and 'channel_8' violate the 1000 edge-to-edge clearance",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/lfr__Technology_Mapping__Tree_Fanin_Mapping__Tree_Fanin_Mapping_fromLFR/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/lfr__Technology_Mapping__Tree_Fanin_Mapping__Tree_Fanin_Mapping_fromLFR/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 1.8876535929739475,
+  "total_channel_manhattan_length": 1005195.9999819999,
+  "physical_area": 18251621599.425465,
+  "padded_area": 21070941599.385464,
+  "drc_passed": false,
+  "violation_count": 3,
+  "violations": [
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_1' and 'channel_4' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_1",
+      "details": {
+        "other": "channel_4",
+        "rect_a": [
+          73983.529408,
+          30300.0,
+          155599.999999,
+          30900.0
+        ],
+        "rect_b": [
+          72383.52940900001,
+          31599.999999,
+          72983.52940900001,
+          32499.999999
+        ]
+      }
+    },
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_3' and 'channel_5' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_3",
+      "details": {
+        "other": "channel_5",
+        "rect_a": [
+          63383.529414000004,
+          125031.99999699998,
+          73083.529411,
+          125631.99999699998
+        ],
+        "rect_b": [
+          69783.52941,
+          122131.99999799998,
+          70383.52941,
+          124031.99999799998
+        ]
+      }
+    },
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_5' and 'channel_8' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_5",
+      "details": {
+        "other": "channel_8",
+        "rect_a": [
+          66583.529412,
+          123431.99999799998,
+          70383.52941,
+          124031.99999799998
+        ],
+        "rect_b": [
+          68183.529411,
+          120531.99999899999,
+          68783.529411,
+          122431.99999899999
+        ]
+      }
+    }
+  ],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 2.680383
+}

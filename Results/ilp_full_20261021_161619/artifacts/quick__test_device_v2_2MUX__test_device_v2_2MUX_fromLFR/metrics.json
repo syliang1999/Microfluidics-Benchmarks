@@ -1,0 +1,74 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 0.7766458718106151,
+    "global_layout_runtime_seconds": 0.019796143285930157,
+    "global_layout_hint_count": 2,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 3.9035338712856174,
+    "total_runtime_seconds": 18.309361984953284,
+    "component_count": 10,
+    "net_count": 9,
+    "path_count": 9,
+    "total_channel_manhattan_length": 268760.419559,
+    "physical_width": 59127.692306,
+    "physical_height": 77099.999999,
+    "physical_area": 4558745076.733473,
+    "padded_width": 69127.692306,
+    "padded_height": 87099.999999,
+    "padded_area": 6021021999.783473,
+    "placement_objective": 17.161702732924624,
+    "placement_wire_lower_bound": 233160.41957499992,
+    "placement_half_perimeter": 123127.69230699999,
+    "selected_placement_gap": 2000.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "failed",
+            "elapsed_seconds": 7.070932875387371,
+            "placement_time_limit_seconds": 215.9951438993588,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 2 relaxed inter-net conflict(s): channel_3[0] x channel_4[0], channel_6[0] x channel_9[0] | order 1: No legal route for connection 'channel_9' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'mux_2', 'port': '5'}) | order 2: No legal route for connection 'channel_3' sink 0 ({'component': 'mux_1', 'port': '5'} -> {'component': 'port_8', 'port': '1'}) | order 3: No legal route for connection 'channel_8' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mux_2', 'port': '3'}) | order 4: No legal route for connection 'channel_8' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mux_2', 'port': '3'}) | order 5: No legal route for connection 'channel_4' sink 0 ({'component': 'mux_1', 'port': '4'} -> {'component': 'port_7', 'port': '1'}) | order 6: No legal route for connection 'channel_7' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'mux_2', 'port': '2'}) | order 7: No legal route for connection 'channel_3' sink 0 ({'component': 'mux_1', 'port': '5'} -> {'component': 'port_8', 'port': '1'}) | order 8: No legal route for connection 'channel_7' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'mux_2', 'port': '2'}) | order 9: No legal route for connection 'channel_3' sink 0 ({'component': 'mux_1', 'port': '5'} -> {'component': 'port_8', 'port': '1'}) | order 10: No legal route for connection 'channel_8' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mux_2', 'port': '3'}) | order 11: No legal route for connection 'channel_3' sink 0 ({'component': 'mux_1', 'port': '5'} -> {'component': 'port_8', 'port': '1'}) | order 12: No legal route for connection 'channel_8' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mux_2', 'port': '3'}) | order 13: No legal route for connection 'channel_3' sink 0 ({'component': 'mux_1', 'port': '5'} -> {'component': 'port_8', 'port': '1'}) | order 14: No legal route for connection 'channel_3' sink 0 ({'component': 'mux_1', 'port': '5'} -> {'component': 'port_8', 'port': '1'}) | order 15: No legal route for connection 'channel_8' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mux_2', 'port': '3'}) | order 16: No legal route for connection 'channel_6' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'mux_2', 'port': '4'})"
+        },
+        {
+            "placement_gap": 1000.0,
+            "status": "failed",
+            "elapsed_seconds": 6.956852834671736,
+            "placement_time_limit_seconds": 268.9313479220029,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 2 relaxed inter-net conflict(s): channel_3[0] x channel_4[0], channel_6[0] x channel_9[0] | order 1: No legal route for connection 'channel_9' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'mux_2', 'port': '5'}) | order 2: No legal route for connection 'channel_3' sink 0 ({'component': 'mux_1', 'port': '5'} -> {'component': 'port_8', 'port': '1'}) | order 3: No legal route for connection 'channel_8' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mux_2', 'port': '3'}) | order 4: No legal route for connection 'channel_8' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mux_2', 'port': '3'}) | order 5: No legal route for connection 'channel_4' sink 0 ({'component': 'mux_1', 'port': '4'} -> {'component': 'port_7', 'port': '1'}) | order 6: No legal route for connection 'channel_7' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'mux_2', 'port': '2'}) | order 7: No legal route for connection 'channel_3' sink 0 ({'component': 'mux_1', 'port': '5'} -> {'component': 'port_8', 'port': '1'}) | order 8: No legal route for connection 'channel_7' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'mux_2', 'port': '2'}) | order 9: No legal route for connection 'channel_3' sink 0 ({'component': 'mux_1', 'port': '5'} -> {'component': 'port_8', 'port': '1'}) | order 10: No legal route for connection 'channel_8' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mux_2', 'port': '3'}) | order 11: No legal route for connection 'channel_3' sink 0 ({'component': 'mux_1', 'port': '5'} -> {'component': 'port_8', 'port': '1'}) | order 12: No legal route for connection 'channel_8' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mux_2', 'port': '3'}) | order 13: No legal route for connection 'channel_3' sink 0 ({'component': 'mux_1', 'port': '5'} -> {'component': 'port_8', 'port': '1'}) | order 14: No legal route for connection 'channel_3' sink 0 ({'component': 'mux_1', 'port': '5'} -> {'component': 'port_8', 'port': '1'}) | order 15: No legal route for connection 'channel_8' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mux_2', 'port': '3'}) | order 16: No legal route for connection 'channel_6' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'mux_2', 'port': '4'})"
+        },
+        {
+            "placement_gap": 2000.0,
+            "status": "routed",
+            "elapsed_seconds": 4.215180056169629,
+            "placement_time_limit_seconds": 357.18126794677227,
+            "total_channel_manhattan_length": 268760.419559,
+            "physical_area": 4558745076.733473
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 357.18126794677227,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 82001.0,
+        "tight_big_m": 82001.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

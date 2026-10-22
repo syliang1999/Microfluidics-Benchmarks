@@ -1,0 +1,5523 @@
+{
+    "name": "Device_7_Enzyme_Screening",
+    "components": [
+        {
+            "name": "reaction_chamber_1",
+            "id": "reaction_chamber_1",
+            "entity": "REACTION CHAMBER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "width": 5000.0,
+                "length": 5000.0,
+                "cornerRadius": 200.0,
+                "rotation": 90.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    61300.0,
+                    6300.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 2500,
+                    "y": 0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 5000,
+                    "y": 2500,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2500,
+                    "y": 5000,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 0,
+                    "y": 2500,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 5000,
+            "y-span": 5000
+        },
+        {
+            "name": "reaction_chamber_2",
+            "id": "reaction_chamber_2",
+            "entity": "REACTION CHAMBER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "width": 5000.0,
+                "length": 5000.0,
+                "cornerRadius": 200.0,
+                "rotation": 0.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    80300.0,
+                    6300.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 2500,
+                    "y": 0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 5000,
+                    "y": 2500,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2500,
+                    "y": 5000,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 0,
+                    "y": 2500,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 5000,
+            "y-span": 5000
+        },
+        {
+            "name": "mixer_1",
+            "id": "mixer_1",
+            "entity": "MIXER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "channelWidth": 600.0,
+                "bendSpacing": 1400.0,
+                "numberOfBends": 1.0,
+                "rotation": 90.0,
+                "bendLength": 2000.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "edgeBend1": 300.0,
+                "edgeBend2": 300.0,
+                "depth": 250.0,
+                "position": [
+                    60700.0,
+                    39300.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1600.0,
+                    "y": 300.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1600.0,
+                    "y": 4300.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 3200,
+            "y-span": 4600
+        },
+        {
+            "name": "port_1",
+            "id": "port_1",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    5000.0,
+                    99300.0
+                ],
+                "rotation": 180.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "port_2",
+            "id": "port_2",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    78300.0,
+                    24300.0
+                ],
+                "rotation": 180.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "nozzle_droplet_generator_1",
+            "id": "nozzle_droplet_generator_1",
+            "entity": "NOZZLE DROPLET GENERATOR",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "orificeSize": 200.0,
+                "orificeLength": 400.0,
+                "oilInputWidth": 800.0,
+                "waterInputWidth": 600.0,
+                "outputWidth": 600.0,
+                "outputLength": 600.0,
+                "rotation": 180.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    26300.0,
+                    28700.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 400,
+                    "y": 0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1800,
+                    "y": 300,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 400,
+                    "y": 600,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 0,
+                    "y": 300,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 1800,
+            "y-span": 600
+        },
+        {
+            "name": "mixer_2",
+            "id": "mixer_2",
+            "entity": "MIXER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "channelWidth": 600.0,
+                "bendSpacing": 1400.0,
+                "numberOfBends": 1.0,
+                "rotation": 270.0,
+                "bendLength": 2000.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "edgeBend1": 300.0,
+                "edgeBend2": 300.0,
+                "depth": 250.0,
+                "position": [
+                    42100.0,
+                    28700.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1600.0,
+                    "y": 300.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1600.0,
+                    "y": 4300.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 3200,
+            "y-span": 4600
+        },
+        {
+            "name": "mixer_3",
+            "id": "mixer_3",
+            "entity": "MIXER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "channelWidth": 600.0,
+                "bendSpacing": 1400.0,
+                "numberOfBends": 1.0,
+                "rotation": 180.0,
+                "bendLength": 2000.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "edgeBend1": 300.0,
+                "edgeBend2": 300.0,
+                "depth": 250.0,
+                "position": [
+                    43500.0,
+                    45900.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1600.0,
+                    "y": 300.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1600.0,
+                    "y": 4300.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 3200,
+            "y-span": 4600
+        },
+        {
+            "name": "port_3",
+            "id": "port_3",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    19000.0,
+                    99300.0
+                ],
+                "rotation": 180.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "port_4",
+            "id": "port_4",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    78300.0,
+                    38300.0
+                ],
+                "rotation": 270.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "mixer_4",
+            "id": "mixer_4",
+            "entity": "MIXER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "channelWidth": 600.0,
+                "bendSpacing": 1400.0,
+                "numberOfBends": 1.0,
+                "rotation": 180.0,
+                "bendLength": 2000.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "edgeBend1": 300.0,
+                "edgeBend2": 300.0,
+                "depth": 250.0,
+                "position": [
+                    61300.0,
+                    81700.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1600.0,
+                    "y": 300.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1600.0,
+                    "y": 4300.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 3200,
+            "y-span": 4600
+        },
+        {
+            "name": "mixer_5",
+            "id": "mixer_5",
+            "entity": "MIXER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "channelWidth": 600.0,
+                "bendSpacing": 1400.0,
+                "numberOfBends": 1.0,
+                "rotation": 270.0,
+                "bendLength": 2000.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "edgeBend1": 300.0,
+                "edgeBend2": 300.0,
+                "depth": 250.0,
+                "position": [
+                    57600.0,
+                    64500.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1600.0,
+                    "y": 300.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1600.0,
+                    "y": 4300.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 3200,
+            "y-span": 4600
+        },
+        {
+            "name": "port_5",
+            "id": "port_5",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    78300.0,
+                    57400.0
+                ],
+                "rotation": 90.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "mixer_6",
+            "id": "mixer_6",
+            "entity": "MIXER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "channelWidth": 600.0,
+                "bendSpacing": 1400.0,
+                "numberOfBends": 1.0,
+                "rotation": 180.0,
+                "bendLength": 2000.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "edgeBend1": 300.0,
+                "edgeBend2": 300.0,
+                "depth": 250.0,
+                "position": [
+                    25500.0,
+                    81700.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1600.0,
+                    "y": 300.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1600.0,
+                    "y": 4300.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 3200,
+            "y-span": 4600
+        },
+        {
+            "name": "mixer_7",
+            "id": "mixer_7",
+            "entity": "MIXER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "channelWidth": 600.0,
+                "bendSpacing": 1400.0,
+                "numberOfBends": 1.0,
+                "rotation": 270.0,
+                "bendLength": 2000.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "edgeBend1": 300.0,
+                "edgeBend2": 300.0,
+                "depth": 250.0,
+                "position": [
+                    42700.0,
+                    83100.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1600.0,
+                    "y": 300.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1600.0,
+                    "y": 4300.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 3200,
+            "y-span": 4600
+        },
+        {
+            "name": "port_6",
+            "id": "port_6",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    47000.0,
+                    99300.0
+                ],
+                "rotation": 270.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "port_7",
+            "id": "port_7",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    61000.0,
+                    99300.0
+                ],
+                "rotation": 270.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "port_8",
+            "id": "port_8",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    33000.0,
+                    99300.0
+                ],
+                "rotation": 270.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "port_9",
+            "id": "port_9",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    78300.0,
+                    78300.0
+                ],
+                "rotation": 90.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "Cport_0",
+            "id": "Cport_0",
+            "entity": "PORT",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "CONTROL"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "Cport_1",
+            "id": "Cport_1",
+            "entity": "PORT",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "CONTROL"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "Cport_2",
+            "id": "Cport_2",
+            "entity": "PORT",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "CONTROL"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "Cport_3",
+            "id": "Cport_3",
+            "entity": "PORT",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "CONTROL"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "Cport_4",
+            "id": "Cport_4",
+            "entity": "PORT",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "CONTROL"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "Cport_5",
+            "id": "Cport_5",
+            "entity": "PORT",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "CONTROL"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "Cport_6",
+            "id": "Cport_6",
+            "entity": "PORT",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    -1,
+                    -1
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "CONTROL"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "valve_0",
+            "id": "valve_0",
+            "entity": "VALVE3D",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "valveRadius": 1200,
+                "gap": 600,
+                "rotation": 0.0,
+                "depth": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1200.0,
+                    "y": 0.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2400.0,
+                    "y": 1200.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1200.0,
+                    "y": 2400.0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 0.0,
+                    "y": 1200.0,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2400,
+            "y-span": 2400
+        },
+        {
+            "name": "valve_1",
+            "id": "valve_1",
+            "entity": "VALVE3D",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "valveRadius": 1200,
+                "gap": 600,
+                "rotation": 0.0,
+                "depth": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1200.0,
+                    "y": 0.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2400.0,
+                    "y": 1200.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1200.0,
+                    "y": 2400.0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 0.0,
+                    "y": 1200.0,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2400,
+            "y-span": 2400
+        },
+        {
+            "name": "valve_2",
+            "id": "valve_2",
+            "entity": "VALVE3D",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "valveRadius": 1200,
+                "gap": 600,
+                "rotation": 0.0,
+                "depth": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1200.0,
+                    "y": 0.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2400.0,
+                    "y": 1200.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1200.0,
+                    "y": 2400.0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 0.0,
+                    "y": 1200.0,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2400,
+            "y-span": 2400
+        },
+        {
+            "name": "valve_3",
+            "id": "valve_3",
+            "entity": "VALVE3D",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "valveRadius": 1200,
+                "gap": 600,
+                "rotation": 0.0,
+                "depth": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1200.0,
+                    "y": 0.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2400.0,
+                    "y": 1200.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1200.0,
+                    "y": 2400.0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 0.0,
+                    "y": 1200.0,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2400,
+            "y-span": 2400
+        },
+        {
+            "name": "valve_4",
+            "id": "valve_4",
+            "entity": "VALVE3D",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "valveRadius": 1200,
+                "gap": 600,
+                "rotation": 0.0,
+                "depth": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1200.0,
+                    "y": 0.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2400.0,
+                    "y": 1200.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1200.0,
+                    "y": 2400.0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 0.0,
+                    "y": 1200.0,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2400,
+            "y-span": 2400
+        },
+        {
+            "name": "valve_5",
+            "id": "valve_5",
+            "entity": "VALVE3D",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "valveRadius": 1200,
+                "gap": 600,
+                "rotation": 0.0,
+                "depth": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1200.0,
+                    "y": 0.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2400.0,
+                    "y": 1200.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1200.0,
+                    "y": 2400.0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 0.0,
+                    "y": 1200.0,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2400,
+            "y-span": 2400
+        },
+        {
+            "name": "valve_6",
+            "id": "valve_6",
+            "entity": "VALVE3D",
+            "layers": [
+                "1"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "valveRadius": 1200,
+                "gap": 600,
+                "rotation": 0.0,
+                "depth": 250.0,
+                "position": [
+                    -1,
+                    -1
+                ]
+            },
+            "ports": [
+                {
+                    "x": 1200.0,
+                    "y": 0.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2400.0,
+                    "y": 1200.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1200.0,
+                    "y": 2400.0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 0.0,
+                    "y": 1200.0,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2400,
+            "y-span": 2400
+        }
+    ],
+    "connections": [
+        {
+            "sinks": [
+                {
+                    "component": "reaction_chamber_1",
+                    "port": "3"
+                }
+            ],
+            "name": "channel_1",
+            "id": "channel_1",
+            "source": {
+                "component": "reaction_chamber_2",
+                "port": "1"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    82800.0,
+                    6300.0
+                ],
+                "end": [
+                    66300.0,
+                    8800.0
+                ],
+                "wayPoints": [
+                    [
+                        82800.0,
+                        6300.0
+                    ],
+                    [
+                        82800.0,
+                        5300.0
+                    ],
+                    [
+                        67300.0,
+                        5300.0
+                    ],
+                    [
+                        67300.0,
+                        8800.0
+                    ],
+                    [
+                        66300.0,
+                        8800.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            82800.0,
+                            6300.0
+                        ],
+                        [
+                            82800.0,
+                            5300.0
+                        ]
+                    ],
+                    [
+                        [
+                            82800.0,
+                            5300.0
+                        ],
+                        [
+                            67300.0,
+                            5300.0
+                        ]
+                    ],
+                    [
+                        [
+                            67300.0,
+                            5300.0
+                        ],
+                        [
+                            67300.0,
+                            8800.0
+                        ]
+                    ],
+                    [
+                        [
+                            67300.0,
+                            8800.0
+                        ],
+                        [
+                            66300.0,
+                            8800.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "reaction_chamber_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "reaction_chamber_1",
+                        "port": "3"
+                    },
+                    "wayPoints": [
+                        [
+                            82800.0,
+                            6300.0
+                        ],
+                        [
+                            82800.0,
+                            5300.0
+                        ],
+                        [
+                            67300.0,
+                            5300.0
+                        ],
+                        [
+                            67300.0,
+                            8800.0
+                        ],
+                        [
+                            66300.0,
+                            8800.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "port_2",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_2",
+            "id": "channel_2",
+            "source": {
+                "component": "reaction_chamber_1",
+                "port": "3"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    66300.0,
+                    8800.0
+                ],
+                "end": [
+                    79300.0,
+                    25300.0
+                ],
+                "wayPoints": [
+                    [
+                        66300.0,
+                        8800.0
+                    ],
+                    [
+                        67300.0,
+                        8800.0
+                    ],
+                    [
+                        67300.0,
+                        25300.0
+                    ],
+                    [
+                        79300.0,
+                        25300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            66300.0,
+                            8800.0
+                        ],
+                        [
+                            67300.0,
+                            8800.0
+                        ]
+                    ],
+                    [
+                        [
+                            67300.0,
+                            8800.0
+                        ],
+                        [
+                            67300.0,
+                            25300.0
+                        ]
+                    ],
+                    [
+                        [
+                            67300.0,
+                            25300.0
+                        ],
+                        [
+                            79300.0,
+                            25300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "reaction_chamber_1",
+                        "port": "3"
+                    },
+                    "sink": {
+                        "component": "port_2",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            66300.0,
+                            8800.0
+                        ],
+                        [
+                            67300.0,
+                            8800.0
+                        ],
+                        [
+                            67300.0,
+                            25300.0
+                        ],
+                        [
+                            79300.0,
+                            25300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "reaction_chamber_2",
+                    "port": "3"
+                }
+            ],
+            "name": "channel_3",
+            "id": "channel_3",
+            "source": {
+                "component": "mixer_1",
+                "port": "2"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    65000.0,
+                    40900.0
+                ],
+                "end": [
+                    82800.0,
+                    11300.0
+                ],
+                "wayPoints": [
+                    [
+                        65000.0,
+                        40900.0
+                    ],
+                    [
+                        66000.0,
+                        40900.0
+                    ],
+                    [
+                        66000.0,
+                        38000.0
+                    ],
+                    [
+                        67600.0,
+                        38000.0
+                    ],
+                    [
+                        67600.0,
+                        27400.0
+                    ],
+                    [
+                        68899.999999,
+                        27400.0
+                    ],
+                    [
+                        68899.999999,
+                        26899.999999
+                    ],
+                    [
+                        81200.000001,
+                        26899.999999
+                    ],
+                    [
+                        81200.000001,
+                        26600.0
+                    ],
+                    [
+                        82800.0,
+                        26600.0
+                    ],
+                    [
+                        82800.0,
+                        12300.0
+                    ],
+                    [
+                        82800.0,
+                        11300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            65000.0,
+                            40900.0
+                        ],
+                        [
+                            66000.0,
+                            40900.0
+                        ]
+                    ],
+                    [
+                        [
+                            66000.0,
+                            40900.0
+                        ],
+                        [
+                            66000.0,
+                            38000.0
+                        ]
+                    ],
+                    [
+                        [
+                            66000.0,
+                            38000.0
+                        ],
+                        [
+                            67600.0,
+                            38000.0
+                        ]
+                    ],
+                    [
+                        [
+                            67600.0,
+                            38000.0
+                        ],
+                        [
+                            67600.0,
+                            27400.0
+                        ]
+                    ],
+                    [
+                        [
+                            67600.0,
+                            27400.0
+                        ],
+                        [
+                            68899.999999,
+                            27400.0
+                        ]
+                    ],
+                    [
+                        [
+                            68899.999999,
+                            27400.0
+                        ],
+                        [
+                            68899.999999,
+                            26899.999999
+                        ]
+                    ],
+                    [
+                        [
+                            68899.999999,
+                            26899.999999
+                        ],
+                        [
+                            81200.000001,
+                            26899.999999
+                        ]
+                    ],
+                    [
+                        [
+                            81200.000001,
+                            26899.999999
+                        ],
+                        [
+                            81200.000001,
+                            26600.0
+                        ]
+                    ],
+                    [
+                        [
+                            81200.000001,
+                            26600.0
+                        ],
+                        [
+                            82800.0,
+                            26600.0
+                        ]
+                    ],
+                    [
+                        [
+                            82800.0,
+                            26600.0
+                        ],
+                        [
+                            82800.0,
+                            12300.0
+                        ]
+                    ],
+                    [
+                        [
+                            82800.0,
+                            12300.0
+                        ],
+                        [
+                            82800.0,
+                            11300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "mixer_1",
+                        "port": "2"
+                    },
+                    "sink": {
+                        "component": "reaction_chamber_2",
+                        "port": "3"
+                    },
+                    "wayPoints": [
+                        [
+                            65000.0,
+                            40900.0
+                        ],
+                        [
+                            66000.0,
+                            40900.0
+                        ],
+                        [
+                            66000.0,
+                            38000.0
+                        ],
+                        [
+                            67600.0,
+                            38000.0
+                        ],
+                        [
+                            67600.0,
+                            27400.0
+                        ],
+                        [
+                            68899.999999,
+                            27400.0
+                        ],
+                        [
+                            68899.999999,
+                            26899.999999
+                        ],
+                        [
+                            81200.000001,
+                            26899.999999
+                        ],
+                        [
+                            81200.000001,
+                            26600.0
+                        ],
+                        [
+                            82800.0,
+                            26600.0
+                        ],
+                        [
+                            82800.0,
+                            12300.0
+                        ],
+                        [
+                            82800.0,
+                            11300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "nozzle_droplet_generator_1",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_4",
+            "id": "channel_4",
+            "source": {
+                "component": "mixer_2",
+                "port": "2"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    42400.0,
+                    30300.0
+                ],
+                "end": [
+                    27700.0,
+                    29300.0
+                ],
+                "wayPoints": [
+                    [
+                        42400.0,
+                        30300.0
+                    ],
+                    [
+                        41400.0,
+                        30300.0
+                    ],
+                    [
+                        27700.0,
+                        30300.0
+                    ],
+                    [
+                        27700.0,
+                        29300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            42400.0,
+                            30300.0
+                        ],
+                        [
+                            41400.0,
+                            30300.0
+                        ]
+                    ],
+                    [
+                        [
+                            41400.0,
+                            30300.0
+                        ],
+                        [
+                            27700.0,
+                            30300.0
+                        ]
+                    ],
+                    [
+                        [
+                            27700.0,
+                            30300.0
+                        ],
+                        [
+                            27700.0,
+                            29300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "mixer_2",
+                        "port": "2"
+                    },
+                    "sink": {
+                        "component": "nozzle_droplet_generator_1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            42400.0,
+                            30300.0
+                        ],
+                        [
+                            41400.0,
+                            30300.0
+                        ],
+                        [
+                            27700.0,
+                            30300.0
+                        ],
+                        [
+                            27700.0,
+                            29300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_1",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_5",
+            "id": "channel_5",
+            "source": {
+                "component": "nozzle_droplet_generator_1",
+                "port": "3"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    27700.0,
+                    28700.0
+                ],
+                "end": [
+                    61000.0,
+                    40900.0
+                ],
+                "wayPoints": [
+                    [
+                        27700.0,
+                        28700.0
+                    ],
+                    [
+                        27700.0,
+                        27700.0
+                    ],
+                    [
+                        27700.0,
+                        27400.0
+                    ],
+                    [
+                        48000.0,
+                        27400.0
+                    ],
+                    [
+                        48000.0,
+                        27700.000001
+                    ],
+                    [
+                        49300.0,
+                        27700.000001
+                    ],
+                    [
+                        49300.0,
+                        28199.999999
+                    ],
+                    [
+                        56300.0,
+                        28199.999999
+                    ],
+                    [
+                        56300.0,
+                        40600.0
+                    ],
+                    [
+                        60000.0,
+                        40600.0
+                    ],
+                    [
+                        60000.0,
+                        40900.0
+                    ],
+                    [
+                        61000.0,
+                        40900.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            27700.0,
+                            28700.0
+                        ],
+                        [
+                            27700.0,
+                            27700.0
+                        ]
+                    ],
+                    [
+                        [
+                            27700.0,
+                            27700.0
+                        ],
+                        [
+                            27700.0,
+                            27400.0
+                        ]
+                    ],
+                    [
+                        [
+                            27700.0,
+                            27400.0
+                        ],
+                        [
+                            48000.0,
+                            27400.0
+                        ]
+                    ],
+                    [
+                        [
+                            48000.0,
+                            27400.0
+                        ],
+                        [
+                            48000.0,
+                            27700.000001
+                        ]
+                    ],
+                    [
+                        [
+                            48000.0,
+                            27700.000001
+                        ],
+                        [
+                            49300.0,
+                            27700.000001
+                        ]
+                    ],
+                    [
+                        [
+                            49300.0,
+                            27700.000001
+                        ],
+                        [
+                            49300.0,
+                            28199.999999
+                        ]
+                    ],
+                    [
+                        [
+                            49300.0,
+                            28199.999999
+                        ],
+                        [
+                            56300.0,
+                            28199.999999
+                        ]
+                    ],
+                    [
+                        [
+                            56300.0,
+                            28199.999999
+                        ],
+                        [
+                            56300.0,
+                            40600.0
+                        ]
+                    ],
+                    [
+                        [
+                            56300.0,
+                            40600.0
+                        ],
+                        [
+                            60000.0,
+                            40600.0
+                        ]
+                    ],
+                    [
+                        [
+                            60000.0,
+                            40600.0
+                        ],
+                        [
+                            60000.0,
+                            40900.0
+                        ]
+                    ],
+                    [
+                        [
+                            60000.0,
+                            40900.0
+                        ],
+                        [
+                            61000.0,
+                            40900.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "nozzle_droplet_generator_1",
+                        "port": "3"
+                    },
+                    "sink": {
+                        "component": "mixer_1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            27700.0,
+                            28700.0
+                        ],
+                        [
+                            27700.0,
+                            27700.0
+                        ],
+                        [
+                            27700.0,
+                            27400.0
+                        ],
+                        [
+                            48000.0,
+                            27400.0
+                        ],
+                        [
+                            48000.0,
+                            27700.000001
+                        ],
+                        [
+                            49300.0,
+                            27700.000001
+                        ],
+                        [
+                            49300.0,
+                            28199.999999
+                        ],
+                        [
+                            56300.0,
+                            28199.999999
+                        ],
+                        [
+                            56300.0,
+                            40600.0
+                        ],
+                        [
+                            60000.0,
+                            40600.0
+                        ],
+                        [
+                            60000.0,
+                            40900.0
+                        ],
+                        [
+                            61000.0,
+                            40900.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_5",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_6",
+            "id": "channel_6",
+            "source": {
+                "component": "mixer_4",
+                "port": "2"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    62900.0,
+                    82000.0
+                ],
+                "end": [
+                    61900.0,
+                    66100.0
+                ],
+                "wayPoints": [
+                    [
+                        62900.0,
+                        82000.0
+                    ],
+                    [
+                        62900.0,
+                        81000.0
+                    ],
+                    [
+                        62900.0,
+                        66100.0
+                    ],
+                    [
+                        61900.0,
+                        66100.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            62900.0,
+                            82000.0
+                        ],
+                        [
+                            62900.0,
+                            81000.0
+                        ]
+                    ],
+                    [
+                        [
+                            62900.0,
+                            81000.0
+                        ],
+                        [
+                            62900.0,
+                            66100.0
+                        ]
+                    ],
+                    [
+                        [
+                            62900.0,
+                            66100.0
+                        ],
+                        [
+                            61900.0,
+                            66100.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "mixer_4",
+                        "port": "2"
+                    },
+                    "sink": {
+                        "component": "mixer_5",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            62900.0,
+                            82000.0
+                        ],
+                        [
+                            62900.0,
+                            81000.0
+                        ],
+                        [
+                            62900.0,
+                            66100.0
+                        ],
+                        [
+                            61900.0,
+                            66100.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_4",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_7",
+            "id": "channel_7",
+            "source": {
+                "component": "mixer_6",
+                "port": "2"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    27100.0,
+                    82000.0
+                ],
+                "end": [
+                    62900.0,
+                    86000.0
+                ],
+                "wayPoints": [
+                    [
+                        27100.0,
+                        82000.0
+                    ],
+                    [
+                        27100.0,
+                        81000.0
+                    ],
+                    [
+                        35300.0,
+                        81000.0
+                    ],
+                    [
+                        35300.0,
+                        81800.0
+                    ],
+                    [
+                        57899.99999900001,
+                        81800.0
+                    ],
+                    [
+                        57899.99999900001,
+                        82599.999999
+                    ],
+                    [
+                        60700.0,
+                        82599.999999
+                    ],
+                    [
+                        60700.0,
+                        83599.999999
+                    ],
+                    [
+                        61599.99999900001,
+                        83599.999999
+                    ],
+                    [
+                        61599.99999900001,
+                        87000.0
+                    ],
+                    [
+                        62900.0,
+                        87000.0
+                    ],
+                    [
+                        62900.0,
+                        86000.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            27100.0,
+                            82000.0
+                        ],
+                        [
+                            27100.0,
+                            81000.0
+                        ]
+                    ],
+                    [
+                        [
+                            27100.0,
+                            81000.0
+                        ],
+                        [
+                            35300.0,
+                            81000.0
+                        ]
+                    ],
+                    [
+                        [
+                            35300.0,
+                            81000.0
+                        ],
+                        [
+                            35300.0,
+                            81800.0
+                        ]
+                    ],
+                    [
+                        [
+                            35300.0,
+                            81800.0
+                        ],
+                        [
+                            57899.99999900001,
+                            81800.0
+                        ]
+                    ],
+                    [
+                        [
+                            57899.99999900001,
+                            81800.0
+                        ],
+                        [
+                            57899.99999900001,
+                            82599.999999
+                        ]
+                    ],
+                    [
+                        [
+                            57899.99999900001,
+                            82599.999999
+                        ],
+                        [
+                            60700.0,
+                            82599.999999
+                        ]
+                    ],
+                    [
+                        [
+                            60700.0,
+                            82599.999999
+                        ],
+                        [
+                            60700.0,
+                            83599.999999
+                        ]
+                    ],
+                    [
+                        [
+                            60700.0,
+                            83599.999999
+                        ],
+                        [
+                            61599.99999900001,
+                            83599.999999
+                        ]
+                    ],
+                    [
+                        [
+                            61599.99999900001,
+                            83599.999999
+                        ],
+                        [
+                            61599.99999900001,
+                            87000.0
+                        ]
+                    ],
+                    [
+                        [
+                            61599.99999900001,
+                            87000.0
+                        ],
+                        [
+                            62900.0,
+                            87000.0
+                        ]
+                    ],
+                    [
+                        [
+                            62900.0,
+                            87000.0
+                        ],
+                        [
+                            62900.0,
+                            86000.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "mixer_6",
+                        "port": "2"
+                    },
+                    "sink": {
+                        "component": "mixer_4",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            27100.0,
+                            82000.0
+                        ],
+                        [
+                            27100.0,
+                            81000.0
+                        ],
+                        [
+                            35300.0,
+                            81000.0
+                        ],
+                        [
+                            35300.0,
+                            81800.0
+                        ],
+                        [
+                            57899.99999900001,
+                            81800.0
+                        ],
+                        [
+                            57899.99999900001,
+                            82599.999999
+                        ],
+                        [
+                            60700.0,
+                            82599.999999
+                        ],
+                        [
+                            60700.0,
+                            83599.999999
+                        ],
+                        [
+                            61599.99999900001,
+                            83599.999999
+                        ],
+                        [
+                            61599.99999900001,
+                            87000.0
+                        ],
+                        [
+                            62900.0,
+                            87000.0
+                        ],
+                        [
+                            62900.0,
+                            86000.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_4",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_8",
+            "id": "channel_8",
+            "source": {
+                "component": "port_9",
+                "port": "1"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    79300.0,
+                    79300.0
+                ],
+                "end": [
+                    62900.0,
+                    86000.0
+                ],
+                "wayPoints": [
+                    [
+                        79300.0,
+                        79300.0
+                    ],
+                    [
+                        79300.0,
+                        87000.0
+                    ],
+                    [
+                        62900.0,
+                        87000.0
+                    ],
+                    [
+                        62900.0,
+                        86000.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            79300.0,
+                            79300.0
+                        ],
+                        [
+                            79300.0,
+                            87000.0
+                        ]
+                    ],
+                    [
+                        [
+                            79300.0,
+                            87000.0
+                        ],
+                        [
+                            62900.0,
+                            87000.0
+                        ]
+                    ],
+                    [
+                        [
+                            62900.0,
+                            87000.0
+                        ],
+                        [
+                            62900.0,
+                            86000.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_9",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "mixer_4",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            79300.0,
+                            79300.0
+                        ],
+                        [
+                            79300.0,
+                            87000.0
+                        ],
+                        [
+                            62900.0,
+                            87000.0
+                        ],
+                        [
+                            62900.0,
+                            86000.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_2",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_9",
+            "id": "channel_9",
+            "source": {
+                "component": "mixer_3",
+                "port": "2"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    45100.0,
+                    46200.0
+                ],
+                "end": [
+                    46400.0,
+                    30300.0
+                ],
+                "wayPoints": [
+                    [
+                        45100.0,
+                        46200.0
+                    ],
+                    [
+                        45100.0,
+                        45200.0
+                    ],
+                    [
+                        46400.000001,
+                        45200.0
+                    ],
+                    [
+                        46400.000001,
+                        43800.0
+                    ],
+                    [
+                        47400.0,
+                        43800.0
+                    ],
+                    [
+                        47400.0,
+                        30300.0
+                    ],
+                    [
+                        46400.0,
+                        30300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            45100.0,
+                            46200.0
+                        ],
+                        [
+                            45100.0,
+                            45200.0
+                        ]
+                    ],
+                    [
+                        [
+                            45100.0,
+                            45200.0
+                        ],
+                        [
+                            46400.000001,
+                            45200.0
+                        ]
+                    ],
+                    [
+                        [
+                            46400.000001,
+                            45200.0
+                        ],
+                        [
+                            46400.000001,
+                            43800.0
+                        ]
+                    ],
+                    [
+                        [
+                            46400.000001,
+                            43800.0
+                        ],
+                        [
+                            47400.0,
+                            43800.0
+                        ]
+                    ],
+                    [
+                        [
+                            47400.0,
+                            43800.0
+                        ],
+                        [
+                            47400.0,
+                            30300.0
+                        ]
+                    ],
+                    [
+                        [
+                            47400.0,
+                            30300.0
+                        ],
+                        [
+                            46400.0,
+                            30300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "mixer_3",
+                        "port": "2"
+                    },
+                    "sink": {
+                        "component": "mixer_2",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            45100.0,
+                            46200.0
+                        ],
+                        [
+                            45100.0,
+                            45200.0
+                        ],
+                        [
+                            46400.000001,
+                            45200.0
+                        ],
+                        [
+                            46400.000001,
+                            43800.0
+                        ],
+                        [
+                            47400.0,
+                            43800.0
+                        ],
+                        [
+                            47400.0,
+                            30300.0
+                        ],
+                        [
+                            46400.0,
+                            30300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_2",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_10",
+            "id": "channel_10",
+            "source": {
+                "component": "port_4",
+                "port": "1"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    79300.0,
+                    39300.0
+                ],
+                "end": [
+                    46400.0,
+                    30300.0
+                ],
+                "wayPoints": [
+                    [
+                        79300.0,
+                        39300.0
+                    ],
+                    [
+                        79300.0,
+                        51800.0
+                    ],
+                    [
+                        63500.0,
+                        51800.0
+                    ],
+                    [
+                        63500.0,
+                        43800.0
+                    ],
+                    [
+                        54700.00000099999,
+                        43800.0
+                    ],
+                    [
+                        54700.00000099999,
+                        39300.000001
+                    ],
+                    [
+                        49300.0,
+                        39300.000001
+                    ],
+                    [
+                        49300.0,
+                        36400.000001
+                    ],
+                    [
+                        47400.0,
+                        36400.000001
+                    ],
+                    [
+                        47400.0,
+                        30300.0
+                    ],
+                    [
+                        46400.0,
+                        30300.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            79300.0,
+                            39300.0
+                        ],
+                        [
+                            79300.0,
+                            51800.0
+                        ]
+                    ],
+                    [
+                        [
+                            79300.0,
+                            51800.0
+                        ],
+                        [
+                            63500.0,
+                            51800.0
+                        ]
+                    ],
+                    [
+                        [
+                            63500.0,
+                            51800.0
+                        ],
+                        [
+                            63500.0,
+                            43800.0
+                        ]
+                    ],
+                    [
+                        [
+                            63500.0,
+                            43800.0
+                        ],
+                        [
+                            54700.00000099999,
+                            43800.0
+                        ]
+                    ],
+                    [
+                        [
+                            54700.00000099999,
+                            43800.0
+                        ],
+                        [
+                            54700.00000099999,
+                            39300.000001
+                        ]
+                    ],
+                    [
+                        [
+                            54700.00000099999,
+                            39300.000001
+                        ],
+                        [
+                            49300.0,
+                            39300.000001
+                        ]
+                    ],
+                    [
+                        [
+                            49300.0,
+                            39300.000001
+                        ],
+                        [
+                            49300.0,
+                            36400.000001
+                        ]
+                    ],
+                    [
+                        [
+                            49300.0,
+                            36400.000001
+                        ],
+                        [
+                            47400.0,
+                            36400.000001
+                        ]
+                    ],
+                    [
+                        [
+                            47400.0,
+                            36400.000001
+                        ],
+                        [
+                            47400.0,
+                            30300.0
+                        ]
+                    ],
+                    [
+                        [
+                            47400.0,
+                            30300.0
+                        ],
+                        [
+                            46400.0,
+                            30300.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_4",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "mixer_2",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            79300.0,
+                            39300.0
+                        ],
+                        [
+                            79300.0,
+                            51800.0
+                        ],
+                        [
+                            63500.0,
+                            51800.0
+                        ],
+                        [
+                            63500.0,
+                            43800.0
+                        ],
+                        [
+                            54700.00000099999,
+                            43800.0
+                        ],
+                        [
+                            54700.00000099999,
+                            39300.000001
+                        ],
+                        [
+                            49300.0,
+                            39300.000001
+                        ],
+                        [
+                            49300.0,
+                            36400.000001
+                        ],
+                        [
+                            47400.0,
+                            36400.000001
+                        ],
+                        [
+                            47400.0,
+                            30300.0
+                        ],
+                        [
+                            46400.0,
+                            30300.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_3",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_11",
+            "id": "channel_11",
+            "source": {
+                "component": "mixer_5",
+                "port": "2"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    57900.0,
+                    66100.0
+                ],
+                "end": [
+                    45100.0,
+                    50200.0
+                ],
+                "wayPoints": [
+                    [
+                        57900.0,
+                        66100.0
+                    ],
+                    [
+                        56900.0,
+                        66100.0
+                    ],
+                    [
+                        54700.00000099999,
+                        66100.0
+                    ],
+                    [
+                        54700.00000099999,
+                        64500.000001
+                    ],
+                    [
+                        48999.999999,
+                        64500.000001
+                    ],
+                    [
+                        48999.999999,
+                        59700.0
+                    ],
+                    [
+                        47700.000001,
+                        59700.0
+                    ],
+                    [
+                        47700.000001,
+                        54299.999999
+                    ],
+                    [
+                        46699.999999,
+                        54299.999999
+                    ],
+                    [
+                        46699.999999,
+                        53399.999999
+                    ],
+                    [
+                        46400.000001,
+                        53399.999999
+                    ],
+                    [
+                        46400.000001,
+                        51200.0
+                    ],
+                    [
+                        45100.0,
+                        51200.0
+                    ],
+                    [
+                        45100.0,
+                        50200.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            57900.0,
+                            66100.0
+                        ],
+                        [
+                            56900.0,
+                            66100.0
+                        ]
+                    ],
+                    [
+                        [
+                            56900.0,
+                            66100.0
+                        ],
+                        [
+                            54700.00000099999,
+                            66100.0
+                        ]
+                    ],
+                    [
+                        [
+                            54700.00000099999,
+                            66100.0
+                        ],
+                        [
+                            54700.00000099999,
+                            64500.000001
+                        ]
+                    ],
+                    [
+                        [
+                            54700.00000099999,
+                            64500.000001
+                        ],
+                        [
+                            48999.999999,
+                            64500.000001
+                        ]
+                    ],
+                    [
+                        [
+                            48999.999999,
+                            64500.000001
+                        ],
+                        [
+                            48999.999999,
+                            59700.0
+                        ]
+                    ],
+                    [
+                        [
+                            48999.999999,
+                            59700.0
+                        ],
+                        [
+                            47700.000001,
+                            59700.0
+                        ]
+                    ],
+                    [
+                        [
+                            47700.000001,
+                            59700.0
+                        ],
+                        [
+                            47700.000001,
+                            54299.999999
+                        ]
+                    ],
+                    [
+                        [
+                            47700.000001,
+                            54299.999999
+                        ],
+                        [
+                            46699.999999,
+                            54299.999999
+                        ]
+                    ],
+                    [
+                        [
+                            46699.999999,
+                            54299.999999
+                        ],
+                        [
+                            46699.999999,
+                            53399.999999
+                        ]
+                    ],
+                    [
+                        [
+                            46699.999999,
+                            53399.999999
+                        ],
+                        [
+                            46400.000001,
+                            53399.999999
+                        ]
+                    ],
+                    [
+                        [
+                            46400.000001,
+                            53399.999999
+                        ],
+                        [
+                            46400.000001,
+                            51200.0
+                        ]
+                    ],
+                    [
+                        [
+                            46400.000001,
+                            51200.0
+                        ],
+                        [
+                            45100.0,
+                            51200.0
+                        ]
+                    ],
+                    [
+                        [
+                            45100.0,
+                            51200.0
+                        ],
+                        [
+                            45100.0,
+                            50200.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "mixer_5",
+                        "port": "2"
+                    },
+                    "sink": {
+                        "component": "mixer_3",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            57900.0,
+                            66100.0
+                        ],
+                        [
+                            56900.0,
+                            66100.0
+                        ],
+                        [
+                            54700.00000099999,
+                            66100.0
+                        ],
+                        [
+                            54700.00000099999,
+                            64500.000001
+                        ],
+                        [
+                            48999.999999,
+                            64500.000001
+                        ],
+                        [
+                            48999.999999,
+                            59700.0
+                        ],
+                        [
+                            47700.000001,
+                            59700.0
+                        ],
+                        [
+                            47700.000001,
+                            54299.999999
+                        ],
+                        [
+                            46699.999999,
+                            54299.999999
+                        ],
+                        [
+                            46699.999999,
+                            53399.999999
+                        ],
+                        [
+                            46400.000001,
+                            53399.999999
+                        ],
+                        [
+                            46400.000001,
+                            51200.0
+                        ],
+                        [
+                            45100.0,
+                            51200.0
+                        ],
+                        [
+                            45100.0,
+                            50200.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_5",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_12",
+            "id": "channel_12",
+            "source": {
+                "component": "port_5",
+                "port": "1"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    79300.0,
+                    58400.0
+                ],
+                "end": [
+                    61900.0,
+                    66100.0
+                ],
+                "wayPoints": [
+                    [
+                        79300.0,
+                        58400.0
+                    ],
+                    [
+                        79300.0,
+                        66100.0
+                    ],
+                    [
+                        62900.0,
+                        66100.0
+                    ],
+                    [
+                        61900.0,
+                        66100.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            79300.0,
+                            58400.0
+                        ],
+                        [
+                            79300.0,
+                            66100.0
+                        ]
+                    ],
+                    [
+                        [
+                            79300.0,
+                            66100.0
+                        ],
+                        [
+                            62900.0,
+                            66100.0
+                        ]
+                    ],
+                    [
+                        [
+                            62900.0,
+                            66100.0
+                        ],
+                        [
+                            61900.0,
+                            66100.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_5",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "mixer_5",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            79300.0,
+                            58400.0
+                        ],
+                        [
+                            79300.0,
+                            66100.0
+                        ],
+                        [
+                            62900.0,
+                            66100.0
+                        ],
+                        [
+                            61900.0,
+                            66100.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_3",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_13",
+            "id": "channel_13",
+            "source": {
+                "component": "port_3",
+                "port": "1"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    20000.0,
+                    100300.0
+                ],
+                "end": [
+                    45100.0,
+                    50200.0
+                ],
+                "wayPoints": [
+                    [
+                        20000.0,
+                        100300.0
+                    ],
+                    [
+                        20000.0,
+                        68599.99999899999
+                    ],
+                    [
+                        28699.999999,
+                        68599.99999899999
+                    ],
+                    [
+                        28699.999999,
+                        67699.99999899999
+                    ],
+                    [
+                        30000.0,
+                        67699.99999899999
+                    ],
+                    [
+                        30000.0,
+                        64500.000001
+                    ],
+                    [
+                        32700.0,
+                        64500.000001
+                    ],
+                    [
+                        32700.0,
+                        63200.0
+                    ],
+                    [
+                        36899.999999,
+                        63200.0
+                    ],
+                    [
+                        36899.999999,
+                        56800.000001
+                    ],
+                    [
+                        39800.000001,
+                        56800.000001
+                    ],
+                    [
+                        39800.000001,
+                        54299.999999
+                    ],
+                    [
+                        40800.0,
+                        54299.999999
+                    ],
+                    [
+                        40800.0,
+                        51200.0
+                    ],
+                    [
+                        45100.0,
+                        51200.0
+                    ],
+                    [
+                        45100.0,
+                        50200.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            20000.0,
+                            100300.0
+                        ],
+                        [
+                            20000.0,
+                            68599.99999899999
+                        ]
+                    ],
+                    [
+                        [
+                            20000.0,
+                            68599.99999899999
+                        ],
+                        [
+                            28699.999999,
+                            68599.99999899999
+                        ]
+                    ],
+                    [
+                        [
+                            28699.999999,
+                            68599.99999899999
+                        ],
+                        [
+                            28699.999999,
+                            67699.99999899999
+                        ]
+                    ],
+                    [
+                        [
+                            28699.999999,
+                            67699.99999899999
+                        ],
+                        [
+                            30000.0,
+                            67699.99999899999
+                        ]
+                    ],
+                    [
+                        [
+                            30000.0,
+                            67699.99999899999
+                        ],
+                        [
+                            30000.0,
+                            64500.000001
+                        ]
+                    ],
+                    [
+                        [
+                            30000.0,
+                            64500.000001
+                        ],
+                        [
+                            32700.0,
+                            64500.000001
+                        ]
+                    ],
+                    [
+                        [
+                            32700.0,
+                            64500.000001
+                        ],
+                        [
+                            32700.0,
+                            63200.0
+                        ]
+                    ],
+                    [
+                        [
+                            32700.0,
+                            63200.0
+                        ],
+                        [
+                            36899.999999,
+                            63200.0
+                        ]
+                    ],
+                    [
+                        [
+                            36899.999999,
+                            63200.0
+                        ],
+                        [
+                            36899.999999,
+                            56800.000001
+                        ]
+                    ],
+                    [
+                        [
+                            36899.999999,
+                            56800.000001
+                        ],
+                        [
+                            39800.000001,
+                            56800.000001
+                        ]
+                    ],
+                    [
+                        [
+                            39800.000001,
+                            56800.000001
+                        ],
+                        [
+                            39800.000001,
+                            54299.999999
+                        ]
+                    ],
+                    [
+                        [
+                            39800.000001,
+                            54299.999999
+                        ],
+                        [
+                            40800.0,
+                            54299.999999
+                        ]
+                    ],
+                    [
+                        [
+                            40800.0,
+                            54299.999999
+                        ],
+                        [
+                            40800.0,
+                            51200.0
+                        ]
+                    ],
+                    [
+                        [
+                            40800.0,
+                            51200.0
+                        ],
+                        [
+                            45100.0,
+                            51200.0
+                        ]
+                    ],
+                    [
+                        [
+                            45100.0,
+                            51200.0
+                        ],
+                        [
+                            45100.0,
+                            50200.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_3",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "mixer_3",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            20000.0,
+                            100300.0
+                        ],
+                        [
+                            20000.0,
+                            68599.99999899999
+                        ],
+                        [
+                            28699.999999,
+                            68599.99999899999
+                        ],
+                        [
+                            28699.999999,
+                            67699.99999899999
+                        ],
+                        [
+                            30000.0,
+                            67699.99999899999
+                        ],
+                        [
+                            30000.0,
+                            64500.000001
+                        ],
+                        [
+                            32700.0,
+                            64500.000001
+                        ],
+                        [
+                            32700.0,
+                            63200.0
+                        ],
+                        [
+                            36899.999999,
+                            63200.0
+                        ],
+                        [
+                            36899.999999,
+                            56800.000001
+                        ],
+                        [
+                            39800.000001,
+                            56800.000001
+                        ],
+                        [
+                            39800.000001,
+                            54299.999999
+                        ],
+                        [
+                            40800.0,
+                            54299.999999
+                        ],
+                        [
+                            40800.0,
+                            51200.0
+                        ],
+                        [
+                            45100.0,
+                            51200.0
+                        ],
+                        [
+                            45100.0,
+                            50200.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_6",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_14",
+            "id": "channel_14",
+            "source": {
+                "component": "mixer_7",
+                "port": "2"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    43000.0,
+                    84700.0
+                ],
+                "end": [
+                    27100.0,
+                    86000.0
+                ],
+                "wayPoints": [
+                    [
+                        43000.0,
+                        84700.0
+                    ],
+                    [
+                        42000.0,
+                        84700.0
+                    ],
+                    [
+                        38499.999998,
+                        84700.0
+                    ],
+                    [
+                        38499.999998,
+                        85199.99999800001
+                    ],
+                    [
+                        38200.000002,
+                        85199.99999800001
+                    ],
+                    [
+                        38200.000002,
+                        85400.000001
+                    ],
+                    [
+                        29299.999999,
+                        85400.000001
+                    ],
+                    [
+                        29299.999999,
+                        87000.0
+                    ],
+                    [
+                        27100.0,
+                        87000.0
+                    ],
+                    [
+                        27100.0,
+                        86000.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            43000.0,
+                            84700.0
+                        ],
+                        [
+                            42000.0,
+                            84700.0
+                        ]
+                    ],
+                    [
+                        [
+                            42000.0,
+                            84700.0
+                        ],
+                        [
+                            38499.999998,
+                            84700.0
+                        ]
+                    ],
+                    [
+                        [
+                            38499.999998,
+                            84700.0
+                        ],
+                        [
+                            38499.999998,
+                            85199.99999800001
+                        ]
+                    ],
+                    [
+                        [
+                            38499.999998,
+                            85199.99999800001
+                        ],
+                        [
+                            38200.000002,
+                            85199.99999800001
+                        ]
+                    ],
+                    [
+                        [
+                            38200.000002,
+                            85199.99999800001
+                        ],
+                        [
+                            38200.000002,
+                            85400.000001
+                        ]
+                    ],
+                    [
+                        [
+                            38200.000002,
+                            85400.000001
+                        ],
+                        [
+                            29299.999999,
+                            85400.000001
+                        ]
+                    ],
+                    [
+                        [
+                            29299.999999,
+                            85400.000001
+                        ],
+                        [
+                            29299.999999,
+                            87000.0
+                        ]
+                    ],
+                    [
+                        [
+                            29299.999999,
+                            87000.0
+                        ],
+                        [
+                            27100.0,
+                            87000.0
+                        ]
+                    ],
+                    [
+                        [
+                            27100.0,
+                            87000.0
+                        ],
+                        [
+                            27100.0,
+                            86000.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "mixer_7",
+                        "port": "2"
+                    },
+                    "sink": {
+                        "component": "mixer_6",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            43000.0,
+                            84700.0
+                        ],
+                        [
+                            42000.0,
+                            84700.0
+                        ],
+                        [
+                            38499.999998,
+                            84700.0
+                        ],
+                        [
+                            38499.999998,
+                            85199.99999800001
+                        ],
+                        [
+                            38200.000002,
+                            85199.99999800001
+                        ],
+                        [
+                            38200.000002,
+                            85400.000001
+                        ],
+                        [
+                            29299.999999,
+                            85400.000001
+                        ],
+                        [
+                            29299.999999,
+                            87000.0
+                        ],
+                        [
+                            27100.0,
+                            87000.0
+                        ],
+                        [
+                            27100.0,
+                            86000.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_6",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_15",
+            "id": "channel_15",
+            "source": {
+                "component": "port_8",
+                "port": "1"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    34000.0,
+                    100300.0
+                ],
+                "end": [
+                    27100.0,
+                    86000.0
+                ],
+                "wayPoints": [
+                    [
+                        34000.0,
+                        100300.0
+                    ],
+                    [
+                        34000.0,
+                        89499.999999
+                    ],
+                    [
+                        31599.999999,
+                        89499.999999
+                    ],
+                    [
+                        31599.999999,
+                        88599.999999
+                    ],
+                    [
+                        29400.0,
+                        88599.999999
+                    ],
+                    [
+                        29400.0,
+                        87000.0
+                    ],
+                    [
+                        27100.0,
+                        87000.0
+                    ],
+                    [
+                        27100.0,
+                        86000.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            34000.0,
+                            100300.0
+                        ],
+                        [
+                            34000.0,
+                            89499.999999
+                        ]
+                    ],
+                    [
+                        [
+                            34000.0,
+                            89499.999999
+                        ],
+                        [
+                            31599.999999,
+                            89499.999999
+                        ]
+                    ],
+                    [
+                        [
+                            31599.999999,
+                            89499.999999
+                        ],
+                        [
+                            31599.999999,
+                            88599.999999
+                        ]
+                    ],
+                    [
+                        [
+                            31599.999999,
+                            88599.999999
+                        ],
+                        [
+                            29400.0,
+                            88599.999999
+                        ]
+                    ],
+                    [
+                        [
+                            29400.0,
+                            88599.999999
+                        ],
+                        [
+                            29400.0,
+                            87000.0
+                        ]
+                    ],
+                    [
+                        [
+                            29400.0,
+                            87000.0
+                        ],
+                        [
+                            27100.0,
+                            87000.0
+                        ]
+                    ],
+                    [
+                        [
+                            27100.0,
+                            87000.0
+                        ],
+                        [
+                            27100.0,
+                            86000.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_8",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "mixer_6",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            34000.0,
+                            100300.0
+                        ],
+                        [
+                            34000.0,
+                            89499.999999
+                        ],
+                        [
+                            31599.999999,
+                            89499.999999
+                        ],
+                        [
+                            31599.999999,
+                            88599.999999
+                        ],
+                        [
+                            29400.0,
+                            88599.999999
+                        ],
+                        [
+                            29400.0,
+                            87000.0
+                        ],
+                        [
+                            27100.0,
+                            87000.0
+                        ],
+                        [
+                            27100.0,
+                            86000.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_1",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_16",
+            "id": "channel_16",
+            "source": {
+                "component": "port_1",
+                "port": "1"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    6000.0,
+                    100300.0
+                ],
+                "end": [
+                    61000.0,
+                    40900.0
+                ],
+                "wayPoints": [
+                    [
+                        6000.0,
+                        100300.0
+                    ],
+                    [
+                        6000.0,
+                        99000.0
+                    ],
+                    [
+                        17500.000001,
+                        99000.0
+                    ],
+                    [
+                        17500.000001,
+                        64799.999999
+                    ],
+                    [
+                        18700.0,
+                        64799.999999
+                    ],
+                    [
+                        18700.0,
+                        64500.000001
+                    ],
+                    [
+                        21300.0,
+                        64500.000001
+                    ],
+                    [
+                        21300.0,
+                        42200.000001
+                    ],
+                    [
+                        21599.999999,
+                        42200.000001
+                    ],
+                    [
+                        21599.999999,
+                        36800.000001
+                    ],
+                    [
+                        22499.999999,
+                        36800.000001
+                    ],
+                    [
+                        22499.999999,
+                        34800.000002
+                    ],
+                    [
+                        24200.0,
+                        34800.000002
+                    ],
+                    [
+                        24200.0,
+                        27400.0
+                    ],
+                    [
+                        48000.0,
+                        27400.0
+                    ],
+                    [
+                        48000.0,
+                        28199.999999
+                    ],
+                    [
+                        48299.999998,
+                        28199.999999
+                    ],
+                    [
+                        48299.999998,
+                        28700.000001
+                    ],
+                    [
+                        48999.999999,
+                        28700.000001
+                    ],
+                    [
+                        48999.999999,
+                        31899.999999
+                    ],
+                    [
+                        50899.99999900001,
+                        31899.999999
+                    ],
+                    [
+                        50899.99999900001,
+                        36400.000001
+                    ],
+                    [
+                        56300.0,
+                        36400.000001
+                    ],
+                    [
+                        56300.0,
+                        40600.0
+                    ],
+                    [
+                        58499.99999900001,
+                        40600.0
+                    ],
+                    [
+                        58499.99999900001,
+                        40900.0
+                    ],
+                    [
+                        60000.0,
+                        40900.0
+                    ],
+                    [
+                        61000.0,
+                        40900.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            6000.0,
+                            100300.0
+                        ],
+                        [
+                            6000.0,
+                            99000.0
+                        ]
+                    ],
+                    [
+                        [
+                            6000.0,
+                            99000.0
+                        ],
+                        [
+                            17500.000001,
+                            99000.0
+                        ]
+                    ],
+                    [
+                        [
+                            17500.000001,
+                            99000.0
+                        ],
+                        [
+                            17500.000001,
+                            64799.999999
+                        ]
+                    ],
+                    [
+                        [
+                            17500.000001,
+                            64799.999999
+                        ],
+                        [
+                            18700.0,
+                            64799.999999
+                        ]
+                    ],
+                    [
+                        [
+                            18700.0,
+                            64799.999999
+                        ],
+                        [
+                            18700.0,
+                            64500.000001
+                        ]
+                    ],
+                    [
+                        [
+                            18700.0,
+                            64500.000001
+                        ],
+                        [
+                            21300.0,
+                            64500.000001
+                        ]
+                    ],
+                    [
+                        [
+                            21300.0,
+                            64500.000001
+                        ],
+                        [
+                            21300.0,
+                            42200.000001
+                        ]
+                    ],
+                    [
+                        [
+                            21300.0,
+                            42200.000001
+                        ],
+                        [
+                            21599.999999,
+                            42200.000001
+                        ]
+                    ],
+                    [
+                        [
+                            21599.999999,
+                            42200.000001
+                        ],
+                        [
+                            21599.999999,
+                            36800.000001
+                        ]
+                    ],
+                    [
+                        [
+                            21599.999999,
+                            36800.000001
+                        ],
+                        [
+                            22499.999999,
+                            36800.000001
+                        ]
+                    ],
+                    [
+                        [
+                            22499.999999,
+                            36800.000001
+                        ],
+                        [
+                            22499.999999,
+                            34800.000002
+                        ]
+                    ],
+                    [
+                        [
+                            22499.999999,
+                            34800.000002
+                        ],
+                        [
+                            24200.0,
+                            34800.000002
+                        ]
+                    ],
+                    [
+                        [
+                            24200.0,
+                            34800.000002
+                        ],
+                        [
+                            24200.0,
+                            27400.0
+                        ]
+                    ],
+                    [
+                        [
+                            24200.0,
+                            27400.0
+                        ],
+                        [
+                            48000.0,
+                            27400.0
+                        ]
+                    ],
+                    [
+                        [
+                            48000.0,
+                            27400.0
+                        ],
+                        [
+                            48000.0,
+                            28199.999999
+                        ]
+                    ],
+                    [
+                        [
+                            48000.0,
+                            28199.999999
+                        ],
+                        [
+                            48299.999998,
+                            28199.999999
+                        ]
+                    ],
+                    [
+                        [
+                            48299.999998,
+                            28199.999999
+                        ],
+                        [
+                            48299.999998,
+                            28700.000001
+                        ]
+                    ],
+                    [
+                        [
+                            48299.999998,
+                            28700.000001
+                        ],
+                        [
+                            48999.999999,
+                            28700.000001
+                        ]
+                    ],
+                    [
+                        [
+                            48999.999999,
+                            28700.000001
+                        ],
+                        [
+                            48999.999999,
+                            31899.999999
+                        ]
+                    ],
+                    [
+                        [
+                            48999.999999,
+                            31899.999999
+                        ],
+                        [
+                            50899.99999900001,
+                            31899.999999
+                        ]
+                    ],
+                    [
+                        [
+                            50899.99999900001,
+                            31899.999999
+                        ],
+                        [
+                            50899.99999900001,
+                            36400.000001
+                        ]
+                    ],
+                    [
+                        [
+                            50899.99999900001,
+                            36400.000001
+                        ],
+                        [
+                            56300.0,
+                            36400.000001
+                        ]
+                    ],
+                    [
+                        [
+                            56300.0,
+                            36400.000001
+                        ],
+                        [
+                            56300.0,
+                            40600.0
+                        ]
+                    ],
+                    [
+                        [
+                            56300.0,
+                            40600.0
+                        ],
+                        [
+                            58499.99999900001,
+                            40600.0
+                        ]
+                    ],
+                    [
+                        [
+                            58499.99999900001,
+                            40600.0
+                        ],
+                        [
+                            58499.99999900001,
+                            40900.0
+                        ]
+                    ],
+                    [
+                        [
+                            58499.99999900001,
+                            40900.0
+                        ],
+                        [
+                            60000.0,
+                            40900.0
+                        ]
+                    ],
+                    [
+                        [
+                            60000.0,
+                            40900.0
+                        ],
+                        [
+                            61000.0,
+                            40900.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_1",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "mixer_1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            6000.0,
+                            100300.0
+                        ],
+                        [
+                            6000.0,
+                            99000.0
+                        ],
+                        [
+                            17500.000001,
+                            99000.0
+                        ],
+                        [
+                            17500.000001,
+                            64799.999999
+                        ],
+                        [
+                            18700.0,
+                            64799.999999
+                        ],
+                        [
+                            18700.0,
+                            64500.000001
+                        ],
+                        [
+                            21300.0,
+                            64500.000001
+                        ],
+                        [
+                            21300.0,
+                            42200.000001
+                        ],
+                        [
+                            21599.999999,
+                            42200.000001
+                        ],
+                        [
+                            21599.999999,
+                            36800.000001
+                        ],
+                        [
+                            22499.999999,
+                            36800.000001
+                        ],
+                        [
+                            22499.999999,
+                            34800.000002
+                        ],
+                        [
+                            24200.0,
+                            34800.000002
+                        ],
+                        [
+                            24200.0,
+                            27400.0
+                        ],
+                        [
+                            48000.0,
+                            27400.0
+                        ],
+                        [
+                            48000.0,
+                            28199.999999
+                        ],
+                        [
+                            48299.999998,
+                            28199.999999
+                        ],
+                        [
+                            48299.999998,
+                            28700.000001
+                        ],
+                        [
+                            48999.999999,
+                            28700.000001
+                        ],
+                        [
+                            48999.999999,
+                            31899.999999
+                        ],
+                        [
+                            50899.99999900001,
+                            31899.999999
+                        ],
+                        [
+                            50899.99999900001,
+                            36400.000001
+                        ],
+                        [
+                            56300.0,
+                            36400.000001
+                        ],
+                        [
+                            56300.0,
+                            40600.0
+                        ],
+                        [
+                            58499.99999900001,
+                            40600.0
+                        ],
+                        [
+                            58499.99999900001,
+                            40900.0
+                        ],
+                        [
+                            60000.0,
+                            40900.0
+                        ],
+                        [
+                            61000.0,
+                            40900.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_7",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_17",
+            "id": "channel_17",
+            "source": {
+                "component": "port_6",
+                "port": "1"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    48000.0,
+                    100300.0
+                ],
+                "end": [
+                    47000.0,
+                    84700.0
+                ],
+                "wayPoints": [
+                    [
+                        48000.0,
+                        100300.0
+                    ],
+                    [
+                        48000.0,
+                        84700.0
+                    ],
+                    [
+                        47000.0,
+                        84700.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            48000.0,
+                            100300.0
+                        ],
+                        [
+                            48000.0,
+                            84700.0
+                        ]
+                    ],
+                    [
+                        [
+                            48000.0,
+                            84700.0
+                        ],
+                        [
+                            47000.0,
+                            84700.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_6",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "mixer_7",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            48000.0,
+                            100300.0
+                        ],
+                        [
+                            48000.0,
+                            84700.0
+                        ],
+                        [
+                            47000.0,
+                            84700.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_7",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_18",
+            "id": "channel_18",
+            "source": {
+                "component": "port_7",
+                "port": "1"
+            },
+            "params": {
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    62000.0,
+                    100300.0
+                ],
+                "end": [
+                    47000.0,
+                    84700.0
+                ],
+                "wayPoints": [
+                    [
+                        62000.0,
+                        100300.0
+                    ],
+                    [
+                        62000.0,
+                        91099.99999800001
+                    ],
+                    [
+                        61300.00000099999,
+                        91099.99999800001
+                    ],
+                    [
+                        61300.00000099999,
+                        90199.99999800001
+                    ],
+                    [
+                        60099.999998000014,
+                        90199.99999800001
+                    ],
+                    [
+                        60099.999998000014,
+                        89499.999999
+                    ],
+                    [
+                        58499.99999900001,
+                        89499.999999
+                    ],
+                    [
+                        58499.99999900001,
+                        88599.999999
+                    ],
+                    [
+                        52499.999998000014,
+                        88599.999999
+                    ],
+                    [
+                        52499.999998000014,
+                        86799.99999700002
+                    ],
+                    [
+                        50599.999998,
+                        86799.99999700002
+                    ],
+                    [
+                        50599.999998,
+                        85400.000001
+                    ],
+                    [
+                        48299.999998,
+                        85400.000001
+                    ],
+                    [
+                        48299.999998,
+                        85199.99999800001
+                    ],
+                    [
+                        48000.0,
+                        85199.99999800001
+                    ],
+                    [
+                        48000.0,
+                        84700.0
+                    ],
+                    [
+                        47000.0,
+                        84700.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            62000.0,
+                            100300.0
+                        ],
+                        [
+                            62000.0,
+                            91099.99999800001
+                        ]
+                    ],
+                    [
+                        [
+                            62000.0,
+                            91099.99999800001
+                        ],
+                        [
+                            61300.00000099999,
+                            91099.99999800001
+                        ]
+                    ],
+                    [
+                        [
+                            61300.00000099999,
+                            91099.99999800001
+                        ],
+                        [
+                            61300.00000099999,
+                            90199.99999800001
+                        ]
+                    ],
+                    [
+                        [
+                            61300.00000099999,
+                            90199.99999800001
+                        ],
+                        [
+                            60099.999998000014,
+                            90199.99999800001
+                        ]
+                    ],
+                    [
+                        [
+                            60099.999998000014,
+                            90199.99999800001
+                        ],
+                        [
+                            60099.999998000014,
+                            89499.999999
+                        ]
+                    ],
+                    [
+                        [
+                            60099.999998000014,
+                            89499.999999
+                        ],
+                        [
+                            58499.99999900001,
+                            89499.999999
+                        ]
+                    ],
+                    [
+                        [
+                            58499.99999900001,
+                            89499.999999
+                        ],
+                        [
+                            58499.99999900001,
+                            88599.999999
+                        ]
+                    ],
+                    [
+                        [
+                            58499.99999900001,
+                            88599.999999
+                        ],
+                        [
+                            52499.999998000014,
+                            88599.999999
+                        ]
+                    ],
+                    [
+                        [
+                            52499.999998000014,
+                            88599.999999
+                        ],
+                        [
+                            52499.999998000014,
+                            86799.99999700002
+                        ]
+                    ],
+                    [
+                        [
+                            52499.999998000014,
+                            86799.99999700002
+                        ],
+                        [
+                            50599.999998,
+                            86799.99999700002
+                        ]
+                    ],
+                    [
+                        [
+                            50599.999998,
+                            86799.99999700002
+                        ],
+                        [
+                            50599.999998,
+                            85400.000001
+                        ]
+                    ],
+                    [
+                        [
+                            50599.999998,
+                            85400.000001
+                        ],
+                        [
+                            48299.999998,
+                            85400.000001
+                        ]
+                    ],
+                    [
+                        [
+                            48299.999998,
+                            85400.000001
+                        ],
+                        [
+                            48299.999998,
+                            85199.99999800001
+                        ]
+                    ],
+                    [
+                        [
+                            48299.999998,
+                            85199.99999800001
+                        ],
+                        [
+                            48000.0,
+                            85199.99999800001
+                        ]
+                    ],
+                    [
+                        [
+                            48000.0,
+                            85199.99999800001
+                        ],
+                        [
+                            48000.0,
+                            84700.0
+                        ]
+                    ],
+                    [
+                        [
+                            48000.0,
+                            84700.0
+                        ],
+                        [
+                            47000.0,
+                            84700.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_7",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "mixer_7",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            62000.0,
+                            100300.0
+                        ],
+                        [
+                            62000.0,
+                            91099.99999800001
+                        ],
+                        [
+                            61300.00000099999,
+                            91099.99999800001
+                        ],
+                        [
+                            61300.00000099999,
+                            90199.99999800001
+                        ],
+                        [
+                            60099.999998000014,
+                            90199.99999800001
+                        ],
+                        [
+                            60099.999998000014,
+                            89499.999999
+                        ],
+                        [
+                            58499.99999900001,
+                            89499.999999
+                        ],
+                        [
+                            58499.99999900001,
+                            88599.999999
+                        ],
+                        [
+                            52499.999998000014,
+                            88599.999999
+                        ],
+                        [
+                            52499.999998000014,
+                            86799.99999700002
+                        ],
+                        [
+                            50599.999998,
+                            86799.99999700002
+                        ],
+                        [
+                            50599.999998,
+                            85400.000001
+                        ],
+                        [
+                            48299.999998,
+                            85400.000001
+                        ],
+                        [
+                            48299.999998,
+                            85199.99999800001
+                        ],
+                        [
+                            48000.0,
+                            85199.99999800001
+                        ],
+                        [
+                            48000.0,
+                            84700.0
+                        ],
+                        [
+                            47000.0,
+                            84700.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "valve_0",
+                    "port": "1"
+                }
+            ],
+            "name": "Ctrlchannel_0",
+            "id": "Ctrlchannel_0",
+            "source": {
+                "component": "Cport_0",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 600,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    "Point",
+                    -1,
+                    -1
+                ],
+                "end": [
+                    -1,
+                    -1
+                ],
+                "wayPoints": [
+                    [
+                        -1,
+                        -1
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            -1,
+                            -1
+                        ],
+                        [
+                            -1,
+                            -1
+                        ]
+                    ]
+                ]
+            },
+            "layer": "1",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "valve_1",
+                    "port": "1"
+                }
+            ],
+            "name": "Ctrlchannel_1",
+            "id": "Ctrlchannel_1",
+            "source": {
+                "component": "Cport_1",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 600,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    "Point",
+                    -1,
+                    -1
+                ],
+                "end": [
+                    -1,
+                    -1
+                ],
+                "wayPoints": [
+                    [
+                        -1,
+                        -1
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            -1,
+                            -1
+                        ],
+                        [
+                            -1,
+                            -1
+                        ]
+                    ]
+                ]
+            },
+            "layer": "1",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "valve_2",
+                    "port": "1"
+                }
+            ],
+            "name": "Ctrlchannel_2",
+            "id": "Ctrlchannel_2",
+            "source": {
+                "component": "Cport_2",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 600,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    "Point",
+                    -1,
+                    -1
+                ],
+                "end": [
+                    -1,
+                    -1
+                ],
+                "wayPoints": [
+                    [
+                        -1,
+                        -1
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            -1,
+                            -1
+                        ],
+                        [
+                            -1,
+                            -1
+                        ]
+                    ]
+                ]
+            },
+            "layer": "1",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "valve_3",
+                    "port": "1"
+                }
+            ],
+            "name": "Ctrlchannel_3",
+            "id": "Ctrlchannel_3",
+            "source": {
+                "component": "Cport_3",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 600,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    "Point",
+                    -1,
+                    -1
+                ],
+                "end": [
+                    -1,
+                    -1
+                ],
+                "wayPoints": [
+                    [
+                        -1,
+                        -1
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            -1,
+                            -1
+                        ],
+                        [
+                            -1,
+                            -1
+                        ]
+                    ]
+                ]
+            },
+            "layer": "1",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "valve_4",
+                    "port": "1"
+                }
+            ],
+            "name": "Ctrlchannel_4",
+            "id": "Ctrlchannel_4",
+            "source": {
+                "component": "Cport_4",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 600,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    "Point",
+                    -1,
+                    -1
+                ],
+                "end": [
+                    -1,
+                    -1
+                ],
+                "wayPoints": [
+                    [
+                        -1,
+                        -1
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            -1,
+                            -1
+                        ],
+                        [
+                            -1,
+                            -1
+                        ]
+                    ]
+                ]
+            },
+            "layer": "1",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "valve_5",
+                    "port": "1"
+                }
+            ],
+            "name": "Ctrlchannel_5",
+            "id": "Ctrlchannel_5",
+            "source": {
+                "component": "Cport_5",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 600,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    "Point",
+                    -1,
+                    -1
+                ],
+                "end": [
+                    -1,
+                    -1
+                ],
+                "wayPoints": [
+                    [
+                        -1,
+                        -1
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            -1,
+                            -1
+                        ],
+                        [
+                            -1,
+                            -1
+                        ]
+                    ]
+                ]
+            },
+            "layer": "1",
+            "paths": [],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "valve_6",
+                    "port": "1"
+                }
+            ],
+            "name": "Ctrlchannel_6",
+            "id": "Ctrlchannel_6",
+            "source": {
+                "component": "Cport_6",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 600,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "width": 600,
+                "crossSection": 1,
+                "length": 1000.0,
+                "start": [
+                    "Point",
+                    -1,
+                    -1
+                ],
+                "end": [
+                    -1,
+                    -1
+                ],
+                "wayPoints": [
+                    [
+                        -1,
+                        -1
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            -1,
+                            -1
+                        ],
+                        [
+                            -1,
+                            -1
+                        ]
+                    ]
+                ]
+            },
+            "layer": "1",
+            "paths": [],
+            "entity": "CHANNEL"
+        }
+    ],
+    "params": {
+        "x-span": 90300.0,
+        "y-span": 106300.0,
+        "length": 106300.0
+    },
+    "layers": [
+        {
+            "name": "FLOW_0",
+            "id": "0",
+            "type": "FLOW",
+            "params": {},
+            "group": "0"
+        },
+        {
+            "name": "CONTROL_0",
+            "id": "1",
+            "type": "CONTROL",
+            "params": {},
+            "group": "0"
+        }
+    ],
+    "features": [],
+    "version": "1.2",
+    "valves": [
+        {
+            "componentid": "valve_0",
+            "connectionid": "channel_17",
+            "type": "NORMALLY_OPEN"
+        },
+        {
+            "componentid": "valve_1",
+            "connectionid": "channel_18",
+            "type": "NORMALLY_OPEN"
+        },
+        {
+            "componentid": "valve_2",
+            "connectionid": "channel_15",
+            "type": "NORMALLY_OPEN"
+        },
+        {
+            "componentid": "valve_3",
+            "connectionid": "channel_8",
+            "type": "NORMALLY_OPEN"
+        },
+        {
+            "componentid": "valve_4",
+            "connectionid": "channel_12",
+            "type": "NORMALLY_OPEN"
+        },
+        {
+            "componentid": "valve_5",
+            "connectionid": "channel_13",
+            "type": "NORMALLY_OPEN"
+        },
+        {
+            "componentid": "valve_6",
+            "connectionid": "channel_10",
+            "type": "NORMALLY_OPEN"
+        }
+    ],
+    "isPnR": false,
+    "layoutConstraints": [],
+    "IsPlacedAndRouted": true
+}

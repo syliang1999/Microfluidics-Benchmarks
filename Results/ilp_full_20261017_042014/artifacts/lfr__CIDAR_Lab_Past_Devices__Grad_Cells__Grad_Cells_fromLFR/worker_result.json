@@ -1,0 +1,20 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/CIDAR_Lab_Past_Devices/Grad_Cells/Grad_Cells_fromLFR.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/lfr__CIDAR_Lab_Past_Devices__Grad_Cells__Grad_Cells_fromLFR/result_control.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/lfr__CIDAR_Lab_Past_Devices__Grad_Cells__Grad_Cells_fromLFR/metrics.json",
+  "solver_status": "feasible",
+  "placement_optimal": false,
+  "ilp_runtime_seconds": 195.42786106001586,
+  "total_channel_manhattan_length": 363699.999999,
+  "physical_area": 1791120000.0,
+  "padded_area": 2738120000.0,
+  "drc_passed": true,
+  "violation_count": 0,
+  "violations": [],
+  "control_required": true,
+  "control_passed": true,
+  "worker_seconds": 197.023293
+}

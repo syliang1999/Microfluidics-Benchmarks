@@ -1,0 +1,31 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Transport_Networks/One_To_8/One_To_8_fromLFR.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/lfr__Transport_Networks__One_To_8__One_To_8_fromLFR --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: One_To_8_fromLFR
+1/9, Finish initial placement, time spent: 0.00012063980102539062 s
+[0, 2000, 2000, 'port_1', 0] [[1000.0, 1000.0]]
+[1, 2000, 2000, 'port_2', 0] [[1000.0, 1000.0]]
+[2, 2000, 2000, 'port_3', 0] [[1000.0, 1000.0]]
+[3, 2000, 2000, 'port_4', 0] [[1000.0, 1000.0]]
+[4, 2000, 2000, 'port_5', 0] [[1000.0, 1000.0]]
+[5, 2000, 2000, 'port_6', 0] [[1000.0, 1000.0]]
+[6, 2000, 2000, 'port_7', 0] [[1000.0, 1000.0]]
+[7, 2000, 2000, 'port_8', 0] [[1000.0, 1000.0]]
+[8, 2000, 2000, 'port_9', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 0.0002803802490234375 s
+3/9, Finish symmetricalization, time spent: 1.2636184692382812e-05 s
+4/9, Finish routing, time spent: 0.0002491474151611328 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0, 1, 2, 3, 4, 5, 6, 7], [0]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0016396045684814453 s
+6/9, Finish shortening wirelength, time spent: 6.151199340820312e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00034809112548828125 s
+9/9, Finish compaction and connecting ports, time spent: 0.06865930557250977 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.07137131690979004 s
+Reordering Timeusage: 0.0016396045684814453 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.0707085132598877 s

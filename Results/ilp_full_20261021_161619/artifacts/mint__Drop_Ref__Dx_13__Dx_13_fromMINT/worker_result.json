@@ -1,0 +1,42 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Drop_Ref/Dx_13/Dx_13_fromMINT.json",
+  "success": false,
+  "error": "RuntimeError: DRC violations: channel_spacing: channels of connections 'channel_2' and 'channel_16' violate the 1000 edge-to-edge clearance",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__Drop_Ref__Dx_13__Dx_13_fromMINT/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__Drop_Ref__Dx_13__Dx_13_fromMINT/metrics.json",
+  "solver_status": "feasible",
+  "placement_optimal": false,
+  "ilp_runtime_seconds": 486.75989486742765,
+  "total_channel_manhattan_length": 202609.999996,
+  "physical_area": 6998494649.82714,
+  "padded_area": 8827104649.807138,
+  "drc_passed": false,
+  "violation_count": 1,
+  "violations": [
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_2' and 'channel_16' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_2",
+      "details": {
+        "other": "channel_16",
+        "rect_a": [
+          69310.99999899999,
+          109950.000001,
+          69710.99999899999,
+          113149.999999
+        ],
+        "rect_b": [
+          66411.0,
+          111350.0,
+          68311.0,
+          111750.0
+        ]
+      }
+    }
+  ],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 487.526711
+}

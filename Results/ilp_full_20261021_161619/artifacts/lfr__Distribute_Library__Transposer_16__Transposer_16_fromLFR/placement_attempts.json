@@ -1,0 +1,10 @@
+[
+  {
+    "placement_gap": 0.0,
+    "status": "routed",
+    "elapsed_seconds": 0.041337850503623486,
+    "placement_time_limit_seconds": 215.9998319945857,
+    "total_channel_manhattan_length": 74200.0,
+    "physical_area": 152400000.0
+  }
+]

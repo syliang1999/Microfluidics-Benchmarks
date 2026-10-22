@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/CIDAR_Lab_Past_Devices/Hmlp_Dual_Bank/Hmlp_Dual_Bank_fromMINT.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=43, E=63, components=1, cycle_rank=21; cycle-closing connection(s): channel_32, channel_35, channel_36, channel_38, channel_39, channel_41, channel_42, channel_44, channel_45, channel_47, channel_48, channel_50, channel_51, channel_53, channel_54, channel_56, channel_57, channel_59, channel_60, channel_62, channel_63",
+  "worker_seconds": 0.007276
+}

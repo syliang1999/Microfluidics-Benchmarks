@@ -1,0 +1,84 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Constraints/Orthogonal_Constraint_Large/Orthogonal_Constraint_Large_fromMINT.json",
+  "success": false,
+  "error": "RuntimeError: DRC violations: channel_spacing: channels of connections 'c_1' and 'c_12' violate the 1000 edge-to-edge clearance; channel_spacing: channels of connections 'c_2' and 'c_12' violate the 1000 edge-to-edge clearance; channel_spacing: channels of connections 'c_3' and 'c_12' violate the 1000 edge-to-edge clearance",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__Constraints__Orthogonal_Constraint_Large__Orthogonal_Constraint_Large_fromMINT/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__Constraints__Orthogonal_Constraint_Large__Orthogonal_Constraint_Large_fromMINT/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 299.9779101414606,
+  "total_channel_manhattan_length": 646668.403353,
+  "physical_area": 5105713764.6252,
+  "padded_area": 6637754941.0852,
+  "drc_passed": false,
+  "violation_count": 3,
+  "violations": [
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'c_1' and 'c_12' violate the 1000 edge-to-edge clearance",
+      "connection": "c_1",
+      "details": {
+        "other": "c_12",
+        "rect_a": [
+          15022.941175,
+          16784.285713999998,
+          16422.941175,
+          17184.285713999998
+        ],
+        "rect_b": [
+          12222.941177,
+          15384.285715,
+          20219.999998,
+          15784.285715
+        ]
+      }
+    },
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'c_2' and 'c_12' violate the 1000 edge-to-edge clearance",
+      "connection": "c_2",
+      "details": {
+        "other": "c_12",
+        "rect_a": [
+          15022.941175,
+          16784.285713999998,
+          16422.941175,
+          17184.285713999998
+        ],
+        "rect_b": [
+          12222.941177,
+          15384.285715,
+          20219.999998,
+          15784.285715
+        ]
+      }
+    },
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'c_3' and 'c_12' violate the 1000 edge-to-edge clearance",
+      "connection": "c_3",
+      "details": {
+        "other": "c_12",
+        "rect_a": [
+          15022.941175,
+          16784.285713999998,
+          16422.941175,
+          17184.285713999998
+        ],
+        "rect_b": [
+          12222.941177,
+          15384.285715,
+          20219.999998,
+          15784.285715
+        ]
+      }
+    }
+  ],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 300.926339
+}

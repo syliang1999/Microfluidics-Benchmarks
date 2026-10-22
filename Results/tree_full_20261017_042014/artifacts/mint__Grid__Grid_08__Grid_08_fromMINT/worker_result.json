@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Grid/Grid_08/Grid_08_fromMINT.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=68, E=130, components=1, cycle_rank=63; cycle-closing connection(s): c10, c11, c12, c13, c14, c15, c16, c25, c26, c27, c28, c29, c30, c31, c40, c41, c42, c43, c44, c45, c46, c55, c56, c57, c58, c59, c60, c61, c70, c71, c72, c73, c74, c75, c76, c85, c86, c87, c88, c89, c90, c91, c100, c101, c102, c103, c104, c105, c106, c115, c116, c117, c118, c119, c120, c121, c123, c124, c125, c126, c127, c128, c129",
+  "worker_seconds": 0.011587
+}

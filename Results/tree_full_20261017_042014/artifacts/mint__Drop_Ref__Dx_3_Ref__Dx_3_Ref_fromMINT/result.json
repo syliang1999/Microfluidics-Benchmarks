@@ -1,0 +1,1779 @@
+{
+    "name": "Dx_3_Ref",
+    "IsPlacedAndRouted": true,
+    "components": [
+        {
+            "name": "port_oil1",
+            "id": "port_oil1",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 2000,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    27512.5,
+                    7000.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 2000.0,
+                    "y": 2000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "port_oil2",
+            "id": "port_oil2",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 2000,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    37512.5,
+                    7000.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 2000.0,
+                    "y": 2000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "port_water",
+            "id": "port_water",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 2000,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    11225.0,
+                    15487.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 2000.0,
+                    "y": 2000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "nozzle_droplet_generator_1",
+            "id": "nozzle_droplet_generator_1",
+            "entity": "NOZZLE DROPLET GENERATOR",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "orificeSize": 150,
+                "orificeLength": 375,
+                "oilInputWidth": 600,
+                "waterInputWidth": 375,
+                "outputWidth": 300,
+                "outputLength": 5000,
+                "depth": 300.0,
+                "componentSpacing": 2000.0,
+                "rotation": 0,
+                "mirrorByX": 0,
+                "mirrorByY": 0.0,
+                "position": [
+                    22212.5,
+                    15487.5
+                ]
+            },
+            "ports": [
+                {
+                    "x": 300,
+                    "y": 0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 5975,
+                    "y": 187,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 300,
+                    "y": 375,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 0,
+                    "y": 187,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 5975,
+            "y-span": 375
+        },
+        {
+            "name": "droplet_splitter_1",
+            "id": "droplet_splitter_1",
+            "entity": "DROPLET SPLITTER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "inletWidth": 300,
+                "inletLength": 2000,
+                "outletWidth1": 300,
+                "outletLength1": 2000,
+                "outletWidth2": 300,
+                "outletLength2": 2000,
+                "componentSpacing": 2000.0,
+                "rotation": 270,
+                "mirrorByX": 0,
+                "mirrorByY": 0.0,
+                "position": [
+                    25200.0,
+                    26600.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 2150,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1850,
+                    "y": 0,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1850,
+                    "y": 4300,
+                    "label": "3",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 4300
+        },
+        {
+            "name": "port_injector1",
+            "id": "port_injector1",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 2000,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    7000.0,
+                    40900.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 2000.0,
+                    "y": 2000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "port_injector2",
+            "id": "port_injector2",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 2000,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    43400.0,
+                    40900.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 2000.0,
+                    "y": 2000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "picoinjector_1",
+            "id": "picoinjector_1",
+            "entity": "PICOINJECTOR",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "injectorWidth": 1000,
+                "width": 10000,
+                "injectorLength": 5000,
+                "dropletWidth": 100,
+                "nozzleWidth": 50,
+                "nozzleLength": 500,
+                "electrodeDistance": 500,
+                "electrodeWidth": 800,
+                "electrodeLength": 3000,
+                "componentSpacing": 2000.0,
+                "rotation": 90,
+                "mirrorByX": 0,
+                "mirrorByY": 0.0,
+                "position": [
+                    17675.0,
+                    40900.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 5550,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 10000,
+                    "y": 5550,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 5000,
+                    "y": 0,
+                    "label": "3",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 10000,
+            "y-span": 9050
+        },
+        {
+            "name": "picoinjector_2",
+            "id": "picoinjector_2",
+            "entity": "PICOINJECTOR",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "injectorWidth": 1000,
+                "width": 10000,
+                "injectorLength": 5000,
+                "dropletWidth": 100,
+                "nozzleWidth": 50,
+                "nozzleLength": 500,
+                "electrodeDistance": 500,
+                "electrodeWidth": 800,
+                "electrodeLength": 3000,
+                "componentSpacing": 2000.0,
+                "rotation": 90,
+                "mirrorByX": 1,
+                "mirrorByY": 0.0,
+                "position": [
+                    32725.0,
+                    40900.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 5550,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 10000,
+                    "y": 5550,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 5000,
+                    "y": 0,
+                    "label": "3",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 10000,
+            "y-span": 9050
+        },
+        {
+            "name": "port_out1",
+            "id": "port_out1",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 2000,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    21050.0,
+                    54200.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 2000.0,
+                    "y": 2000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "port_out2",
+            "id": "port_out2",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "portRadius": 2000,
+                "componentSpacing": 2000.0,
+                "depth": 1100.0,
+                "position": [
+                    38150.0,
+                    54200.0
+                ],
+                "rotation": 0,
+                "mirrorByX": 0
+            },
+            "ports": [
+                {
+                    "x": 2000.0,
+                    "y": 2000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        }
+    ],
+    "connections": [
+        {
+            "sinks": [
+                {
+                    "component": "port_oil1",
+                    "port": "1"
+                }
+            ],
+            "name": "connection_1",
+            "id": "connection_1",
+            "source": {
+                "component": "nozzle_droplet_generator_1",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 300,
+                "connectionSpacing": 1000,
+                "width": 300,
+                "crossSection": 1,
+                "start": [
+                    19525.0,
+                    15300.0
+                ],
+                "end": [
+                    27512.5,
+                    7000.0
+                ],
+                "wayPoints": [
+                    [
+                        19525.0,
+                        15300.0
+                    ],
+                    [
+                        19525.0,
+                        13150.0
+                    ],
+                    [
+                        19525.0,
+                        12150.0
+                    ],
+                    [
+                        27512.5,
+                        12150.0
+                    ],
+                    [
+                        27512.5,
+                        7000.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            19525.0,
+                            15300.0
+                        ],
+                        [
+                            19525.0,
+                            13150.0
+                        ]
+                    ],
+                    [
+                        [
+                            19525.0,
+                            13150.0
+                        ],
+                        [
+                            19525.0,
+                            12150.0
+                        ]
+                    ],
+                    [
+                        [
+                            19525.0,
+                            12150.0
+                        ],
+                        [
+                            27512.5,
+                            12150.0
+                        ]
+                    ],
+                    [
+                        [
+                            27512.5,
+                            12150.0
+                        ],
+                        [
+                            27512.5,
+                            7000.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "nozzle_droplet_generator_1",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "port_oil1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            19525.0,
+                            15300.0
+                        ],
+                        [
+                            19525.0,
+                            13150.0
+                        ],
+                        [
+                            19525.0,
+                            12150.0
+                        ],
+                        [
+                            27512.5,
+                            12150.0
+                        ],
+                        [
+                            27512.5,
+                            7000.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "nozzle_droplet_generator_1",
+                    "port": "3"
+                }
+            ],
+            "name": "connection_2",
+            "id": "connection_2",
+            "source": {
+                "component": "port_oil2",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 300,
+                "connectionSpacing": 1000,
+                "width": 300,
+                "crossSection": 1,
+                "start": [
+                    37512.5,
+                    7000.0
+                ],
+                "end": [
+                    19525.0,
+                    15675.0
+                ],
+                "wayPoints": [
+                    [
+                        37512.5,
+                        7000.0
+                    ],
+                    [
+                        37512.5,
+                        17825.0
+                    ],
+                    [
+                        19525.0,
+                        17825.0
+                    ],
+                    [
+                        19525.0,
+                        15675.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            37512.5,
+                            7000.0
+                        ],
+                        [
+                            37512.5,
+                            17825.0
+                        ]
+                    ],
+                    [
+                        [
+                            37512.5,
+                            17825.0
+                        ],
+                        [
+                            19525.0,
+                            17825.0
+                        ]
+                    ],
+                    [
+                        [
+                            19525.0,
+                            17825.0
+                        ],
+                        [
+                            19525.0,
+                            15675.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_oil2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "nozzle_droplet_generator_1",
+                        "port": "3"
+                    },
+                    "wayPoints": [
+                        [
+                            37512.5,
+                            7000.0
+                        ],
+                        [
+                            37512.5,
+                            17825.0
+                        ],
+                        [
+                            19525.0,
+                            17825.0
+                        ],
+                        [
+                            19525.0,
+                            15675.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "nozzle_droplet_generator_1",
+                    "port": "4"
+                }
+            ],
+            "name": "connection_3",
+            "id": "connection_3",
+            "source": {
+                "component": "port_water",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 300,
+                "connectionSpacing": 1000,
+                "width": 300,
+                "crossSection": 1,
+                "start": [
+                    11225.0,
+                    15487.0
+                ],
+                "end": [
+                    19225.0,
+                    15487.0
+                ],
+                "wayPoints": [
+                    [
+                        11225.0,
+                        15487.0
+                    ],
+                    [
+                        17075.0,
+                        15487.0
+                    ],
+                    [
+                        19225.0,
+                        15487.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            11225.0,
+                            15487.0
+                        ],
+                        [
+                            17075.0,
+                            15487.0
+                        ]
+                    ],
+                    [
+                        [
+                            17075.0,
+                            15487.0
+                        ],
+                        [
+                            19225.0,
+                            15487.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_water",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "nozzle_droplet_generator_1",
+                        "port": "4"
+                    },
+                    "wayPoints": [
+                        [
+                            11225.0,
+                            15487.0
+                        ],
+                        [
+                            17075.0,
+                            15487.0
+                        ],
+                        [
+                            19225.0,
+                            15487.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "droplet_splitter_1",
+                    "port": "1"
+                }
+            ],
+            "name": "connection_4",
+            "id": "connection_4",
+            "source": {
+                "component": "nozzle_droplet_generator_1",
+                "port": "2"
+            },
+            "params": {
+                "channelWidth": 300,
+                "connectionSpacing": 1000,
+                "width": 300,
+                "crossSection": 1,
+                "start": [
+                    25200.0,
+                    15487.0
+                ],
+                "end": [
+                    25200.0,
+                    25600.0
+                ],
+                "wayPoints": [
+                    [
+                        25200.0,
+                        15487.0
+                    ],
+                    [
+                        27350.0,
+                        15487.0
+                    ],
+                    [
+                        27350.0,
+                        22450.0
+                    ],
+                    [
+                        25200.0,
+                        22450.0
+                    ],
+                    [
+                        25200.0,
+                        23450.0
+                    ],
+                    [
+                        25200.0,
+                        25600.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            25200.0,
+                            15487.0
+                        ],
+                        [
+                            27350.0,
+                            15487.0
+                        ]
+                    ],
+                    [
+                        [
+                            27350.0,
+                            15487.0
+                        ],
+                        [
+                            27350.0,
+                            22450.0
+                        ]
+                    ],
+                    [
+                        [
+                            27350.0,
+                            22450.0
+                        ],
+                        [
+                            25200.0,
+                            22450.0
+                        ]
+                    ],
+                    [
+                        [
+                            25200.0,
+                            22450.0
+                        ],
+                        [
+                            25200.0,
+                            23450.0
+                        ]
+                    ],
+                    [
+                        [
+                            25200.0,
+                            23450.0
+                        ],
+                        [
+                            25200.0,
+                            25600.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "nozzle_droplet_generator_1",
+                        "port": "2"
+                    },
+                    "sink": {
+                        "component": "droplet_splitter_1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            25200.0,
+                            15487.0
+                        ],
+                        [
+                            27350.0,
+                            15487.0
+                        ],
+                        [
+                            27350.0,
+                            22450.0
+                        ],
+                        [
+                            25200.0,
+                            22450.0
+                        ],
+                        [
+                            25200.0,
+                            23450.0
+                        ],
+                        [
+                            25200.0,
+                            25600.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "picoinjector_1",
+                    "port": "1"
+                }
+            ],
+            "name": "connection_5",
+            "id": "connection_5",
+            "source": {
+                "component": "droplet_splitter_1",
+                "port": "2"
+            },
+            "params": {
+                "channelWidth": 300,
+                "connectionSpacing": 1000,
+                "width": 300,
+                "crossSection": 1,
+                "start": [
+                    27350.0,
+                    27450.0
+                ],
+                "end": [
+                    18700.0,
+                    45900.0
+                ],
+                "wayPoints": [
+                    [
+                        27350.0,
+                        27450.0
+                    ],
+                    [
+                        29500.0,
+                        27450.0
+                    ],
+                    [
+                        29500.0,
+                        25750.0
+                    ],
+                    [
+                        21050.0,
+                        25750.0
+                    ],
+                    [
+                        21050.0,
+                        32750.0
+                    ],
+                    [
+                        16650.0,
+                        32750.0
+                    ],
+                    [
+                        16650.0,
+                        48050.0
+                    ],
+                    [
+                        18700.0,
+                        48050.0
+                    ],
+                    [
+                        18700.0,
+                        45900.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            27350.0,
+                            27450.0
+                        ],
+                        [
+                            29500.0,
+                            27450.0
+                        ]
+                    ],
+                    [
+                        [
+                            29500.0,
+                            27450.0
+                        ],
+                        [
+                            29500.0,
+                            25750.0
+                        ]
+                    ],
+                    [
+                        [
+                            29500.0,
+                            25750.0
+                        ],
+                        [
+                            21050.0,
+                            25750.0
+                        ]
+                    ],
+                    [
+                        [
+                            21050.0,
+                            25750.0
+                        ],
+                        [
+                            21050.0,
+                            32750.0
+                        ]
+                    ],
+                    [
+                        [
+                            21050.0,
+                            32750.0
+                        ],
+                        [
+                            16650.0,
+                            32750.0
+                        ]
+                    ],
+                    [
+                        [
+                            16650.0,
+                            32750.0
+                        ],
+                        [
+                            16650.0,
+                            48050.0
+                        ]
+                    ],
+                    [
+                        [
+                            16650.0,
+                            48050.0
+                        ],
+                        [
+                            18700.0,
+                            48050.0
+                        ]
+                    ],
+                    [
+                        [
+                            18700.0,
+                            48050.0
+                        ],
+                        [
+                            18700.0,
+                            45900.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "droplet_splitter_1",
+                        "port": "2"
+                    },
+                    "sink": {
+                        "component": "picoinjector_1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            27350.0,
+                            27450.0
+                        ],
+                        [
+                            29500.0,
+                            27450.0
+                        ],
+                        [
+                            29500.0,
+                            25750.0
+                        ],
+                        [
+                            21050.0,
+                            25750.0
+                        ],
+                        [
+                            21050.0,
+                            32750.0
+                        ],
+                        [
+                            16650.0,
+                            32750.0
+                        ],
+                        [
+                            16650.0,
+                            48050.0
+                        ],
+                        [
+                            18700.0,
+                            48050.0
+                        ],
+                        [
+                            18700.0,
+                            45900.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "droplet_splitter_1",
+                    "port": "3"
+                }
+            ],
+            "name": "connection_6",
+            "id": "connection_6",
+            "source": {
+                "component": "picoinjector_2",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 300,
+                "connectionSpacing": 1000,
+                "width": 300,
+                "crossSection": 1,
+                "start": [
+                    31700.0,
+                    45900.0
+                ],
+                "end": [
+                    23050.0,
+                    27450.0
+                ],
+                "wayPoints": [
+                    [
+                        31700.0,
+                        45900.0
+                    ],
+                    [
+                        31700.0,
+                        48050.0
+                    ],
+                    [
+                        33750.0,
+                        48050.0
+                    ],
+                    [
+                        33750.0,
+                        32750.0
+                    ],
+                    [
+                        29350.0,
+                        32750.0
+                    ],
+                    [
+                        29350.0,
+                        25750.0
+                    ],
+                    [
+                        20900.0,
+                        25750.0
+                    ],
+                    [
+                        20900.0,
+                        27450.0
+                    ],
+                    [
+                        23050.0,
+                        27450.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            31700.0,
+                            45900.0
+                        ],
+                        [
+                            31700.0,
+                            48050.0
+                        ]
+                    ],
+                    [
+                        [
+                            31700.0,
+                            48050.0
+                        ],
+                        [
+                            33750.0,
+                            48050.0
+                        ]
+                    ],
+                    [
+                        [
+                            33750.0,
+                            48050.0
+                        ],
+                        [
+                            33750.0,
+                            32750.0
+                        ]
+                    ],
+                    [
+                        [
+                            33750.0,
+                            32750.0
+                        ],
+                        [
+                            29350.0,
+                            32750.0
+                        ]
+                    ],
+                    [
+                        [
+                            29350.0,
+                            32750.0
+                        ],
+                        [
+                            29350.0,
+                            25750.0
+                        ]
+                    ],
+                    [
+                        [
+                            29350.0,
+                            25750.0
+                        ],
+                        [
+                            20900.0,
+                            25750.0
+                        ]
+                    ],
+                    [
+                        [
+                            20900.0,
+                            25750.0
+                        ],
+                        [
+                            20900.0,
+                            27450.0
+                        ]
+                    ],
+                    [
+                        [
+                            20900.0,
+                            27450.0
+                        ],
+                        [
+                            23050.0,
+                            27450.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "picoinjector_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "droplet_splitter_1",
+                        "port": "3"
+                    },
+                    "wayPoints": [
+                        [
+                            31700.0,
+                            45900.0
+                        ],
+                        [
+                            31700.0,
+                            48050.0
+                        ],
+                        [
+                            33750.0,
+                            48050.0
+                        ],
+                        [
+                            33750.0,
+                            32750.0
+                        ],
+                        [
+                            29350.0,
+                            32750.0
+                        ],
+                        [
+                            29350.0,
+                            25750.0
+                        ],
+                        [
+                            20900.0,
+                            25750.0
+                        ],
+                        [
+                            20900.0,
+                            27450.0
+                        ],
+                        [
+                            23050.0,
+                            27450.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "port_injector1",
+                    "port": "1"
+                }
+            ],
+            "name": "connection_7",
+            "id": "connection_7",
+            "source": {
+                "component": "picoinjector_1",
+                "port": "3"
+            },
+            "params": {
+                "channelWidth": 300,
+                "connectionSpacing": 1000,
+                "width": 300,
+                "crossSection": 1,
+                "start": [
+                    13150.0,
+                    40900.0
+                ],
+                "end": [
+                    7000.0,
+                    40900.0
+                ],
+                "wayPoints": [
+                    [
+                        13150.0,
+                        40900.0
+                    ],
+                    [
+                        11000.0,
+                        40900.0
+                    ],
+                    [
+                        7000.0,
+                        40900.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            13150.0,
+                            40900.0
+                        ],
+                        [
+                            11000.0,
+                            40900.0
+                        ]
+                    ],
+                    [
+                        [
+                            11000.0,
+                            40900.0
+                        ],
+                        [
+                            7000.0,
+                            40900.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "picoinjector_1",
+                        "port": "3"
+                    },
+                    "sink": {
+                        "component": "port_injector1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            13150.0,
+                            40900.0
+                        ],
+                        [
+                            11000.0,
+                            40900.0
+                        ],
+                        [
+                            7000.0,
+                            40900.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "port_injector2",
+                    "port": "1"
+                }
+            ],
+            "name": "connection_8",
+            "id": "connection_8",
+            "source": {
+                "component": "picoinjector_2",
+                "port": "3"
+            },
+            "params": {
+                "channelWidth": 300,
+                "connectionSpacing": 1000,
+                "width": 300,
+                "crossSection": 1,
+                "start": [
+                    37250.0,
+                    40900.0
+                ],
+                "end": [
+                    43400.0,
+                    40900.0
+                ],
+                "wayPoints": [
+                    [
+                        37250.0,
+                        40900.0
+                    ],
+                    [
+                        39400.0,
+                        40900.0
+                    ],
+                    [
+                        43400.0,
+                        40900.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            37250.0,
+                            40900.0
+                        ],
+                        [
+                            39400.0,
+                            40900.0
+                        ]
+                    ],
+                    [
+                        [
+                            39400.0,
+                            40900.0
+                        ],
+                        [
+                            43400.0,
+                            40900.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "picoinjector_2",
+                        "port": "3"
+                    },
+                    "sink": {
+                        "component": "port_injector2",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            37250.0,
+                            40900.0
+                        ],
+                        [
+                            39400.0,
+                            40900.0
+                        ],
+                        [
+                            43400.0,
+                            40900.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "port_out1",
+                    "port": "1"
+                }
+            ],
+            "name": "connection_9",
+            "id": "connection_9",
+            "source": {
+                "component": "picoinjector_1",
+                "port": "2"
+            },
+            "params": {
+                "channelWidth": 300,
+                "connectionSpacing": 1000,
+                "width": 300,
+                "crossSection": 1,
+                "start": [
+                    18700.0,
+                    35900.0
+                ],
+                "end": [
+                    21050.0,
+                    54200.0
+                ],
+                "wayPoints": [
+                    [
+                        18700.0,
+                        35900.0
+                    ],
+                    [
+                        18700.0,
+                        33750.0
+                    ],
+                    [
+                        16650.0,
+                        33750.0
+                    ],
+                    [
+                        16650.0,
+                        49050.0
+                    ],
+                    [
+                        21050.0,
+                        49050.0
+                    ],
+                    [
+                        21050.0,
+                        54200.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            18700.0,
+                            35900.0
+                        ],
+                        [
+                            18700.0,
+                            33750.0
+                        ]
+                    ],
+                    [
+                        [
+                            18700.0,
+                            33750.0
+                        ],
+                        [
+                            16650.0,
+                            33750.0
+                        ]
+                    ],
+                    [
+                        [
+                            16650.0,
+                            33750.0
+                        ],
+                        [
+                            16650.0,
+                            49050.0
+                        ]
+                    ],
+                    [
+                        [
+                            16650.0,
+                            49050.0
+                        ],
+                        [
+                            21050.0,
+                            49050.0
+                        ]
+                    ],
+                    [
+                        [
+                            21050.0,
+                            49050.0
+                        ],
+                        [
+                            21050.0,
+                            54200.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "picoinjector_1",
+                        "port": "2"
+                    },
+                    "sink": {
+                        "component": "port_out1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            18700.0,
+                            35900.0
+                        ],
+                        [
+                            18700.0,
+                            33750.0
+                        ],
+                        [
+                            16650.0,
+                            33750.0
+                        ],
+                        [
+                            16650.0,
+                            49050.0
+                        ],
+                        [
+                            21050.0,
+                            49050.0
+                        ],
+                        [
+                            21050.0,
+                            54200.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "picoinjector_2",
+                    "port": "2"
+                }
+            ],
+            "name": "connection_10",
+            "id": "connection_10",
+            "source": {
+                "component": "port_out2",
+                "port": "1"
+            },
+            "params": {
+                "channelWidth": 300,
+                "connectionSpacing": 1000,
+                "width": 300,
+                "crossSection": 1,
+                "start": [
+                    38150.0,
+                    54200.0
+                ],
+                "end": [
+                    31700.0,
+                    35900.0
+                ],
+                "wayPoints": [
+                    [
+                        38150.0,
+                        54200.0
+                    ],
+                    [
+                        38150.0,
+                        49050.0
+                    ],
+                    [
+                        33750.0,
+                        49050.0
+                    ],
+                    [
+                        33750.0,
+                        33750.0
+                    ],
+                    [
+                        31700.0,
+                        33750.0
+                    ],
+                    [
+                        31700.0,
+                        35900.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            38150.0,
+                            54200.0
+                        ],
+                        [
+                            38150.0,
+                            49050.0
+                        ]
+                    ],
+                    [
+                        [
+                            38150.0,
+                            49050.0
+                        ],
+                        [
+                            33750.0,
+                            49050.0
+                        ]
+                    ],
+                    [
+                        [
+                            33750.0,
+                            49050.0
+                        ],
+                        [
+                            33750.0,
+                            33750.0
+                        ]
+                    ],
+                    [
+                        [
+                            33750.0,
+                            33750.0
+                        ],
+                        [
+                            31700.0,
+                            33750.0
+                        ]
+                    ],
+                    [
+                        [
+                            31700.0,
+                            33750.0
+                        ],
+                        [
+                            31700.0,
+                            35900.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_out2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "picoinjector_2",
+                        "port": "2"
+                    },
+                    "wayPoints": [
+                        [
+                            38150.0,
+                            54200.0
+                        ],
+                        [
+                            38150.0,
+                            49050.0
+                        ],
+                        [
+                            33750.0,
+                            49050.0
+                        ],
+                        [
+                            33750.0,
+                            33750.0
+                        ],
+                        [
+                            31700.0,
+                            33750.0
+                        ],
+                        [
+                            31700.0,
+                            35900.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        }
+    ],
+    "params": {
+        "x-span": 50400.0,
+        "y-span": 61200.0,
+        "length": 61200.0
+    },
+    "layers": [
+        {
+            "name": "FLOW_0",
+            "id": "0",
+            "type": "FLOW",
+            "params": {},
+            "group": "0"
+        }
+    ],
+    "features": [],
+    "version": "1.2",
+    "valves": [],
+    "isPnR": false,
+    "layoutConstraints": []
+}

@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/CIDAR_Lab_Past_Devices/Gradient/Gradient_fromMINT.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=48, E=57, components=1, cycle_rank=10; cycle-closing connection(s): channel_45, channel_47, channel_48, channel_49, channel_50, channel_52, channel_53, channel_54, channel_55, channel_56",
+  "worker_seconds": 0.008142
+}

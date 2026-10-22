@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/CIDAR_Lab_Past_Devices/Nine_To_One_MUX/Nine_To_One_MUX_fromLFR.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=28, E=35, components=1, cycle_rank=8; cycle-closing connection(s): channel_25, channel_27, channel_29, channel_31, channel_32, channel_33, channel_34, channel_35",
+  "worker_seconds": 0.005953
+}

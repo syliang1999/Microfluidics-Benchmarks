@@ -1,0 +1,63 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Technology_Mapping/Tree_Fanout_Mapping_1/Tree_Fanout_Mapping_1_fromLFR.json",
+  "success": false,
+  "error": "RuntimeError: DRC violations: channel_spacing: channels of connections 'channel_2' and 'channel_8' violate the 1000 edge-to-edge clearance; channel_spacing: channels of connections 'channel_7' and 'channel_8' violate the 1000 edge-to-edge clearance",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/lfr__Technology_Mapping__Tree_Fanout_Mapping_1__Tree_Fanout_Mapping_1_fromLFR/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/lfr__Technology_Mapping__Tree_Fanout_Mapping_1__Tree_Fanout_Mapping_1_fromLFR/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 2.077187561430037,
+  "total_channel_manhattan_length": 875100.9411559999,
+  "physical_area": 17902412799.699196,
+  "padded_area": 20696732799.6792,
+  "drc_passed": false,
+  "violation_count": 2,
+  "violations": [
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_2' and 'channel_8' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_2",
+      "details": {
+        "other": "channel_8",
+        "rect_a": [
+          62483.529415000005,
+          123431.99999799998,
+          72483.52941100001,
+          124031.99999799998
+        ],
+        "rect_b": [
+          65683.52941300001,
+          43199.999998000014,
+          66283.52941300001,
+          122431.99999899999
+        ]
+      }
+    },
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_7' and 'channel_8' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_7",
+      "details": {
+        "other": "channel_8",
+        "rect_a": [
+          67283.529412,
+          41599.99999900001,
+          67883.529412,
+          120832.0
+        ],
+        "rect_b": [
+          64083.529414000004,
+          43199.999998000014,
+          66283.52941300001,
+          43799.999998000014
+        ]
+      }
+    }
+  ],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 2.854391
+}

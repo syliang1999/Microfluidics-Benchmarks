@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/CIDAR_Lab_Past_Devices/Hasty_Cell_Traps/Hasty_Cell_Traps_fromLFR.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=6, E=8, components=1, cycle_rank=3; cycle-closing connection(s): channel_4, channel_6, channel_8",
+  "worker_seconds": 0.006955
+}

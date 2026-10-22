@@ -1,0 +1,26 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Primitive/Pump_3d/Pump_3d_fromMINT.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Primitive__Pump_3d__Pump_3d_fromMINT --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: Pump_3d_fromMINT
+1/9, Finish initial placement, time spent: 1.33514404296875e-05 s
+[0, 2000, 2000, 'p1', 0] [[1000.0, 1000.0]]
+[1, 2000, 2000, 'p2', 0] [[1000.0, 1000.0]]
+[2, 2400, 6400, 'pump', 0] [[1200, 0], [1200, 6400], [1200, 1200], [1200, 3200], [1200, 5200]]
+2/9, Finish initial placement with rotation, time spent: 8.749961853027344e-05 s
+3/9, Finish symmetricalization, time spent: 1.0967254638671875e-05 s
+4/9, Finish routing, time spent: 9.632110595703125e-05 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0, 1]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0005888938903808594 s
+6/9, Finish shortening wirelength, time spent: 3.600120544433594e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00012922286987304688 s
+9/9, Finish compaction and connecting ports, time spent: 0.027563810348510742 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.02852606773376465 s
+Reordering Timeusage: 0.0005888938903808594 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.028317928314208984 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Primitive__Pump_3d__Pump_3d_fromMINT/result.json

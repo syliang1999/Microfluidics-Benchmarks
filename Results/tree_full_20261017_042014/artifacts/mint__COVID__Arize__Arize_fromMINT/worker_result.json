@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/COVID/Arize/Arize_fromMINT.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=39, E=44, components=1, cycle_rank=6; cycle-closing connection(s): channel_25, channel_31, channel_33, channel_38, channel_40, channel_44",
+  "worker_seconds": 0.007441
+}

@@ -1,0 +1,28 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Primitive/Splitter/Splitter_fromMINT.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/mint__Primitive__Splitter__Splitter_fromMINT --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Reversed 1 connection(s) with opposite-port direction conflicts: c2.
+Finish loading test case: Splitter_fromMINT
+1/9, Finish initial placement, time spent: 1.4781951904296875e-05 s
+[0, 2000, 2000, 'p1', 0] [[1000.0, 1000.0]]
+[1, 2000, 2000, 'p2', 0] [[1000.0, 1000.0]]
+[2, 2000, 2000, 'p3', 0] [[1000.0, 1000.0]]
+[3, 6000, 8000, 's', 0] [[0, 4000], [5500, 0], [5000, 8000]]
+2/9, Finish initial placement with rotation, time spent: 7.295608520507812e-05 s
+3/9, Finish symmetricalization, time spent: 1.0728836059570312e-05 s
+4/9, Finish routing, time spent: 0.00012111663818359375 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0], [0, 1]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0004901885986328125 s
+6/9, Finish shortening wirelength, time spent: 4.8160552978515625e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00015354156494140625 s
+9/9, Finish compaction and connecting ports, time spent: 0.029605865478515625 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.0305173397064209 s
+Reordering Timeusage: 0.0004901885986328125 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.03029775619506836 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/mint__Primitive__Splitter__Splitter_fromMINT/result.json

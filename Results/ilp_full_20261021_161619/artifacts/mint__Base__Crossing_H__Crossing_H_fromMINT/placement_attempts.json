@@ -1,0 +1,17 @@
+[
+  {
+    "placement_gap": 5000.0,
+    "status": "failed",
+    "elapsed_seconds": 25.367868546396494,
+    "placement_time_limit_seconds": 359.93523195981976,
+    "reason": "No module named 'readjson'"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "routed",
+    "elapsed_seconds": 15.230086267925799,
+    "placement_time_limit_seconds": 532.2902086956426,
+    "total_channel_manhattan_length": 286465.714282,
+    "physical_area": 1934338700.0046551
+  }
+]

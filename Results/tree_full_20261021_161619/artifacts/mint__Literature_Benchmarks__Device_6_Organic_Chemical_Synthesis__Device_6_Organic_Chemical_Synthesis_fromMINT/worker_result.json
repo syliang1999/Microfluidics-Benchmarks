@@ -1,0 +1,9 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Literature_Benchmarks/Device_6_Organic_Chemical_Synthesis/Device_6_Organic_Chemical_Synthesis_fromMINT.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Literature_Benchmarks__Device_6_Organic_Chemical_Synthesis__Device_6_Organic_Chemical_Synthesis_fromMINT/result.json",
+  "is_placed_and_routed": true,
+  "worker_seconds": 2.087103
+}

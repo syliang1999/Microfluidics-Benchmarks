@@ -1,0 +1,25 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Distribute_Library/Single_Storage_Grid_64/Single_Storage_Grid_64_fromLFR.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/lfr__Distribute_Library__Single_Storage_Grid_64__Single_Storage_Grid_64_fromLFR --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: Single_Storage_Grid_64_fromLFR
+1/9, Finish initial placement, time spent: 1.049041748046875e-05 s
+[0, 2000, 2000, 'port_1', 0] [[1000.0, 1000.0]]
+[1, 2000, 2000, 'port_2', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 5.078315734863281e-05 s
+3/9, Finish symmetricalization, time spent: 9.059906005859375e-06 s
+4/9, Finish routing, time spent: 6.723403930664062e-05 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0003292560577392578 s
+6/9, Finish shortening wirelength, time spent: 3.504753112792969e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00010728836059570312 s
+9/9, Finish compaction and connecting ports, time spent: 0.021569490432739258 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.02217864990234375 s
+Reordering Timeusage: 0.0003292560577392578 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.02204108238220215 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/lfr__Distribute_Library__Single_Storage_Grid_64__Single_Storage_Grid_64_fromLFR/result.json

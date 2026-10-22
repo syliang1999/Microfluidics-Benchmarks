@@ -1,0 +1,20 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/CIDAR_Lab_Past_Devices/Three_Reagent_Mix/Three_Reagent_Mix_fromMINT.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__CIDAR_Lab_Past_Devices__Three_Reagent_Mix__Three_Reagent_Mix_fromMINT/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__CIDAR_Lab_Past_Devices__Three_Reagent_Mix__Three_Reagent_Mix_fromMINT/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 85.07069534249604,
+  "total_channel_manhattan_length": 102089.999992,
+  "physical_area": 438309599.95963997,
+  "padded_area": 957309599.9396399,
+  "drc_passed": true,
+  "violation_count": 0,
+  "violations": [],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 85.881371
+}

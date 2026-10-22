@@ -1,0 +1,62 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Literature_Benchmarks/Device_6_Organic_Chemical_Synthesis/Device_6_Organic_Chemical_Synthesis_fromLFR.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/lfr__Literature_Benchmarks__Device_6_Organic_Chemical_Synthesis__Device_6_Organic_Chemical_Synthesis_fromLFR --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: Device_6_Organic_Chemical_Synthesis_fromLFR
+1/9, Finish initial placement, time spent: 0.0002608299255371094 s
+[0, 3200, 4600, 'mixer_1', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[1, 3200, 4600, 'mixer_2', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[2, 3200, 4600, 'mixer_3', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[3, 2000, 2000, 'port_1', 0] [[1000.0, 1000.0]]
+[4, 2000, 2000, 'port_2', 0] [[1000.0, 1000.0]]
+[5, 3200, 4600, 'mixer_4', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[6, 2000, 2000, 'port_3', 0] [[1000.0, 1000.0]]
+[7, 2000, 2000, 'port_4', 0] [[1000.0, 1000.0]]
+[8, 2000, 2000, 'port_5', 0] [[1000.0, 1000.0]]
+[9, 3200, 4600, 'mixer_5', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[10, 3200, 4600, 'mixer_6', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[11, 2000, 2000, 'port_6', 0] [[1000.0, 1000.0]]
+[12, 3200, 4600, 'mixer_7', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[13, 2000, 2000, 'port_7', 0] [[1000.0, 1000.0]]
+[14, 2000, 2000, 'port_8', 0] [[1000.0, 1000.0]]
+[15, 3200, 4600, 'mixer_8', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[16, 3200, 4600, 'mixer_9', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[17, 2000, 2000, 'port_9', 0] [[1000.0, 1000.0]]
+[18, 3200, 4600, 'mixer_10', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[19, 2000, 2000, 'port_10', 0] [[1000.0, 1000.0]]
+[20, 2000, 2000, 'port_11', 0] [[1000.0, 1000.0]]
+[21, 3200, 4600, 'mixer_11', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[22, 3200, 4600, 'mixer_12', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[23, 2000, 2000, 'port_12', 0] [[1000.0, 1000.0]]
+[24, 2000, 2000, 'port_13', 0] [[1000.0, 1000.0]]
+[25, 3200, 4600, 'mixer_13', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[26, 2000, 2000, 'port_14', 0] [[1000.0, 1000.0]]
+[27, 3200, 4600, 'mixer_14', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[28, 3200, 4600, 'mixer_15', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[29, 3200, 4600, 'mixer_16', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[30, 2000, 2000, 'port_15', 0] [[1000.0, 1000.0]]
+[31, 2000, 2000, 'port_16', 0] [[1000.0, 1000.0]]
+[32, 2000, 2000, 'port_17', 0] [[1000.0, 1000.0]]
+[33, 2000, 2000, 'port_18', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 0.0008599758148193359 s
+3/9, Finish symmetricalization, time spent: 3.838539123535156e-05 s
+4/9, Finish routing, time spent: 0.0008068084716796875 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0, 1], [0], [0]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.00445103645324707 s
+6/9, Finish shortening wirelength, time spent: 0.00037407875061035156 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.0009751319885253906 s
+9/9, Finish compaction and connecting ports, time spent: 0.19787073135375977 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.20563697814941406 s
+Reordering Timeusage: 0.00445103645324707 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.20367097854614258 s
+Cannot finish valid layer-1 synthesis for:
+- reason=placement valve=valve_2 flow_connection=channel_22 control_port=Cport_2
+- reason=placement valve=valve_3 flow_connection=channel_22 control_port=Cport_3
+- reason=placement valve=valve_4 flow_connection=channel_22 control_port=Cport_4
+- reason=placement valve=valve_5 flow_connection=channel_22 control_port=Cport_5
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/lfr__Literature_Benchmarks__Device_6_Organic_Chemical_Synthesis__Device_6_Organic_Chemical_Synthesis_fromLFR/result.json

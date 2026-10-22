@@ -1,0 +1,63 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Literature_Benchmarks/Device_2_Artificial_Cells/Device_2_Artificial_Cells_fromLFR.json",
+  "success": false,
+  "error": "RuntimeError: DRC violations: channel_spacing: channels of connections 'channel_1' and 'channel_4' violate the 1000 edge-to-edge clearance; channel_spacing: channels of connections 'channel_4' and 'channel_8' violate the 1000 edge-to-edge clearance",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/lfr__Literature_Benchmarks__Device_2_Artificial_Cells__Device_2_Artificial_Cells_fromLFR/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/lfr__Literature_Benchmarks__Device_2_Artificial_Cells__Device_2_Artificial_Cells_fromLFR/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 17.489007093012333,
+  "total_channel_manhattan_length": 1108897.300332,
+  "physical_area": 17858017396.716694,
+  "padded_area": 20672047992.86669,
+  "drc_passed": false,
+  "violation_count": 2,
+  "violations": [
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_1' and 'channel_4' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_1",
+      "details": {
+        "other": "channel_4",
+        "rect_a": [
+          68514.285714,
+          24099.999999,
+          69614.28571699999,
+          24699.999999
+        ],
+        "rect_b": [
+          70614.28571599998,
+          13400.000001,
+          71214.28571599998,
+          112603.059618
+        ]
+      }
+    },
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'channel_4' and 'channel_8' violate the 1000 edge-to-edge clearance",
+      "connection": "channel_4",
+      "details": {
+        "other": "channel_8",
+        "rect_a": [
+          70614.28571599998,
+          13400.000001,
+          71214.28571599998,
+          112603.059618
+        ],
+        "rect_b": [
+          69814.285714,
+          113603.05961699999,
+          72814.28571499999,
+          114203.05961699999
+        ]
+      }
+    }
+  ],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 18.310873
+}

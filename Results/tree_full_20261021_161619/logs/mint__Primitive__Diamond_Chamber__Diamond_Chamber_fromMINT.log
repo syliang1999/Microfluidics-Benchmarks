@@ -1,0 +1,26 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Primitive/Diamond_Chamber/Diamond_Chamber_fromMINT.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Primitive__Diamond_Chamber__Diamond_Chamber_fromMINT --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: Diamond_Chamber_fromMINT
+1/9, Finish initial placement, time spent: 1.3113021850585938e-05 s
+[0, 2000, 2000, 'p1', 0] [[1000.0, 1000.0]]
+[1, 2000, 2000, 'p2', 0] [[1000.0, 1000.0]]
+[2, 4920, 3060, 'd', 0] [[0, 1530], [4920, 1530]]
+2/9, Finish initial placement with rotation, time spent: 8.082389831542969e-05 s
+3/9, Finish symmetricalization, time spent: 1.0251998901367188e-05 s
+4/9, Finish routing, time spent: 0.00010442733764648438 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0, 1]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0004477500915527344 s
+6/9, Finish shortening wirelength, time spent: 4.267692565917969e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.0001289844512939453 s
+9/9, Finish compaction and connecting ports, time spent: 0.027069807052612305 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.02789783477783203 s
+Reordering Timeusage: 0.0004477500915527344 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.027689218521118164 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Primitive__Diamond_Chamber__Diamond_Chamber_fromMINT/result.json

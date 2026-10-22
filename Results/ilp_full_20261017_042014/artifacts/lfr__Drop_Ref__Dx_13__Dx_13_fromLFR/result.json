@@ -1,0 +1,4754 @@
+{
+    "name": "Dx_13",
+    "components": [
+        {
+            "name": "mixer_1",
+            "id": "mixer_1",
+            "entity": "MIXER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "rotation": 0.0,
+                "channelWidth": 600.0,
+                "bendSpacing": 1400.0,
+                "numberOfBends": 1.0,
+                "bendLength": 2000.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "edgeBend1": 300.0,
+                "edgeBend2": 300.0,
+                "position": [
+                    14079.999999,
+                    11613.846153999999
+                ],
+                "ID": "mixer_1"
+            },
+            "ports": [
+                {
+                    "x": 1600.0,
+                    "y": 300.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1600.0,
+                    "y": 4300.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 3200,
+            "y-span": 4600
+        },
+        {
+            "name": "droplet_sorter_1",
+            "id": "droplet_sorter_1",
+            "entity": "DROPLET SORTER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "rotation": 180.0,
+                "inletWidth": 800.0,
+                "inletLength": 4000.0,
+                "electrodeDistance": 1000.0,
+                "electrodeWidth": 700.0,
+                "electrodeLength": 5000.0,
+                "outletWidth": 800.0,
+                "angle": 45.0,
+                "wasteWidth": 1200.0,
+                "outputLength": 4000.0,
+                "keepWidth": 2000.0,
+                "pressureWidth": 400.0,
+                "pressureSpacing": 1500.0,
+                "numberofDistributors": 5.0,
+                "channelDepth": 1000.0,
+                "electrodeDepth": 1000.0,
+                "pressureDepth": 1000.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "position": [
+                    14853.783782999999,
+                    18213.846154
+                ],
+                "ID": "droplet_sorter_1"
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 4845,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 18450,
+                    "y": 600,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 18450,
+                    "y": 9091,
+                    "label": "3",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 18450,
+            "y-span": 11426
+        },
+        {
+            "name": "port_1",
+            "id": "port_1",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    5899.999999,
+                    36315.384615
+                ],
+                "ID": "port_1",
+                "rotation": 0.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "mixer_2",
+            "id": "mixer_2",
+            "entity": "MIXER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "rotation": 180.0,
+                "channelWidth": 600.0,
+                "bendSpacing": 1400.0,
+                "numberOfBends": 1.0,
+                "bendLength": 2000.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "edgeBend1": 300.0,
+                "edgeBend2": 300.0,
+                "position": [
+                    35303.783783,
+                    18213.846154
+                ],
+                "ID": "mixer_2"
+            },
+            "ports": [
+                {
+                    "x": 1600.0,
+                    "y": 300.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1600.0,
+                    "y": 4300.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 3200,
+            "y-span": 4600
+        },
+        {
+            "name": "port_2",
+            "id": "port_2",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    56527.567567,
+                    84800.0
+                ],
+                "ID": "port_2",
+                "rotation": 90.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "mixer_3",
+            "id": "mixer_3",
+            "entity": "MIXER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "rotation": 90.0,
+                "channelWidth": 600.0,
+                "bendSpacing": 1400.0,
+                "numberOfBends": 1.0,
+                "bendLength": 2000.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "edgeBend1": 300.0,
+                "edgeBend2": 300.0,
+                "position": [
+                    58296.216215,
+                    66035.384615
+                ],
+                "ID": "mixer_3"
+            },
+            "ports": [
+                {
+                    "x": 1600.0,
+                    "y": 300.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1600.0,
+                    "y": 4300.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 3200,
+            "y-span": 4600
+        },
+        {
+            "name": "droplet_sorter_2",
+            "id": "droplet_sorter_2",
+            "entity": "DROPLET SORTER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "rotation": 270.0,
+                "inletWidth": 800.0,
+                "inletLength": 4000.0,
+                "electrodeDistance": 1000.0,
+                "electrodeWidth": 700.0,
+                "electrodeLength": 5000.0,
+                "outletWidth": 800.0,
+                "angle": 45.0,
+                "wasteWidth": 1200.0,
+                "outputLength": 4000.0,
+                "keepWidth": 2000.0,
+                "pressureWidth": 400.0,
+                "pressureSpacing": 1500.0,
+                "numberofDistributors": 5.0,
+                "channelDepth": 1000.0,
+                "electrodeDepth": 1000.0,
+                "pressureDepth": 1000.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "position": [
+                    75098.37837699999,
+                    23247.692308
+                ],
+                "ID": "droplet_sorter_2"
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 4845,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 18450,
+                    "y": 600,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 18450,
+                    "y": 9091,
+                    "label": "3",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 18450,
+            "y-span": 11426
+        },
+        {
+            "name": "port_3",
+            "id": "port_3",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    42378.378377,
+                    5000.0
+                ],
+                "ID": "port_3",
+                "rotation": 180.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "mixer_4",
+            "id": "mixer_4",
+            "entity": "MIXER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "rotation": 180.0,
+                "channelWidth": 600.0,
+                "bendSpacing": 1400.0,
+                "numberOfBends": 1.0,
+                "bendLength": 2000.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "edgeBend1": 300.0,
+                "edgeBend2": 300.0,
+                "position": [
+                    47684.324323,
+                    33315.384615
+                ],
+                "ID": "mixer_4"
+            },
+            "ports": [
+                {
+                    "x": 1600.0,
+                    "y": 300.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1600.0,
+                    "y": 4300.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 3200,
+            "y-span": 4600
+        },
+        {
+            "name": "port_4",
+            "id": "port_4",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    53527.567567,
+                    84800.0
+                ],
+                "ID": "port_4",
+                "rotation": 0.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "mixer_5",
+            "id": "mixer_5",
+            "entity": "MIXER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "rotation": 0.0,
+                "channelWidth": 600.0,
+                "bendSpacing": 1400.0,
+                "numberOfBends": 1.0,
+                "bendLength": 2000.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "edgeBend1": 300.0,
+                "edgeBend2": 300.0,
+                "position": [
+                    66255.135134,
+                    38349.230769
+                ],
+                "ID": "mixer_5"
+            },
+            "ports": [
+                {
+                    "x": 1600.0,
+                    "y": 300.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1600.0,
+                    "y": 4300.0,
+                    "label": "2",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 3200,
+            "y-span": 4600
+        },
+        {
+            "name": "nozzle_droplet_generator_1",
+            "id": "nozzle_droplet_generator_1",
+            "entity": "NOZZLE DROPLET GENERATOR",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "orificeSize": 200.0,
+                "orificeLength": 400.0,
+                "oilInputWidth": 800.0,
+                "waterInputWidth": 600.0,
+                "outputWidth": 600.0,
+                "outputLength": 600.0,
+                "rotation": 90.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    59180.54054,
+                    55967.692308
+                ],
+                "ID": "nozzle_droplet_generator_1"
+            },
+            "ports": [
+                {
+                    "x": 400,
+                    "y": 0,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 1800,
+                    "y": 300,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 400,
+                    "y": 600,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 0,
+                    "y": 300,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 1800,
+            "y-span": 600
+        },
+        {
+            "name": "port_5",
+            "id": "port_5",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    85699.99999899999,
+                    53450.769231
+                ],
+                "ID": "port_5",
+                "rotation": 180.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "droplet_splitter_1",
+            "id": "droplet_splitter_1",
+            "entity": "DROPLET SPLITTER",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "rotation": 270.0,
+                "inletWidth": 2000.0,
+                "inletLength": 6000.0,
+                "outletWidth1": 1000.0,
+                "outletLength1": 3000.0,
+                "outletWidth2": 2000.0,
+                "outletLength2": 3000.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "position": [
+                    19385.945945,
+                    31639.846154
+                ],
+                "ID": "droplet_splitter_1"
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 4000,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 5500,
+                    "y": 0,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 5000,
+                    "y": 8000,
+                    "label": "3",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 6000,
+            "y-span": 8000
+        },
+        {
+            "name": "port_6",
+            "id": "port_6",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    5899.999999,
+                    33315.384615
+                ],
+                "ID": "port_6",
+                "rotation": 0.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        },
+        {
+            "name": "port_7",
+            "id": "port_7",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 1000.0,
+                "depth": 1100.0,
+                "position": [
+                    5899.999999,
+                    30315.384615
+                ],
+                "ID": "port_7",
+                "rotation": 90.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 1000.0,
+                    "y": 1000.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 2000,
+            "y-span": 2000
+        }
+    ],
+    "connections": [
+        {
+            "sinks": [
+                {
+                    "component": "droplet_sorter_1",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_1",
+            "id": "channel_1",
+            "source": {
+                "component": "mixer_1",
+                "port": "2"
+            },
+            "params": {
+                "crossSection": 1,
+                "length": 1000.0,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "start": [
+                    15679.999999,
+                    15913.846153999999
+                ],
+                "end": [
+                    33303.783783,
+                    24794.846154
+                ],
+                "wayPoints": [
+                    [
+                        15679.999999,
+                        15913.846153999999
+                    ],
+                    [
+                        15679.999999,
+                        16913.846154
+                    ],
+                    [
+                        24985.945944,
+                        16913.846154
+                    ],
+                    [
+                        24985.945944,
+                        20347.692309000002
+                    ],
+                    [
+                        34003.783783,
+                        20347.692309000002
+                    ],
+                    [
+                        34003.783783,
+                        24113.846154
+                    ],
+                    [
+                        34303.783783,
+                        24113.846154
+                    ],
+                    [
+                        34303.783783,
+                        24794.846154
+                    ],
+                    [
+                        33303.783783,
+                        24794.846154
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            15679.999999,
+                            15913.846153999999
+                        ],
+                        [
+                            15679.999999,
+                            16913.846154
+                        ]
+                    ],
+                    [
+                        [
+                            15679.999999,
+                            16913.846154
+                        ],
+                        [
+                            24985.945944,
+                            16913.846154
+                        ]
+                    ],
+                    [
+                        [
+                            24985.945944,
+                            16913.846154
+                        ],
+                        [
+                            24985.945944,
+                            20347.692309000002
+                        ]
+                    ],
+                    [
+                        [
+                            24985.945944,
+                            20347.692309000002
+                        ],
+                        [
+                            34003.783783,
+                            20347.692309000002
+                        ]
+                    ],
+                    [
+                        [
+                            34003.783783,
+                            20347.692309000002
+                        ],
+                        [
+                            34003.783783,
+                            24113.846154
+                        ]
+                    ],
+                    [
+                        [
+                            34003.783783,
+                            24113.846154
+                        ],
+                        [
+                            34303.783783,
+                            24113.846154
+                        ]
+                    ],
+                    [
+                        [
+                            34303.783783,
+                            24113.846154
+                        ],
+                        [
+                            34303.783783,
+                            24794.846154
+                        ]
+                    ],
+                    [
+                        [
+                            34303.783783,
+                            24794.846154
+                        ],
+                        [
+                            33303.783783,
+                            24794.846154
+                        ]
+                    ]
+                ],
+                "ID": "channel_1"
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "mixer_1",
+                        "port": "2"
+                    },
+                    "sink": {
+                        "component": "droplet_sorter_1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            15679.999999,
+                            15913.846153999999
+                        ],
+                        [
+                            15679.999999,
+                            16913.846154
+                        ],
+                        [
+                            24985.945944,
+                            16913.846154
+                        ],
+                        [
+                            24985.945944,
+                            20347.692309000002
+                        ],
+                        [
+                            34003.783783,
+                            20347.692309000002
+                        ],
+                        [
+                            34003.783783,
+                            24113.846154
+                        ],
+                        [
+                            34303.783783,
+                            24113.846154
+                        ],
+                        [
+                            34303.783783,
+                            24794.846154
+                        ],
+                        [
+                            33303.783783,
+                            24794.846154
+                        ]
+                    ]
+                }
+            ],
+            "entity": "ROUNDED CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_1",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_2",
+            "id": "channel_2",
+            "source": {
+                "component": "mixer_2",
+                "port": "2"
+            },
+            "params": {
+                "crossSection": 1,
+                "length": 1000.0,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "start": [
+                    36903.783783,
+                    18513.846154
+                ],
+                "end": [
+                    15679.999999,
+                    11913.846153999999
+                ],
+                "wayPoints": [
+                    [
+                        36903.783783,
+                        18513.846154
+                    ],
+                    [
+                        36903.783783,
+                        17513.846154
+                    ],
+                    [
+                        35903.783782,
+                        17513.846154
+                    ],
+                    [
+                        35903.783782,
+                        16913.846154
+                    ],
+                    [
+                        26585.945943,
+                        16913.846154
+                    ],
+                    [
+                        26585.945943,
+                        15313.846155
+                    ],
+                    [
+                        18385.945945,
+                        15313.846155
+                    ],
+                    [
+                        18385.945945,
+                        14313.846155
+                    ],
+                    [
+                        16453.783782,
+                        14313.846155
+                    ],
+                    [
+                        16453.783782,
+                        10913.846153999999
+                    ],
+                    [
+                        15679.999999,
+                        10913.846153999999
+                    ],
+                    [
+                        15679.999999,
+                        11913.846153999999
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            36903.783783,
+                            18513.846154
+                        ],
+                        [
+                            36903.783783,
+                            17513.846154
+                        ]
+                    ],
+                    [
+                        [
+                            36903.783783,
+                            17513.846154
+                        ],
+                        [
+                            35903.783782,
+                            17513.846154
+                        ]
+                    ],
+                    [
+                        [
+                            35903.783782,
+                            17513.846154
+                        ],
+                        [
+                            35903.783782,
+                            16913.846154
+                        ]
+                    ],
+                    [
+                        [
+                            35903.783782,
+                            16913.846154
+                        ],
+                        [
+                            26585.945943,
+                            16913.846154
+                        ]
+                    ],
+                    [
+                        [
+                            26585.945943,
+                            16913.846154
+                        ],
+                        [
+                            26585.945943,
+                            15313.846155
+                        ]
+                    ],
+                    [
+                        [
+                            26585.945943,
+                            15313.846155
+                        ],
+                        [
+                            18385.945945,
+                            15313.846155
+                        ]
+                    ],
+                    [
+                        [
+                            18385.945945,
+                            15313.846155
+                        ],
+                        [
+                            18385.945945,
+                            14313.846155
+                        ]
+                    ],
+                    [
+                        [
+                            18385.945945,
+                            14313.846155
+                        ],
+                        [
+                            16453.783782,
+                            14313.846155
+                        ]
+                    ],
+                    [
+                        [
+                            16453.783782,
+                            14313.846155
+                        ],
+                        [
+                            16453.783782,
+                            10913.846153999999
+                        ]
+                    ],
+                    [
+                        [
+                            16453.783782,
+                            10913.846153999999
+                        ],
+                        [
+                            15679.999999,
+                            10913.846153999999
+                        ]
+                    ],
+                    [
+                        [
+                            15679.999999,
+                            10913.846153999999
+                        ],
+                        [
+                            15679.999999,
+                            11913.846153999999
+                        ]
+                    ]
+                ],
+                "ID": "channel_2"
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "mixer_2",
+                        "port": "2"
+                    },
+                    "sink": {
+                        "component": "mixer_1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            36903.783783,
+                            18513.846154
+                        ],
+                        [
+                            36903.783783,
+                            17513.846154
+                        ],
+                        [
+                            35903.783782,
+                            17513.846154
+                        ],
+                        [
+                            35903.783782,
+                            16913.846154
+                        ],
+                        [
+                            26585.945943,
+                            16913.846154
+                        ],
+                        [
+                            26585.945943,
+                            15313.846155
+                        ],
+                        [
+                            18385.945945,
+                            15313.846155
+                        ],
+                        [
+                            18385.945945,
+                            14313.846155
+                        ],
+                        [
+                            16453.783782,
+                            14313.846155
+                        ],
+                        [
+                            16453.783782,
+                            10913.846153999999
+                        ],
+                        [
+                            15679.999999,
+                            10913.846153999999
+                        ],
+                        [
+                            15679.999999,
+                            11913.846153999999
+                        ]
+                    ]
+                }
+            ],
+            "entity": "ROUNDED CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "droplet_sorter_2",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_3",
+            "id": "channel_3",
+            "source": {
+                "component": "mixer_3",
+                "port": "2"
+            },
+            "params": {
+                "crossSection": 1,
+                "length": 1000.0,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "start": [
+                    62596.216215,
+                    67635.384615
+                ],
+                "end": [
+                    81679.37837699999,
+                    23247.692308
+                ],
+                "wayPoints": [
+                    [
+                        62596.216215,
+                        67635.384615
+                    ],
+                    [
+                        63596.216215,
+                        67635.384615
+                    ],
+                    [
+                        64655.135136,
+                        67635.384615
+                    ],
+                    [
+                        64655.135136,
+                        66335.38461400001
+                    ],
+                    [
+                        69155.13513499999,
+                        66335.38461400001
+                    ],
+                    [
+                        69155.13513499999,
+                        66035.384616
+                    ],
+                    [
+                        79033.37837600001,
+                        66035.384616
+                    ],
+                    [
+                        79033.37837600001,
+                        59067.692308
+                    ],
+                    [
+                        88299.99999800001,
+                        59067.692308
+                    ],
+                    [
+                        88299.99999800001,
+                        52850.769232
+                    ],
+                    [
+                        87999.99999899999,
+                        52850.769232
+                    ],
+                    [
+                        87999.99999899999,
+                        31839.846157
+                    ],
+                    [
+                        85399.99999899999,
+                        31839.846157
+                    ],
+                    [
+                        85399.99999899999,
+                        25147.692306
+                    ],
+                    [
+                        81679.37837699999,
+                        25147.692306
+                    ],
+                    [
+                        81679.37837699999,
+                        22247.692308
+                    ],
+                    [
+                        81679.37837699999,
+                        23247.692308
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            62596.216215,
+                            67635.384615
+                        ],
+                        [
+                            63596.216215,
+                            67635.384615
+                        ]
+                    ],
+                    [
+                        [
+                            63596.216215,
+                            67635.384615
+                        ],
+                        [
+                            64655.135136,
+                            67635.384615
+                        ]
+                    ],
+                    [
+                        [
+                            64655.135136,
+                            67635.384615
+                        ],
+                        [
+                            64655.135136,
+                            66335.38461400001
+                        ]
+                    ],
+                    [
+                        [
+                            64655.135136,
+                            66335.38461400001
+                        ],
+                        [
+                            69155.13513499999,
+                            66335.38461400001
+                        ]
+                    ],
+                    [
+                        [
+                            69155.13513499999,
+                            66335.38461400001
+                        ],
+                        [
+                            69155.13513499999,
+                            66035.384616
+                        ]
+                    ],
+                    [
+                        [
+                            69155.13513499999,
+                            66035.384616
+                        ],
+                        [
+                            79033.37837600001,
+                            66035.384616
+                        ]
+                    ],
+                    [
+                        [
+                            79033.37837600001,
+                            66035.384616
+                        ],
+                        [
+                            79033.37837600001,
+                            59067.692308
+                        ]
+                    ],
+                    [
+                        [
+                            79033.37837600001,
+                            59067.692308
+                        ],
+                        [
+                            88299.99999800001,
+                            59067.692308
+                        ]
+                    ],
+                    [
+                        [
+                            88299.99999800001,
+                            59067.692308
+                        ],
+                        [
+                            88299.99999800001,
+                            52850.769232
+                        ]
+                    ],
+                    [
+                        [
+                            88299.99999800001,
+                            52850.769232
+                        ],
+                        [
+                            87999.99999899999,
+                            52850.769232
+                        ]
+                    ],
+                    [
+                        [
+                            87999.99999899999,
+                            52850.769232
+                        ],
+                        [
+                            87999.99999899999,
+                            31839.846157
+                        ]
+                    ],
+                    [
+                        [
+                            87999.99999899999,
+                            31839.846157
+                        ],
+                        [
+                            85399.99999899999,
+                            31839.846157
+                        ]
+                    ],
+                    [
+                        [
+                            85399.99999899999,
+                            31839.846157
+                        ],
+                        [
+                            85399.99999899999,
+                            25147.692306
+                        ]
+                    ],
+                    [
+                        [
+                            85399.99999899999,
+                            25147.692306
+                        ],
+                        [
+                            81679.37837699999,
+                            25147.692306
+                        ]
+                    ],
+                    [
+                        [
+                            81679.37837699999,
+                            25147.692306
+                        ],
+                        [
+                            81679.37837699999,
+                            22247.692308
+                        ]
+                    ],
+                    [
+                        [
+                            81679.37837699999,
+                            22247.692308
+                        ],
+                        [
+                            81679.37837699999,
+                            23247.692308
+                        ]
+                    ]
+                ],
+                "ID": "channel_3"
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "mixer_3",
+                        "port": "2"
+                    },
+                    "sink": {
+                        "component": "droplet_sorter_2",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            62596.216215,
+                            67635.384615
+                        ],
+                        [
+                            63596.216215,
+                            67635.384615
+                        ],
+                        [
+                            64655.135136,
+                            67635.384615
+                        ],
+                        [
+                            64655.135136,
+                            66335.38461400001
+                        ],
+                        [
+                            69155.13513499999,
+                            66335.38461400001
+                        ],
+                        [
+                            69155.13513499999,
+                            66035.384616
+                        ],
+                        [
+                            79033.37837600001,
+                            66035.384616
+                        ],
+                        [
+                            79033.37837600001,
+                            59067.692308
+                        ],
+                        [
+                            88299.99999800001,
+                            59067.692308
+                        ],
+                        [
+                            88299.99999800001,
+                            52850.769232
+                        ],
+                        [
+                            87999.99999899999,
+                            52850.769232
+                        ],
+                        [
+                            87999.99999899999,
+                            31839.846157
+                        ],
+                        [
+                            85399.99999899999,
+                            31839.846157
+                        ],
+                        [
+                            85399.99999899999,
+                            25147.692306
+                        ],
+                        [
+                            81679.37837699999,
+                            25147.692306
+                        ],
+                        [
+                            81679.37837699999,
+                            22247.692308
+                        ],
+                        [
+                            81679.37837699999,
+                            23247.692308
+                        ]
+                    ]
+                }
+            ],
+            "entity": "ROUNDED CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_3",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_4",
+            "id": "channel_4",
+            "source": {
+                "component": "mixer_4",
+                "port": "2"
+            },
+            "params": {
+                "crossSection": 1,
+                "length": 1000.0,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "start": [
+                    49284.324323,
+                    33615.384615
+                ],
+                "end": [
+                    58596.216215,
+                    67635.384615
+                ],
+                "wayPoints": [
+                    [
+                        49284.324323,
+                        33615.384615
+                    ],
+                    [
+                        49284.324323,
+                        32615.384615
+                    ],
+                    [
+                        49284.324323,
+                        35039.846155
+                    ],
+                    [
+                        47684.324324,
+                        35039.846155
+                    ],
+                    [
+                        47684.324324,
+                        52850.769232
+                    ],
+                    [
+                        50884.324322,
+                        52850.769232
+                    ],
+                    [
+                        50884.324322,
+                        53150.769231
+                    ],
+                    [
+                        53227.567567,
+                        53150.769231
+                    ],
+                    [
+                        53227.567567,
+                        58967.692307
+                    ],
+                    [
+                        55827.567567,
+                        58967.692307
+                    ],
+                    [
+                        55827.567567,
+                        67635.384615
+                    ],
+                    [
+                        57596.216215,
+                        67635.384615
+                    ],
+                    [
+                        58596.216215,
+                        67635.384615
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            49284.324323,
+                            33615.384615
+                        ],
+                        [
+                            49284.324323,
+                            32615.384615
+                        ]
+                    ],
+                    [
+                        [
+                            49284.324323,
+                            32615.384615
+                        ],
+                        [
+                            49284.324323,
+                            35039.846155
+                        ]
+                    ],
+                    [
+                        [
+                            49284.324323,
+                            35039.846155
+                        ],
+                        [
+                            47684.324324,
+                            35039.846155
+                        ]
+                    ],
+                    [
+                        [
+                            47684.324324,
+                            35039.846155
+                        ],
+                        [
+                            47684.324324,
+                            52850.769232
+                        ]
+                    ],
+                    [
+                        [
+                            47684.324324,
+                            52850.769232
+                        ],
+                        [
+                            50884.324322,
+                            52850.769232
+                        ]
+                    ],
+                    [
+                        [
+                            50884.324322,
+                            52850.769232
+                        ],
+                        [
+                            50884.324322,
+                            53150.769231
+                        ]
+                    ],
+                    [
+                        [
+                            50884.324322,
+                            53150.769231
+                        ],
+                        [
+                            53227.567567,
+                            53150.769231
+                        ]
+                    ],
+                    [
+                        [
+                            53227.567567,
+                            53150.769231
+                        ],
+                        [
+                            53227.567567,
+                            58967.692307
+                        ]
+                    ],
+                    [
+                        [
+                            53227.567567,
+                            58967.692307
+                        ],
+                        [
+                            55827.567567,
+                            58967.692307
+                        ]
+                    ],
+                    [
+                        [
+                            55827.567567,
+                            58967.692307
+                        ],
+                        [
+                            55827.567567,
+                            67635.384615
+                        ]
+                    ],
+                    [
+                        [
+                            55827.567567,
+                            67635.384615
+                        ],
+                        [
+                            57596.216215,
+                            67635.384615
+                        ]
+                    ],
+                    [
+                        [
+                            57596.216215,
+                            67635.384615
+                        ],
+                        [
+                            58596.216215,
+                            67635.384615
+                        ]
+                    ]
+                ],
+                "ID": "channel_4"
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "mixer_4",
+                        "port": "2"
+                    },
+                    "sink": {
+                        "component": "mixer_3",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            49284.324323,
+                            33615.384615
+                        ],
+                        [
+                            49284.324323,
+                            32615.384615
+                        ],
+                        [
+                            49284.324323,
+                            35039.846155
+                        ],
+                        [
+                            47684.324324,
+                            35039.846155
+                        ],
+                        [
+                            47684.324324,
+                            52850.769232
+                        ],
+                        [
+                            50884.324322,
+                            52850.769232
+                        ],
+                        [
+                            50884.324322,
+                            53150.769231
+                        ],
+                        [
+                            53227.567567,
+                            53150.769231
+                        ],
+                        [
+                            53227.567567,
+                            58967.692307
+                        ],
+                        [
+                            55827.567567,
+                            58967.692307
+                        ],
+                        [
+                            55827.567567,
+                            67635.384615
+                        ],
+                        [
+                            57596.216215,
+                            67635.384615
+                        ],
+                        [
+                            58596.216215,
+                            67635.384615
+                        ]
+                    ]
+                }
+            ],
+            "entity": "ROUNDED CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_5",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_5",
+            "id": "channel_5",
+            "source": {
+                "component": "nozzle_droplet_generator_1",
+                "port": "3"
+            },
+            "params": {
+                "crossSection": 1,
+                "length": 1000.0,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "start": [
+                    59780.54054,
+                    57367.692308
+                ],
+                "end": [
+                    67855.135134,
+                    38649.230769
+                ],
+                "wayPoints": [
+                    [
+                        59780.54054,
+                        57367.692308
+                    ],
+                    [
+                        60780.54054,
+                        57367.692308
+                    ],
+                    [
+                        64196.216215,
+                        57367.692308
+                    ],
+                    [
+                        64196.216215,
+                        53150.769231
+                    ],
+                    [
+                        69455.135133,
+                        53150.769231
+                    ],
+                    [
+                        69455.135133,
+                        39215.384615
+                    ],
+                    [
+                        67855.135134,
+                        39215.384615
+                    ],
+                    [
+                        67855.135134,
+                        37649.230769
+                    ],
+                    [
+                        67855.135134,
+                        38649.230769
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            59780.54054,
+                            57367.692308
+                        ],
+                        [
+                            60780.54054,
+                            57367.692308
+                        ]
+                    ],
+                    [
+                        [
+                            60780.54054,
+                            57367.692308
+                        ],
+                        [
+                            64196.216215,
+                            57367.692308
+                        ]
+                    ],
+                    [
+                        [
+                            64196.216215,
+                            57367.692308
+                        ],
+                        [
+                            64196.216215,
+                            53150.769231
+                        ]
+                    ],
+                    [
+                        [
+                            64196.216215,
+                            53150.769231
+                        ],
+                        [
+                            69455.135133,
+                            53150.769231
+                        ]
+                    ],
+                    [
+                        [
+                            69455.135133,
+                            53150.769231
+                        ],
+                        [
+                            69455.135133,
+                            39215.384615
+                        ]
+                    ],
+                    [
+                        [
+                            69455.135133,
+                            39215.384615
+                        ],
+                        [
+                            67855.135134,
+                            39215.384615
+                        ]
+                    ],
+                    [
+                        [
+                            67855.135134,
+                            39215.384615
+                        ],
+                        [
+                            67855.135134,
+                            37649.230769
+                        ]
+                    ],
+                    [
+                        [
+                            67855.135134,
+                            37649.230769
+                        ],
+                        [
+                            67855.135134,
+                            38649.230769
+                        ]
+                    ]
+                ],
+                "ID": "channel_5"
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "nozzle_droplet_generator_1",
+                        "port": "3"
+                    },
+                    "sink": {
+                        "component": "mixer_5",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            59780.54054,
+                            57367.692308
+                        ],
+                        [
+                            60780.54054,
+                            57367.692308
+                        ],
+                        [
+                            64196.216215,
+                            57367.692308
+                        ],
+                        [
+                            64196.216215,
+                            53150.769231
+                        ],
+                        [
+                            69455.135133,
+                            53150.769231
+                        ],
+                        [
+                            69455.135133,
+                            39215.384615
+                        ],
+                        [
+                            67855.135134,
+                            39215.384615
+                        ],
+                        [
+                            67855.135134,
+                            37649.230769
+                        ],
+                        [
+                            67855.135134,
+                            38649.230769
+                        ]
+                    ]
+                }
+            ],
+            "entity": "ROUNDED CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_4",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_6",
+            "id": "channel_6",
+            "source": {
+                "component": "mixer_5",
+                "port": "2"
+            },
+            "params": {
+                "crossSection": 1,
+                "length": 1000.0,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "start": [
+                    67855.135134,
+                    42649.230769
+                ],
+                "end": [
+                    49284.324323,
+                    37615.384615
+                ],
+                "wayPoints": [
+                    [
+                        67855.135134,
+                        42649.230769
+                    ],
+                    [
+                        67855.135134,
+                        43649.230769
+                    ],
+                    [
+                        67855.135134,
+                        42997.692308
+                    ],
+                    [
+                        49284.324323,
+                        42997.692308
+                    ],
+                    [
+                        49284.324323,
+                        38615.384615
+                    ],
+                    [
+                        49284.324323,
+                        37615.384615
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            67855.135134,
+                            42649.230769
+                        ],
+                        [
+                            67855.135134,
+                            43649.230769
+                        ]
+                    ],
+                    [
+                        [
+                            67855.135134,
+                            43649.230769
+                        ],
+                        [
+                            67855.135134,
+                            42997.692308
+                        ]
+                    ],
+                    [
+                        [
+                            67855.135134,
+                            42997.692308
+                        ],
+                        [
+                            49284.324323,
+                            42997.692308
+                        ]
+                    ],
+                    [
+                        [
+                            49284.324323,
+                            42997.692308
+                        ],
+                        [
+                            49284.324323,
+                            38615.384615
+                        ]
+                    ],
+                    [
+                        [
+                            49284.324323,
+                            38615.384615
+                        ],
+                        [
+                            49284.324323,
+                            37615.384615
+                        ]
+                    ]
+                ],
+                "ID": "channel_6"
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "mixer_5",
+                        "port": "2"
+                    },
+                    "sink": {
+                        "component": "mixer_4",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            67855.135134,
+                            42649.230769
+                        ],
+                        [
+                            67855.135134,
+                            43649.230769
+                        ],
+                        [
+                            67855.135134,
+                            42997.692308
+                        ],
+                        [
+                            49284.324323,
+                            42997.692308
+                        ],
+                        [
+                            49284.324323,
+                            38615.384615
+                        ],
+                        [
+                            49284.324323,
+                            37615.384615
+                        ]
+                    ]
+                }
+            ],
+            "entity": "ROUNDED CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "nozzle_droplet_generator_1",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_7",
+            "id": "channel_7",
+            "source": {
+                "component": "port_5",
+                "port": "1"
+            },
+            "params": {
+                "crossSection": 1,
+                "length": 1000.0,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "start": [
+                    86699.99999899999,
+                    54450.769231
+                ],
+                "end": [
+                    59180.54054,
+                    57367.692308
+                ],
+                "wayPoints": [
+                    [
+                        86699.99999899999,
+                        54450.769231
+                    ],
+                    [
+                        86699.99999899999,
+                        57367.692308
+                    ],
+                    [
+                        66255.13513499999,
+                        57367.692308
+                    ],
+                    [
+                        66255.13513499999,
+                        58967.692307
+                    ],
+                    [
+                        58180.54054,
+                        58967.692307
+                    ],
+                    [
+                        58180.54054,
+                        57367.692308
+                    ],
+                    [
+                        59180.54054,
+                        57367.692308
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            86699.99999899999,
+                            54450.769231
+                        ],
+                        [
+                            86699.99999899999,
+                            57367.692308
+                        ]
+                    ],
+                    [
+                        [
+                            86699.99999899999,
+                            57367.692308
+                        ],
+                        [
+                            66255.13513499999,
+                            57367.692308
+                        ]
+                    ],
+                    [
+                        [
+                            66255.13513499999,
+                            57367.692308
+                        ],
+                        [
+                            66255.13513499999,
+                            58967.692307
+                        ]
+                    ],
+                    [
+                        [
+                            66255.13513499999,
+                            58967.692307
+                        ],
+                        [
+                            58180.54054,
+                            58967.692307
+                        ]
+                    ],
+                    [
+                        [
+                            58180.54054,
+                            58967.692307
+                        ],
+                        [
+                            58180.54054,
+                            57367.692308
+                        ]
+                    ],
+                    [
+                        [
+                            58180.54054,
+                            57367.692308
+                        ],
+                        [
+                            59180.54054,
+                            57367.692308
+                        ]
+                    ]
+                ],
+                "ID": "channel_7"
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_5",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "nozzle_droplet_generator_1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            86699.99999899999,
+                            54450.769231
+                        ],
+                        [
+                            86699.99999899999,
+                            57367.692308
+                        ],
+                        [
+                            66255.13513499999,
+                            57367.692308
+                        ],
+                        [
+                            66255.13513499999,
+                            58967.692307
+                        ],
+                        [
+                            58180.54054,
+                            58967.692307
+                        ],
+                        [
+                            58180.54054,
+                            57367.692308
+                        ],
+                        [
+                            59180.54054,
+                            57367.692308
+                        ]
+                    ]
+                }
+            ],
+            "entity": "ROUNDED CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "droplet_splitter_1",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_8",
+            "id": "channel_8",
+            "source": {
+                "component": "droplet_sorter_1",
+                "port": "3"
+            },
+            "params": {
+                "crossSection": 1,
+                "length": 1000.0,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "start": [
+                    14853.783782999999,
+                    20548.846154
+                ],
+                "end": [
+                    23385.945945,
+                    31639.846154
+                ],
+                "wayPoints": [
+                    [
+                        14853.783782999999,
+                        20548.846154
+                    ],
+                    [
+                        13853.783782999999,
+                        20548.846154
+                    ],
+                    [
+                        13853.783782999999,
+                        21947.692308
+                    ],
+                    [
+                        15153.783781999999,
+                        21947.692308
+                    ],
+                    [
+                        15153.783781999999,
+                        24113.846154
+                    ],
+                    [
+                        16785.945946,
+                        24113.846154
+                    ],
+                    [
+                        16785.945946,
+                        29715.384616
+                    ],
+                    [
+                        23385.945945,
+                        29715.384616
+                    ],
+                    [
+                        23385.945945,
+                        30639.846154
+                    ],
+                    [
+                        23385.945945,
+                        31639.846154
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            14853.783782999999,
+                            20548.846154
+                        ],
+                        [
+                            13853.783782999999,
+                            20548.846154
+                        ]
+                    ],
+                    [
+                        [
+                            13853.783782999999,
+                            20548.846154
+                        ],
+                        [
+                            13853.783782999999,
+                            21947.692308
+                        ]
+                    ],
+                    [
+                        [
+                            13853.783782999999,
+                            21947.692308
+                        ],
+                        [
+                            15153.783781999999,
+                            21947.692308
+                        ]
+                    ],
+                    [
+                        [
+                            15153.783781999999,
+                            21947.692308
+                        ],
+                        [
+                            15153.783781999999,
+                            24113.846154
+                        ]
+                    ],
+                    [
+                        [
+                            15153.783781999999,
+                            24113.846154
+                        ],
+                        [
+                            16785.945946,
+                            24113.846154
+                        ]
+                    ],
+                    [
+                        [
+                            16785.945946,
+                            24113.846154
+                        ],
+                        [
+                            16785.945946,
+                            29715.384616
+                        ]
+                    ],
+                    [
+                        [
+                            16785.945946,
+                            29715.384616
+                        ],
+                        [
+                            23385.945945,
+                            29715.384616
+                        ]
+                    ],
+                    [
+                        [
+                            23385.945945,
+                            29715.384616
+                        ],
+                        [
+                            23385.945945,
+                            30639.846154
+                        ]
+                    ],
+                    [
+                        [
+                            23385.945945,
+                            30639.846154
+                        ],
+                        [
+                            23385.945945,
+                            31639.846154
+                        ]
+                    ]
+                ],
+                "ID": "channel_8"
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "droplet_sorter_1",
+                        "port": "3"
+                    },
+                    "sink": {
+                        "component": "droplet_splitter_1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            14853.783782999999,
+                            20548.846154
+                        ],
+                        [
+                            13853.783782999999,
+                            20548.846154
+                        ],
+                        [
+                            13853.783782999999,
+                            21947.692308
+                        ],
+                        [
+                            15153.783781999999,
+                            21947.692308
+                        ],
+                        [
+                            15153.783781999999,
+                            24113.846154
+                        ],
+                        [
+                            16785.945946,
+                            24113.846154
+                        ],
+                        [
+                            16785.945946,
+                            29715.384616
+                        ],
+                        [
+                            23385.945945,
+                            29715.384616
+                        ],
+                        [
+                            23385.945945,
+                            30639.846154
+                        ],
+                        [
+                            23385.945945,
+                            31639.846154
+                        ]
+                    ]
+                }
+            ],
+            "entity": "ROUNDED CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "port_6",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_9",
+            "id": "channel_9",
+            "source": {
+                "component": "droplet_splitter_1",
+                "port": "3"
+            },
+            "params": {
+                "crossSection": 1,
+                "length": 1000.0,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "start": [
+                    19385.945945,
+                    36639.846154
+                ],
+                "end": [
+                    6899.999999,
+                    34315.384615
+                ],
+                "wayPoints": [
+                    [
+                        19385.945945,
+                        36639.846154
+                    ],
+                    [
+                        18385.945945,
+                        36639.846154
+                    ],
+                    [
+                        13553.783782999999,
+                        36639.846154
+                    ],
+                    [
+                        13553.783782999999,
+                        34315.384615
+                    ],
+                    [
+                        6899.999999,
+                        34315.384615
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            19385.945945,
+                            36639.846154
+                        ],
+                        [
+                            18385.945945,
+                            36639.846154
+                        ]
+                    ],
+                    [
+                        [
+                            18385.945945,
+                            36639.846154
+                        ],
+                        [
+                            13553.783782999999,
+                            36639.846154
+                        ]
+                    ],
+                    [
+                        [
+                            13553.783782999999,
+                            36639.846154
+                        ],
+                        [
+                            13553.783782999999,
+                            34315.384615
+                        ]
+                    ],
+                    [
+                        [
+                            13553.783782999999,
+                            34315.384615
+                        ],
+                        [
+                            6899.999999,
+                            34315.384615
+                        ]
+                    ]
+                ],
+                "ID": "channel_9"
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "droplet_splitter_1",
+                        "port": "3"
+                    },
+                    "sink": {
+                        "component": "port_6",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            19385.945945,
+                            36639.846154
+                        ],
+                        [
+                            18385.945945,
+                            36639.846154
+                        ],
+                        [
+                            13553.783782999999,
+                            36639.846154
+                        ],
+                        [
+                            13553.783782999999,
+                            34315.384615
+                        ],
+                        [
+                            6899.999999,
+                            34315.384615
+                        ]
+                    ]
+                }
+            ],
+            "entity": "ROUNDED CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "port_7",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_10",
+            "id": "channel_10",
+            "source": {
+                "component": "droplet_splitter_1",
+                "port": "3"
+            },
+            "params": {
+                "crossSection": 1,
+                "length": 1000.0,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "start": [
+                    19385.945945,
+                    36639.846154
+                ],
+                "end": [
+                    6899.999999,
+                    31315.384615
+                ],
+                "wayPoints": [
+                    [
+                        19385.945945,
+                        36639.846154
+                    ],
+                    [
+                        18385.945945,
+                        36639.846154
+                    ],
+                    [
+                        18385.945945,
+                        32015.384615
+                    ],
+                    [
+                        13553.783782999999,
+                        32015.384615
+                    ],
+                    [
+                        13553.783782999999,
+                        31315.384615
+                    ],
+                    [
+                        6899.999999,
+                        31315.384615
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            19385.945945,
+                            36639.846154
+                        ],
+                        [
+                            18385.945945,
+                            36639.846154
+                        ]
+                    ],
+                    [
+                        [
+                            18385.945945,
+                            36639.846154
+                        ],
+                        [
+                            18385.945945,
+                            32015.384615
+                        ]
+                    ],
+                    [
+                        [
+                            18385.945945,
+                            32015.384615
+                        ],
+                        [
+                            13553.783782999999,
+                            32015.384615
+                        ]
+                    ],
+                    [
+                        [
+                            13553.783782999999,
+                            32015.384615
+                        ],
+                        [
+                            13553.783782999999,
+                            31315.384615
+                        ]
+                    ],
+                    [
+                        [
+                            13553.783782999999,
+                            31315.384615
+                        ],
+                        [
+                            6899.999999,
+                            31315.384615
+                        ]
+                    ]
+                ],
+                "ID": "channel_10"
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "droplet_splitter_1",
+                        "port": "3"
+                    },
+                    "sink": {
+                        "component": "port_7",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            19385.945945,
+                            36639.846154
+                        ],
+                        [
+                            18385.945945,
+                            36639.846154
+                        ],
+                        [
+                            18385.945945,
+                            32015.384615
+                        ],
+                        [
+                            13553.783782999999,
+                            32015.384615
+                        ],
+                        [
+                            13553.783782999999,
+                            31315.384615
+                        ],
+                        [
+                            6899.999999,
+                            31315.384615
+                        ]
+                    ]
+                }
+            ],
+            "entity": "ROUNDED CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_2",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_11",
+            "id": "channel_11",
+            "source": {
+                "component": "droplet_sorter_2",
+                "port": "3"
+            },
+            "params": {
+                "crossSection": 1,
+                "length": 1000.0,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "start": [
+                    77433.37837699999,
+                    41697.692308
+                ],
+                "end": [
+                    36903.783783,
+                    22513.846154
+                ],
+                "wayPoints": [
+                    [
+                        77433.37837699999,
+                        41697.692308
+                    ],
+                    [
+                        77433.37837699999,
+                        42697.692308
+                    ],
+                    [
+                        77433.37837699999,
+                        38649.230768
+                    ],
+                    [
+                        71055.135132,
+                        38649.230768
+                    ],
+                    [
+                        71055.135132,
+                        37015.384616
+                    ],
+                    [
+                        70755.135134,
+                        37015.384616
+                    ],
+                    [
+                        70755.135134,
+                        33615.384613999995
+                    ],
+                    [
+                        69455.135133,
+                        33615.384613999995
+                    ],
+                    [
+                        69455.135133,
+                        33439.846156
+                    ],
+                    [
+                        66255.13513499999,
+                        33439.846156
+                    ],
+                    [
+                        66255.13513499999,
+                        32715.384616
+                    ],
+                    [
+                        65796.216214,
+                        32715.384616
+                    ],
+                    [
+                        65796.216214,
+                        32239.846153
+                    ],
+                    [
+                        64196.216215,
+                        32239.846153
+                    ],
+                    [
+                        64196.216215,
+                        32015.384615
+                    ],
+                    [
+                        61080.54054,
+                        32015.384615
+                    ],
+                    [
+                        61080.54054,
+                        31315.384615
+                    ],
+                    [
+                        54827.567566,
+                        31315.384615
+                    ],
+                    [
+                        54827.567566,
+                        31015.384616
+                    ],
+                    [
+                        52627.567569,
+                        31015.384616
+                    ],
+                    [
+                        52627.567569,
+                        30415.384616
+                    ],
+                    [
+                        52484.324321,
+                        30415.384616
+                    ],
+                    [
+                        52484.324321,
+                        29415.384617
+                    ],
+                    [
+                        47684.324324,
+                        29415.384617
+                    ],
+                    [
+                        47684.324324,
+                        28115.384617
+                    ],
+                    [
+                        44678.378377,
+                        28115.384617
+                    ],
+                    [
+                        44678.378377,
+                        26394.846153
+                    ],
+                    [
+                        42078.378377,
+                        26394.846153
+                    ],
+                    [
+                        42078.378377,
+                        23547.692307
+                    ],
+                    [
+                        37503.783781,
+                        23547.692307
+                    ],
+                    [
+                        37503.783781,
+                        23513.846154
+                    ],
+                    [
+                        36903.783783,
+                        23513.846154
+                    ],
+                    [
+                        36903.783783,
+                        22513.846154
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            77433.37837699999,
+                            41697.692308
+                        ],
+                        [
+                            77433.37837699999,
+                            42697.692308
+                        ]
+                    ],
+                    [
+                        [
+                            77433.37837699999,
+                            42697.692308
+                        ],
+                        [
+                            77433.37837699999,
+                            38649.230768
+                        ]
+                    ],
+                    [
+                        [
+                            77433.37837699999,
+                            38649.230768
+                        ],
+                        [
+                            71055.135132,
+                            38649.230768
+                        ]
+                    ],
+                    [
+                        [
+                            71055.135132,
+                            38649.230768
+                        ],
+                        [
+                            71055.135132,
+                            37015.384616
+                        ]
+                    ],
+                    [
+                        [
+                            71055.135132,
+                            37015.384616
+                        ],
+                        [
+                            70755.135134,
+                            37015.384616
+                        ]
+                    ],
+                    [
+                        [
+                            70755.135134,
+                            37015.384616
+                        ],
+                        [
+                            70755.135134,
+                            33615.384613999995
+                        ]
+                    ],
+                    [
+                        [
+                            70755.135134,
+                            33615.384613999995
+                        ],
+                        [
+                            69455.135133,
+                            33615.384613999995
+                        ]
+                    ],
+                    [
+                        [
+                            69455.135133,
+                            33615.384613999995
+                        ],
+                        [
+                            69455.135133,
+                            33439.846156
+                        ]
+                    ],
+                    [
+                        [
+                            69455.135133,
+                            33439.846156
+                        ],
+                        [
+                            66255.13513499999,
+                            33439.846156
+                        ]
+                    ],
+                    [
+                        [
+                            66255.13513499999,
+                            33439.846156
+                        ],
+                        [
+                            66255.13513499999,
+                            32715.384616
+                        ]
+                    ],
+                    [
+                        [
+                            66255.13513499999,
+                            32715.384616
+                        ],
+                        [
+                            65796.216214,
+                            32715.384616
+                        ]
+                    ],
+                    [
+                        [
+                            65796.216214,
+                            32715.384616
+                        ],
+                        [
+                            65796.216214,
+                            32239.846153
+                        ]
+                    ],
+                    [
+                        [
+                            65796.216214,
+                            32239.846153
+                        ],
+                        [
+                            64196.216215,
+                            32239.846153
+                        ]
+                    ],
+                    [
+                        [
+                            64196.216215,
+                            32239.846153
+                        ],
+                        [
+                            64196.216215,
+                            32015.384615
+                        ]
+                    ],
+                    [
+                        [
+                            64196.216215,
+                            32015.384615
+                        ],
+                        [
+                            61080.54054,
+                            32015.384615
+                        ]
+                    ],
+                    [
+                        [
+                            61080.54054,
+                            32015.384615
+                        ],
+                        [
+                            61080.54054,
+                            31315.384615
+                        ]
+                    ],
+                    [
+                        [
+                            61080.54054,
+                            31315.384615
+                        ],
+                        [
+                            54827.567566,
+                            31315.384615
+                        ]
+                    ],
+                    [
+                        [
+                            54827.567566,
+                            31315.384615
+                        ],
+                        [
+                            54827.567566,
+                            31015.384616
+                        ]
+                    ],
+                    [
+                        [
+                            54827.567566,
+                            31015.384616
+                        ],
+                        [
+                            52627.567569,
+                            31015.384616
+                        ]
+                    ],
+                    [
+                        [
+                            52627.567569,
+                            31015.384616
+                        ],
+                        [
+                            52627.567569,
+                            30415.384616
+                        ]
+                    ],
+                    [
+                        [
+                            52627.567569,
+                            30415.384616
+                        ],
+                        [
+                            52484.324321,
+                            30415.384616
+                        ]
+                    ],
+                    [
+                        [
+                            52484.324321,
+                            30415.384616
+                        ],
+                        [
+                            52484.324321,
+                            29415.384617
+                        ]
+                    ],
+                    [
+                        [
+                            52484.324321,
+                            29415.384617
+                        ],
+                        [
+                            47684.324324,
+                            29415.384617
+                        ]
+                    ],
+                    [
+                        [
+                            47684.324324,
+                            29415.384617
+                        ],
+                        [
+                            47684.324324,
+                            28115.384617
+                        ]
+                    ],
+                    [
+                        [
+                            47684.324324,
+                            28115.384617
+                        ],
+                        [
+                            44678.378377,
+                            28115.384617
+                        ]
+                    ],
+                    [
+                        [
+                            44678.378377,
+                            28115.384617
+                        ],
+                        [
+                            44678.378377,
+                            26394.846153
+                        ]
+                    ],
+                    [
+                        [
+                            44678.378377,
+                            26394.846153
+                        ],
+                        [
+                            42078.378377,
+                            26394.846153
+                        ]
+                    ],
+                    [
+                        [
+                            42078.378377,
+                            26394.846153
+                        ],
+                        [
+                            42078.378377,
+                            23547.692307
+                        ]
+                    ],
+                    [
+                        [
+                            42078.378377,
+                            23547.692307
+                        ],
+                        [
+                            37503.783781,
+                            23547.692307
+                        ]
+                    ],
+                    [
+                        [
+                            37503.783781,
+                            23547.692307
+                        ],
+                        [
+                            37503.783781,
+                            23513.846154
+                        ]
+                    ],
+                    [
+                        [
+                            37503.783781,
+                            23513.846154
+                        ],
+                        [
+                            36903.783783,
+                            23513.846154
+                        ]
+                    ],
+                    [
+                        [
+                            36903.783783,
+                            23513.846154
+                        ],
+                        [
+                            36903.783783,
+                            22513.846154
+                        ]
+                    ]
+                ],
+                "ID": "channel_11"
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "droplet_sorter_2",
+                        "port": "3"
+                    },
+                    "sink": {
+                        "component": "mixer_2",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            77433.37837699999,
+                            41697.692308
+                        ],
+                        [
+                            77433.37837699999,
+                            42697.692308
+                        ],
+                        [
+                            77433.37837699999,
+                            38649.230768
+                        ],
+                        [
+                            71055.135132,
+                            38649.230768
+                        ],
+                        [
+                            71055.135132,
+                            37015.384616
+                        ],
+                        [
+                            70755.135134,
+                            37015.384616
+                        ],
+                        [
+                            70755.135134,
+                            33615.384613999995
+                        ],
+                        [
+                            69455.135133,
+                            33615.384613999995
+                        ],
+                        [
+                            69455.135133,
+                            33439.846156
+                        ],
+                        [
+                            66255.13513499999,
+                            33439.846156
+                        ],
+                        [
+                            66255.13513499999,
+                            32715.384616
+                        ],
+                        [
+                            65796.216214,
+                            32715.384616
+                        ],
+                        [
+                            65796.216214,
+                            32239.846153
+                        ],
+                        [
+                            64196.216215,
+                            32239.846153
+                        ],
+                        [
+                            64196.216215,
+                            32015.384615
+                        ],
+                        [
+                            61080.54054,
+                            32015.384615
+                        ],
+                        [
+                            61080.54054,
+                            31315.384615
+                        ],
+                        [
+                            54827.567566,
+                            31315.384615
+                        ],
+                        [
+                            54827.567566,
+                            31015.384616
+                        ],
+                        [
+                            52627.567569,
+                            31015.384616
+                        ],
+                        [
+                            52627.567569,
+                            30415.384616
+                        ],
+                        [
+                            52484.324321,
+                            30415.384616
+                        ],
+                        [
+                            52484.324321,
+                            29415.384617
+                        ],
+                        [
+                            47684.324324,
+                            29415.384617
+                        ],
+                        [
+                            47684.324324,
+                            28115.384617
+                        ],
+                        [
+                            44678.378377,
+                            28115.384617
+                        ],
+                        [
+                            44678.378377,
+                            26394.846153
+                        ],
+                        [
+                            42078.378377,
+                            26394.846153
+                        ],
+                        [
+                            42078.378377,
+                            23547.692307
+                        ],
+                        [
+                            37503.783781,
+                            23547.692307
+                        ],
+                        [
+                            37503.783781,
+                            23513.846154
+                        ],
+                        [
+                            36903.783783,
+                            23513.846154
+                        ],
+                        [
+                            36903.783783,
+                            22513.846154
+                        ]
+                    ]
+                }
+            ],
+            "entity": "ROUNDED CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "port_3",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_12",
+            "id": "channel_12",
+            "source": {
+                "component": "droplet_sorter_2",
+                "port": "3"
+            },
+            "params": {
+                "crossSection": 1,
+                "length": 1000.0,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "start": [
+                    77433.37837699999,
+                    41697.692308
+                ],
+                "end": [
+                    43378.378377,
+                    6000.0
+                ],
+                "wayPoints": [
+                    [
+                        77433.37837699999,
+                        41697.692308
+                    ],
+                    [
+                        77433.37837699999,
+                        42697.692308
+                    ],
+                    [
+                        77433.37837699999,
+                        29039.846155
+                    ],
+                    [
+                        71055.135132,
+                        29039.846155
+                    ],
+                    [
+                        71055.135132,
+                        15913.846153999999
+                    ],
+                    [
+                        70755.135134,
+                        15913.846153999999
+                    ],
+                    [
+                        70755.135134,
+                        9313.846155
+                    ],
+                    [
+                        56580.540541,
+                        9313.846155
+                    ],
+                    [
+                        56580.540541,
+                        6000.0
+                    ],
+                    [
+                        43378.378377,
+                        6000.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            77433.37837699999,
+                            41697.692308
+                        ],
+                        [
+                            77433.37837699999,
+                            42697.692308
+                        ]
+                    ],
+                    [
+                        [
+                            77433.37837699999,
+                            42697.692308
+                        ],
+                        [
+                            77433.37837699999,
+                            29039.846155
+                        ]
+                    ],
+                    [
+                        [
+                            77433.37837699999,
+                            29039.846155
+                        ],
+                        [
+                            71055.135132,
+                            29039.846155
+                        ]
+                    ],
+                    [
+                        [
+                            71055.135132,
+                            29039.846155
+                        ],
+                        [
+                            71055.135132,
+                            15913.846153999999
+                        ]
+                    ],
+                    [
+                        [
+                            71055.135132,
+                            15913.846153999999
+                        ],
+                        [
+                            70755.135134,
+                            15913.846153999999
+                        ]
+                    ],
+                    [
+                        [
+                            70755.135134,
+                            15913.846153999999
+                        ],
+                        [
+                            70755.135134,
+                            9313.846155
+                        ]
+                    ],
+                    [
+                        [
+                            70755.135134,
+                            9313.846155
+                        ],
+                        [
+                            56580.540541,
+                            9313.846155
+                        ]
+                    ],
+                    [
+                        [
+                            56580.540541,
+                            9313.846155
+                        ],
+                        [
+                            56580.540541,
+                            6000.0
+                        ]
+                    ],
+                    [
+                        [
+                            56580.540541,
+                            6000.0
+                        ],
+                        [
+                            43378.378377,
+                            6000.0
+                        ]
+                    ]
+                ],
+                "ID": "channel_12"
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "droplet_sorter_2",
+                        "port": "3"
+                    },
+                    "sink": {
+                        "component": "port_3",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            77433.37837699999,
+                            41697.692308
+                        ],
+                        [
+                            77433.37837699999,
+                            42697.692308
+                        ],
+                        [
+                            77433.37837699999,
+                            29039.846155
+                        ],
+                        [
+                            71055.135132,
+                            29039.846155
+                        ],
+                        [
+                            71055.135132,
+                            15913.846153999999
+                        ],
+                        [
+                            70755.135134,
+                            15913.846153999999
+                        ],
+                        [
+                            70755.135134,
+                            9313.846155
+                        ],
+                        [
+                            56580.540541,
+                            9313.846155
+                        ],
+                        [
+                            56580.540541,
+                            6000.0
+                        ],
+                        [
+                            43378.378377,
+                            6000.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "ROUNDED CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "port_1",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_13",
+            "id": "channel_13",
+            "source": {
+                "component": "droplet_sorter_1",
+                "port": "3"
+            },
+            "params": {
+                "crossSection": 1,
+                "length": 1000.0,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "start": [
+                    14853.783782999999,
+                    20548.846154
+                ],
+                "end": [
+                    6899.999999,
+                    37315.384615
+                ],
+                "wayPoints": [
+                    [
+                        14853.783782999999,
+                        20548.846154
+                    ],
+                    [
+                        13853.783782999999,
+                        20548.846154
+                    ],
+                    [
+                        13853.783782999999,
+                        21947.692308
+                    ],
+                    [
+                        11953.783784,
+                        21947.692308
+                    ],
+                    [
+                        11953.783784,
+                        29715.384616
+                    ],
+                    [
+                        5300.0,
+                        29715.384616
+                    ],
+                    [
+                        5300.0,
+                        36015.384615999996
+                    ],
+                    [
+                        6899.999999,
+                        36015.384615999996
+                    ],
+                    [
+                        6899.999999,
+                        37315.384615
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            14853.783782999999,
+                            20548.846154
+                        ],
+                        [
+                            13853.783782999999,
+                            20548.846154
+                        ]
+                    ],
+                    [
+                        [
+                            13853.783782999999,
+                            20548.846154
+                        ],
+                        [
+                            13853.783782999999,
+                            21947.692308
+                        ]
+                    ],
+                    [
+                        [
+                            13853.783782999999,
+                            21947.692308
+                        ],
+                        [
+                            11953.783784,
+                            21947.692308
+                        ]
+                    ],
+                    [
+                        [
+                            11953.783784,
+                            21947.692308
+                        ],
+                        [
+                            11953.783784,
+                            29715.384616
+                        ]
+                    ],
+                    [
+                        [
+                            11953.783784,
+                            29715.384616
+                        ],
+                        [
+                            5300.0,
+                            29715.384616
+                        ]
+                    ],
+                    [
+                        [
+                            5300.0,
+                            29715.384616
+                        ],
+                        [
+                            5300.0,
+                            36015.384615999996
+                        ]
+                    ],
+                    [
+                        [
+                            5300.0,
+                            36015.384615999996
+                        ],
+                        [
+                            6899.999999,
+                            36015.384615999996
+                        ]
+                    ],
+                    [
+                        [
+                            6899.999999,
+                            36015.384615999996
+                        ],
+                        [
+                            6899.999999,
+                            37315.384615
+                        ]
+                    ]
+                ],
+                "ID": "channel_13"
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "droplet_sorter_1",
+                        "port": "3"
+                    },
+                    "sink": {
+                        "component": "port_1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            14853.783782999999,
+                            20548.846154
+                        ],
+                        [
+                            13853.783782999999,
+                            20548.846154
+                        ],
+                        [
+                            13853.783782999999,
+                            21947.692308
+                        ],
+                        [
+                            11953.783784,
+                            21947.692308
+                        ],
+                        [
+                            11953.783784,
+                            29715.384616
+                        ],
+                        [
+                            5300.0,
+                            29715.384616
+                        ],
+                        [
+                            5300.0,
+                            36015.384615999996
+                        ],
+                        [
+                            6899.999999,
+                            36015.384615999996
+                        ],
+                        [
+                            6899.999999,
+                            37315.384615
+                        ]
+                    ]
+                }
+            ],
+            "entity": "ROUNDED CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_2",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_14",
+            "id": "channel_14",
+            "source": {
+                "component": "port_2",
+                "port": "1"
+            },
+            "params": {
+                "crossSection": 1,
+                "length": 1000.0,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "start": [
+                    57527.567567,
+                    85800.0
+                ],
+                "end": [
+                    36903.783783,
+                    22513.846154
+                ],
+                "wayPoints": [
+                    [
+                        57527.567567,
+                        85800.0
+                    ],
+                    [
+                        57427.567566,
+                        85800.0
+                    ],
+                    [
+                        57427.567566,
+                        87399.999999
+                    ],
+                    [
+                        52927.567568,
+                        87399.999999
+                    ],
+                    [
+                        52927.567568,
+                        85800.0
+                    ],
+                    [
+                        52627.567569,
+                        85800.0
+                    ],
+                    [
+                        52627.567569,
+                        72135.38461400001
+                    ],
+                    [
+                        50884.324322,
+                        72135.38461400001
+                    ],
+                    [
+                        50884.324322,
+                        70835.384613
+                    ],
+                    [
+                        47684.324324,
+                        70835.384613
+                    ],
+                    [
+                        47684.324324,
+                        70535.384615
+                    ],
+                    [
+                        46384.324323,
+                        70535.384615
+                    ],
+                    [
+                        46384.324323,
+                        69235.38461400001
+                    ],
+                    [
+                        46084.324325,
+                        69235.38461400001
+                    ],
+                    [
+                        46084.324325,
+                        64735.384615
+                    ],
+                    [
+                        44484.324326,
+                        64735.384615
+                    ],
+                    [
+                        44484.324326,
+                        63135.384616
+                    ],
+                    [
+                        42078.378377,
+                        63135.384616
+                    ],
+                    [
+                        42078.378377,
+                        59067.692308
+                    ],
+                    [
+                        41778.378378,
+                        59067.692308
+                    ],
+                    [
+                        41778.378378,
+                        44297.692307
+                    ],
+                    [
+                        38503.783782,
+                        44297.692307
+                    ],
+                    [
+                        38503.783782,
+                        41049.23077
+                    ],
+                    [
+                        37503.783781,
+                        41049.23077
+                    ],
+                    [
+                        37503.783781,
+                        23547.692307
+                    ],
+                    [
+                        36903.783783,
+                        23547.692307
+                    ],
+                    [
+                        36903.783783,
+                        23513.846154
+                    ],
+                    [
+                        36903.783783,
+                        22513.846154
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            57527.567567,
+                            85800.0
+                        ],
+                        [
+                            57427.567566,
+                            85800.0
+                        ]
+                    ],
+                    [
+                        [
+                            57427.567566,
+                            85800.0
+                        ],
+                        [
+                            57427.567566,
+                            87399.999999
+                        ]
+                    ],
+                    [
+                        [
+                            57427.567566,
+                            87399.999999
+                        ],
+                        [
+                            52927.567568,
+                            87399.999999
+                        ]
+                    ],
+                    [
+                        [
+                            52927.567568,
+                            87399.999999
+                        ],
+                        [
+                            52927.567568,
+                            85800.0
+                        ]
+                    ],
+                    [
+                        [
+                            52927.567568,
+                            85800.0
+                        ],
+                        [
+                            52627.567569,
+                            85800.0
+                        ]
+                    ],
+                    [
+                        [
+                            52627.567569,
+                            85800.0
+                        ],
+                        [
+                            52627.567569,
+                            72135.38461400001
+                        ]
+                    ],
+                    [
+                        [
+                            52627.567569,
+                            72135.38461400001
+                        ],
+                        [
+                            50884.324322,
+                            72135.38461400001
+                        ]
+                    ],
+                    [
+                        [
+                            50884.324322,
+                            72135.38461400001
+                        ],
+                        [
+                            50884.324322,
+                            70835.384613
+                        ]
+                    ],
+                    [
+                        [
+                            50884.324322,
+                            70835.384613
+                        ],
+                        [
+                            47684.324324,
+                            70835.384613
+                        ]
+                    ],
+                    [
+                        [
+                            47684.324324,
+                            70835.384613
+                        ],
+                        [
+                            47684.324324,
+                            70535.384615
+                        ]
+                    ],
+                    [
+                        [
+                            47684.324324,
+                            70535.384615
+                        ],
+                        [
+                            46384.324323,
+                            70535.384615
+                        ]
+                    ],
+                    [
+                        [
+                            46384.324323,
+                            70535.384615
+                        ],
+                        [
+                            46384.324323,
+                            69235.38461400001
+                        ]
+                    ],
+                    [
+                        [
+                            46384.324323,
+                            69235.38461400001
+                        ],
+                        [
+                            46084.324325,
+                            69235.38461400001
+                        ]
+                    ],
+                    [
+                        [
+                            46084.324325,
+                            69235.38461400001
+                        ],
+                        [
+                            46084.324325,
+                            64735.384615
+                        ]
+                    ],
+                    [
+                        [
+                            46084.324325,
+                            64735.384615
+                        ],
+                        [
+                            44484.324326,
+                            64735.384615
+                        ]
+                    ],
+                    [
+                        [
+                            44484.324326,
+                            64735.384615
+                        ],
+                        [
+                            44484.324326,
+                            63135.384616
+                        ]
+                    ],
+                    [
+                        [
+                            44484.324326,
+                            63135.384616
+                        ],
+                        [
+                            42078.378377,
+                            63135.384616
+                        ]
+                    ],
+                    [
+                        [
+                            42078.378377,
+                            63135.384616
+                        ],
+                        [
+                            42078.378377,
+                            59067.692308
+                        ]
+                    ],
+                    [
+                        [
+                            42078.378377,
+                            59067.692308
+                        ],
+                        [
+                            41778.378378,
+                            59067.692308
+                        ]
+                    ],
+                    [
+                        [
+                            41778.378378,
+                            59067.692308
+                        ],
+                        [
+                            41778.378378,
+                            44297.692307
+                        ]
+                    ],
+                    [
+                        [
+                            41778.378378,
+                            44297.692307
+                        ],
+                        [
+                            38503.783782,
+                            44297.692307
+                        ]
+                    ],
+                    [
+                        [
+                            38503.783782,
+                            44297.692307
+                        ],
+                        [
+                            38503.783782,
+                            41049.23077
+                        ]
+                    ],
+                    [
+                        [
+                            38503.783782,
+                            41049.23077
+                        ],
+                        [
+                            37503.783781,
+                            41049.23077
+                        ]
+                    ],
+                    [
+                        [
+                            37503.783781,
+                            41049.23077
+                        ],
+                        [
+                            37503.783781,
+                            23547.692307
+                        ]
+                    ],
+                    [
+                        [
+                            37503.783781,
+                            23547.692307
+                        ],
+                        [
+                            36903.783783,
+                            23547.692307
+                        ]
+                    ],
+                    [
+                        [
+                            36903.783783,
+                            23547.692307
+                        ],
+                        [
+                            36903.783783,
+                            23513.846154
+                        ]
+                    ],
+                    [
+                        [
+                            36903.783783,
+                            23513.846154
+                        ],
+                        [
+                            36903.783783,
+                            22513.846154
+                        ]
+                    ]
+                ],
+                "ID": "channel_14"
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "mixer_2",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            57527.567567,
+                            85800.0
+                        ],
+                        [
+                            57427.567566,
+                            85800.0
+                        ],
+                        [
+                            57427.567566,
+                            87399.999999
+                        ],
+                        [
+                            52927.567568,
+                            87399.999999
+                        ],
+                        [
+                            52927.567568,
+                            85800.0
+                        ],
+                        [
+                            52627.567569,
+                            85800.0
+                        ],
+                        [
+                            52627.567569,
+                            72135.38461400001
+                        ],
+                        [
+                            50884.324322,
+                            72135.38461400001
+                        ],
+                        [
+                            50884.324322,
+                            70835.384613
+                        ],
+                        [
+                            47684.324324,
+                            70835.384613
+                        ],
+                        [
+                            47684.324324,
+                            70535.384615
+                        ],
+                        [
+                            46384.324323,
+                            70535.384615
+                        ],
+                        [
+                            46384.324323,
+                            69235.38461400001
+                        ],
+                        [
+                            46084.324325,
+                            69235.38461400001
+                        ],
+                        [
+                            46084.324325,
+                            64735.384615
+                        ],
+                        [
+                            44484.324326,
+                            64735.384615
+                        ],
+                        [
+                            44484.324326,
+                            63135.384616
+                        ],
+                        [
+                            42078.378377,
+                            63135.384616
+                        ],
+                        [
+                            42078.378377,
+                            59067.692308
+                        ],
+                        [
+                            41778.378378,
+                            59067.692308
+                        ],
+                        [
+                            41778.378378,
+                            44297.692307
+                        ],
+                        [
+                            38503.783782,
+                            44297.692307
+                        ],
+                        [
+                            38503.783782,
+                            41049.23077
+                        ],
+                        [
+                            37503.783781,
+                            41049.23077
+                        ],
+                        [
+                            37503.783781,
+                            23547.692307
+                        ],
+                        [
+                            36903.783783,
+                            23547.692307
+                        ],
+                        [
+                            36903.783783,
+                            23513.846154
+                        ],
+                        [
+                            36903.783783,
+                            22513.846154
+                        ]
+                    ]
+                }
+            ],
+            "entity": "ROUNDED CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "mixer_4",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_15",
+            "id": "channel_15",
+            "source": {
+                "component": "port_4",
+                "port": "1"
+            },
+            "params": {
+                "crossSection": 1,
+                "length": 1000.0,
+                "minChannelLength": 1000.0,
+                "connectionSpacing": 1000,
+                "channelWidth": 600,
+                "width": 600,
+                "start": [
+                    54527.567567,
+                    85800.0
+                ],
+                "end": [
+                    49284.324323,
+                    37615.384615
+                ],
+                "wayPoints": [
+                    [
+                        54527.567567,
+                        85800.0
+                    ],
+                    [
+                        54527.567567,
+                        70535.384615
+                    ],
+                    [
+                        54227.567568,
+                        70535.384615
+                    ],
+                    [
+                        54227.567568,
+                        69235.38461400001
+                    ],
+                    [
+                        50884.324322,
+                        69235.38461400001
+                    ],
+                    [
+                        50884.324322,
+                        64735.384615
+                    ],
+                    [
+                        49284.324323,
+                        64735.384615
+                    ],
+                    [
+                        49284.324323,
+                        60567.692306
+                    ],
+                    [
+                        47684.324324,
+                        60567.692306
+                    ],
+                    [
+                        47684.324324,
+                        54667.692308
+                    ],
+                    [
+                        46084.324325,
+                        54667.692308
+                    ],
+                    [
+                        46084.324325,
+                        32915.384613999995
+                    ],
+                    [
+                        47684.324324,
+                        32915.384613999995
+                    ],
+                    [
+                        47684.324324,
+                        31015.384616
+                    ],
+                    [
+                        50884.324322,
+                        31015.384616
+                    ],
+                    [
+                        50884.324322,
+                        37049.230769
+                    ],
+                    [
+                        49284.324323,
+                        37049.230769
+                    ],
+                    [
+                        49284.324323,
+                        38615.384615
+                    ],
+                    [
+                        49284.324323,
+                        37615.384615
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            54527.567567,
+                            85800.0
+                        ],
+                        [
+                            54527.567567,
+                            70535.384615
+                        ]
+                    ],
+                    [
+                        [
+                            54527.567567,
+                            70535.384615
+                        ],
+                        [
+                            54227.567568,
+                            70535.384615
+                        ]
+                    ],
+                    [
+                        [
+                            54227.567568,
+                            70535.384615
+                        ],
+                        [
+                            54227.567568,
+                            69235.38461400001
+                        ]
+                    ],
+                    [
+                        [
+                            54227.567568,
+                            69235.38461400001
+                        ],
+                        [
+                            50884.324322,
+                            69235.38461400001
+                        ]
+                    ],
+                    [
+                        [
+                            50884.324322,
+                            69235.38461400001
+                        ],
+                        [
+                            50884.324322,
+                            64735.384615
+                        ]
+                    ],
+                    [
+                        [
+                            50884.324322,
+                            64735.384615
+                        ],
+                        [
+                            49284.324323,
+                            64735.384615
+                        ]
+                    ],
+                    [
+                        [
+                            49284.324323,
+                            64735.384615
+                        ],
+                        [
+                            49284.324323,
+                            60567.692306
+                        ]
+                    ],
+                    [
+                        [
+                            49284.324323,
+                            60567.692306
+                        ],
+                        [
+                            47684.324324,
+                            60567.692306
+                        ]
+                    ],
+                    [
+                        [
+                            47684.324324,
+                            60567.692306
+                        ],
+                        [
+                            47684.324324,
+                            54667.692308
+                        ]
+                    ],
+                    [
+                        [
+                            47684.324324,
+                            54667.692308
+                        ],
+                        [
+                            46084.324325,
+                            54667.692308
+                        ]
+                    ],
+                    [
+                        [
+                            46084.324325,
+                            54667.692308
+                        ],
+                        [
+                            46084.324325,
+                            32915.384613999995
+                        ]
+                    ],
+                    [
+                        [
+                            46084.324325,
+                            32915.384613999995
+                        ],
+                        [
+                            47684.324324,
+                            32915.384613999995
+                        ]
+                    ],
+                    [
+                        [
+                            47684.324324,
+                            32915.384613999995
+                        ],
+                        [
+                            47684.324324,
+                            31015.384616
+                        ]
+                    ],
+                    [
+                        [
+                            47684.324324,
+                            31015.384616
+                        ],
+                        [
+                            50884.324322,
+                            31015.384616
+                        ]
+                    ],
+                    [
+                        [
+                            50884.324322,
+                            31015.384616
+                        ],
+                        [
+                            50884.324322,
+                            37049.230769
+                        ]
+                    ],
+                    [
+                        [
+                            50884.324322,
+                            37049.230769
+                        ],
+                        [
+                            49284.324323,
+                            37049.230769
+                        ]
+                    ],
+                    [
+                        [
+                            49284.324323,
+                            37049.230769
+                        ],
+                        [
+                            49284.324323,
+                            38615.384615
+                        ]
+                    ],
+                    [
+                        [
+                            49284.324323,
+                            38615.384615
+                        ],
+                        [
+                            49284.324323,
+                            37615.384615
+                        ]
+                    ]
+                ],
+                "ID": "channel_15"
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_4",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "mixer_4",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            54527.567567,
+                            85800.0
+                        ],
+                        [
+                            54527.567567,
+                            70535.384615
+                        ],
+                        [
+                            54227.567568,
+                            70535.384615
+                        ],
+                        [
+                            54227.567568,
+                            69235.38461400001
+                        ],
+                        [
+                            50884.324322,
+                            69235.38461400001
+                        ],
+                        [
+                            50884.324322,
+                            64735.384615
+                        ],
+                        [
+                            49284.324323,
+                            64735.384615
+                        ],
+                        [
+                            49284.324323,
+                            60567.692306
+                        ],
+                        [
+                            47684.324324,
+                            60567.692306
+                        ],
+                        [
+                            47684.324324,
+                            54667.692308
+                        ],
+                        [
+                            46084.324325,
+                            54667.692308
+                        ],
+                        [
+                            46084.324325,
+                            32915.384613999995
+                        ],
+                        [
+                            47684.324324,
+                            32915.384613999995
+                        ],
+                        [
+                            47684.324324,
+                            31015.384616
+                        ],
+                        [
+                            50884.324322,
+                            31015.384616
+                        ],
+                        [
+                            50884.324322,
+                            37049.230769
+                        ],
+                        [
+                            49284.324323,
+                            37049.230769
+                        ],
+                        [
+                            49284.324323,
+                            38615.384615
+                        ],
+                        [
+                            49284.324323,
+                            37615.384615
+                        ]
+                    ]
+                }
+            ],
+            "entity": "ROUNDED CHANNEL"
+        }
+    ],
+    "params": {
+        "x-span": 93599.99999800001,
+        "y-span": 92699.999999,
+        "length": 92699.999999,
+        "flowPortCount": 7,
+        "controlPortCount": 0,
+        "logicalFlowIo": 7
+    },
+    "layers": [
+        {
+            "name": "FLOW_0",
+            "id": "0",
+            "type": "FLOW",
+            "params": {},
+            "group": 0
+        }
+    ],
+    "features": [],
+    "version": "1.2",
+    "valves": [],
+    "isPnR": false,
+    "layoutConstraints": [],
+    "IsPlacedAndRouted": true
+}

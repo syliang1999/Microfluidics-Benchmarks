@@ -1,0 +1,32 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Base/Net_Multi_Test/Net_Multi_Test_fromMINT.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/mint__Base__Net_Multi_Test__Net_Multi_Test_fromMINT --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: Net_Multi_Test_fromMINT
+1/9, Finish initial placement, time spent: 4.8160552978515625e-05 s
+[0, 200, 200, 'b1_1', 0] [[100.0, 100.0]]
+[1, 200, 200, 'b1_2', 0] [[100.0, 100.0]]
+[2, 200, 200, 'b1_3', 0] [[100.0, 100.0]]
+[3, 20, 20, 'n1', 0] [[10.0, 0.0], [20.0, 10.0], [10.0, 20.0], [0.0, 10.0]]
+[4, 20, 20, 'n2', 0] [[10.0, 0.0], [20.0, 10.0], [10.0, 20.0], [0.0, 10.0]]
+[5, 20, 20, 'n3', 0] [[10.0, 0.0], [20.0, 10.0], [10.0, 20.0], [0.0, 10.0]]
+2/9, Finish initial placement with rotation, time spent: 0.0001728534698486328 s
+3/9, Finish symmetricalization, time spent: 1.2874603271484375e-05 s
+4/9, Finish routing, time spent: 0.00017952919006347656 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [2, 0, 1], [0, 1]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0011200904846191406 s
+6/9, Finish shortening wirelength, time spent: 5.936622619628906e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.0002541542053222656 s
+9/9, Finish compaction and connecting ports, time spent: 0.03959321975708008 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.04144024848937988 s
+Reordering Timeusage: 0.0011200904846191406 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.04102683067321777 s
+Cannot finish valid layer-1 synthesis for:
+- reason=routing:fallback_no_compliant_valve_escape valve=v10 flow_connection=c9 control_port=cp2
+- reason=routing:fallback_no_compliant_valve_escape valve=v11 flow_connection=c10 control_port=cp1
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/mint__Base__Net_Multi_Test__Net_Multi_Test_fromMINT/result.json

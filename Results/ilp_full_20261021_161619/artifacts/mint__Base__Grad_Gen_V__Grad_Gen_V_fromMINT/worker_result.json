@@ -1,0 +1,84 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Base/Grad_Gen_V/Grad_Gen_V_fromMINT.json",
+  "success": false,
+  "error": "RuntimeError: DRC violations: channel_spacing: channels of connections 'c1' and 'c2' violate the 1000 edge-to-edge clearance; channel_spacing: channels of connections 'c6' and 'c12' violate the 1000 edge-to-edge clearance; channel_spacing: channels of connections 'c10' and 'c11' violate the 1000 edge-to-edge clearance",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__Base__Grad_Gen_V__Grad_Gen_V_fromMINT/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__Base__Grad_Gen_V__Grad_Gen_V_fromMINT/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 81.4573375126347,
+  "total_channel_manhattan_length": 1484564.9019419998,
+  "physical_area": 34540045293.0591,
+  "padded_area": 38608074704.7791,
+  "drc_passed": false,
+  "violation_count": 3,
+  "violations": [
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'c1' and 'c2' violate the 1000 edge-to-edge clearance",
+      "connection": "c1",
+      "details": {
+        "other": "c2",
+        "rect_a": [
+          37236.666665,
+          49305.882351,
+          37336.666665,
+          50355.88235000001
+        ],
+        "rect_b": [
+          6099.999999,
+          49155.882351,
+          36236.666666000005,
+          49255.882351
+        ]
+      }
+    },
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'c6' and 'c12' violate the 1000 edge-to-edge clearance",
+      "connection": "c6",
+      "details": {
+        "other": "c12",
+        "rect_a": [
+          180863.33333300002,
+          49005.882351,
+          180963.33333300002,
+          104377.647057
+        ],
+        "rect_b": [
+          167189.99999799998,
+          105377.64705599999,
+          182063.333332,
+          105477.64705599999
+        ]
+      }
+    },
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'c10' and 'c11' violate the 1000 edge-to-edge clearance",
+      "connection": "c10",
+      "details": {
+        "other": "c11",
+        "rect_a": [
+          160863.33333300002,
+          120577.64705499998,
+          164090.0,
+          120677.64705499998
+        ],
+        "rect_b": [
+          161963.333332,
+          121677.64705399997,
+          162063.333332,
+          124437.64705599999
+        ]
+      }
+    }
+  ],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 82.304851
+}

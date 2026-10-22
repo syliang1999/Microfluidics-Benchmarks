@@ -1,0 +1,20 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Constraints/Relative_Orientation_Constraint/Relative_Orientation_Constraint_fromMINT.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__Constraints__Relative_Orientation_Constraint__Relative_Orientation_Constraint_fromMINT/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__Constraints__Relative_Orientation_Constraint__Relative_Orientation_Constraint_fromMINT/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 0.15948476735502481,
+  "total_channel_manhattan_length": 68411.666665,
+  "physical_area": 1349167033.3520901,
+  "padded_area": 2251633700.02209,
+  "drc_passed": true,
+  "violation_count": 0,
+  "violations": [],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 0.890494
+}

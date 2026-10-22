@@ -1,0 +1,34 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Drop_Ref/Dx_3/Dx_3_fromMINT.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Drop_Ref__Dx_3__Dx_3_fromMINT --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Reversed 4 connection(s) with opposite-port direction conflicts: channel_3, channel_4, channel_5, channel_9.
+Finish loading test case: Dx_3_fromMINT
+1/9, Finish initial placement, time spent: 2.5510787963867188e-05 s
+[0, 4000, 4000, 'port_1', 0] [[2000.0, 2000.0]]
+[1, 4000, 4000, 'port_2', 0] [[2000.0, 2000.0]]
+[2, 1800, 600, 'nozzle_droplet_generator_1', 0] [[400, 0], [1800, 300], [400, 600], [0, 300]]
+[3, 6000, 8000, 'droplet_splitter_1', 0] [[0, 4000], [5500, 0], [5000, 8000]]
+[4, 4060, 4860, 'mixer_1', 0] [[2030.0, 400.0], [2030.0, 4460.0]]
+[5, 1400, 1400, 'port_3', 0] [[700.0, 700.0]]
+[6, 4060, 4860, 'mixer_2', 0] [[2030.0, 400.0], [2030.0, 4460.0]]
+[7, 1400, 1400, 'port_4', 0] [[700.0, 700.0]]
+[8, 1400, 1400, 'port_5', 0] [[700.0, 700.0]]
+[9, 1400, 1400, 'port_6', 0] [[700.0, 700.0]]
+[10, 1400, 1400, 'port_7', 0] [[700.0, 700.0]]
+2/9, Finish initial placement with rotation, time spent: 0.00020265579223632812 s
+3/9, Finish symmetricalization, time spent: 1.5974044799804688e-05 s
+4/9, Finish routing, time spent: 0.00023651123046875 s
+****************************************************
+Fail to find valid order; keeping the initial row order
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0021164417266845703 s
+6/9, Finish shortening wirelength, time spent: 8.893013000488281e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00029921531677246094 s
+9/9, Finish compaction and connecting ports, time spent: 0.0512845516204834 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.05426979064941406 s
+Reordering Timeusage: 0.0021164417266845703 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.05378913879394531 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Drop_Ref__Dx_3__Dx_3_fromMINT/result.json

@@ -1,0 +1,60 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 0.19420962128788233,
+    "global_layout_runtime_seconds": 0.06371847447007895,
+    "global_layout_hint_count": 3,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 1.7604356836527586,
+    "total_runtime_seconds": 3.7257568212226033,
+    "component_count": 8,
+    "net_count": 7,
+    "path_count": 7,
+    "total_channel_manhattan_length": 280990.65933500003,
+    "physical_width": 45399.999999,
+    "physical_height": 69780.0,
+    "physical_area": 3168011999.93022,
+    "padded_width": 55399.999999,
+    "padded_height": 79780.0,
+    "padded_area": 4419811999.92022,
+    "placement_objective": 9.909897320531032,
+    "placement_wire_lower_bound": 260730.65934100002,
+    "placement_half_perimeter": 114080.0,
+    "selected_placement_gap": 0.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "routed",
+            "elapsed_seconds": 3.648606525734067,
+            "placement_time_limit_seconds": 215.99079899065197,
+            "total_channel_manhattan_length": 280990.65933500003,
+            "physical_area": 3168011999.93022
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 215.99079899065197,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 92201.0,
+        "tight_big_m": 92201.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

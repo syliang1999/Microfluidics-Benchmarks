@@ -1,0 +1,84 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Base/Super_MUX_16/Super_MUX_16_fromMINT.json",
+  "success": false,
+  "error": "RuntimeError: DRC violations: channel_spacing: channels of connections 'cin3' and 'cin4' violate the 1000 edge-to-edge clearance; channel_spacing: channels of connections 'cin4' and 'cin5' violate the 1000 edge-to-edge clearance; channel_spacing: channels of connections 'cin5' and 'cin6' violate the 1000 edge-to-edge clearance",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__Base__Super_MUX_16__Super_MUX_16_fromMINT/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__Base__Super_MUX_16__Super_MUX_16_fromMINT/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 585.4870958523825,
+  "total_channel_manhattan_length": 1004352.9950580007,
+  "physical_area": 6432539257.456475,
+  "padded_area": 8137257696.396476,
+  "drc_passed": false,
+  "violation_count": 3,
+  "violations": [
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'cin3' and 'cin4' violate the 1000 edge-to-edge clearance",
+      "connection": "cin3",
+      "details": {
+        "other": "cin4",
+        "rect_a": [
+          76530.2439,
+          41983.999999,
+          77130.2439,
+          48483.999998
+        ],
+        "rect_b": [
+          72530.2439,
+          44684.0,
+          75530.24390100001,
+          45284.0
+        ]
+      }
+    },
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'cin4' and 'cin5' violate the 1000 edge-to-edge clearance",
+      "connection": "cin4",
+      "details": {
+        "other": "cin5",
+        "rect_a": [
+          70130.243899,
+          46283.999999,
+          70730.243899,
+          75241.59999700003
+        ],
+        "rect_b": [
+          66130.243899,
+          73041.59999800002,
+          69130.2439,
+          73641.59999800002
+        ]
+      }
+    },
+    {
+      "kind": "channel_spacing",
+      "rule": "distinct_connection_clearance",
+      "message": "channels of connections 'cin5' and 'cin6' violate the 1000 edge-to-edge clearance",
+      "connection": "cin5",
+      "details": {
+        "other": "cin6",
+        "rect_a": [
+          66130.243899,
+          73041.59999800002,
+          66730.243899,
+          74941.59999800002
+        ],
+        "rect_b": [
+          62130.243899,
+          72741.59999900001,
+          65130.2439,
+          73341.59999900001
+        ]
+      }
+    }
+  ],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 586.478582
+}

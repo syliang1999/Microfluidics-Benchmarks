@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/CIDAR_Lab_Past_Devices/Chemostat_Chip/Chemostat_Chip_fromLFR.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=36, E=50, components=1, cycle_rank=15; cycle-closing connection(s): channel_22, channel_29, channel_30, channel_31, channel_32, channel_33, channel_34, channel_43, channel_44, channel_45, channel_46, channel_47, channel_48, channel_49, channel_50",
+  "worker_seconds": 0.011622
+}

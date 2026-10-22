@@ -1,0 +1,20 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/CIDAR_Lab_Past_Devices/Grid_02/Grid_02_fromMINT.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__CIDAR_Lab_Past_Devices__Grid_02__Grid_02_fromMINT/result_control.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__CIDAR_Lab_Past_Devices__Grid_02__Grid_02_fromMINT/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 21.95312042813748,
+  "total_channel_manhattan_length": 372987.14285,
+  "physical_area": 3548972387.610501,
+  "padded_area": 4847386673.300501,
+  "drc_passed": true,
+  "violation_count": 0,
+  "violations": [],
+  "control_required": true,
+  "control_passed": true,
+  "worker_seconds": 124.281191
+}

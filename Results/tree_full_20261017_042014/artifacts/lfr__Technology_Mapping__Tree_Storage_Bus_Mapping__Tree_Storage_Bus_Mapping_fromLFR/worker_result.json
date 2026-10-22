@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Technology_Mapping/Tree_Storage_Bus_Mapping/Tree_Storage_Bus_Mapping_fromLFR.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=20, E=43, components=1, cycle_rank=24; cycle-closing connection(s): channel_19, channel_20, channel_21, channel_22, channel_23, channel_24, channel_25, channel_26, channel_28, channel_29, channel_30, channel_31, channel_32, channel_33, channel_34, channel_35, channel_36, channel_37, channel_38, channel_39, channel_40, channel_41, channel_42, channel_43",
+  "worker_seconds": 0.004223
+}

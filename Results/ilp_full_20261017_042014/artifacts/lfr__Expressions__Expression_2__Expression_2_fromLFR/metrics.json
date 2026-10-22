@@ -1,0 +1,74 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 0.17323086317628622,
+    "global_layout_runtime_seconds": 0.025211507454514503,
+    "global_layout_hint_count": 2,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 0.06918752752244473,
+    "total_runtime_seconds": 1.063899497501552,
+    "component_count": 5,
+    "net_count": 4,
+    "path_count": 4,
+    "total_channel_manhattan_length": 145366.66666500003,
+    "physical_width": 36713.333333,
+    "physical_height": 62706.666666,
+    "physical_area": 2302170755.5101776,
+    "padded_width": 46713.333333,
+    "padded_height": 72706.666666,
+    "padded_area": 3396370755.5001783,
+    "placement_objective": 5.071391076126421,
+    "placement_wire_lower_bound": 137166.66666699998,
+    "placement_half_perimeter": 98920.0,
+    "selected_placement_gap": 2000.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "failed",
+            "elapsed_seconds": 0.42089621257036924,
+            "placement_time_limit_seconds": 215.99583614598959,
+            "reason": "All 11 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 2 relaxed inter-net conflict(s): channel_1[0] x channel_4[0], channel_3[0] x channel_4[0] | order 1: No legal route for connection 'channel_3' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 2: No legal route for connection 'channel_2' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 3: No legal route for connection 'channel_3' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 4: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 5: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 6: No legal route for connection 'channel_3' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 7: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 8: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 9: No legal route for connection 'channel_2' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 10: No legal route for connection 'channel_1' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '3'} -> {'component': 'mixer_1', 'port': '1'}) | order 11: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'})"
+        },
+        {
+            "placement_gap": 1000.0,
+            "status": "failed",
+            "elapsed_seconds": 0.3822450013831258,
+            "placement_time_limit_seconds": 269.93086883914657,
+            "reason": "All 11 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 2 relaxed inter-net conflict(s): channel_1[0] x channel_4[0], channel_3[0] x channel_4[0] | order 1: No legal route for connection 'channel_3' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 2: No legal route for connection 'channel_2' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 3: No legal route for connection 'channel_3' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 4: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 5: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 6: No legal route for connection 'channel_3' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 7: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 8: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 9: No legal route for connection 'channel_2' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 10: No legal route for connection 'channel_1' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '3'} -> {'component': 'mixer_1', 'port': '1'}) | order 11: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'})"
+        },
+        {
+            "placement_gap": 2000.0,
+            "status": "routed",
+            "elapsed_seconds": 0.21514555159956217,
+            "placement_time_limit_seconds": 359.83032610788945,
+            "total_channel_manhattan_length": 145366.666665,
+            "physical_area": 2302170755.5101776
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 359.83032610788945,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 84801.0,
+        "tight_big_m": 84801.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Drop_Ref/Droplet_Generator_3/Droplet_Generator_3_fromLFR.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=20, E=24, components=1, cycle_rank=5; cycle-closing connection(s): channel_17, channel_19, channel_22, channel_23, channel_24",
+  "worker_seconds": 0.005289
+}

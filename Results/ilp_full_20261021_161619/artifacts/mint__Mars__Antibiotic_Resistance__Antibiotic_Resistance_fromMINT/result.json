@@ -1,0 +1,2535 @@
+{
+    "name": "Antibiotic_Resistance",
+    "components": [
+        {
+            "name": "square_cell_trap_1",
+            "id": "square_cell_trap_1",
+            "entity": "SQUARE CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "rotation": 180.0,
+                "channelWidth": 1000.0,
+                "channelLength": 4000.0,
+                "chamberWidth": 2500.0,
+                "chamberLength": 2500.0,
+                "chamberHeight": 250.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    64112.0,
+                    5000.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 2000,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 4000,
+                    "y": 2000,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 4000,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "square_cell_trap_2",
+            "id": "square_cell_trap_2",
+            "entity": "SQUARE CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "rotation": 0.0,
+                "channelWidth": 1000.0,
+                "channelLength": 4000.0,
+                "chamberWidth": 2500.0,
+                "chamberLength": 2500.0,
+                "chamberHeight": 250.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    6200.0,
+                    10080.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 2000,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 4000,
+                    "y": 2000,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 4000,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "square_cell_trap_3",
+            "id": "square_cell_trap_3",
+            "entity": "SQUARE CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "rotation": 0.0,
+                "channelWidth": 1000.0,
+                "channelLength": 4000.0,
+                "chamberWidth": 2500.0,
+                "chamberLength": 2500.0,
+                "chamberHeight": 250.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    11686.400000000001,
+                    17700.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 2000,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 4000,
+                    "y": 2000,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 4000,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "square_cell_trap_4",
+            "id": "square_cell_trap_4",
+            "entity": "SQUARE CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "rotation": 0.0,
+                "channelWidth": 1000.0,
+                "channelLength": 4000.0,
+                "chamberWidth": 2500.0,
+                "chamberLength": 2500.0,
+                "chamberHeight": 250.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    16563.2,
+                    23700.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 2000,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 4000,
+                    "y": 2000,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 4000,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "square_cell_trap_5",
+            "id": "square_cell_trap_5",
+            "entity": "SQUARE CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "rotation": 0.0,
+                "channelWidth": 1000.0,
+                "channelLength": 4000.0,
+                "chamberWidth": 2500.0,
+                "chamberLength": 2500.0,
+                "chamberHeight": 250.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    22563.2,
+                    26940.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 2000,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 4000,
+                    "y": 2000,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 4000,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "square_cell_trap_6",
+            "id": "square_cell_trap_6",
+            "entity": "SQUARE CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "rotation": 0.0,
+                "channelWidth": 1000.0,
+                "channelLength": 4000.0,
+                "chamberWidth": 2500.0,
+                "chamberLength": 2500.0,
+                "chamberHeight": 250.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    26316.8,
+                    32940.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 2000,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 4000,
+                    "y": 2000,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 4000,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "square_cell_trap_7",
+            "id": "square_cell_trap_7",
+            "entity": "SQUARE CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "rotation": 0.0,
+                "channelWidth": 1000.0,
+                "channelLength": 4000.0,
+                "chamberWidth": 2500.0,
+                "chamberLength": 2500.0,
+                "chamberHeight": 250.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    32316.8,
+                    37100.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 2000,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 4000,
+                    "y": 2000,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 4000,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "square_cell_trap_8",
+            "id": "square_cell_trap_8",
+            "entity": "SQUARE CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "rotation": 0.0,
+                "channelWidth": 1000.0,
+                "channelLength": 4000.0,
+                "chamberWidth": 2500.0,
+                "chamberLength": 2500.0,
+                "chamberHeight": 250.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    36070.399999999994,
+                    43100.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 2000,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 4000,
+                    "y": 2000,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 4000,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "square_cell_trap_9",
+            "id": "square_cell_trap_9",
+            "entity": "SQUARE CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "rotation": 0.0,
+                "channelWidth": 1000.0,
+                "channelLength": 4000.0,
+                "chamberWidth": 2500.0,
+                "chamberLength": 2500.0,
+                "chamberHeight": 250.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    42070.399999999994,
+                    47260.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 2000,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 4000,
+                    "y": 2000,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 4000,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "square_cell_trap_10",
+            "id": "square_cell_trap_10",
+            "entity": "SQUARE CELL TRAP",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 1000.0,
+                "rotation": 0.0,
+                "channelWidth": 1000.0,
+                "channelLength": 4000.0,
+                "chamberWidth": 2500.0,
+                "chamberLength": 2500.0,
+                "chamberHeight": 250.0,
+                "mirrorByX": false,
+                "mirrorByY": 0.0,
+                "depth": 250.0,
+                "position": [
+                    45824.0,
+                    53260.0
+                ]
+            },
+            "ports": [
+                {
+                    "x": 0,
+                    "y": 2000,
+                    "label": "1",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 4000,
+                    "y": 2000,
+                    "label": "2",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 0,
+                    "label": "3",
+                    "layer": "FLOW"
+                },
+                {
+                    "x": 2000,
+                    "y": 4000,
+                    "label": "4",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 4000,
+            "y-span": 4000
+        },
+        {
+            "name": "port_1",
+            "id": "port_1",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 700.0,
+                "depth": 1100.0,
+                "position": [
+                    50700.8,
+                    69640.0
+                ],
+                "rotation": 180.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 700.0,
+                    "y": 700.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 1400,
+            "y-span": 1400
+        },
+        {
+            "name": "port_2",
+            "id": "port_2",
+            "entity": "PORT",
+            "layers": [
+                "0"
+            ],
+            "params": {
+                "componentSpacing": 2000.0,
+                "portRadius": 700.0,
+                "depth": 1100.0,
+                "position": [
+                    71551.2,
+                    25000.0
+                ],
+                "rotation": 180.0,
+                "mirrorByX": false
+            },
+            "ports": [
+                {
+                    "x": 700.0,
+                    "y": 700.0,
+                    "label": "1",
+                    "layer": "FLOW"
+                }
+            ],
+            "x-span": 1400,
+            "y-span": 1400
+        }
+    ],
+    "connections": [
+        {
+            "sinks": [
+                {
+                    "component": "square_cell_trap_1",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_1",
+            "id": "channel_1",
+            "source": {
+                "component": "port_2",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 400,
+                "width": 400,
+                "crossSection": 1,
+                "start": [
+                    72251.2,
+                    25700.0
+                ],
+                "end": [
+                    68112.0,
+                    7000.0
+                ],
+                "wayPoints": [
+                    [
+                        72251.2,
+                        25700.0
+                    ],
+                    [
+                        69112.0,
+                        25700.0
+                    ],
+                    [
+                        69112.0,
+                        7000.0
+                    ],
+                    [
+                        68112.0,
+                        7000.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            69112.0,
+                            25700.0
+                        ]
+                    ],
+                    [
+                        [
+                            69112.0,
+                            25700.0
+                        ],
+                        [
+                            69112.0,
+                            7000.0
+                        ]
+                    ],
+                    [
+                        [
+                            69112.0,
+                            7000.0
+                        ],
+                        [
+                            68112.0,
+                            7000.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "square_cell_trap_1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            69112.0,
+                            25700.0
+                        ],
+                        [
+                            69112.0,
+                            7000.0
+                        ],
+                        [
+                            68112.0,
+                            7000.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "square_cell_trap_2",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_2",
+            "id": "channel_2",
+            "source": {
+                "component": "port_2",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 400,
+                "width": 400,
+                "crossSection": 1,
+                "start": [
+                    72251.2,
+                    25700.0
+                ],
+                "end": [
+                    6200.0,
+                    12080.0
+                ],
+                "wayPoints": [
+                    [
+                        72251.2,
+                        25700.0
+                    ],
+                    [
+                        72251.2,
+                        16500.0
+                    ],
+                    [
+                        69312.0,
+                        16500.0
+                    ],
+                    [
+                        69312.0,
+                        12080.0
+                    ],
+                    [
+                        5200.0,
+                        12080.0
+                    ],
+                    [
+                        6200.0,
+                        12080.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            72251.2,
+                            16500.0
+                        ]
+                    ],
+                    [
+                        [
+                            72251.2,
+                            16500.0
+                        ],
+                        [
+                            69312.0,
+                            16500.0
+                        ]
+                    ],
+                    [
+                        [
+                            69312.0,
+                            16500.0
+                        ],
+                        [
+                            69312.0,
+                            12080.0
+                        ]
+                    ],
+                    [
+                        [
+                            69312.0,
+                            12080.0
+                        ],
+                        [
+                            5200.0,
+                            12080.0
+                        ]
+                    ],
+                    [
+                        [
+                            5200.0,
+                            12080.0
+                        ],
+                        [
+                            6200.0,
+                            12080.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "square_cell_trap_2",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            72251.2,
+                            16500.0
+                        ],
+                        [
+                            69312.0,
+                            16500.0
+                        ],
+                        [
+                            69312.0,
+                            12080.0
+                        ],
+                        [
+                            5200.0,
+                            12080.0
+                        ],
+                        [
+                            6200.0,
+                            12080.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "square_cell_trap_3",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_3",
+            "id": "channel_3",
+            "source": {
+                "component": "port_2",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 400,
+                "width": 400,
+                "crossSection": 1,
+                "start": [
+                    72251.2,
+                    25700.0
+                ],
+                "end": [
+                    11686.400000000001,
+                    19700.0
+                ],
+                "wayPoints": [
+                    [
+                        72251.2,
+                        25700.0
+                    ],
+                    [
+                        21763.2,
+                        25700.0
+                    ],
+                    [
+                        21763.2,
+                        22500.0
+                    ],
+                    [
+                        11400.0,
+                        22500.0
+                    ],
+                    [
+                        11400.0,
+                        19700.0
+                    ],
+                    [
+                        10686.400000000001,
+                        19700.0
+                    ],
+                    [
+                        11686.400000000001,
+                        19700.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            21763.2,
+                            25700.0
+                        ]
+                    ],
+                    [
+                        [
+                            21763.2,
+                            25700.0
+                        ],
+                        [
+                            21763.2,
+                            22500.0
+                        ]
+                    ],
+                    [
+                        [
+                            21763.2,
+                            22500.0
+                        ],
+                        [
+                            11400.0,
+                            22500.0
+                        ]
+                    ],
+                    [
+                        [
+                            11400.0,
+                            22500.0
+                        ],
+                        [
+                            11400.0,
+                            19700.0
+                        ]
+                    ],
+                    [
+                        [
+                            11400.0,
+                            19700.0
+                        ],
+                        [
+                            10686.400000000001,
+                            19700.0
+                        ]
+                    ],
+                    [
+                        [
+                            10686.400000000001,
+                            19700.0
+                        ],
+                        [
+                            11686.400000000001,
+                            19700.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "square_cell_trap_3",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            21763.2,
+                            25700.0
+                        ],
+                        [
+                            21763.2,
+                            22500.0
+                        ],
+                        [
+                            11400.0,
+                            22500.0
+                        ],
+                        [
+                            11400.0,
+                            19700.0
+                        ],
+                        [
+                            10686.400000000001,
+                            19700.0
+                        ],
+                        [
+                            11686.400000000001,
+                            19700.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "square_cell_trap_4",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_4",
+            "id": "channel_4",
+            "source": {
+                "component": "port_2",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 400,
+                "width": 400,
+                "crossSection": 1,
+                "start": [
+                    72251.2,
+                    25700.0
+                ],
+                "end": [
+                    16563.2,
+                    25700.0
+                ],
+                "wayPoints": [
+                    [
+                        72251.2,
+                        25700.0
+                    ],
+                    [
+                        15563.2,
+                        25700.0
+                    ],
+                    [
+                        16563.2,
+                        25700.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            15563.2,
+                            25700.0
+                        ]
+                    ],
+                    [
+                        [
+                            15563.2,
+                            25700.0
+                        ],
+                        [
+                            16563.2,
+                            25700.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "square_cell_trap_4",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            15563.2,
+                            25700.0
+                        ],
+                        [
+                            16563.2,
+                            25700.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "square_cell_trap_5",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_5",
+            "id": "channel_5",
+            "source": {
+                "component": "port_2",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 400,
+                "width": 400,
+                "crossSection": 1,
+                "start": [
+                    72251.2,
+                    25700.0
+                ],
+                "end": [
+                    22563.2,
+                    28940.0
+                ],
+                "wayPoints": [
+                    [
+                        72251.2,
+                        25700.0
+                    ],
+                    [
+                        47270.399999999994,
+                        25700.0
+                    ],
+                    [
+                        47270.399999999994,
+                        28900.0
+                    ],
+                    [
+                        44624.0,
+                        28900.0
+                    ],
+                    [
+                        44624.0,
+                        28940.0
+                    ],
+                    [
+                        21563.2,
+                        28940.0
+                    ],
+                    [
+                        22563.2,
+                        28940.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            47270.399999999994,
+                            25700.0
+                        ]
+                    ],
+                    [
+                        [
+                            47270.399999999994,
+                            25700.0
+                        ],
+                        [
+                            47270.399999999994,
+                            28900.0
+                        ]
+                    ],
+                    [
+                        [
+                            47270.399999999994,
+                            28900.0
+                        ],
+                        [
+                            44624.0,
+                            28900.0
+                        ]
+                    ],
+                    [
+                        [
+                            44624.0,
+                            28900.0
+                        ],
+                        [
+                            44624.0,
+                            28940.0
+                        ]
+                    ],
+                    [
+                        [
+                            44624.0,
+                            28940.0
+                        ],
+                        [
+                            21563.2,
+                            28940.0
+                        ]
+                    ],
+                    [
+                        [
+                            21563.2,
+                            28940.0
+                        ],
+                        [
+                            22563.2,
+                            28940.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "square_cell_trap_5",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            47270.399999999994,
+                            25700.0
+                        ],
+                        [
+                            47270.399999999994,
+                            28900.0
+                        ],
+                        [
+                            44624.0,
+                            28900.0
+                        ],
+                        [
+                            44624.0,
+                            28940.0
+                        ],
+                        [
+                            21563.2,
+                            28940.0
+                        ],
+                        [
+                            22563.2,
+                            28940.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "square_cell_trap_6",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_6",
+            "id": "channel_6",
+            "source": {
+                "component": "port_2",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 400,
+                "width": 400,
+                "crossSection": 1,
+                "start": [
+                    72251.2,
+                    25700.0
+                ],
+                "end": [
+                    26316.8,
+                    34940.0
+                ],
+                "wayPoints": [
+                    [
+                        72251.2,
+                        25700.0
+                    ],
+                    [
+                        51024.0,
+                        25700.0
+                    ],
+                    [
+                        51024.0,
+                        28900.0
+                    ],
+                    [
+                        37516.8,
+                        28900.0
+                    ],
+                    [
+                        37516.8,
+                        32140.0
+                    ],
+                    [
+                        25316.8,
+                        32140.0
+                    ],
+                    [
+                        25316.8,
+                        34940.0
+                    ],
+                    [
+                        26316.8,
+                        34940.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            51024.0,
+                            25700.0
+                        ]
+                    ],
+                    [
+                        [
+                            51024.0,
+                            25700.0
+                        ],
+                        [
+                            51024.0,
+                            28900.0
+                        ]
+                    ],
+                    [
+                        [
+                            51024.0,
+                            28900.0
+                        ],
+                        [
+                            37516.8,
+                            28900.0
+                        ]
+                    ],
+                    [
+                        [
+                            37516.8,
+                            28900.0
+                        ],
+                        [
+                            37516.8,
+                            32140.0
+                        ]
+                    ],
+                    [
+                        [
+                            37516.8,
+                            32140.0
+                        ],
+                        [
+                            25316.8,
+                            32140.0
+                        ]
+                    ],
+                    [
+                        [
+                            25316.8,
+                            32140.0
+                        ],
+                        [
+                            25316.8,
+                            34940.0
+                        ]
+                    ],
+                    [
+                        [
+                            25316.8,
+                            34940.0
+                        ],
+                        [
+                            26316.8,
+                            34940.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "square_cell_trap_6",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            51024.0,
+                            25700.0
+                        ],
+                        [
+                            51024.0,
+                            28900.0
+                        ],
+                        [
+                            37516.8,
+                            28900.0
+                        ],
+                        [
+                            37516.8,
+                            32140.0
+                        ],
+                        [
+                            25316.8,
+                            32140.0
+                        ],
+                        [
+                            25316.8,
+                            34940.0
+                        ],
+                        [
+                            26316.8,
+                            34940.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "square_cell_trap_7",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_7",
+            "id": "channel_7",
+            "source": {
+                "component": "port_2",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 400,
+                "width": 400,
+                "crossSection": 1,
+                "start": [
+                    72251.2,
+                    25700.0
+                ],
+                "end": [
+                    32316.8,
+                    39100.0
+                ],
+                "wayPoints": [
+                    [
+                        72251.2,
+                        25700.0
+                    ],
+                    [
+                        62912.0,
+                        25700.0
+                    ],
+                    [
+                        62912.0,
+                        31740.0
+                    ],
+                    [
+                        47270.399999999994,
+                        31740.0
+                    ],
+                    [
+                        47270.399999999994,
+                        32140.0
+                    ],
+                    [
+                        31516.8,
+                        32140.0
+                    ],
+                    [
+                        31516.8,
+                        38140.0
+                    ],
+                    [
+                        31316.8,
+                        38140.0
+                    ],
+                    [
+                        31316.8,
+                        39100.0
+                    ],
+                    [
+                        32316.8,
+                        39100.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            62912.0,
+                            25700.0
+                        ]
+                    ],
+                    [
+                        [
+                            62912.0,
+                            25700.0
+                        ],
+                        [
+                            62912.0,
+                            31740.0
+                        ]
+                    ],
+                    [
+                        [
+                            62912.0,
+                            31740.0
+                        ],
+                        [
+                            47270.399999999994,
+                            31740.0
+                        ]
+                    ],
+                    [
+                        [
+                            47270.399999999994,
+                            31740.0
+                        ],
+                        [
+                            47270.399999999994,
+                            32140.0
+                        ]
+                    ],
+                    [
+                        [
+                            47270.399999999994,
+                            32140.0
+                        ],
+                        [
+                            31516.8,
+                            32140.0
+                        ]
+                    ],
+                    [
+                        [
+                            31516.8,
+                            32140.0
+                        ],
+                        [
+                            31516.8,
+                            38140.0
+                        ]
+                    ],
+                    [
+                        [
+                            31516.8,
+                            38140.0
+                        ],
+                        [
+                            31316.8,
+                            38140.0
+                        ]
+                    ],
+                    [
+                        [
+                            31316.8,
+                            38140.0
+                        ],
+                        [
+                            31316.8,
+                            39100.0
+                        ]
+                    ],
+                    [
+                        [
+                            31316.8,
+                            39100.0
+                        ],
+                        [
+                            32316.8,
+                            39100.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "square_cell_trap_7",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            62912.0,
+                            25700.0
+                        ],
+                        [
+                            62912.0,
+                            31740.0
+                        ],
+                        [
+                            47270.399999999994,
+                            31740.0
+                        ],
+                        [
+                            47270.399999999994,
+                            32140.0
+                        ],
+                        [
+                            31516.8,
+                            32140.0
+                        ],
+                        [
+                            31516.8,
+                            38140.0
+                        ],
+                        [
+                            31316.8,
+                            38140.0
+                        ],
+                        [
+                            31316.8,
+                            39100.0
+                        ],
+                        [
+                            32316.8,
+                            39100.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "square_cell_trap_8",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_8",
+            "id": "channel_8",
+            "source": {
+                "component": "port_2",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 400,
+                "width": 400,
+                "crossSection": 1,
+                "start": [
+                    72251.2,
+                    25700.0
+                ],
+                "end": [
+                    36070.399999999994,
+                    45100.0
+                ],
+                "wayPoints": [
+                    [
+                        72251.2,
+                        25700.0
+                    ],
+                    [
+                        62912.0,
+                        25700.0
+                    ],
+                    [
+                        62912.0,
+                        31740.0
+                    ],
+                    [
+                        47270.399999999994,
+                        31740.0
+                    ],
+                    [
+                        47270.399999999994,
+                        32140.0
+                    ],
+                    [
+                        40870.399999999994,
+                        32140.0
+                    ],
+                    [
+                        40870.399999999994,
+                        38140.0
+                    ],
+                    [
+                        37516.8,
+                        38140.0
+                    ],
+                    [
+                        37516.8,
+                        42300.0
+                    ],
+                    [
+                        35070.399999999994,
+                        42300.0
+                    ],
+                    [
+                        35070.399999999994,
+                        45100.0
+                    ],
+                    [
+                        36070.399999999994,
+                        45100.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            62912.0,
+                            25700.0
+                        ]
+                    ],
+                    [
+                        [
+                            62912.0,
+                            25700.0
+                        ],
+                        [
+                            62912.0,
+                            31740.0
+                        ]
+                    ],
+                    [
+                        [
+                            62912.0,
+                            31740.0
+                        ],
+                        [
+                            47270.399999999994,
+                            31740.0
+                        ]
+                    ],
+                    [
+                        [
+                            47270.399999999994,
+                            31740.0
+                        ],
+                        [
+                            47270.399999999994,
+                            32140.0
+                        ]
+                    ],
+                    [
+                        [
+                            47270.399999999994,
+                            32140.0
+                        ],
+                        [
+                            40870.399999999994,
+                            32140.0
+                        ]
+                    ],
+                    [
+                        [
+                            40870.399999999994,
+                            32140.0
+                        ],
+                        [
+                            40870.399999999994,
+                            38140.0
+                        ]
+                    ],
+                    [
+                        [
+                            40870.399999999994,
+                            38140.0
+                        ],
+                        [
+                            37516.8,
+                            38140.0
+                        ]
+                    ],
+                    [
+                        [
+                            37516.8,
+                            38140.0
+                        ],
+                        [
+                            37516.8,
+                            42300.0
+                        ]
+                    ],
+                    [
+                        [
+                            37516.8,
+                            42300.0
+                        ],
+                        [
+                            35070.399999999994,
+                            42300.0
+                        ]
+                    ],
+                    [
+                        [
+                            35070.399999999994,
+                            42300.0
+                        ],
+                        [
+                            35070.399999999994,
+                            45100.0
+                        ]
+                    ],
+                    [
+                        [
+                            35070.399999999994,
+                            45100.0
+                        ],
+                        [
+                            36070.399999999994,
+                            45100.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "square_cell_trap_8",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            62912.0,
+                            25700.0
+                        ],
+                        [
+                            62912.0,
+                            31740.0
+                        ],
+                        [
+                            47270.399999999994,
+                            31740.0
+                        ],
+                        [
+                            47270.399999999994,
+                            32140.0
+                        ],
+                        [
+                            40870.399999999994,
+                            32140.0
+                        ],
+                        [
+                            40870.399999999994,
+                            38140.0
+                        ],
+                        [
+                            37516.8,
+                            38140.0
+                        ],
+                        [
+                            37516.8,
+                            42300.0
+                        ],
+                        [
+                            35070.399999999994,
+                            42300.0
+                        ],
+                        [
+                            35070.399999999994,
+                            45100.0
+                        ],
+                        [
+                            36070.399999999994,
+                            45100.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "square_cell_trap_9",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_9",
+            "id": "channel_9",
+            "source": {
+                "component": "port_2",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 400,
+                "width": 400,
+                "crossSection": 1,
+                "start": [
+                    72251.2,
+                    25700.0
+                ],
+                "end": [
+                    42070.399999999994,
+                    49260.0
+                ],
+                "wayPoints": [
+                    [
+                        72251.2,
+                        25700.0
+                    ],
+                    [
+                        72251.2,
+                        25740.0
+                    ],
+                    [
+                        52300.8,
+                        25740.0
+                    ],
+                    [
+                        52300.8,
+                        28900.0
+                    ],
+                    [
+                        50500.8,
+                        28900.0
+                    ],
+                    [
+                        50500.8,
+                        48300.0
+                    ],
+                    [
+                        41270.399999999994,
+                        48300.0
+                    ],
+                    [
+                        41270.399999999994,
+                        49260.0
+                    ],
+                    [
+                        41070.399999999994,
+                        49260.0
+                    ],
+                    [
+                        42070.399999999994,
+                        49260.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            72251.2,
+                            25740.0
+                        ]
+                    ],
+                    [
+                        [
+                            72251.2,
+                            25740.0
+                        ],
+                        [
+                            52300.8,
+                            25740.0
+                        ]
+                    ],
+                    [
+                        [
+                            52300.8,
+                            25740.0
+                        ],
+                        [
+                            52300.8,
+                            28900.0
+                        ]
+                    ],
+                    [
+                        [
+                            52300.8,
+                            28900.0
+                        ],
+                        [
+                            50500.8,
+                            28900.0
+                        ]
+                    ],
+                    [
+                        [
+                            50500.8,
+                            28900.0
+                        ],
+                        [
+                            50500.8,
+                            48300.0
+                        ]
+                    ],
+                    [
+                        [
+                            50500.8,
+                            48300.0
+                        ],
+                        [
+                            41270.399999999994,
+                            48300.0
+                        ]
+                    ],
+                    [
+                        [
+                            41270.399999999994,
+                            48300.0
+                        ],
+                        [
+                            41270.399999999994,
+                            49260.0
+                        ]
+                    ],
+                    [
+                        [
+                            41270.399999999994,
+                            49260.0
+                        ],
+                        [
+                            41070.399999999994,
+                            49260.0
+                        ]
+                    ],
+                    [
+                        [
+                            41070.399999999994,
+                            49260.0
+                        ],
+                        [
+                            42070.399999999994,
+                            49260.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "square_cell_trap_9",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            72251.2,
+                            25740.0
+                        ],
+                        [
+                            52300.8,
+                            25740.0
+                        ],
+                        [
+                            52300.8,
+                            28900.0
+                        ],
+                        [
+                            50500.8,
+                            28900.0
+                        ],
+                        [
+                            50500.8,
+                            48300.0
+                        ],
+                        [
+                            41270.399999999994,
+                            48300.0
+                        ],
+                        [
+                            41270.399999999994,
+                            49260.0
+                        ],
+                        [
+                            41070.399999999994,
+                            49260.0
+                        ],
+                        [
+                            42070.399999999994,
+                            49260.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "square_cell_trap_10",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_10",
+            "id": "channel_10",
+            "source": {
+                "component": "port_2",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 400,
+                "width": 400,
+                "crossSection": 1,
+                "start": [
+                    72251.2,
+                    25700.0
+                ],
+                "end": [
+                    45824.0,
+                    55260.0
+                ],
+                "wayPoints": [
+                    [
+                        72251.2,
+                        25700.0
+                    ],
+                    [
+                        72251.2,
+                        25740.0
+                    ],
+                    [
+                        69312.0,
+                        25740.0
+                    ],
+                    [
+                        69312.0,
+                        41900.0
+                    ],
+                    [
+                        62912.0,
+                        41900.0
+                    ],
+                    [
+                        62912.0,
+                        42300.0
+                    ],
+                    [
+                        52300.8,
+                        42300.0
+                    ],
+                    [
+                        52300.8,
+                        46060.0
+                    ],
+                    [
+                        47270.399999999994,
+                        46060.0
+                    ],
+                    [
+                        47270.399999999994,
+                        55260.0
+                    ],
+                    [
+                        44824.0,
+                        55260.0
+                    ],
+                    [
+                        45824.0,
+                        55260.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            72251.2,
+                            25740.0
+                        ]
+                    ],
+                    [
+                        [
+                            72251.2,
+                            25740.0
+                        ],
+                        [
+                            69312.0,
+                            25740.0
+                        ]
+                    ],
+                    [
+                        [
+                            69312.0,
+                            25740.0
+                        ],
+                        [
+                            69312.0,
+                            41900.0
+                        ]
+                    ],
+                    [
+                        [
+                            69312.0,
+                            41900.0
+                        ],
+                        [
+                            62912.0,
+                            41900.0
+                        ]
+                    ],
+                    [
+                        [
+                            62912.0,
+                            41900.0
+                        ],
+                        [
+                            62912.0,
+                            42300.0
+                        ]
+                    ],
+                    [
+                        [
+                            62912.0,
+                            42300.0
+                        ],
+                        [
+                            52300.8,
+                            42300.0
+                        ]
+                    ],
+                    [
+                        [
+                            52300.8,
+                            42300.0
+                        ],
+                        [
+                            52300.8,
+                            46060.0
+                        ]
+                    ],
+                    [
+                        [
+                            52300.8,
+                            46060.0
+                        ],
+                        [
+                            47270.399999999994,
+                            46060.0
+                        ]
+                    ],
+                    [
+                        [
+                            47270.399999999994,
+                            46060.0
+                        ],
+                        [
+                            47270.399999999994,
+                            55260.0
+                        ]
+                    ],
+                    [
+                        [
+                            47270.399999999994,
+                            55260.0
+                        ],
+                        [
+                            44824.0,
+                            55260.0
+                        ]
+                    ],
+                    [
+                        [
+                            44824.0,
+                            55260.0
+                        ],
+                        [
+                            45824.0,
+                            55260.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "square_cell_trap_10",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            72251.2,
+                            25740.0
+                        ],
+                        [
+                            69312.0,
+                            25740.0
+                        ],
+                        [
+                            69312.0,
+                            41900.0
+                        ],
+                        [
+                            62912.0,
+                            41900.0
+                        ],
+                        [
+                            62912.0,
+                            42300.0
+                        ],
+                        [
+                            52300.8,
+                            42300.0
+                        ],
+                        [
+                            52300.8,
+                            46060.0
+                        ],
+                        [
+                            47270.399999999994,
+                            46060.0
+                        ],
+                        [
+                            47270.399999999994,
+                            55260.0
+                        ],
+                        [
+                            44824.0,
+                            55260.0
+                        ],
+                        [
+                            45824.0,
+                            55260.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        },
+        {
+            "sinks": [
+                {
+                    "component": "port_1",
+                    "port": "1"
+                }
+            ],
+            "name": "channel_11",
+            "id": "channel_11",
+            "source": {
+                "component": "port_2",
+                "port": "1"
+            },
+            "params": {
+                "connectionSpacing": 1000,
+                "channelWidth": 400,
+                "width": 400,
+                "crossSection": 1,
+                "start": [
+                    72251.2,
+                    25700.0
+                ],
+                "end": [
+                    51400.8,
+                    70340.0
+                ],
+                "wayPoints": [
+                    [
+                        72251.2,
+                        25700.0
+                    ],
+                    [
+                        72251.2,
+                        58460.0
+                    ],
+                    [
+                        62912.0,
+                        58460.0
+                    ],
+                    [
+                        62912.0,
+                        70340.0
+                    ],
+                    [
+                        51400.8,
+                        70340.0
+                    ]
+                ],
+                "segments": [
+                    [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            72251.2,
+                            58460.0
+                        ]
+                    ],
+                    [
+                        [
+                            72251.2,
+                            58460.0
+                        ],
+                        [
+                            62912.0,
+                            58460.0
+                        ]
+                    ],
+                    [
+                        [
+                            62912.0,
+                            58460.0
+                        ],
+                        [
+                            62912.0,
+                            70340.0
+                        ]
+                    ],
+                    [
+                        [
+                            62912.0,
+                            70340.0
+                        ],
+                        [
+                            51400.8,
+                            70340.0
+                        ]
+                    ]
+                ]
+            },
+            "layer": "0",
+            "paths": [
+                {
+                    "source": {
+                        "component": "port_2",
+                        "port": "1"
+                    },
+                    "sink": {
+                        "component": "port_1",
+                        "port": "1"
+                    },
+                    "wayPoints": [
+                        [
+                            72251.2,
+                            25700.0
+                        ],
+                        [
+                            72251.2,
+                            58460.0
+                        ],
+                        [
+                            62912.0,
+                            58460.0
+                        ],
+                        [
+                            62912.0,
+                            70340.0
+                        ],
+                        [
+                            51400.8,
+                            70340.0
+                        ]
+                    ]
+                }
+            ],
+            "entity": "CHANNEL"
+        }
+    ],
+    "params": {
+        "x-span": 77951.2,
+        "y-span": 76040.0,
+        "length": 76040.0
+    },
+    "layers": [
+        {
+            "name": "FLOW_0",
+            "id": "0",
+            "type": "FLOW",
+            "params": {},
+            "group": "0"
+        }
+    ],
+    "features": [],
+    "version": "1.2",
+    "valves": [],
+    "isPnR": false,
+    "layoutConstraints": [],
+    "IsPlacedAndRouted": true
+}

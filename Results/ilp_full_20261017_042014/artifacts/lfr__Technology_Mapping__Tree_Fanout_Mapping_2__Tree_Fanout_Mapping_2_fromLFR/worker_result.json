@@ -1,0 +1,20 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Technology_Mapping/Tree_Fanout_Mapping_2/Tree_Fanout_Mapping_2_fromLFR.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/lfr__Technology_Mapping__Tree_Fanout_Mapping_2__Tree_Fanout_Mapping_2_fromLFR/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/lfr__Technology_Mapping__Tree_Fanout_Mapping_2__Tree_Fanout_Mapping_2_fromLFR/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 0.8769119782373309,
+  "total_channel_manhattan_length": 714882.3529439999,
+  "physical_area": 5689353212.4922695,
+  "padded_area": 7299023800.732269,
+  "drc_passed": true,
+  "violation_count": 0,
+  "violations": [],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 1.625517
+}

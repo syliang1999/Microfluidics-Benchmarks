@@ -1,0 +1,7 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Ghissues/Issue_8/Issue_8_fromLFR.json",
+  "success": false,
+  "error": "TimeoutError: case-level placement/routing budget exhausted; attempts saved to /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/lfr__Ghissues__Issue_8__Issue_8_fromLFR/placement_attempts.json; last error: Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)",
+  "worker_seconds": 1798.33816
+}

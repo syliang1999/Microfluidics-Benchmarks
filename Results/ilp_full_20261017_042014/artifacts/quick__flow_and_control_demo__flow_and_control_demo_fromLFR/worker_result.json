@@ -1,0 +1,20 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/Quick_Examples/flow_and_control_demo/flow_and_control_demo_fromLFR.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/quick__flow_and_control_demo__flow_and_control_demo_fromLFR/result_control.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/quick__flow_and_control_demo__flow_and_control_demo_fromLFR/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 0.678761275485158,
+  "total_channel_manhattan_length": 288951.999998,
+  "physical_area": 1939047839.9720922,
+  "padded_area": 3012927839.9620924,
+  "drc_passed": true,
+  "violation_count": 0,
+  "violations": [],
+  "control_required": true,
+  "control_passed": true,
+  "worker_seconds": 1.992066
+}

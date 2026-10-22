@@ -1,0 +1,7 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Base/Node_Long_Cell_Trap_03/Node_Long_Cell_Trap_03_fromMINT.json",
+  "success": false,
+  "error": "TimeoutError: case-level placement/routing search ended without a legal design; attempts saved to /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__Base__Node_Long_Cell_Trap_03__Node_Long_Cell_Trap_03_fromMINT/placement_attempts.json; last error: Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+  "worker_seconds": 1798.430146
+}

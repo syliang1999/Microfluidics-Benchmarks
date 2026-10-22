@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/COVID/Aj_Rtpcr_8_Primer/Aj_Rtpcr_8_Primer_fromLFR.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=38, E=48, components=1, cycle_rank=11; cycle-closing connection(s): channel_21, channel_28, channel_31, channel_35, channel_36, channel_38, channel_43, channel_44, channel_45, channel_47, channel_48",
+  "worker_seconds": 0.009722
+}

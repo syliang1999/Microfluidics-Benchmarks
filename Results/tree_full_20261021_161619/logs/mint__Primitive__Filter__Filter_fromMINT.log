@@ -1,0 +1,26 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Primitive/Filter/Filter_fromMINT.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Primitive__Filter__Filter_fromMINT --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: Filter_fromMINT
+1/9, Finish initial placement, time spent: 1.33514404296875e-05 s
+[0, 2000, 2000, 'p1', 0] [[1000.0, 1000.0]]
+[1, 2000, 2000, 'p2', 0] [[1000.0, 1000.0]]
+[2, 23800, 9000, 'm1', 0] [[0, 4500], [23800, 4500]]
+2/9, Finish initial placement with rotation, time spent: 7.82012939453125e-05 s
+3/9, Finish symmetricalization, time spent: 1.1682510375976562e-05 s
+4/9, Finish routing, time spent: 0.00010704994201660156 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0], [0]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0005049705505371094 s
+6/9, Finish shortening wirelength, time spent: 4.673004150390625e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00013184547424316406 s
+9/9, Finish compaction and connecting ports, time spent: 0.02616572380065918 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.027059555053710938 s
+Reordering Timeusage: 0.0005049705505371094 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.02684926986694336 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Primitive__Filter__Filter_fromMINT/result.json

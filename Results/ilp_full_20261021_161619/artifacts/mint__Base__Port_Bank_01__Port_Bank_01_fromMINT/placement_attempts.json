@@ -1,0 +1,17 @@
+[
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "elapsed_seconds": 0.0075861625373363495,
+    "placement_time_limit_seconds": 215.99957565072924,
+    "reason": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "routed",
+    "elapsed_seconds": 0.10058712959289551,
+    "placement_time_limit_seconds": 269.9970570949372,
+    "total_channel_manhattan_length": 0,
+    "physical_area": 5806440000.0
+  }
+]

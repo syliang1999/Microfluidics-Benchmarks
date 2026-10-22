@@ -1,0 +1,29 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Base/Logic_Test_02/Logic_Test_02_fromMINT.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161309/artifacts/mint__Base__Logic_Test_02__Logic_Test_02_fromMINT --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: Logic_Test_02_fromMINT
+1/9, Finish initial placement, time spent: 1.8358230590820312e-05 s
+[0, 54000, 92000, 'logic_array_1', 0] [[0, 18000], [0, 46000], [0, 74000], [54000, 20000], [54000, 22000], [54000, 24000], [54000, 26000], [54000, 28000], [54000, 36000], [54000, 38000], [54000, 40000], [54000, 42000], [54000, 44000], [54000, 48000], [54000, 50000], [54000, 52000], [54000, 54000], [54000, 56000], [54000, 64000], [54000, 66000], [54000, 68000], [54000, 70000], [54000, 72000], [3333, 0], [6666, 0], [3333, 92000]]
+[1, 54000, 92000, 'logic_array_2', 0] [[0, 18000], [0, 46000], [0, 74000], [54000, 20000], [54000, 22000], [54000, 24000], [54000, 26000], [54000, 28000], [54000, 36000], [54000, 38000], [54000, 40000], [54000, 42000], [54000, 44000], [54000, 48000], [54000, 50000], [54000, 52000], [54000, 54000], [54000, 56000], [54000, 64000], [54000, 66000], [54000, 68000], [54000, 70000], [54000, 72000], [3333, 0], [6666, 0], [3333, 92000]]
+[2, 2000, 2000, 'logic_array_1_flow_1', 0] [[1000.0, 1000.0]]
+[3, 2000, 2000, 'logic_array_1_flow_3', 0] [[1000.0, 1000.0]]
+[4, 2000, 2000, 'logic_array_2_flow_2', 0] [[1000.0, 1000.0]]
+[5, 2000, 2000, 'logic_array_2_flow_3', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 0.00015926361083984375 s
+3/9, Finish symmetricalization, time spent: 1.2159347534179688e-05 s
+4/9, Finish routing, time spent: 0.00020766258239746094 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0, 1], [0, 1], [0], [0]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.003094196319580078 s
+6/9, Finish shortening wirelength, time spent: 6.437301635742188e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.0002951622009277344 s
+9/9, Finish compaction and connecting ports, time spent: 0.05284833908081055 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.056699514389038086 s
+Reordering Timeusage: 0.003094196319580078 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.05630207061767578 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161309/artifacts/mint__Base__Logic_Test_02__Logic_Test_02_fromMINT/result.json

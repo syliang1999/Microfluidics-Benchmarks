@@ -1,0 +1,20 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/CIDAR_Lab_Past_Devices/Rotary_Cells/Rotary_Cells_fromMINT.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__CIDAR_Lab_Past_Devices__Rotary_Cells__Rotary_Cells_fromMINT/result_control.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__CIDAR_Lab_Past_Devices__Rotary_Cells__Rotary_Cells_fromMINT/metrics.json",
+  "solver_status": "feasible",
+  "placement_optimal": false,
+  "ilp_runtime_seconds": 1457.9778473777696,
+  "total_channel_manhattan_length": 424029.99999599997,
+  "physical_area": 2246337999.97094,
+  "padded_area": 3409937999.9609404,
+  "drc_passed": true,
+  "violation_count": 0,
+  "violations": [],
+  "control_required": true,
+  "control_passed": true,
+  "worker_seconds": 1465.627284
+}

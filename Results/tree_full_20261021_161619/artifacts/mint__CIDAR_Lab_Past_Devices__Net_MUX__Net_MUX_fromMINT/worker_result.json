@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/CIDAR_Lab_Past_Devices/Net_MUX/Net_MUX_fromMINT.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=32, E=50, components=1, cycle_rank=19; cycle-closing connection(s): channel_26, channel_32, channel_33, channel_34, channel_35, channel_36, channel_37, channel_38, channel_39, channel_40, channel_42, channel_43, channel_44, channel_45, channel_46, channel_47, channel_48, channel_49, channel_50",
+  "worker_seconds": 0.007862
+}

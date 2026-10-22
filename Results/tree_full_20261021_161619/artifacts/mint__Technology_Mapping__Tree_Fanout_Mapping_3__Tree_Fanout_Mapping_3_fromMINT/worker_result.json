@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Technology_Mapping/Tree_Fanout_Mapping_3/Tree_Fanout_Mapping_3_fromMINT.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=10, E=17, components=1, cycle_rank=8; cycle-closing connection(s): channel_10, channel_11, channel_12, channel_13, channel_14, channel_15, channel_16, channel_17",
+  "worker_seconds": 0.006257
+}

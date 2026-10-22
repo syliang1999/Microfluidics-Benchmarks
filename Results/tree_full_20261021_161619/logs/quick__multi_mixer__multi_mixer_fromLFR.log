@@ -1,0 +1,30 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/Quick_Examples/multi_mixer/multi_mixer_fromLFR.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/quick__multi_mixer__multi_mixer_fromLFR --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: multi_mixer_fromLFR
+1/9, Finish initial placement, time spent: 1.9073486328125e-05 s
+[0, 3200, 4600, 'mixer_1', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[1, 3200, 4600, 'mixer_2', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[2, 3200, 4600, 'mixer_3', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[3, 3200, 4600, 'mixer_4', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[4, 2000, 2000, 'port_1', 0] [[1000.0, 1000.0]]
+[5, 2000, 2000, 'port_2', 0] [[1000.0, 1000.0]]
+[6, 2000, 2000, 'port_3', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 0.00014519691467285156 s
+3/9, Finish symmetricalization, time spent: 1.5020370483398438e-05 s
+4/9, Finish routing, time spent: 0.00020432472229003906 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0, 1], [0], [0], [0], [0], [0]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0009293556213378906 s
+6/9, Finish shortening wirelength, time spent: 8.630752563476562e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.0002589225769042969 s
+9/9, Finish compaction and connecting ports, time spent: 0.04052114486694336 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.04217934608459473 s
+Reordering Timeusage: 0.0009293556213378906 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.04179573059082031 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/quick__multi_mixer__multi_mixer_fromLFR/result.json

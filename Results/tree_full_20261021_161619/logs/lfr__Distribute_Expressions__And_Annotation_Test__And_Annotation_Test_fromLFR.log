@@ -1,0 +1,27 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Distribute_Expressions/And_Annotation_Test/And_Annotation_Test_fromLFR.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/lfr__Distribute_Expressions__And_Annotation_Test__And_Annotation_Test_fromLFR --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: And_Annotation_Test_fromLFR
+1/9, Finish initial placement, time spent: 6.985664367675781e-05 s
+[0, 2000, 2000, 'port_1', 0] [[1000.0, 1000.0]]
+[1, 2000, 2000, 'port_2', 0] [[1000.0, 1000.0]]
+[2, 2000, 2000, 'port_3', 0] [[1000.0, 1000.0]]
+[3, 2000, 2000, 'port_4', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 0.00018596649169921875 s
+3/9, Finish symmetricalization, time spent: 1.1444091796875e-05 s
+4/9, Finish routing, time spent: 0.00014448165893554688 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0, 1, 2]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0009050369262695312 s
+6/9, Finish shortening wirelength, time spent: 5.650520324707031e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00020885467529296875 s
+9/9, Finish compaction and connecting ports, time spent: 0.031424522399902344 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.03300666809082031 s
+Reordering Timeusage: 0.0009050369262695312 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.032594919204711914 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/lfr__Distribute_Expressions__And_Annotation_Test__And_Annotation_Test_fromLFR/result.json

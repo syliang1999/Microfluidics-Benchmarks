@@ -1,0 +1,74 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 6.0670568980276585,
+    "global_layout_runtime_seconds": 0.34893352538347244,
+    "global_layout_hint_count": 6,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 1.987946537323296,
+    "total_runtime_seconds": 24.165191086940467,
+    "component_count": 8,
+    "net_count": 11,
+    "path_count": 11,
+    "total_channel_manhattan_length": 575717.3684019999,
+    "physical_width": 57519.999999,
+    "physical_height": 67971.578946,
+    "physical_area": 3909725220.905948,
+    "padded_width": 67519.99999899999,
+    "padded_height": 77971.578946,
+    "padded_area": 5264641010.3559475,
+    "placement_objective": 10.933858267689944,
+    "placement_wire_lower_bound": 479426.842102,
+    "placement_half_perimeter": 122691.578947,
+    "selected_placement_gap": 12000.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 5000.0,
+            "status": "failed",
+            "elapsed_seconds": 7.679761561565101,
+            "placement_time_limit_seconds": 359.9254563067108,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 18 relaxed inter-net conflict(s): channel_1[0] x channel_7[0], channel_1[0] x channel_10[0], channel_2[0] x channel_6[0], channel_2[0] x channel_8[0], channel_3[0] x channel_4[0], channel_3[0] x channel_5[0] | order 1: No legal route for connection 'channel_5' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 2: No legal route for connection 'channel_5' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 3: No legal route for connection 'channel_2' sink 0 ({'component': 'square_cell_trap_2', 'port': '2'} -> {'component': 'mixer_3', 'port': '1'}) | order 4: No legal route for connection 'channel_4' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'mixer_2', 'port': '1'}) | order 5: No legal route for connection 'channel_6' sink 0 ({'component': 'mixer_2', 'port': '2'} -> {'component': 'mixer_3', 'port': '1'}) | order 6: No legal route for connection 'channel_2' sink 0 ({'component': 'square_cell_trap_2', 'port': '2'} -> {'component': 'mixer_3', 'port': '1'}) | order 7: No legal route for connection 'channel_5' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 8: No legal route for connection 'channel_8' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'square_cell_trap_2', 'port': '1'}) | order 9: No legal route for connection 'channel_2' sink 0 ({'component': 'square_cell_trap_2', 'port': '2'} -> {'component': 'mixer_3', 'port': '1'}) | order 10: No legal route for connection 'channel_1' sink 0 ({'component': 'square_cell_trap_1', 'port': '2'} -> {'component': 'mixer_1', 'port': '1'}) | order 11: No legal route for connection 'channel_3' sink 0 ({'component': 'square_cell_trap_3', 'port': '2'} -> {'component': 'mixer_2', 'port': '1'}) | order 12: No legal route for connection 'channel_5' sink 0 ({'component': 'mixer_3', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 13: No legal route for connection 'channel_2' sink 0 ({'component': 'square_cell_trap_2', 'port': '2'} -> {'component': 'mixer_3', 'port': '1'}) | order 14: No legal route for connection 'channel_7' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'square_cell_trap_1', 'port': '1'}) | order 15: No legal route for connection 'channel_3' sink 0 ({'component': 'square_cell_trap_3', 'port': '2'} -> {'component': 'mixer_2', 'port': '1'}) | order 16: No legal route for connection 'channel_7' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'square_cell_trap_1', 'port': '1'})"
+        },
+        {
+            "placement_gap": 8000.0,
+            "status": "failed",
+            "elapsed_seconds": 7.223593070171773,
+            "placement_time_limit_seconds": 537.5804787268862,
+            "reason": "No module named 'readjson'"
+        },
+        {
+            "placement_gap": 12000.0,
+            "status": "routed",
+            "elapsed_seconds": 8.86306054610759,
+            "placement_time_limit_seconds": 1070.819229663536,
+            "total_channel_manhattan_length": 575717.368402,
+            "physical_area": 3909725220.905948
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 1070.819229663536,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 95061.0,
+        "tight_big_m": 95061.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

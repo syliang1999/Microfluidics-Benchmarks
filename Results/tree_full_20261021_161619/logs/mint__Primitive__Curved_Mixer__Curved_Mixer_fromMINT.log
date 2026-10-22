@@ -1,0 +1,26 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Primitive/Curved_Mixer/Curved_Mixer_fromMINT.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Primitive__Curved_Mixer__Curved_Mixer_fromMINT --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: Curved_Mixer_fromMINT
+1/9, Finish initial placement, time spent: 1.239776611328125e-05 s
+[0, 2000, 2000, 'p1', 0] [[1000.0, 1000.0]]
+[1, 2000, 2000, 'p2', 0] [[1000.0, 1000.0]]
+[2, 3200, 4600, 'm1', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+2/9, Finish initial placement with rotation, time spent: 7.82012939453125e-05 s
+3/9, Finish symmetricalization, time spent: 1.1444091796875e-05 s
+4/9, Finish routing, time spent: 0.00010538101196289062 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0], [0]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0004832744598388672 s
+6/9, Finish shortening wirelength, time spent: 4.220008850097656e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.0001251697540283203 s
+9/9, Finish compaction and connecting ports, time spent: 0.02645111083984375 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.027309179306030273 s
+Reordering Timeusage: 0.0004832744598388672 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.027101755142211914 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Primitive__Curved_Mixer__Curved_Mixer_fromMINT/result.json

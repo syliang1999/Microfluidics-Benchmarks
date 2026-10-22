@@ -1,0 +1,20 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/CIDAR_Lab_Past_Devices/Genetic_Clock_Testing_Tool/Genetic_Clock_Testing_Tool_fromLFR.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/lfr__CIDAR_Lab_Past_Devices__Genetic_Clock_Testing_Tool__Genetic_Clock_Testing_Tool_fromLFR/result.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/lfr__CIDAR_Lab_Past_Devices__Genetic_Clock_Testing_Tool__Genetic_Clock_Testing_Tool_fromLFR/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 63.21985712647438,
+  "total_channel_manhattan_length": 117000.0,
+  "physical_area": 1036320000.0,
+  "padded_area": 2034320000.0,
+  "drc_passed": true,
+  "violation_count": 0,
+  "violations": [],
+  "control_required": false,
+  "control_passed": true,
+  "worker_seconds": 64.350945
+}

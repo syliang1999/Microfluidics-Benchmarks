@@ -1,0 +1,110 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 2.3163859536871314,
+    "global_layout_runtime_seconds": 0.11936734616756439,
+    "global_layout_hint_count": 4,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 0.2726405877619982,
+    "total_runtime_seconds": 69.00261776987463,
+    "component_count": 10,
+    "net_count": 9,
+    "path_count": 9,
+    "total_channel_manhattan_length": 199176.99999799998,
+    "physical_width": 99000.0,
+    "physical_height": 99300.0,
+    "physical_area": 9830700000.0,
+    "padded_width": 109000.0,
+    "padded_height": 109300.0,
+    "padded_area": 11913700000.0,
+    "placement_objective": 2.6886565656565655,
+    "placement_wire_lower_bound": 167177.0,
+    "placement_half_perimeter": 198000.0,
+    "selected_placement_gap": 1000.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "failed",
+            "elapsed_seconds": 9.125873013399541,
+            "placement_time_limit_seconds": 215.98356172833593,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 2 relaxed inter-net conflict(s): connection_1[0] x connection_3[0], connection_2[0] x connection_5[0] | order 1: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 2: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 3: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 4: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 5: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 6: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 7: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 8: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 9: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 10: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 11: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 12: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 13: No legal route for connection 'connection_2' sink 0 ({'component': 'port_water1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '4'}) | order 14: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 15: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 16: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'})"
+        },
+        {
+            "placement_gap": 1000.0,
+            "status": "failed",
+            "elapsed_seconds": 4.940832121297717,
+            "placement_time_limit_seconds": 268.609093030449,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 3 relaxed inter-net conflict(s): connection_2[0] x connection_3[0], connection_2[0] x connection_5[0], connection_5[0] x connection_6[0] | order 1: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 2: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 3: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 4: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 5: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 6: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 7: No legal route for connection 'connection_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_out_keep', 'port': '1'}) | order 8: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 9: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 10: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 11: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 12: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 13: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 14: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 15: No legal route for connection 'connection_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_out_keep', 'port': '1'}) | order 16: No legal route for connection 'connection_2' sink 0 ({'component': 'port_water1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '4'})"
+        },
+        {
+            "placement_gap": 2000.0,
+            "status": "failed",
+            "elapsed_seconds": 6.396073156036437,
+            "placement_time_limit_seconds": 357.1552319427952,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 2 relaxed inter-net conflict(s): connection_1[0] x connection_3[0], connection_1[0] x connection_5[0] | order 1: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 2: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 3: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 4: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 5: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 6: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 7: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 8: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 9: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 10: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 11: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 12: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 13: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 14: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 15: No legal route for connection 'connection_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_out_keep', 'port': '1'}) | order 16: No legal route for connection 'connection_2' sink 0 ({'component': 'port_water1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '4'})"
+        },
+        {
+            "placement_gap": 4000.0,
+            "status": "failed",
+            "elapsed_seconds": 8.984626433812082,
+            "placement_time_limit_seconds": 533.8110104539431,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 2 relaxed inter-net conflict(s): connection_1[0] x connection_3[0], connection_1[0] x connection_5[0] | order 1: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 2: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 3: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 4: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 5: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 6: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 7: No legal route for connection 'connection_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_out_keep', 'port': '1'}) | order 8: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 9: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 10: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 11: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 12: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 13: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 14: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 15: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 16: No legal route for connection 'connection_2' sink 0 ({'component': 'port_water1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '4'})"
+        },
+        {
+            "placement_gap": 8000.0,
+            "status": "failed",
+            "elapsed_seconds": 19.487812742590904,
+            "placement_time_limit_seconds": 1062.2252777852118,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 1 relaxed inter-net conflict(s): connection_1[0] x connection_3[0] | order 1: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 2: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 3: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 4: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 5: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 6: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 7: No legal route for connection 'connection_6' sink 0 ({'component': 'pico_injector_1', 'port': '2'} -> {'component': 'mixer_1', 'port': '1'}) | order 8: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 9: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 10: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 11: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 12: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 13: No legal route for connection 'connection_6' sink 0 ({'component': 'pico_injector_1', 'port': '2'} -> {'component': 'mixer_1', 'port': '1'}) | order 14: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 15: No legal route for connection 'connection_5' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '2'} -> {'component': 'pico_injector_1', 'port': '1'}) | order 16: No legal route for connection 'connection_2' sink 0 ({'component': 'port_water1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '4'})"
+        },
+        {
+            "placement_gap": 0.0,
+            "status": "failed",
+            "phase": "diversified_fallback",
+            "elapsed_seconds": 18.844890571199358,
+            "placement_time_limit_seconds": 45.0,
+            "position_hint_weight": 0.0,
+            "wire_multiplier": 1.0,
+            "compactness_multiplier": 1.0,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 1: No legal route for connection 'connection_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_out_keep', 'port': '1'}) | order 2: No legal route for connection 'connection_2' sink 0 ({'component': 'port_water1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '4'}) | order 3: No legal route for connection 'connection_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_out_keep', 'port': '1'}) | order 4: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 5: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 6: No legal route for connection 'connection_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_out_keep', 'port': '1'}) | order 7: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 8: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 9: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 10: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 11: No legal route for connection 'connection_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_out_keep', 'port': '1'}) | order 12: No legal route for connection 'connection_1' sink 0 ({'component': 'port_oil1', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 13: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 14: No legal route for connection 'connection_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_out_keep', 'port': '1'}) | order 15: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'}) | order 16: No legal route for connection 'connection_3' sink 0 ({'component': 'port_oil2', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '3'})"
+        },
+        {
+            "placement_gap": 1000.0,
+            "status": "routed",
+            "phase": "diversified_fallback",
+            "elapsed_seconds": 1.024525512009859,
+            "placement_time_limit_seconds": 45.0,
+            "position_hint_weight": 0.0,
+            "wire_multiplier": 1.0,
+            "compactness_multiplier": 1.0,
+            "total_channel_manhattan_length": 199176.99999799998,
+            "physical_area": 9830700000.0
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 45.0,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 123751.0,
+        "tight_big_m": 123751.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

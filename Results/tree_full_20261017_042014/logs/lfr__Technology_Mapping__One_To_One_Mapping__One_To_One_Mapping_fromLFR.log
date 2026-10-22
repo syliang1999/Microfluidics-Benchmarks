@@ -1,0 +1,26 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Technology_Mapping/One_To_One_Mapping/One_To_One_Mapping_fromLFR.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/lfr__Technology_Mapping__One_To_One_Mapping__One_To_One_Mapping_fromLFR --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: One_To_One_Mapping_fromLFR
+1/9, Finish initial placement, time spent: 1.2159347534179688e-05 s
+[0, 3200, 4600, 'mixer_1', 0] [[1600.0, 300.0], [1600.0, 4300.0]]
+[1, 2000, 2000, 'port_1', 0] [[1000.0, 1000.0]]
+[2, 2000, 2000, 'port_2', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 9.298324584960938e-05 s
+3/9, Finish symmetricalization, time spent: 1.4543533325195312e-05 s
+4/9, Finish routing, time spent: 0.00011610984802246094 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0], [0], [0]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0006041526794433594 s
+6/9, Finish shortening wirelength, time spent: 5.1975250244140625e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.0001475811004638672 s
+9/9, Finish compaction and connecting ports, time spent: 0.027347087860107422 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.028386592864990234 s
+Reordering Timeusage: 0.0006041526794433594 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.02815079689025879 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/lfr__Technology_Mapping__One_To_One_Mapping__One_To_One_Mapping_fromLFR/result.json

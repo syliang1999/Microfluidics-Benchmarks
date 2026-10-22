@@ -1,0 +1,60 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 0.033808416686952114,
+    "global_layout_runtime_seconds": 0.0,
+    "global_layout_hint_count": 0,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 0.007143582217395306,
+    "total_runtime_seconds": 0.06947304215282202,
+    "component_count": 4,
+    "net_count": 3,
+    "path_count": 3,
+    "total_channel_manhattan_length": 153400.0,
+    "physical_width": 39500.0,
+    "physical_height": 76200.0,
+    "physical_area": 3009900000.0,
+    "padded_width": 49500.0,
+    "padded_height": 86200.0,
+    "padded_area": 4266900000.0,
+    "placement_objective": 8.42480314960629,
+    "placement_wire_lower_bound": 153400.0,
+    "placement_half_perimeter": 115700.0,
+    "selected_placement_gap": 0.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "routed",
+            "elapsed_seconds": 0.06619064882397652,
+            "placement_time_limit_seconds": 215.99964472688734,
+            "total_channel_manhattan_length": 153400.0,
+            "physical_area": 3009900000.0
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 215.99964472688734,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 77601.0,
+        "tight_big_m": 77601.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

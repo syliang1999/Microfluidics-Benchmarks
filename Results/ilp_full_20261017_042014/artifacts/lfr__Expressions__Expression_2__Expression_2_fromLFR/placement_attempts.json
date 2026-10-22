@@ -1,0 +1,24 @@
+[
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "elapsed_seconds": 0.42089621257036924,
+    "placement_time_limit_seconds": 215.99583614598959,
+    "reason": "All 11 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 2 relaxed inter-net conflict(s): channel_1[0] x channel_4[0], channel_3[0] x channel_4[0] | order 1: No legal route for connection 'channel_3' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 2: No legal route for connection 'channel_2' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 3: No legal route for connection 'channel_3' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 4: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 5: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 6: No legal route for connection 'channel_3' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 7: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 8: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 9: No legal route for connection 'channel_2' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 10: No legal route for connection 'channel_1' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '3'} -> {'component': 'mixer_1', 'port': '1'}) | order 11: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'})"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.3822450013831258,
+    "placement_time_limit_seconds": 269.93086883914657,
+    "reason": "All 11 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 2 relaxed inter-net conflict(s): channel_1[0] x channel_4[0], channel_3[0] x channel_4[0] | order 1: No legal route for connection 'channel_3' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 2: No legal route for connection 'channel_2' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 3: No legal route for connection 'channel_3' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 4: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 5: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 6: No legal route for connection 'channel_3' sink 0 ({'component': 'mixer_1', 'port': '2'} -> {'component': 'port_1', 'port': '1'}) | order 7: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 8: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'}) | order 9: No legal route for connection 'channel_2' sink 0 ({'component': 'port_3', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 10: No legal route for connection 'channel_1' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '3'} -> {'component': 'mixer_1', 'port': '1'}) | order 11: No legal route for connection 'channel_4' sink 0 ({'component': 'port_2', 'port': '1'} -> {'component': 'mixer_1', 'port': '1'})"
+  },
+  {
+    "placement_gap": 2000.0,
+    "status": "routed",
+    "elapsed_seconds": 0.21514555159956217,
+    "placement_time_limit_seconds": 359.83032610788945,
+    "total_channel_manhattan_length": 145366.666665,
+    "physical_area": 2302170755.5101776
+  }
+]

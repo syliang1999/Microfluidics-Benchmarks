@@ -1,0 +1,35 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Base/Crossing_V/Crossing_V_fromMINT.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Base__Crossing_V__Crossing_V_fromMINT --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: Crossing_V_fromMINT
+1/9, Finish initial placement, time spent: 6.961822509765625e-05 s
+[0, 200, 200, 'b1_1', 0] [[100.0, 100.0]]
+[1, 200, 200, 'b1_2', 0] [[100.0, 100.0]]
+[2, 200, 200, 'b1_3', 0] [[100.0, 100.0]]
+[3, 200, 200, 'b2_1', 0] [[100.0, 100.0]]
+[4, 200, 200, 'b2_2', 0] [[100.0, 100.0]]
+[5, 200, 200, 'b2_3', 0] [[100.0, 100.0]]
+[6, 20, 20, 'n1', 0] [[10.0, 0.0], [20.0, 10.0], [10.0, 20.0], [0.0, 10.0]]
+[7, 20, 20, 'n2', 0] [[10.0, 0.0], [20.0, 10.0], [10.0, 20.0], [0.0, 10.0]]
+[8, 20, 20, 'n3', 0] [[10.0, 0.0], [20.0, 10.0], [10.0, 20.0], [0.0, 10.0]]
+[9, 20, 20, 'n4', 0] [[10.0, 0.0], [20.0, 10.0], [10.0, 20.0], [0.0, 10.0]]
+[10, 20, 20, 'n5', 0] [[10.0, 0.0], [20.0, 10.0], [10.0, 20.0], [0.0, 10.0]]
+[11, 20, 20, 'n6', 0] [[10.0, 0.0], [20.0, 10.0], [10.0, 20.0], [0.0, 10.0]]
+2/9, Finish initial placement with rotation, time spent: 0.0002701282501220703 s
+3/9, Finish symmetricalization, time spent: 1.5735626220703125e-05 s
+4/9, Finish routing, time spent: 0.00022792816162109375 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[1, 0], [3, 0, 1, 2], [0, 2, 1], [0, 1, 2]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0027561187744140625 s
+6/9, Finish shortening wirelength, time spent: 8.368492126464844e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.0003077983856201172 s
+9/9, Finish compaction and connecting ports, time spent: 0.055153608322143555 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.058884620666503906 s
+Reordering Timeusage: 0.0027561187744140625 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.05830121040344238 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261021_161619/artifacts/mint__Base__Crossing_V__Crossing_V_fromMINT/result.json

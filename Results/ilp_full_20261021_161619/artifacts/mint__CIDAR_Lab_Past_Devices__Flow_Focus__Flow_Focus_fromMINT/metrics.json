@@ -1,0 +1,60 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 0.02915071416646242,
+    "global_layout_runtime_seconds": 0.037408437579870224,
+    "global_layout_hint_count": 3,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 0.016503838822245598,
+    "total_runtime_seconds": 0.20088637713342905,
+    "component_count": 4,
+    "net_count": 3,
+    "path_count": 3,
+    "total_channel_manhattan_length": 137519.0,
+    "physical_width": 42732.0,
+    "physical_height": 55416.0,
+    "physical_area": 2368036512.0,
+    "padded_width": 52732.0,
+    "padded_height": 65416.0,
+    "padded_area": 3449516512.0,
+    "placement_objective": 2.7890879265091866,
+    "placement_wire_lower_bound": 132519.0,
+    "placement_half_perimeter": 99059.0,
+    "selected_placement_gap": 0.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "routed",
+            "elapsed_seconds": 0.15391804836690426,
+            "placement_time_limit_seconds": 215.99440967146307,
+            "total_channel_manhattan_length": 137519.0,
+            "physical_area": 2368036512.0
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 215.99440967146307,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 79468.0,
+        "tight_big_m": 79468.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

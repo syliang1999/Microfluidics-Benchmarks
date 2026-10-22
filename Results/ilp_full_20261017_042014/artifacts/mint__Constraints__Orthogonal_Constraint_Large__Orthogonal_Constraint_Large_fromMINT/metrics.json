@@ -1,0 +1,67 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 7.4849677085876465,
+    "global_layout_runtime_seconds": 0.0,
+    "global_layout_hint_count": 0,
+    "global_layout_error": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+    "routing_runtime_seconds": 32.559733932837844,
+    "total_runtime_seconds": 298.12065916880965,
+    "component_count": 22,
+    "net_count": 21,
+    "path_count": 21,
+    "total_channel_manhattan_length": 646668.403353,
+    "physical_width": 67004.117646,
+    "physical_height": 76200.0,
+    "physical_area": 5105713764.6252,
+    "padded_width": 77004.117646,
+    "padded_height": 86200.0,
+    "padded_area": 6637754941.0852,
+    "placement_objective": 23.599071439599463,
+    "placement_wire_lower_bound": 577294.1176449999,
+    "placement_half_perimeter": 142214.117647,
+    "selected_placement_gap": 1000.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "failed",
+            "elapsed_seconds": 228.4389255186543,
+            "placement_time_limit_seconds": 215.99420162670313,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 33 relaxed inter-net conflict(s): c_1[0] x c_2[0], c_1[0] x c_3[0], c_1[0] x c_4[0], c_1[0] x c_5[0], c_2[0] x c_3[0], c_2[0] x c_4[0] | order 1: No legal route for connection 'c_10' sink 0 ({'component': 'n_4', 'port': '1'} -> {'component': 'm12', 'port': '1'}) | order 2: No legal route for connection 'c_5' sink 0 ({'component': 'n_2', 'port': '1'} -> {'component': 'p_8', 'port': '1'}) | order 3: No legal route for connection 'c_5' sink 0 ({'component': 'n_2', 'port': '1'} -> {'component': 'p_8', 'port': '1'}) | order 4: No legal route for connection 'c_5' sink 0 ({'component': 'n_2', 'port': '1'} -> {'component': 'p_8', 'port': '1'}) | order 5: No legal route for connection 'c_17' sink 0 ({'component': 'n_16', 'port': '1'} -> {'component': 'm17', 'port': '1'}) | order 6: No legal route for connection 'c_14' sink 0 ({'component': 'n_14', 'port': '1'} -> {'component': 'p_15', 'port': '1'}) | order 7: No legal route for connection 'c_12' sink 0 ({'component': 'n_5', 'port': '1'} -> {'component': 'p_7', 'port': '1'}) | order 8: No legal route for connection 'c_20' sink 0 ({'component': 'n_18', 'port': '1'} -> {'component': 'p_21', 'port': '1'}) | order 9: No legal route for connection 'c_3' sink 0 ({'component': 'n_1', 'port': '1'} -> {'component': 'n_4', 'port': '1'}) | order 10: No legal route for connection 'c_2' sink 0 ({'component': 'n_1', 'port': '1'} -> {'component': 'n_3', 'port': '1'}) | order 11: No legal route for connection 'c_18' sink 0 ({'component': 'n_18', 'port': '1'} -> {'component': 'm17', 'port': '2'}) | order 12: No legal route for connection 'c_1' sink 0 ({'component': 'n_1', 'port': '1'} -> {'component': 'n_2', 'port': '1'}) | order 13: No legal route for connection 'c_20' sink 0 ({'component': 'n_18', 'port': '1'} -> {'component': 'p_21', 'port': '1'}) | order 14: No legal route for connection 'c_5' sink 0 ({'component': 'n_2', 'port': '1'} -> {'component': 'p_8', 'port': '1'}) | order 15: No legal route for connection 'c_13' sink 0 ({'component': 'm12', 'port': '2'} -> {'component': 'm13', 'port': '1'}) | order 16: No legal route for connection 'c_10' sink 0 ({'component': 'n_4', 'port': '1'} -> {'component': 'm12', 'port': '1'})"
+        },
+        {
+            "placement_gap": 1000.0,
+            "status": "routed",
+            "elapsed_seconds": 69.61930736526847,
+            "placement_time_limit_seconds": 235.72495632288044,
+            "total_channel_manhattan_length": 646668.403353,
+            "physical_area": 5105713764.6252
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 235.72495632288044,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 83801.0,
+        "tight_big_m": 83801.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/CIDAR_Lab_Past_Devices/Inlet_16/Inlet_16_fromMINT.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=57, E=73, components=1, cycle_rank=17; cycle-closing connection(s): channel_42, channel_50, channel_51, channel_52, channel_53, channel_54, channel_55, channel_56, channel_57, channel_58, channel_59, channel_60, channel_61, channel_62, channel_63, channel_64, channel_71",
+  "worker_seconds": 0.006621
+}

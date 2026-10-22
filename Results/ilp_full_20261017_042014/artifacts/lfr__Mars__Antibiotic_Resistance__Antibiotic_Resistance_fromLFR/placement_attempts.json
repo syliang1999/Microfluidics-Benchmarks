@@ -1,0 +1,17 @@
+[
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "elapsed_seconds": 7.943295323289931,
+    "placement_time_limit_seconds": 215.99684920191763,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 1: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 2: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 3: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 4: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 5: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 6: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 7: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 8: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 9: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 10: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 11: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 12: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 13: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 14: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 15: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'}) | order 16: No legal route for connection 'channel_5' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'square_cell_trap_5', 'port': '1'})"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "routed",
+    "elapsed_seconds": 11.548278484493494,
+    "placement_time_limit_seconds": 268.8012818804942,
+    "total_channel_manhattan_length": 625219.2,
+    "physical_area": 4494101248.0
+  }
+]

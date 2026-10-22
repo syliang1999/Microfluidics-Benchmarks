@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Drop_Ref/Dropx_Test_4/Dropx_Test_4_fromMINT.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=8, E=8, components=1, cycle_rank=1; cycle-closing connection(s): channel_8",
+  "worker_seconds": 0.004974
+}

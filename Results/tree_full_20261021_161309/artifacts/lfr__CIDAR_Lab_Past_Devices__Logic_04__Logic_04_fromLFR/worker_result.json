@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/CIDAR_Lab_Past_Devices/Logic_04/Logic_04_fromLFR.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=31, E=45, components=1, cycle_rank=15; cycle-closing connection(s): channel_21, channel_22, channel_23, channel_26, channel_29, channel_30, channel_31, channel_32, channel_33, channel_34, channel_38, channel_39, channel_40, channel_41, channel_44",
+  "worker_seconds": 0.010282
+}

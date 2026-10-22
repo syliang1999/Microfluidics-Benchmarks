@@ -1,0 +1,23 @@
+[
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "elapsed_seconds": 1568.5845207162201,
+    "placement_time_limit_seconds": 215.98790086247027,
+    "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 111 relaxed inter-net conflict(s): channel_1[0] x channel_6[0], channel_1[0] x channel_31[0], channel_2[0] x channel_14[0], channel_2[0] x channel_16[0], channel_2[0] x channel_28[0], channel_2[0] x channel_33[0] | order 1: No legal route for connection 'channel_29' sink 0 ({'component': 'port_8', 'port': '1'} -> {'component': 'mixer_8', 'port': '1'}) | order 2: No legal route for connection 'channel_4' sink 0 ({'component': 'mixer_7', 'port': '2'} -> {'component': 'mixer_8', 'port': '1'}) | order 3: No legal route for connection 'channel_36' sink 0 ({'component': 'port_13', 'port': '1'} -> {'component': 'mixer_9', 'port': '1'}) | order 4: No legal route for connection 'channel_19' sink 0 ({'component': 'mixer_21', 'port': '2'} -> {'component': 'mixer_16', 'port': '1'}) | order 5: No legal route for connection 'channel_13' sink 0 ({'component': 'mixer_20', 'port': '2'} -> {'component': 'mixer_21', 'port': '1'}) | order 6: No legal route for connection 'channel_10' sink 0 ({'component': 'mixer_9', 'port': '2'} -> {'component': 'mixer_10', 'port': '1'}) | order 7: No legal route for connection 'channel_32' sink 0 ({'component': 'port_10', 'port': '1'} -> {'component': 'mixer_3', 'port': '1'}) | order 8: No legal route for connection 'channel_2' sink 0 ({'component': 'mixer_4', 'port': '2'} -> {'component': 'mixer_5', 'port': '1'}) | order 9: No legal route for connection 'channel_32' sink 0 ({'component': 'port_10', 'port': '1'} -> {'component': 'mixer_3', 'port': '1'}) | order 10: No legal route for connection 'channel_25' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'mixer_20', 'port': '1'}) | order 11: No legal route for connection 'channel_12' sink 0 ({'component': 'mixer_11', 'port': '2'} -> {'component': 'mixer_12', 'port': '1'}) | order 12: No legal route for connection 'channel_25' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'mixer_20', 'port': '1'}) | order 13: No legal route for connection 'channel_35' sink 0 ({'component': 'port_12', 'port': '1'} -> {'component': 'mixer_12', 'port': '1'}) | order 14: No legal route for connection 'channel_43' sink 0 ({'component': 'port_18', 'port': '1'} -> {'component': 'mixer_14', 'port': '1'}) | order 15: No legal route for connection 'channel_7' sink 0 ({'component': 'mixer_5', 'port': '2'} -> {'component': 'mixer_6', 'port': '1'}) | order 16: No legal route for connection 'channel_9' sink 0 ({'component': 'mixer_12', 'port': '2'} -> {'component': 'mixer_13', 'port': '1'})"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "failed",
+    "elapsed_seconds": 34.75930706318468,
+    "placement_time_limit_seconds": 34.69246231019497,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  },
+  {
+    "placement_gap": 2000.0,
+    "status": "failed",
+    "elapsed_seconds": 39.36409371905029,
+    "placement_time_limit_seconds": 39.29846506081521,
+    "reason": "Placement MILP failed: status=1 message=Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)"
+  }
+]

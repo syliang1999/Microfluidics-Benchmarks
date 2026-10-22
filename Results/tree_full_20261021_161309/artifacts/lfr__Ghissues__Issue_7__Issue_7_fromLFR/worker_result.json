@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Ghissues/Issue_7/Issue_7_fromLFR.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=44, E=52, components=1, cycle_rank=9; cycle-closing connection(s): channel_26, channel_30, channel_40, channel_45, channel_46, channel_47, channel_48, channel_49, channel_50",
+  "worker_seconds": 0.005662
+}

@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/CIDAR_Lab_Past_Devices/Rotary_16/Rotary_16_fromLFR.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=63, E=93, components=1, cycle_rank=31; cycle-closing connection(s): channel_34, channel_35, channel_36, channel_37, channel_38, channel_39, channel_52, channel_53, channel_55, channel_56, channel_57, channel_58, channel_59, channel_60, channel_70, channel_73, channel_74, channel_75, channel_77, channel_78, channel_81, channel_82, channel_84, channel_85, channel_86, channel_87, channel_88, channel_89, channel_90, channel_91, channel_93",
+  "worker_seconds": 0.011283
+}

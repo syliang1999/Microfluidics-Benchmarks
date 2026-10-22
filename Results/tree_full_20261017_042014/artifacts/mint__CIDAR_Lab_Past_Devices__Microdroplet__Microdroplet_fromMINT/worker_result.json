@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/CIDAR_Lab_Past_Devices/Microdroplet/Microdroplet_fromMINT.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=26, E=31, components=1, cycle_rank=6; cycle-closing connection(s): channel_21, channel_23, channel_25, channel_27, channel_29, channel_31",
+  "worker_seconds": 0.006805
+}

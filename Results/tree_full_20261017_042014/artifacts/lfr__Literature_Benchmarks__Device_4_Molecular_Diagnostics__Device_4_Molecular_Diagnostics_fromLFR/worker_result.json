@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Literature_Benchmarks/Device_4_Molecular_Diagnostics/Device_4_Molecular_Diagnostics_fromLFR.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=9, E=9, components=1, cycle_rank=1; cycle-closing connection(s): channel_5",
+  "worker_seconds": 0.005294
+}

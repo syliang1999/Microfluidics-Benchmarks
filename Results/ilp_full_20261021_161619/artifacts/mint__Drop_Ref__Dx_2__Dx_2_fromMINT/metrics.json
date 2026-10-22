@@ -1,0 +1,110 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 8.74238271638751,
+    "global_layout_runtime_seconds": 0.21327619068324566,
+    "global_layout_hint_count": 5,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 16.56457855179906,
+    "total_runtime_seconds": 96.3098413310945,
+    "component_count": 13,
+    "net_count": 12,
+    "path_count": 12,
+    "total_channel_manhattan_length": 146204.99999799998,
+    "physical_width": 23949.999999,
+    "physical_height": 85800.0,
+    "physical_area": 2054909999.9142,
+    "padded_width": 33949.999999,
+    "padded_height": 95800.0,
+    "padded_area": 3252409999.9042,
+    "placement_objective": 2.0504662004662007,
+    "placement_wire_lower_bound": 121405.0,
+    "placement_half_perimeter": 109050.0,
+    "selected_placement_gap": 1000.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "failed",
+            "elapsed_seconds": 18.802994561381638,
+            "placement_time_limit_seconds": 215.97180626470595,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 6 relaxed inter-net conflict(s): channel_2[0] x channel_11[0], channel_4[0] x channel_11[0], channel_6[0] x channel_7[0], channel_6[0] x channel_11[0], channel_8[0] x channel_9[0], channel_9[0] x channel_12[0] | order 1: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 2: No legal route for connection 'channel_2' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '4'}) | order 3: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 4: No legal route for connection 'channel_4' sink 0 ({'component': 'port_6', 'port': '1'} -> {'component': 'nozzle_droplet_generator_2', 'port': '4'}) | order 5: No legal route for connection 'channel_6' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '3'} -> {'component': 'mixer_2', 'port': '1'}) | order 6: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 7: No legal route for connection 'channel_8' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_1', 'port': '1'}) | order 8: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 9: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 10: No legal route for connection 'channel_8' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_1', 'port': '1'}) | order 11: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 12: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 13: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 14: No legal route for connection 'channel_12' sink 0 ({'component': 'port_8', 'port': '1'} -> {'component': 'nozzle_droplet_generator_2', 'port': '1'}) | order 15: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 16: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'})"
+        },
+        {
+            "placement_gap": 1000.0,
+            "status": "failed",
+            "elapsed_seconds": 11.758511044085026,
+            "placement_time_limit_seconds": 267.14247348723,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 5 relaxed inter-net conflict(s): channel_2[0] x channel_11[0], channel_6[0] x channel_7[0], channel_6[0] x channel_11[0], channel_8[0] x channel_9[0], channel_9[0] x channel_12[0] | order 1: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 2: No legal route for connection 'channel_2' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '4'}) | order 3: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 4: No legal route for connection 'channel_4' sink 0 ({'component': 'port_6', 'port': '1'} -> {'component': 'nozzle_droplet_generator_2', 'port': '4'}) | order 5: No legal route for connection 'channel_6' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '3'} -> {'component': 'mixer_2', 'port': '1'}) | order 6: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 7: No legal route for connection 'channel_8' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_1', 'port': '1'}) | order 8: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 9: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 10: No legal route for connection 'channel_8' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_1', 'port': '1'}) | order 11: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 12: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 13: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 14: No legal route for connection 'channel_12' sink 0 ({'component': 'port_8', 'port': '1'} -> {'component': 'nozzle_droplet_generator_2', 'port': '1'}) | order 15: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 16: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'})"
+        },
+        {
+            "placement_gap": 2000.0,
+            "status": "failed",
+            "elapsed_seconds": 7.192325214855373,
+            "placement_time_limit_seconds": 353.8358134740963,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 5 relaxed inter-net conflict(s): channel_2[0] x channel_11[0], channel_6[0] x channel_7[0], channel_6[0] x channel_11[0], channel_8[0] x channel_9[0], channel_9[0] x channel_12[0] | order 1: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 2: No legal route for connection 'channel_2' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '4'}) | order 3: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 4: No legal route for connection 'channel_4' sink 0 ({'component': 'port_6', 'port': '1'} -> {'component': 'nozzle_droplet_generator_2', 'port': '4'}) | order 5: No legal route for connection 'channel_6' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '3'} -> {'component': 'mixer_2', 'port': '1'}) | order 6: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 7: No legal route for connection 'channel_8' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_1', 'port': '1'}) | order 8: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 9: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 10: No legal route for connection 'channel_8' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_1', 'port': '1'}) | order 11: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 12: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 13: No legal route for connection 'channel_10' sink 0 ({'component': 'mixer_2', 'port': '2'} -> {'component': 'mixer_1', 'port': '1'}) | order 14: No legal route for connection 'channel_12' sink 0 ({'component': 'port_8', 'port': '1'} -> {'component': 'nozzle_droplet_generator_2', 'port': '1'}) | order 15: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 16: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'})"
+        },
+        {
+            "placement_gap": 4000.0,
+            "status": "failed",
+            "elapsed_seconds": 14.920537608675659,
+            "placement_time_limit_seconds": 528.5923613657243,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 6 relaxed inter-net conflict(s): channel_1[0] x channel_6[0], channel_2[0] x channel_4[0], channel_2[0] x channel_11[0], channel_4[0] x channel_11[0], channel_6[0] x channel_7[0], channel_8[0] x channel_9[0] | order 1: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 2: No legal route for connection 'channel_2' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '4'}) | order 3: No legal route for connection 'channel_3' sink 0 ({'component': 'port_5', 'port': '1'} -> {'component': 'nozzle_droplet_generator_2', 'port': '2'}) | order 4: No legal route for connection 'channel_4' sink 0 ({'component': 'port_6', 'port': '1'} -> {'component': 'nozzle_droplet_generator_2', 'port': '4'}) | order 5: No legal route for connection 'channel_6' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '3'} -> {'component': 'mixer_2', 'port': '1'}) | order 6: No legal route for connection 'channel_6' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '3'} -> {'component': 'mixer_2', 'port': '1'}) | order 7: No legal route for connection 'channel_7' sink 0 ({'component': 'nozzle_droplet_generator_2', 'port': '3'} -> {'component': 'mixer_2', 'port': '1'}) | order 8: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 9: No legal route for connection 'channel_3' sink 0 ({'component': 'port_5', 'port': '1'} -> {'component': 'nozzle_droplet_generator_2', 'port': '2'}) | order 10: No legal route for connection 'channel_2' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '4'}) | order 11: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 12: No legal route for connection 'channel_2' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '4'}) | order 13: No legal route for connection 'channel_10' sink 0 ({'component': 'mixer_2', 'port': '2'} -> {'component': 'mixer_1', 'port': '1'}) | order 14: No legal route for connection 'channel_12' sink 0 ({'component': 'port_8', 'port': '1'} -> {'component': 'nozzle_droplet_generator_2', 'port': '1'}) | order 15: No legal route for connection 'channel_3' sink 0 ({'component': 'port_5', 'port': '1'} -> {'component': 'nozzle_droplet_generator_2', 'port': '2'}) | order 16: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'})"
+        },
+        {
+            "placement_gap": 8000.0,
+            "status": "failed",
+            "elapsed_seconds": 6.455655573867261,
+            "placement_time_limit_seconds": 1048.225054098107,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 6 relaxed inter-net conflict(s): channel_2[0] x channel_11[0], channel_4[0] x channel_11[0], channel_6[0] x channel_7[0], channel_6[0] x channel_11[0], channel_8[0] x channel_9[0], channel_9[0] x channel_12[0] | order 1: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 2: No legal route for connection 'channel_2' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '4'}) | order 3: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 4: No legal route for connection 'channel_4' sink 0 ({'component': 'port_6', 'port': '1'} -> {'component': 'nozzle_droplet_generator_2', 'port': '4'}) | order 5: No legal route for connection 'channel_6' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '3'} -> {'component': 'mixer_2', 'port': '1'}) | order 6: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 7: No legal route for connection 'channel_8' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_1', 'port': '1'}) | order 8: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 9: No legal route for connection 'channel_3' sink 0 ({'component': 'port_5', 'port': '1'} -> {'component': 'nozzle_droplet_generator_2', 'port': '2'}) | order 10: No legal route for connection 'channel_2' sink 0 ({'component': 'port_4', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '4'}) | order 11: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 12: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 13: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 14: No legal route for connection 'channel_12' sink 0 ({'component': 'port_8', 'port': '1'} -> {'component': 'nozzle_droplet_generator_2', 'port': '1'}) | order 15: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 16: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'})"
+        },
+        {
+            "placement_gap": 0.0,
+            "status": "failed",
+            "phase": "diversified_fallback",
+            "elapsed_seconds": 9.166476412676275,
+            "placement_time_limit_seconds": 45.0,
+            "position_hint_weight": 0.0,
+            "wire_multiplier": 1.0,
+            "compactness_multiplier": 1.0,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 1: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 2: No legal route for connection 'channel_6' sink 0 ({'component': 'nozzle_droplet_generator_1', 'port': '3'} -> {'component': 'mixer_2', 'port': '1'}) | order 3: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 4: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 5: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 6: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 7: No legal route for connection 'channel_7' sink 0 ({'component': 'nozzle_droplet_generator_2', 'port': '3'} -> {'component': 'mixer_2', 'port': '1'}) | order 8: No legal route for connection 'channel_11' sink 0 ({'component': 'port_7', 'port': '1'} -> {'component': 'nozzle_droplet_generator_1', 'port': '1'}) | order 9: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 10: No legal route for connection 'channel_8' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_1', 'port': '1'}) | order 11: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 12: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 13: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 14: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 15: No legal route for connection 'channel_9' sink 0 ({'component': 'droplet_sorter_1', 'port': '3'} -> {'component': 'port_2', 'port': '1'}) | order 16: No legal route for connection 'channel_12' sink 0 ({'component': 'port_8', 'port': '1'} -> {'component': 'nozzle_droplet_generator_2', 'port': '1'})"
+        },
+        {
+            "placement_gap": 1000.0,
+            "status": "routed",
+            "phase": "diversified_fallback",
+            "elapsed_seconds": 27.70440024510026,
+            "placement_time_limit_seconds": 45.0,
+            "position_hint_weight": 0.0,
+            "wire_multiplier": 1.0,
+            "compactness_multiplier": 1.0,
+            "total_channel_manhattan_length": 146204.99999799998,
+            "physical_area": 2054909999.9142
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 45.0,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 107251.0,
+        "tight_big_m": 107251.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

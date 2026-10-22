@@ -1,0 +1,81 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 1.0222422005608678,
+    "global_layout_runtime_seconds": 0.0,
+    "global_layout_hint_count": 0,
+    "global_layout_error": "Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+    "routing_runtime_seconds": 10.688133634626865,
+    "total_runtime_seconds": 81.4573375126347,
+    "component_count": 11,
+    "net_count": 12,
+    "path_count": 12,
+    "total_channel_manhattan_length": 1484564.9019419998,
+    "physical_width": 267849.999999,
+    "physical_height": 128952.941173,
+    "physical_area": 34540045293.0591,
+    "padded_width": 277849.999999,
+    "padded_height": 138952.941173,
+    "padded_area": 38608074704.7791,
+    "placement_objective": 12.944986330384385,
+    "placement_wire_lower_bound": 1227977.450978,
+    "placement_half_perimeter": 394372.941176,
+    "selected_placement_gap": 4000.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "failed",
+            "elapsed_seconds": 15.086683095432818,
+            "placement_time_limit_seconds": 215.99692717596886,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 20 relaxed inter-net conflict(s): c1[0] x c5[0], c1[0] x c9[0], c1[0] x c12[0], c2[0] x c5[0], c2[0] x c6[0], c3[0] x c7[0] | order 1: No legal route for connection 'c9' sink 0 ({'component': 'n1', 'port': '1'} -> {'component': 'g', 'port': '1'}) | order 2: No legal route for connection 'c4' sink 0 ({'component': 'b_4', 'port': '1'} -> {'component': 'n5', 'port': '1'}) | order 3: No legal route for connection 'c10' sink 0 ({'component': 'n3', 'port': '1'} -> {'component': 'g', 'port': '2'}) | order 4: No legal route for connection 'c10' sink 0 ({'component': 'n3', 'port': '1'} -> {'component': 'g', 'port': '2'}) | order 5: No legal route for connection 'c9' sink 0 ({'component': 'n1', 'port': '1'} -> {'component': 'g', 'port': '1'}) | order 6: No legal route for connection 'c9' sink 0 ({'component': 'n1', 'port': '1'} -> {'component': 'g', 'port': '1'}) | order 7: No legal route for connection 'c4' sink 0 ({'component': 'b_4', 'port': '1'} -> {'component': 'n5', 'port': '1'}) | order 8: No legal route for connection 'c1' sink 0 ({'component': 'b_1', 'port': '1'} -> {'component': 'n1', 'port': '1'}) | order 9: No legal route for connection 'c11' sink 0 ({'component': 'n5', 'port': '1'} -> {'component': 'g', 'port': '3'}) | order 10: No legal route for connection 'c2' sink 0 ({'component': 'b_2', 'port': '1'} -> {'component': 'n2', 'port': '1'}) | order 11: No legal route for connection 'c4' sink 0 ({'component': 'b_4', 'port': '1'} -> {'component': 'n5', 'port': '1'}) | order 12: No legal route for connection 'c9' sink 0 ({'component': 'n1', 'port': '1'} -> {'component': 'g', 'port': '1'}) | order 13: No legal route for connection 'c9' sink 0 ({'component': 'n1', 'port': '1'} -> {'component': 'g', 'port': '1'}) | order 14: No legal route for connection 'c4' sink 0 ({'component': 'b_4', 'port': '1'} -> {'component': 'n5', 'port': '1'}) | order 15: No legal route for connection 'c4' sink 0 ({'component': 'b_4', 'port': '1'} -> {'component': 'n5', 'port': '1'}) | order 16: No legal route for connection 'c6' sink 0 ({'component': 'n2', 'port': '1'} -> {'component': 'n3', 'port': '1'})"
+        },
+        {
+            "placement_gap": 1000.0,
+            "status": "failed",
+            "elapsed_seconds": 15.697187265381217,
+            "placement_time_limit_seconds": 267.7315004110336,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 18 relaxed inter-net conflict(s): c1[0] x c5[0], c1[0] x c9[0], c2[0] x c5[0], c2[0] x c6[0], c3[0] x c7[0], c3[0] x c8[0] | order 1: No legal route for connection 'c2' sink 0 ({'component': 'b_2', 'port': '1'} -> {'component': 'n2', 'port': '1'}) | order 2: No legal route for connection 'c6' sink 0 ({'component': 'n2', 'port': '1'} -> {'component': 'n3', 'port': '1'}) | order 3: No legal route for connection 'c10' sink 0 ({'component': 'n3', 'port': '1'} -> {'component': 'g', 'port': '2'}) | order 4: No legal route for connection 'c10' sink 0 ({'component': 'n3', 'port': '1'} -> {'component': 'g', 'port': '2'}) | order 5: No legal route for connection 'c9' sink 0 ({'component': 'n1', 'port': '1'} -> {'component': 'g', 'port': '1'}) | order 6: No legal route for connection 'c3' sink 0 ({'component': 'b_3', 'port': '1'} -> {'component': 'n4', 'port': '1'}) | order 7: No legal route for connection 'c9' sink 0 ({'component': 'n1', 'port': '1'} -> {'component': 'g', 'port': '1'}) | order 8: No legal route for connection 'c1' sink 0 ({'component': 'b_1', 'port': '1'} -> {'component': 'n1', 'port': '1'}) | order 9: No legal route for connection 'c6' sink 0 ({'component': 'n2', 'port': '1'} -> {'component': 'n3', 'port': '1'}) | order 10: No legal route for connection 'c2' sink 0 ({'component': 'b_2', 'port': '1'} -> {'component': 'n2', 'port': '1'}) | order 11: No legal route for connection 'c4' sink 0 ({'component': 'b_4', 'port': '1'} -> {'component': 'n5', 'port': '1'}) | order 12: No legal route for connection 'c9' sink 0 ({'component': 'n1', 'port': '1'} -> {'component': 'g', 'port': '1'}) | order 13: No legal route for connection 'c3' sink 0 ({'component': 'b_3', 'port': '1'} -> {'component': 'n4', 'port': '1'}) | order 14: No legal route for connection 'c3' sink 0 ({'component': 'b_3', 'port': '1'} -> {'component': 'n4', 'port': '1'}) | order 15: No legal route for connection 'c4' sink 0 ({'component': 'b_4', 'port': '1'} -> {'component': 'n5', 'port': '1'}) | order 16: No legal route for connection 'c4' sink 0 ({'component': 'b_4', 'port': '1'} -> {'component': 'n5', 'port': '1'})"
+        },
+        {
+            "placement_gap": 2000.0,
+            "status": "failed",
+            "elapsed_seconds": 27.535372565500438,
+            "placement_time_limit_seconds": 353.83361836932596,
+            "reason": "All 16 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 17 relaxed inter-net conflict(s): c1[0] x c5[0], c1[0] x c9[0], c1[0] x c12[0], c2[0] x c5[0], c2[0] x c6[0], c3[0] x c7[0] | order 1: No legal route for connection 'c9' sink 0 ({'component': 'n1', 'port': '1'} -> {'component': 'g', 'port': '1'}) | order 2: No legal route for connection 'c4' sink 0 ({'component': 'b_4', 'port': '1'} -> {'component': 'n5', 'port': '1'}) | order 3: No legal route for connection 'c10' sink 0 ({'component': 'n3', 'port': '1'} -> {'component': 'g', 'port': '2'}) | order 4: No legal route for connection 'c10' sink 0 ({'component': 'n3', 'port': '1'} -> {'component': 'g', 'port': '2'}) | order 5: No legal route for connection 'c9' sink 0 ({'component': 'n1', 'port': '1'} -> {'component': 'g', 'port': '1'}) | order 6: No legal route for connection 'c1' sink 0 ({'component': 'b_1', 'port': '1'} -> {'component': 'n1', 'port': '1'}) | order 7: No legal route for connection 'c9' sink 0 ({'component': 'n1', 'port': '1'} -> {'component': 'g', 'port': '1'}) | order 8: No legal route for connection 'c1' sink 0 ({'component': 'b_1', 'port': '1'} -> {'component': 'n1', 'port': '1'}) | order 9: No legal route for connection 'c1' sink 0 ({'component': 'b_1', 'port': '1'} -> {'component': 'n1', 'port': '1'}) | order 10: No legal route for connection 'c4' sink 0 ({'component': 'b_4', 'port': '1'} -> {'component': 'n5', 'port': '1'}) | order 11: No legal route for connection 'c9' sink 0 ({'component': 'n1', 'port': '1'} -> {'component': 'g', 'port': '1'}) | order 12: No legal route for connection 'c1' sink 0 ({'component': 'b_1', 'port': '1'} -> {'component': 'n1', 'port': '1'}) | order 13: No legal route for connection 'c1' sink 0 ({'component': 'b_1', 'port': '1'} -> {'component': 'n1', 'port': '1'}) | order 14: No legal route for connection 'c11' sink 0 ({'component': 'n5', 'port': '1'} -> {'component': 'g', 'port': '3'}) | order 15: No legal route for connection 'c4' sink 0 ({'component': 'b_4', 'port': '1'} -> {'component': 'n5', 'port': '1'}) | order 16: No legal route for connection 'c1' sink 0 ({'component': 'b_1', 'port': '1'} -> {'component': 'n1', 'port': '1'})"
+        },
+        {
+            "placement_gap": 4000.0,
+            "status": "routed",
+            "elapsed_seconds": 23.078245495446026,
+            "placement_time_limit_seconds": 522.4865193757229,
+            "total_channel_manhattan_length": 1484564.9019419998,
+            "physical_area": 34540045293.0591
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 522.4865193757229,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 333501.0,
+        "tight_big_m": 333501.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

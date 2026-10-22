@@ -1,0 +1,7 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Base/Square_Cell_Trap_Chambers/Square_Cell_Trap_Chambers_fromMINT.json",
+  "success": false,
+  "error": "UnsupportedFlowTopologyError: layer-0 component graph is not a forest: V=17, E=20, components=1, cycle_rank=4; cycle-closing connection(s): c15, c17, c19, c20",
+  "worker_seconds": 0.006184
+}

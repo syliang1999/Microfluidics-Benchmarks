@@ -1,0 +1,49 @@
+[
+  {
+    "placement_gap": 0.0,
+    "status": "failed",
+    "elapsed_seconds": 0.05065568815916777,
+    "placement_time_limit_seconds": 215.99936528194695,
+    "reason": "All 2 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 1 relaxed inter-net conflict(s): channel_1[0] x channel_2[0] | order 1: No legal route for connection 'channel_1' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'pump_1', 'port': '1'}) | order 2: No legal route for connection 'channel_2' sink 0 ({'component': 'pump_1', 'port': '2'} -> {'component': 'port_2', 'port': '1'})"
+  },
+  {
+    "placement_gap": 1000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.04386821947991848,
+    "placement_time_limit_seconds": 269.99095564750024,
+    "reason": "All 2 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 1 relaxed inter-net conflict(s): channel_1[0] x channel_2[0] | order 1: No legal route for connection 'channel_1' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'pump_1', 'port': '1'}) | order 2: No legal route for connection 'channel_2' sink 0 ({'component': 'pump_1', 'port': '2'} -> {'component': 'port_2', 'port': '1'})"
+  },
+  {
+    "placement_gap": 2000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.04379768576472998,
+    "placement_time_limit_seconds": 359.9783069677651,
+    "reason": "All 2 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 1 relaxed inter-net conflict(s): channel_1[0] x channel_2[0] | order 1: No legal route for connection 'channel_1' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'pump_1', 'port': '1'}) | order 2: No legal route for connection 'channel_2' sink 0 ({'component': 'pump_1', 'port': '2'} -> {'component': 'port_2', 'port': '1'})"
+  },
+  {
+    "placement_gap": 4000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.043895572423934937,
+    "placement_time_limit_seconds": 539.952884311974,
+    "reason": "All 2 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 1 relaxed inter-net conflict(s): channel_1[0] x channel_2[0] | order 1: No legal route for connection 'channel_1' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'pump_1', 'port': '1'}) | order 2: No legal route for connection 'channel_2' sink 0 ({'component': 'pump_1', 'port': '2'} -> {'component': 'port_2', 'port': '1'})"
+  },
+  {
+    "placement_gap": 8000.0,
+    "status": "failed",
+    "elapsed_seconds": 0.043634274043142796,
+    "placement_time_limit_seconds": 1079.876864567399,
+    "reason": "All 2 deterministic routing orders failed; conflict refinement: conflict refinement stalled with 1 relaxed inter-net conflict(s): channel_1[0] x channel_2[0] | order 1: No legal route for connection 'channel_1' sink 0 ({'component': 'port_1', 'port': '1'} -> {'component': 'pump_1', 'port': '1'}) | order 2: No legal route for connection 'channel_2' sink 0 ({'component': 'pump_1', 'port': '2'} -> {'component': 'port_2', 'port': '1'})"
+  },
+  {
+    "placement_gap": 0.0,
+    "status": "routed",
+    "phase": "diversified_fallback",
+    "elapsed_seconds": 0.03541330527514219,
+    "placement_time_limit_seconds": 45.0,
+    "position_hint_weight": 0.0,
+    "wire_multiplier": 1.0,
+    "compactness_multiplier": 1.0,
+    "total_channel_manhattan_length": 3000.0,
+    "physical_area": 26400000.0
+  }
+]

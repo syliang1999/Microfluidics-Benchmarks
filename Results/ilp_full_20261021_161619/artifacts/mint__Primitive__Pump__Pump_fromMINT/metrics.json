@@ -1,0 +1,60 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 0.026515278965234756,
+    "global_layout_runtime_seconds": 0.0,
+    "global_layout_hint_count": 0,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 0.007533850148320198,
+    "total_runtime_seconds": 0.04169926792383194,
+    "component_count": 3,
+    "net_count": 2,
+    "path_count": 2,
+    "total_channel_manhattan_length": 123959.999998,
+    "physical_width": 45180.0,
+    "physical_height": 60219.999999,
+    "physical_area": 2720739599.95482,
+    "padded_width": 55180.0,
+    "padded_height": 70219.99999899999,
+    "padded_area": 3874739599.9448195,
+    "placement_objective": 4.785564304461942,
+    "placement_wire_lower_bound": 117160.0,
+    "placement_half_perimeter": 104600.0,
+    "selected_placement_gap": 0.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "routed",
+            "elapsed_seconds": 0.035618266090750694,
+            "placement_time_limit_seconds": 215.99931601792574,
+            "total_channel_manhattan_length": 123959.999998,
+            "physical_area": 2720739599.95482
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 215.99931601792574,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 79801.0,
+        "tight_big_m": 79801.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

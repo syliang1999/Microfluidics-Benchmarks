@@ -1,0 +1,28 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Constraints/Orthogonal_Constraint/Orthogonal_Constraint_fromMINT.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/mint__Constraints__Orthogonal_Constraint__Orthogonal_Constraint_fromMINT --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: Orthogonal_Constraint_fromMINT
+1/9, Finish initial placement, time spent: 1.5974044799804688e-05 s
+[0, 4000, 4000, 'north', 0] [[2000.0, 2000.0]]
+[1, 4000, 4000, 'east', 0] [[2000.0, 2000.0]]
+[2, 4000, 4000, 'west', 0] [[2000.0, 2000.0]]
+[3, 4000, 4000, 'south', 0] [[2000.0, 2000.0]]
+[4, 20, 20, 'n1', 0] [[10.0, 0.0], [20.0, 10.0], [10.0, 20.0], [0.0, 10.0]]
+2/9, Finish initial placement with rotation, time spent: 8.177757263183594e-05 s
+3/9, Finish symmetricalization, time spent: 1.0728836059570312e-05 s
+4/9, Finish routing, time spent: 0.00012445449829101562 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0, 1, 2, 3], [0]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0005588531494140625 s
+6/9, Finish shortening wirelength, time spent: 4.482269287109375e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.00015211105346679688 s
+9/9, Finish compaction and connecting ports, time spent: 0.033524274826049805 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.034512996673583984 s
+Reordering Timeusage: 0.0005588531494140625 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.03428006172180176 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/mint__Constraints__Orthogonal_Constraint__Orthogonal_Constraint_fromMINT/result.json

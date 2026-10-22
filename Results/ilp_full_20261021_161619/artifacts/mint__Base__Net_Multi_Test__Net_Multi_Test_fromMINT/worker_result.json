@@ -1,0 +1,27 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Base/Net_Multi_Test/Net_Multi_Test_fromMINT.json",
+  "success": false,
+  "error": "RuntimeError: DRC violations: control_route: layer-1 connection 'cntrlnet1' has a sentinel or missing route",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__Base__Net_Multi_Test__Net_Multi_Test_fromMINT/result_control.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/mint__Base__Net_Multi_Test__Net_Multi_Test_fromMINT/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 0.6147444900125265,
+  "total_channel_manhattan_length": 153625.714282,
+  "physical_area": 1835771759.0849535,
+  "padded_area": 2841300330.4949536,
+  "drc_passed": false,
+  "violation_count": 1,
+  "violations": [
+    {
+      "kind": "control_route",
+      "rule": "layer1_real_route",
+      "message": "layer-1 connection 'cntrlnet1' has a sentinel or missing route",
+      "connection": "cntrlnet1"
+    }
+  ],
+  "control_required": true,
+  "control_passed": false,
+  "worker_seconds": 250.385982
+}

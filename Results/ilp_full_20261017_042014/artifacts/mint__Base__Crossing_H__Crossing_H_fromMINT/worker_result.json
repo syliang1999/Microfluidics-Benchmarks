@@ -1,0 +1,33 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/MINT_TestCases/Base/Crossing_H/Crossing_H_fromMINT.json",
+  "success": false,
+  "error": "RuntimeError: DRC violations: control_route: layer-1 connection 'cc3' has a sentinel or missing route; control_route: layer-1 connection 'cc4' has a sentinel or missing route",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__Base__Crossing_H__Crossing_H_fromMINT/result_control.json",
+  "metrics_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261017_042014/artifacts/mint__Base__Crossing_H__Crossing_H_fromMINT/metrics.json",
+  "solver_status": "optimal",
+  "placement_optimal": true,
+  "ilp_runtime_seconds": 40.35986743681133,
+  "total_channel_manhattan_length": 286465.714282,
+  "physical_area": 1934338700.0046551,
+  "padded_area": 2953817271.434655,
+  "drc_passed": false,
+  "violation_count": 2,
+  "violations": [
+    {
+      "kind": "control_route",
+      "rule": "layer1_real_route",
+      "message": "layer-1 connection 'cc3' has a sentinel or missing route",
+      "connection": "cc3"
+    },
+    {
+      "kind": "control_route",
+      "rule": "layer1_real_route",
+      "message": "layer-1 connection 'cc4' has a sentinel or missing route",
+      "connection": "cc4"
+    }
+  ],
+  "control_required": true,
+  "control_passed": false,
+  "worker_seconds": 41.800843
+}

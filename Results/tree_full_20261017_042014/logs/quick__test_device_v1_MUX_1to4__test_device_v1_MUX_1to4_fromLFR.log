@@ -1,0 +1,28 @@
+$ systemd-run --user --scope -q -p MemoryMax=16.0G -p MemorySwapMax=0 /home/student/anaconda3/bin/python3 /home/student/Desktop/Neptune_2026/scripts/run_all_synthesize_timeout_report.py --_worker --algorithm tree --input /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/Quick_Examples/test_device_v1_MUX_1to4/test_device_v1_MUX_1to4_fromLFR.json --case-output /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/quick__test_device_v1_MUX_1to4__test_device_v1_MUX_1to4_fromLFR --time-limit 1800.0 --solver-profile standard --mip-gap 0.0
+Finish loading test case: test_device_v1_MUX_1to4_fromLFR
+1/9, Finish initial placement, time spent: 7.557868957519531e-05 s
+[0, 2000, 2000, 'port_1', 0] [[1000.0, 1000.0]]
+[1, 2000, 2000, 'port_2', 0] [[1000.0, 1000.0]]
+[2, 2000, 2000, 'port_3', 0] [[1000.0, 1000.0]]
+[3, 2000, 2000, 'port_4', 0] [[1000.0, 1000.0]]
+[4, 2000, 2000, 'port_5', 0] [[1000.0, 1000.0]]
+2/9, Finish initial placement with rotation, time spent: 0.00013947486877441406 s
+3/9, Finish symmetricalization, time spent: 1.049041748046875e-05 s
+4/9, Finish routing, time spent: 0.0001323223114013672 s
+****************************************************
+New valid order that can lead to planar graph found:
+[[0, 1, 2, 3], [0]]
+****************************************************
+--Finish applying new order
+--Finish mirroring related components
+5/9, Finish initialization of new orders, time spent: 0.0008747577667236328 s
+6/9, Finish shortening wirelength, time spent: 5.030632019042969e-05 s
+Skip stage7 LP according to user's need
+8/9, Finish routing, time spent: 0.0002067089080810547 s
+9/9, Finish compaction and connecting ports, time spent: 0.03233695030212402 s
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< All P&R Done >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Total Timeusage: 0.033826589584350586 s
+Reordering Timeusage: 0.0008747577667236328 s
+LP-based Optimization Timeusage: 0 s
+P&R for the new orders: 0.03346872329711914 s
+Done. Combined PR JSON: /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/quick__test_device_v1_MUX_1to4__test_device_v1_MUX_1to4_fromLFR/result.json

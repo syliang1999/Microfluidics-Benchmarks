@@ -1,0 +1,9 @@
+{
+  "algorithm": "tree",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/Quick_Examples/long_mixer/long_mixer_fromMINT.json",
+  "success": true,
+  "error": "",
+  "output_json": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/tree_full_20261017_042014/artifacts/quick__long_mixer__long_mixer_fromMINT/result.json",
+  "is_placed_and_routed": true,
+  "worker_seconds": 0.686642
+}

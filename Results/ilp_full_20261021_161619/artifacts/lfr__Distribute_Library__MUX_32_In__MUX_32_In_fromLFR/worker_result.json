@@ -1,0 +1,7 @@
+{
+  "algorithm": "ilp",
+  "source": "/home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/LFR_TestCases/Distribute_Library/MUX_32_In/MUX_32_In_fromLFR.json",
+  "success": false,
+  "error": "TimeoutError: case-level placement/routing search ended without a legal design; attempts saved to /home/student/Desktop/Neptune_2026/Microfluidics-Benchmarks/Results/ilp_full_20261021_161619/artifacts/lfr__Distribute_Library__MUX_32_In__MUX_32_In_fromLFR/placement_attempts.json; last error: Placement MILP failed: status=2 message=The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is At lower/fixed bound)",
+  "worker_seconds": 1798.423845
+}

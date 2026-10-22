@@ -1,0 +1,60 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 0.1641979217529297,
+    "global_layout_runtime_seconds": 0.12391703482717276,
+    "global_layout_hint_count": 4,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 10.369753955863416,
+    "total_runtime_seconds": 13.32295342721045,
+    "component_count": 11,
+    "net_count": 10,
+    "path_count": 10,
+    "total_channel_manhattan_length": 333229.47367900005,
+    "physical_width": 52004.210526,
+    "physical_height": 51599.99999900001,
+    "physical_area": 2683417263.0895963,
+    "padded_width": 62004.210526,
+    "padded_height": 61599.99999900001,
+    "padded_area": 3819459368.3395963,
+    "placement_objective": 14.869975134685713,
+    "placement_wire_lower_bound": 313829.473683,
+    "placement_half_perimeter": 103704.21052600001,
+    "selected_placement_gap": 0.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 0.0,
+            "status": "routed",
+            "elapsed_seconds": 13.182872778736055,
+            "placement_time_limit_seconds": 215.98326404694467,
+            "total_channel_manhattan_length": 333229.47367900005,
+            "physical_area": 2683417263.0895963
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 215.98326404694467,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 88801.0,
+        "tight_big_m": 88801.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}

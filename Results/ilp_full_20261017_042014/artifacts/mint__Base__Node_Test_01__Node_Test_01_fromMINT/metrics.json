@@ -1,0 +1,67 @@
+{
+    "solver": "scipy.optimize.milp (HiGHS)",
+    "solver_profile": "standard",
+    "solver_profile_definition": {
+        "presolve": true,
+        "big_m_multiplier": 1.0,
+        "exhaustive_route_orders": false,
+        "exhaustive_placement_gaps": false,
+        "artificial_delay": false
+    },
+    "status": "optimal",
+    "placement_optimal": true,
+    "placement_optimality_tolerance": 0.0,
+    "placement_status": 0,
+    "placement_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "placement_runtime_seconds": 0.13696733210235834,
+    "global_layout_runtime_seconds": 0.019844550639390945,
+    "global_layout_hint_count": 2,
+    "global_layout_error": null,
+    "routing_runtime_seconds": 0.018821134231984615,
+    "total_runtime_seconds": 0.6694950703531504,
+    "component_count": 5,
+    "net_count": 4,
+    "path_count": 4,
+    "total_channel_manhattan_length": 127197.894737,
+    "physical_width": 51545.789474,
+    "physical_height": 31240.526316,
+    "physical_area": 1610317592.5414927,
+    "padded_width": 61545.789474,
+    "padded_height": 41240.526316,
+    "padded_area": 2538180750.441493,
+    "placement_objective": 5.566359303779528,
+    "placement_wire_lower_bound": 122197.894737,
+    "placement_half_perimeter": 70536.31579,
+    "selected_placement_gap": 8000.0,
+    "placement_attempts": [
+        {
+            "placement_gap": 5000.0,
+            "status": "failed",
+            "elapsed_seconds": 0.43726441636681557,
+            "placement_time_limit_seconds": 359.99274139106274,
+            "reason": "No module named 'readjson'"
+        },
+        {
+            "placement_gap": 8000.0,
+            "status": "routed",
+            "elapsed_seconds": 0.18574751913547516,
+            "placement_time_limit_seconds": 539.8549701782874,
+            "total_channel_manhattan_length": 127197.894737,
+            "physical_area": 1610317592.5414927
+        }
+    ],
+    "objective_weights": {
+        "wire_weight": 1.0,
+        "compactness_weight": 1.0
+    },
+    "solver_options": {
+        "time_limit": 539.8549701782874,
+        "mip_rel_gap": 0.0,
+        "presolve": true,
+        "big_m": 88001.0,
+        "tight_big_m": 88001.0,
+        "big_m_multiplier": 1.0
+    },
+    "case_time_limit_seconds": 1800.0,
+    "effective_mip_gap": 0.0
+}
